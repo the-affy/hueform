@@ -1,0 +1,44 @@
+Dependencies
+
+node_modules/
+
+Operating system
+
+.DS_Store
+Thumbs.db
+
+VS Code packages
+
+*.vsix
+
+Local editor and agent configuration
+
+.vscode/
+.agent/
+.craftlens/
+
+Logs
+
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+Environment and secrets
+
+.env
+.env.*
+!.env.example
+
+Test output
+
+coverage/
+
+Generated build output
+
+dist/
+build/
+
+Generated release artifacts
+
+release/

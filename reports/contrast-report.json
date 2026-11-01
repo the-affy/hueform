@@ -1,0 +1,6338 @@
+[
+  {
+    "themeName": "SONDER — Abyss Dark",
+    "family": "Abyss",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#DCE9ED",
+        "bg": "#051017",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#52C5D6",
+        "bg": "#051017",
+        "ratio": 9.44,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#628CA0",
+        "bg": "#051017",
+        "ratio": 5.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#52C5D6",
+        "bg": "#051017",
+        "ratio": 9.44,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#7FD1DF",
+        "bg": "#051017",
+        "ratio": 11.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#DCE9ED",
+        "bg": "#051017",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#98D9B6",
+        "bg": "#051017",
+        "ratio": 11.84,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#F0A868",
+        "bg": "#051017",
+        "ratio": 9.61,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#88B7C7",
+        "bg": "#051017",
+        "ratio": 8.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#7FD1DF",
+        "bg": "#051017",
+        "ratio": 11.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#DCE9ED",
+        "bg": "#0A1C27",
+        "ratio": 14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#88B7C7",
+        "bg": "#0A1C27",
+        "ratio": 7.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#DCE9ED",
+        "bg": "#0A1C27",
+        "ratio": 14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#DCE9ED",
+        "bg": "#122A39",
+        "ratio": 11.95,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#DCE9ED",
+        "bg": "#0E262E",
+        "ratio": 12.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#88B7C7",
+        "bg": "#0A1C27",
+        "ratio": 7.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#DCE9ED",
+        "bg": "#163743",
+        "ratio": 10.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#52C5D6",
+        "bg": "#0E262E",
+        "ratio": 7.73,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#DCE9ED",
+        "bg": "#102634",
+        "ratio": 12.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#DCE9ED",
+        "bg": "#102634",
+        "ratio": 12.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#F87171",
+        "bg": "#102634",
+        "ratio": 5.63,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#4ADE80",
+        "bg": "#102634",
+        "ratio": 8.93,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#52C5D6",
+        "bg": "#102634",
+        "ratio": 7.65,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#88B7C7",
+        "bg": "#102634",
+        "ratio": 7.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#DCE9ED",
+        "bg": "#0A1C27",
+        "ratio": 14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#DCE9ED",
+        "bg": "#102634",
+        "ratio": 12.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#DCE9ED",
+        "bg": "#102634",
+        "ratio": 12.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#52C5D6",
+        "ratio": 10.32,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Abyss Light",
+    "family": "Abyss",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#0B1E29",
+        "bg": "#FFFFFF",
+        "ratio": 17.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#0A7D92",
+        "bg": "#FFFFFF",
+        "ratio": 4.81,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#5C7887",
+        "bg": "#FFFFFF",
+        "ratio": 4.68,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#0A7D92",
+        "bg": "#FFFFFF",
+        "ratio": 4.81,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#1B647A",
+        "bg": "#FFFFFF",
+        "ratio": 6.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#0B1E29",
+        "bg": "#FFFFFF",
+        "ratio": 17.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#1E6E45",
+        "bg": "#FFFFFF",
+        "ratio": 6.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#A35417",
+        "bg": "#FFFFFF",
+        "ratio": 5.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#23495D",
+        "bg": "#FFFFFF",
+        "ratio": 9.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#1B647A",
+        "bg": "#FFFFFF",
+        "ratio": 6.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#0B1E29",
+        "bg": "#F1F5F8",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#23495D",
+        "bg": "#F1F5F8",
+        "ratio": 8.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#0B1E29",
+        "bg": "#F1F5F8",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#0B1E29",
+        "bg": "#EAF1F5",
+        "ratio": 14.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#0B1E29",
+        "bg": "#EBF5F6",
+        "ratio": 15.36,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#23495D",
+        "bg": "#F1F5F8",
+        "ratio": 8.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#0B1E29",
+        "bg": "#D1E4EA",
+        "ratio": 12.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#0A7D92",
+        "bg": "#EBF5F6",
+        "ratio": 4.34,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#0B1E29",
+        "bg": "#E3ECF1",
+        "ratio": 14.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#0B1E29",
+        "bg": "#E3ECF1",
+        "ratio": 14.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#B91C1C",
+        "bg": "#E3ECF1",
+        "ratio": 5.4,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#E3ECF1",
+        "ratio": 5.95,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#0369A1",
+        "bg": "#E3ECF1",
+        "ratio": 4.95,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#23495D",
+        "bg": "#E3ECF1",
+        "ratio": 8.03,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#0B1E29",
+        "bg": "#FFFFFF",
+        "ratio": 17.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#0B1E29",
+        "bg": "#F1F5F8",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#0B1E29",
+        "bg": "#F1F5F8",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#0A7D92",
+        "ratio": 4.81,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Nocturne Dark",
+    "family": "Nocturne",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#F2EDFB",
+        "bg": "#0A0914",
+        "ratio": 17.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#B37DD3",
+        "bg": "#0A0914",
+        "ratio": 6.39,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#8177AB",
+        "bg": "#0A0914",
+        "ratio": 4.86,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#F472B6",
+        "bg": "#0A0914",
+        "ratio": 7.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#B37DD3",
+        "bg": "#0A0914",
+        "ratio": 6.39,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#F2EDFB",
+        "bg": "#0A0914",
+        "ratio": 17.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#E9D8A6",
+        "bg": "#0A0914",
+        "ratio": 13.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FBBF24",
+        "bg": "#0A0914",
+        "ratio": 11.84,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#C4A5E8",
+        "bg": "#0A0914",
+        "ratio": 9.32,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#E879F9",
+        "bg": "#0A0914",
+        "ratio": 8.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#F2EDFB",
+        "bg": "#121024",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#C4A5E8",
+        "bg": "#121024",
+        "ratio": 8.79,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#F2EDFB",
+        "bg": "#121024",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#F2EDFB",
+        "bg": "#1D1A37",
+        "ratio": 14.57,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#F2EDFB",
+        "bg": "#1E172B",
+        "ratio": 15.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#C4A5E8",
+        "bg": "#121024",
+        "ratio": 8.79,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#F2EDFB",
+        "bg": "#2C2140",
+        "ratio": 13.07,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#B37DD3",
+        "bg": "#1E172B",
+        "ratio": 5.6,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#F2EDFB",
+        "bg": "#1A1733",
+        "ratio": 15.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#F2EDFB",
+        "bg": "#1A1733",
+        "ratio": 15.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#FB7185",
+        "bg": "#1A1733",
+        "ratio": 6.43,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#4ADE80",
+        "bg": "#1A1733",
+        "ratio": 9.92,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#B37DD3",
+        "bg": "#1A1733",
+        "ratio": 5.59,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#C4A5E8",
+        "bg": "#1A1733",
+        "ratio": 8.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#F2EDFB",
+        "bg": "#121024",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#F2EDFB",
+        "bg": "#1A1733",
+        "ratio": 15.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#F2EDFB",
+        "bg": "#1A1733",
+        "ratio": 15.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#B37DD3",
+        "ratio": 6.79,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Nocturne Light",
+    "family": "Nocturne",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#1B1231",
+        "bg": "#FFFFFF",
+        "ratio": 17.83,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#7E22CE",
+        "bg": "#FFFFFF",
+        "ratio": 6.98,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#7C6E97",
+        "bg": "#FFFFFF",
+        "ratio": 4.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#A21CAF",
+        "bg": "#FFFFFF",
+        "ratio": 6.32,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#7E22CE",
+        "bg": "#FFFFFF",
+        "ratio": 6.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#1B1231",
+        "bg": "#FFFFFF",
+        "ratio": 17.83,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#854D0E",
+        "bg": "#FFFFFF",
+        "ratio": 6.85,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#B45309",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#4D297A",
+        "bg": "#FFFFFF",
+        "ratio": 10.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#6B21A8",
+        "bg": "#FFFFFF",
+        "ratio": 8.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#1B1231",
+        "bg": "#F5F3FA",
+        "ratio": 16.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#4D297A",
+        "bg": "#F5F3FA",
+        "ratio": 9.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#1B1231",
+        "bg": "#F5F3FA",
+        "ratio": 16.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#1B1231",
+        "bg": "#F0EDF8",
+        "ratio": 15.43,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#1B1231",
+        "bg": "#F5EDFB",
+        "ratio": 15.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#4D297A",
+        "bg": "#F5F3FA",
+        "ratio": 9.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#1B1231",
+        "bg": "#E4D6F4",
+        "ratio": 12.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#7E22CE",
+        "bg": "#F5EDFB",
+        "ratio": 6.12,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#1B1231",
+        "bg": "#EBE6F5",
+        "ratio": 14.58,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#1B1231",
+        "bg": "#EBE6F5",
+        "ratio": 14.58,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9F1239",
+        "bg": "#EBE6F5",
+        "ratio": 6.55,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#EBE6F5",
+        "ratio": 5.83,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#581C87",
+        "bg": "#EBE6F5",
+        "ratio": 8.89,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#4D297A",
+        "bg": "#EBE6F5",
+        "ratio": 8.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#1B1231",
+        "bg": "#FFFFFF",
+        "ratio": 17.83,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#1B1231",
+        "bg": "#F5F3FA",
+        "ratio": 16.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#1B1231",
+        "bg": "#F5F3FA",
+        "ratio": 16.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#7E22CE",
+        "ratio": 6.98,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Sakura Dark",
+    "family": "Sakura",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#FDF0F3",
+        "bg": "#120E12",
+        "ratio": 17.26,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#FB7185",
+        "bg": "#120E12",
+        "ratio": 7.11,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#947B93",
+        "bg": "#120E12",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#FB7185",
+        "bg": "#120E12",
+        "ratio": 7.11,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#FDA4AF",
+        "bg": "#120E12",
+        "ratio": 10.12,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#FDF0F3",
+        "bg": "#120E12",
+        "ratio": 17.26,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#CBD5E1",
+        "bg": "#120E12",
+        "ratio": 12.89,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FED7AA",
+        "bg": "#120E12",
+        "ratio": 14.14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#F4A4AF",
+        "bg": "#120E12",
+        "ratio": 9.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#FB7185",
+        "bg": "#120E12",
+        "ratio": 7.11,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#FDF0F3",
+        "bg": "#1A141A",
+        "ratio": 16.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#F4A4AF",
+        "bg": "#1A141A",
+        "ratio": 9.3,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#FDF0F3",
+        "bg": "#1A141A",
+        "ratio": 16.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#FDF0F3",
+        "bg": "#2B202B",
+        "ratio": 14.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#FDF0F3",
+        "bg": "#2E1A20",
+        "ratio": 14.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#F4A4AF",
+        "bg": "#1A141A",
+        "ratio": 9.3,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#FDF0F3",
+        "bg": "#3E232B",
+        "ratio": 12.79,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#FB7185",
+        "bg": "#2E1A20",
+        "ratio": 6.07,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#FDF0F3",
+        "bg": "#251C26",
+        "ratio": 14.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#FDF0F3",
+        "bg": "#251C26",
+        "ratio": 14.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#FB7185",
+        "bg": "#251C26",
+        "ratio": 6.13,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#4ADE80",
+        "bg": "#251C26",
+        "ratio": 9.47,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#FDA4AF",
+        "bg": "#251C26",
+        "ratio": 8.73,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#F4A4AF",
+        "bg": "#251C26",
+        "ratio": 8.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#FDF0F3",
+        "bg": "#1A141A",
+        "ratio": 16.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#FDF0F3",
+        "bg": "#251C26",
+        "ratio": 14.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#FDF0F3",
+        "bg": "#251C26",
+        "ratio": 14.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#FB7185",
+        "ratio": 7.8,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Sakura Light",
+    "family": "Sakura",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#241217",
+        "bg": "#FFFFFF",
+        "ratio": 17.89,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#BE123C",
+        "bg": "#FFFFFF",
+        "ratio": 6.29,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#8A6B73",
+        "bg": "#FFFFFF",
+        "ratio": 4.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#BE123C",
+        "bg": "#FFFFFF",
+        "ratio": 6.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#9F1239",
+        "bg": "#FFFFFF",
+        "ratio": 8.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#241217",
+        "bg": "#FFFFFF",
+        "ratio": 17.89,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#285E43",
+        "bg": "#FFFFFF",
+        "ratio": 7.57,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#A14E15",
+        "bg": "#FFFFFF",
+        "ratio": 5.81,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#6E2838",
+        "bg": "#FFFFFF",
+        "ratio": 10.38,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#BE123C",
+        "bg": "#FFFFFF",
+        "ratio": 6.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#241217",
+        "bg": "#FDF5F6",
+        "ratio": 16.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#6E2838",
+        "bg": "#FDF5F6",
+        "ratio": 9.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#241217",
+        "bg": "#FDF5F6",
+        "ratio": 16.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#241217",
+        "bg": "#FBEFF1",
+        "ratio": 15.95,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#241217",
+        "bg": "#FAECEF",
+        "ratio": 15.6,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#6E2838",
+        "bg": "#FDF5F6",
+        "ratio": 9.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#241217",
+        "bg": "#F4D5DC",
+        "ratio": 13.12,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#BE123C",
+        "bg": "#FAECEF",
+        "ratio": 5.48,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#241217",
+        "bg": "#F8E9EB",
+        "ratio": 15.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#241217",
+        "bg": "#F8E9EB",
+        "ratio": 15.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9F1239",
+        "bg": "#F8E9EB",
+        "ratio": 6.81,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#F8E9EB",
+        "ratio": 6.06,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#9F1239",
+        "bg": "#F8E9EB",
+        "ratio": 6.81,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#6E2838",
+        "bg": "#F8E9EB",
+        "ratio": 8.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#241217",
+        "bg": "#FFFFFF",
+        "ratio": 17.89,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#241217",
+        "bg": "#FDF5F6",
+        "ratio": 16.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#241217",
+        "bg": "#FDF5F6",
+        "ratio": 16.67,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#BE123C",
+        "ratio": 6.29,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Umber Dark",
+    "family": "Umber",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#FDF8F3",
+        "bg": "#120E0B",
+        "ratio": 18.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#E07A5F",
+        "bg": "#120E0B",
+        "ratio": 6.51,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#967D6F",
+        "bg": "#120E0B",
+        "ratio": 4.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#E07A5F",
+        "bg": "#120E0B",
+        "ratio": 6.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#E9C46A",
+        "bg": "#120E0B",
+        "ratio": 11.5,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#FDF8F3",
+        "bg": "#120E0B",
+        "ratio": 18.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#A7C957",
+        "bg": "#120E0B",
+        "ratio": 10.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#F4A261",
+        "bg": "#120E0B",
+        "ratio": 9.32,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#D4A373",
+        "bg": "#120E0B",
+        "ratio": 8.49,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#E07A5F",
+        "bg": "#120E0B",
+        "ratio": 6.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#FDF8F3",
+        "bg": "#1C1510",
+        "ratio": 17.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#D4A373",
+        "bg": "#1C1510",
+        "ratio": 7.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#FDF8F3",
+        "bg": "#1C1510",
+        "ratio": 17.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#FDF8F3",
+        "bg": "#2D231C",
+        "ratio": 14.54,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#FDF8F3",
+        "bg": "#2B1B15",
+        "ratio": 15.66,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#D4A373",
+        "bg": "#1C1510",
+        "ratio": 7.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#FDF8F3",
+        "bg": "#3B251D",
+        "ratio": 13.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#E07A5F",
+        "bg": "#2B1B15",
+        "ratio": 5.6,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#FDF8F3",
+        "bg": "#271E18",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#FDF8F3",
+        "bg": "#271E18",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#E76F51",
+        "bg": "#271E18",
+        "ratio": 5.28,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#A7C957",
+        "bg": "#271E18",
+        "ratio": 8.66,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#E07A5F",
+        "bg": "#271E18",
+        "ratio": 5.54,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#D4A373",
+        "bg": "#271E18",
+        "ratio": 7.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#FDF8F3",
+        "bg": "#1C1510",
+        "ratio": 17.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#FDF8F3",
+        "bg": "#271E18",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#FDF8F3",
+        "bg": "#271E18",
+        "ratio": 15.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#E07A5F",
+        "ratio": 7.12,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Umber Light",
+    "family": "Umber",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#26180E",
+        "bg": "#FFFFFF",
+        "ratio": 17.22,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#A74B2A",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#806A58",
+        "bg": "#FFFFFF",
+        "ratio": 5.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#A74B2A",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#8B4513",
+        "bg": "#FFFFFF",
+        "ratio": 7.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#26180E",
+        "bg": "#FFFFFF",
+        "ratio": 17.22,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#386641",
+        "bg": "#FFFFFF",
+        "ratio": 6.68,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#B25E1B",
+        "bg": "#FFFFFF",
+        "ratio": 4.66,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#634027",
+        "bg": "#FFFFFF",
+        "ratio": 9.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#A74B2A",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#26180E",
+        "bg": "#FAF6F0",
+        "ratio": 16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#634027",
+        "bg": "#FAF6F0",
+        "ratio": 8.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#26180E",
+        "bg": "#FAF6F0",
+        "ratio": 16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#26180E",
+        "bg": "#F6F0E8",
+        "ratio": 15.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#26180E",
+        "bg": "#F8F1EE",
+        "ratio": 15.42,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#634027",
+        "bg": "#FAF6F0",
+        "ratio": 8.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#26180E",
+        "bg": "#EEDED4",
+        "ratio": 13.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#A74B2A",
+        "bg": "#F8F1EE",
+        "ratio": 5.11,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#26180E",
+        "bg": "#F2EAE0",
+        "ratio": 14.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#26180E",
+        "bg": "#F2EAE0",
+        "ratio": 14.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9A3412",
+        "bg": "#F2EAE0",
+        "ratio": 6.13,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#F2EAE0",
+        "ratio": 5.98,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#78350F",
+        "bg": "#F2EAE0",
+        "ratio": 7.61,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#634027",
+        "bg": "#F2EAE0",
+        "ratio": 7.68,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#26180E",
+        "bg": "#FFFFFF",
+        "ratio": 17.22,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#26180E",
+        "bg": "#FAF6F0",
+        "ratio": 16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#26180E",
+        "bg": "#FAF6F0",
+        "ratio": 16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#A74B2A",
+        "ratio": 5.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Midnight Dark",
+    "family": "Midnight",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#EBF2FA",
+        "bg": "#060A13",
+        "ratio": 17.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#38BDF8",
+        "bg": "#060A13",
+        "ratio": 9.24,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#6C7EAB",
+        "bg": "#060A13",
+        "ratio": 4.91,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#818CF8",
+        "bg": "#060A13",
+        "ratio": 6.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#38BDF8",
+        "bg": "#060A13",
+        "ratio": 9.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#EBF2FA",
+        "bg": "#060A13",
+        "ratio": 17.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#86EFAC",
+        "bg": "#060A13",
+        "ratio": 14.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FDBA74",
+        "bg": "#060A13",
+        "ratio": 11.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#85B5F2",
+        "bg": "#060A13",
+        "ratio": 9.32,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#38BDF8",
+        "bg": "#060A13",
+        "ratio": 9.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#EBF2FA",
+        "bg": "#0C1224",
+        "ratio": 16.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#85B5F2",
+        "bg": "#0C1224",
+        "ratio": 8.77,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#EBF2FA",
+        "bg": "#0C1224",
+        "ratio": 16.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#EBF2FA",
+        "bg": "#151D37",
+        "ratio": 14.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#EBF2FA",
+        "bg": "#0C1F2E",
+        "ratio": 14.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#85B5F2",
+        "bg": "#0C1224",
+        "ratio": 8.77,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#EBF2FA",
+        "bg": "#132D46",
+        "ratio": 12.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#38BDF8",
+        "bg": "#0C1F2E",
+        "ratio": 7.84,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#EBF2FA",
+        "bg": "#131B34",
+        "ratio": 15.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#EBF2FA",
+        "bg": "#131B34",
+        "ratio": 15.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#F87171",
+        "bg": "#131B34",
+        "ratio": 6.15,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#4ADE80",
+        "bg": "#131B34",
+        "ratio": 9.77,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#38BDF8",
+        "bg": "#131B34",
+        "ratio": 7.94,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#85B5F2",
+        "bg": "#131B34",
+        "ratio": 8.01,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#EBF2FA",
+        "bg": "#0C1224",
+        "ratio": 16.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#EBF2FA",
+        "bg": "#131B34",
+        "ratio": 15.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#EBF2FA",
+        "bg": "#131B34",
+        "ratio": 15.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#38BDF8",
+        "ratio": 9.8,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Midnight Light",
+    "family": "Midnight",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#0A142F",
+        "bg": "#FFFFFF",
+        "ratio": 18.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#0284C7",
+        "bg": "#FFFFFF",
+        "ratio": 4.1,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#5B6E8C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#2563EB",
+        "bg": "#FFFFFF",
+        "ratio": 5.17,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#0369A1",
+        "bg": "#FFFFFF",
+        "ratio": 5.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#0A142F",
+        "bg": "#FFFFFF",
+        "ratio": 18.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#15803D",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#1E3A8A",
+        "bg": "#FFFFFF",
+        "ratio": 10.36,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#0369A1",
+        "bg": "#FFFFFF",
+        "ratio": 5.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#0A142F",
+        "bg": "#F2F5F9",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#1E3A8A",
+        "bg": "#F2F5F9",
+        "ratio": 9.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#0A142F",
+        "bg": "#F2F5F9",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#0A142F",
+        "bg": "#EBF0F7",
+        "ratio": 15.89,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#0A142F",
+        "bg": "#EBF5FB",
+        "ratio": 16.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#1E3A8A",
+        "bg": "#F2F5F9",
+        "ratio": 9.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#0A142F",
+        "bg": "#D0E5F2",
+        "ratio": 14.01,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#0284C7",
+        "bg": "#EBF5FB",
+        "ratio": 3.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#0A142F",
+        "bg": "#E4EBF4",
+        "ratio": 15.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#0A142F",
+        "bg": "#E4EBF4",
+        "ratio": 15.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#991B1B",
+        "bg": "#E4EBF4",
+        "ratio": 6.92,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#E4EBF4",
+        "ratio": 5.94,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#1E40AF",
+        "bg": "#E4EBF4",
+        "ratio": 7.26,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#1E3A8A",
+        "bg": "#E4EBF4",
+        "ratio": 8.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#0A142F",
+        "bg": "#FFFFFF",
+        "ratio": 18.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#0A142F",
+        "bg": "#F2F5F9",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#0A142F",
+        "bg": "#F2F5F9",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#0284C7",
+        "ratio": 4.1,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Forest Dark",
+    "family": "Forest",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#EDF7F1",
+        "bg": "#08120C",
+        "ratio": 17.4,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#4ADE80",
+        "bg": "#08120C",
+        "ratio": 10.93,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#6C8D79",
+        "bg": "#08120C",
+        "ratio": 5.19,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#2DD4BF",
+        "bg": "#08120C",
+        "ratio": 10.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#4ADE80",
+        "bg": "#08120C",
+        "ratio": 10.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#EDF7F1",
+        "bg": "#08120C",
+        "ratio": 17.4,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#D9F99D",
+        "bg": "#08120C",
+        "ratio": 16.32,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FCD34D",
+        "bg": "#08120C",
+        "ratio": 13.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#88CDA0",
+        "bg": "#08120C",
+        "ratio": 10.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#4ADE80",
+        "bg": "#08120C",
+        "ratio": 10.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#EDF7F1",
+        "bg": "#0E1C14",
+        "ratio": 16.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#88CDA0",
+        "bg": "#0E1C14",
+        "ratio": 9.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#EDF7F1",
+        "bg": "#0E1C14",
+        "ratio": 16.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#EDF7F1",
+        "bg": "#182C20",
+        "ratio": 13.5,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#EDF7F1",
+        "bg": "#102A1A",
+        "ratio": 14.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#88CDA0",
+        "bg": "#0E1C14",
+        "ratio": 9.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#EDF7F1",
+        "bg": "#183B25",
+        "ratio": 11.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#4ADE80",
+        "bg": "#102A1A",
+        "ratio": 8.81,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#EDF7F1",
+        "bg": "#16281D",
+        "ratio": 14.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#EDF7F1",
+        "bg": "#16281D",
+        "ratio": 14.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#FB7185",
+        "bg": "#16281D",
+        "ratio": 5.76,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#4ADE80",
+        "bg": "#16281D",
+        "ratio": 8.89,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#2DD4BF",
+        "bg": "#16281D",
+        "ratio": 8.32,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#88CDA0",
+        "bg": "#16281D",
+        "ratio": 8.33,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#EDF7F1",
+        "bg": "#0E1C14",
+        "ratio": 16.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#EDF7F1",
+        "bg": "#16281D",
+        "ratio": 14.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#EDF7F1",
+        "bg": "#16281D",
+        "ratio": 14.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#4ADE80",
+        "ratio": 12.05,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Forest Light",
+    "family": "Forest",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#0B2514",
+        "bg": "#FFFFFF",
+        "ratio": 16.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#15803D",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#587564",
+        "bg": "#FFFFFF",
+        "ratio": 5.07,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#0F766E",
+        "bg": "#FFFFFF",
+        "ratio": 5.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#15803D",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#0B2514",
+        "bg": "#FFFFFF",
+        "ratio": 16.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#4D7C0F",
+        "bg": "#FFFFFF",
+        "ratio": 4.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#B45309",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#166534",
+        "bg": "#FFFFFF",
+        "ratio": 7.13,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#15803D",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#0B2514",
+        "bg": "#F2F7F4",
+        "ratio": 15.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#166534",
+        "bg": "#F2F7F4",
+        "ratio": 6.58,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#0B2514",
+        "bg": "#F2F7F4",
+        "ratio": 15.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#0B2514",
+        "bg": "#EBF3EE",
+        "ratio": 14.42,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#0B2514",
+        "bg": "#ECF5EF",
+        "ratio": 14.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#166534",
+        "bg": "#F2F7F4",
+        "ratio": 6.58,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#0B2514",
+        "bg": "#D3E6DA",
+        "ratio": 12.49,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#15803D",
+        "bg": "#ECF5EF",
+        "ratio": 4.51,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#0B2514",
+        "bg": "#E4EFE8",
+        "ratio": 13.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#0B2514",
+        "bg": "#E4EFE8",
+        "ratio": 13.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#991B1B",
+        "bg": "#E4EFE8",
+        "ratio": 7.05,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#E4EFE8",
+        "ratio": 6.05,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#115E59",
+        "bg": "#E4EFE8",
+        "ratio": 6.43,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#166534",
+        "bg": "#E4EFE8",
+        "ratio": 6.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#0B2514",
+        "bg": "#FFFFFF",
+        "ratio": 16.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#0B2514",
+        "bg": "#F2F7F4",
+        "ratio": 15.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#0B2514",
+        "bg": "#F2F7F4",
+        "ratio": 15.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#15803D",
+        "ratio": 5.02,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Nebula Dark",
+    "family": "Nebula",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#F6EEFF",
+        "bg": "#0B0716",
+        "ratio": 17.6,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#E879F9",
+        "bg": "#0B0716",
+        "ratio": 8.08,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#8971B0",
+        "bg": "#0B0716",
+        "ratio": 4.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#E879F9",
+        "bg": "#0B0716",
+        "ratio": 8.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#A78BFA",
+        "bg": "#0B0716",
+        "ratio": 7.31,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#F6EEFF",
+        "bg": "#0B0716",
+        "ratio": 17.6,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#FBCFE8",
+        "bg": "#0B0716",
+        "ratio": 14.38,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FDBA74",
+        "bg": "#0B0716",
+        "ratio": 11.79,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#C58AFE",
+        "bg": "#0B0716",
+        "ratio": 7.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#E879F9",
+        "bg": "#0B0716",
+        "ratio": 8.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#F6EEFF",
+        "bg": "#130D25",
+        "ratio": 16.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#C58AFE",
+        "bg": "#130D25",
+        "ratio": 7.59,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#F6EEFF",
+        "bg": "#130D25",
+        "ratio": 16.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#F6EEFF",
+        "bg": "#21173D",
+        "ratio": 14.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#F6EEFF",
+        "bg": "#261531",
+        "ratio": 15.07,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#C58AFE",
+        "bg": "#130D25",
+        "ratio": 7.59,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#F6EEFF",
+        "bg": "#351E47",
+        "ratio": 13.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#E879F9",
+        "bg": "#261531",
+        "ratio": 6.92,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#F6EEFF",
+        "bg": "#1C1336",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#F6EEFF",
+        "bg": "#1C1336",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#F43F5E",
+        "bg": "#1C1336",
+        "ratio": 4.78,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#34D399",
+        "bg": "#1C1336",
+        "ratio": 9.14,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#818CF8",
+        "bg": "#1C1336",
+        "ratio": 5.89,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#C58AFE",
+        "bg": "#1C1336",
+        "ratio": 7.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#F6EEFF",
+        "bg": "#130D25",
+        "ratio": 16.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#F6EEFF",
+        "bg": "#1C1336",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#F6EEFF",
+        "bg": "#1C1336",
+        "ratio": 15.55,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#E879F9",
+        "ratio": 8.53,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Nebula Light",
+    "family": "Nebula",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#1E0A3C",
+        "bg": "#FFFFFF",
+        "ratio": 18.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#9333EA",
+        "bg": "#FFFFFF",
+        "ratio": 5.38,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#7D669C",
+        "bg": "#FFFFFF",
+        "ratio": 4.94,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#9333EA",
+        "bg": "#FFFFFF",
+        "ratio": 5.38,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#7C3AED",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#1E0A3C",
+        "bg": "#FFFFFF",
+        "ratio": 18.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#9D174D",
+        "bg": "#FFFFFF",
+        "ratio": 7.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#581C87",
+        "bg": "#FFFFFF",
+        "ratio": 10.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#9333EA",
+        "bg": "#FFFFFF",
+        "ratio": 5.38,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#1E0A3C",
+        "bg": "#F7F3FC",
+        "ratio": 16.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#581C87",
+        "bg": "#F7F3FC",
+        "ratio": 9.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#1E0A3C",
+        "bg": "#F7F3FC",
+        "ratio": 16.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#1E0A3C",
+        "bg": "#F3EEFB",
+        "ratio": 15.84,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#1E0A3C",
+        "bg": "#F6EFFD",
+        "ratio": 16.05,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#581C87",
+        "bg": "#F7F3FC",
+        "ratio": 9.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#1E0A3C",
+        "bg": "#E9D8F9",
+        "ratio": 13.45,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#9333EA",
+        "bg": "#F6EFFD",
+        "ratio": 4.79,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#1E0A3C",
+        "bg": "#EFE8F9",
+        "ratio": 15.11,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#1E0A3C",
+        "bg": "#EFE8F9",
+        "ratio": 15.11,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9F1239",
+        "bg": "#EFE8F9",
+        "ratio": 6.71,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#EFE8F9",
+        "ratio": 5.97,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#581C87",
+        "bg": "#EFE8F9",
+        "ratio": 9.1,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#581C87",
+        "bg": "#EFE8F9",
+        "ratio": 9.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#1E0A3C",
+        "bg": "#FFFFFF",
+        "ratio": 18.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#1E0A3C",
+        "bg": "#F7F3FC",
+        "ratio": 16.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#1E0A3C",
+        "bg": "#F7F3FC",
+        "ratio": 16.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#9333EA",
+        "ratio": 5.38,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Ocean Dark",
+    "family": "Ocean",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#EBF5FA",
+        "bg": "#05121D",
+        "ratio": 17.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#22D3EE",
+        "bg": "#05121D",
+        "ratio": 10.46,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#5C87AC",
+        "bg": "#05121D",
+        "ratio": 4.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#38BDF8",
+        "bg": "#05121D",
+        "ratio": 8.83,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#22D3EE",
+        "bg": "#05121D",
+        "ratio": 10.46,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#EBF5FA",
+        "bg": "#05121D",
+        "ratio": 17.08,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#A5F3FC",
+        "bg": "#05121D",
+        "ratio": 15.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FDBA74",
+        "bg": "#05121D",
+        "ratio": 11.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#60C5F8",
+        "bg": "#05121D",
+        "ratio": 9.76,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#22D3EE",
+        "bg": "#05121D",
+        "ratio": 10.46,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#EBF5FA",
+        "bg": "#0A1C2B",
+        "ratio": 15.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#60C5F8",
+        "bg": "#0A1C2B",
+        "ratio": 8.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#EBF5FA",
+        "bg": "#0A1C2B",
+        "ratio": 15.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#EBF5FA",
+        "bg": "#122B41",
+        "ratio": 13.11,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#EBF5FA",
+        "bg": "#082936",
+        "ratio": 13.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#60C5F8",
+        "bg": "#0A1C2B",
+        "ratio": 8.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#EBF5FA",
+        "bg": "#0E394A",
+        "ratio": 11.14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#22D3EE",
+        "bg": "#082936",
+        "ratio": 8.42,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#EBF5FA",
+        "bg": "#10283D",
+        "ratio": 13.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#EBF5FA",
+        "bg": "#10283D",
+        "ratio": 13.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#F87171",
+        "bg": "#10283D",
+        "ratio": 5.45,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#34D399",
+        "bg": "#10283D",
+        "ratio": 7.84,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#38BDF8",
+        "bg": "#10283D",
+        "ratio": 7.04,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#60C5F8",
+        "bg": "#10283D",
+        "ratio": 7.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#EBF5FA",
+        "bg": "#0A1C2B",
+        "ratio": 15.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#EBF5FA",
+        "bg": "#10283D",
+        "ratio": 13.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#EBF5FA",
+        "bg": "#10283D",
+        "ratio": 13.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#22D3EE",
+        "ratio": 11.62,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Ocean Light",
+    "family": "Ocean",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#06253B",
+        "bg": "#FFFFFF",
+        "ratio": 15.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#0284C7",
+        "bg": "#FFFFFF",
+        "ratio": 4.1,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#537B96",
+        "bg": "#FFFFFF",
+        "ratio": 4.52,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#0369A1",
+        "bg": "#FFFFFF",
+        "ratio": 5.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#0E7490",
+        "bg": "#FFFFFF",
+        "ratio": 5.36,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#06253B",
+        "bg": "#FFFFFF",
+        "ratio": 15.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#0F766E",
+        "bg": "#FFFFFF",
+        "ratio": 5.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#0369A1",
+        "bg": "#FFFFFF",
+        "ratio": 5.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#0369A1",
+        "bg": "#FFFFFF",
+        "ratio": 5.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#06253B",
+        "bg": "#F0F6FA",
+        "ratio": 14.43,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#0369A1",
+        "bg": "#F0F6FA",
+        "ratio": 5.44,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#06253B",
+        "bg": "#F0F6FA",
+        "ratio": 14.43,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#06253B",
+        "bg": "#E9F3F8",
+        "ratio": 13.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#06253B",
+        "bg": "#EBF5FB",
+        "ratio": 14.22,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#0369A1",
+        "bg": "#F0F6FA",
+        "ratio": 5.44,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#06253B",
+        "bg": "#CFE6F3",
+        "ratio": 12.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#0284C7",
+        "bg": "#EBF5FB",
+        "ratio": 3.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#06253B",
+        "bg": "#E2EFF6",
+        "ratio": 13.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#06253B",
+        "bg": "#E2EFF6",
+        "ratio": 13.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#991B1B",
+        "bg": "#E2EFF6",
+        "ratio": 7.09,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#E2EFF6",
+        "ratio": 6.08,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#075985",
+        "bg": "#E2EFF6",
+        "ratio": 6.45,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#0369A1",
+        "bg": "#E2EFF6",
+        "ratio": 5.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#06253B",
+        "bg": "#FFFFFF",
+        "ratio": 15.72,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#06253B",
+        "bg": "#F0F6FA",
+        "ratio": 14.43,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#06253B",
+        "bg": "#F0F6FA",
+        "ratio": 14.43,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#0284C7",
+        "ratio": 4.1,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Ember Dark",
+    "family": "Ember",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#FFF3ED",
+        "bg": "#140A07",
+        "ratio": 17.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#F97316",
+        "bg": "#140A07",
+        "ratio": 6.96,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#9B7365",
+        "bg": "#140A07",
+        "ratio": 4.68,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#F97316",
+        "bg": "#140A07",
+        "ratio": 6.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#FBBF24",
+        "bg": "#140A07",
+        "ratio": 11.69,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#FFF3ED",
+        "bg": "#140A07",
+        "ratio": 17.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#FED7AA",
+        "bg": "#140A07",
+        "ratio": 14.42,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FB7185",
+        "bg": "#140A07",
+        "ratio": 7.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#FDBA74",
+        "bg": "#140A07",
+        "ratio": 11.57,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#F97316",
+        "bg": "#140A07",
+        "ratio": 6.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#FFF3ED",
+        "bg": "#1C0F0A",
+        "ratio": 17.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#FDBA74",
+        "bg": "#1C0F0A",
+        "ratio": 11.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#FFF3ED",
+        "bg": "#1C0F0A",
+        "ratio": 17.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#FFF3ED",
+        "bg": "#2E1911",
+        "ratio": 15.27,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#FFF3ED",
+        "bg": "#2F1709",
+        "ratio": 15.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#FDBA74",
+        "bg": "#1C0F0A",
+        "ratio": 11.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#FFF3ED",
+        "bg": "#3F1F0C",
+        "ratio": 13.66,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#F97316",
+        "bg": "#2F1709",
+        "ratio": 6.01,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#FFF3ED",
+        "bg": "#271610",
+        "ratio": 15.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#FFF3ED",
+        "bg": "#271610",
+        "ratio": 15.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#EF4444",
+        "bg": "#271610",
+        "ratio": 4.62,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#84CC16",
+        "bg": "#271610",
+        "ratio": 8.8,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#F97316",
+        "bg": "#271610",
+        "ratio": 6.2,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#FDBA74",
+        "bg": "#271610",
+        "ratio": 10.3,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#FFF3ED",
+        "bg": "#1C0F0A",
+        "ratio": 17.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#FFF3ED",
+        "bg": "#271610",
+        "ratio": 15.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#FFF3ED",
+        "bg": "#271610",
+        "ratio": 15.97,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#F97316",
+        "ratio": 7.49,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Ember Light",
+    "family": "Ember",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#2E1208",
+        "bg": "#FFFFFF",
+        "ratio": 17.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#EA580C",
+        "bg": "#FFFFFF",
+        "ratio": 3.56,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#87685D",
+        "bg": "#FFFFFF",
+        "ratio": 5.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#2E1208",
+        "bg": "#FFFFFF",
+        "ratio": 17.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#2D6A4F",
+        "bg": "#FFFFFF",
+        "ratio": 6.39,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#B91C1C",
+        "bg": "#FFFFFF",
+        "ratio": 6.47,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#9A3412",
+        "bg": "#FFFFFF",
+        "ratio": 7.31,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#C2410C",
+        "bg": "#FFFFFF",
+        "ratio": 5.18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#2E1208",
+        "bg": "#FCF6F2",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#9A3412",
+        "bg": "#FCF6F2",
+        "ratio": 6.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#2E1208",
+        "bg": "#FCF6F2",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#2E1208",
+        "bg": "#FAF1EB",
+        "ratio": 15.62,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#2E1208",
+        "bg": "#FDF2EC",
+        "ratio": 15.83,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#9A3412",
+        "bg": "#FCF6F2",
+        "ratio": 6.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#2E1208",
+        "bg": "#F9E0D2",
+        "ratio": 13.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#EA580C",
+        "bg": "#FDF2EC",
+        "ratio": 3.24,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#2E1208",
+        "bg": "#F7ECE4",
+        "ratio": 14.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#2E1208",
+        "bg": "#F7ECE4",
+        "ratio": 14.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9A3412",
+        "bg": "#F7ECE4",
+        "ratio": 6.29,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#F7ECE4",
+        "ratio": 6.14,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#9A3412",
+        "bg": "#F7ECE4",
+        "ratio": 6.29,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#9A3412",
+        "bg": "#F7ECE4",
+        "ratio": 6.29,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#2E1208",
+        "bg": "#FFFFFF",
+        "ratio": 17.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#2E1208",
+        "bg": "#FCF6F2",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#2E1208",
+        "bg": "#FCF6F2",
+        "ratio": 16.25,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#EA580C",
+        "ratio": 3.56,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Lavender Dark",
+    "family": "Lavender",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#F6F3FE",
+        "bg": "#0C081A",
+        "ratio": 18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#A78BFA",
+        "bg": "#0C081A",
+        "ratio": 7.24,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#8373B0",
+        "bg": "#0C081A",
+        "ratio": 4.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#C084FC",
+        "bg": "#0C081A",
+        "ratio": 7.46,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#A78BFA",
+        "bg": "#0C081A",
+        "ratio": 7.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#F6F3FE",
+        "bg": "#0C081A",
+        "ratio": 18,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#E9D5FF",
+        "bg": "#0C081A",
+        "ratio": 14.48,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#F472B6",
+        "bg": "#0C081A",
+        "ratio": 7.44,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#C9BAFE",
+        "bg": "#0C081A",
+        "ratio": 11.21,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#A78BFA",
+        "bg": "#0C081A",
+        "ratio": 7.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#F6F3FE",
+        "bg": "#130D29",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#C9BAFE",
+        "bg": "#130D29",
+        "ratio": 10.69,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#F6F3FE",
+        "bg": "#130D29",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#F6F3FE",
+        "bg": "#1F1641",
+        "ratio": 15.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#F6F3FE",
+        "bg": "#1F1835",
+        "ratio": 15.46,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#C9BAFE",
+        "bg": "#130D29",
+        "ratio": 10.69,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#F6F3FE",
+        "bg": "#2B214A",
+        "ratio": 13.51,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#A78BFA",
+        "bg": "#1F1835",
+        "ratio": 6.22,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#F6F3FE",
+        "bg": "#1B1339",
+        "ratio": 15.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#F6F3FE",
+        "bg": "#1B1339",
+        "ratio": 15.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#FB7185",
+        "bg": "#1B1339",
+        "ratio": 6.51,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#34D399",
+        "bg": "#1B1339",
+        "ratio": 9.11,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#A78BFA",
+        "bg": "#1B1339",
+        "ratio": 6.44,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#C9BAFE",
+        "bg": "#1B1339",
+        "ratio": 9.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#F6F3FE",
+        "bg": "#130D29",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#F6F3FE",
+        "bg": "#1B1339",
+        "ratio": 15.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#F6F3FE",
+        "bg": "#1B1339",
+        "ratio": 15.99,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#A78BFA",
+        "ratio": 7.72,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AAA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Lavender Light",
+    "family": "Lavender",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#1D0B38",
+        "bg": "#FFFFFF",
+        "ratio": 18.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#7C3AED",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#7A6A9B",
+        "bg": "#FFFFFF",
+        "ratio": 4.81,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#7C3AED",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#6D28D9",
+        "bg": "#FFFFFF",
+        "ratio": 7.1,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#1D0B38",
+        "bg": "#FFFFFF",
+        "ratio": 18.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#1E6E56",
+        "bg": "#FFFFFF",
+        "ratio": 6.14,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#9D174D",
+        "bg": "#FFFFFF",
+        "ratio": 7.88,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#5B21B6",
+        "bg": "#FFFFFF",
+        "ratio": 8.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#7C3AED",
+        "bg": "#FFFFFF",
+        "ratio": 5.7,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#1D0B38",
+        "bg": "#F6F4FB",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#5B21B6",
+        "bg": "#F6F4FB",
+        "ratio": 8.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#1D0B38",
+        "bg": "#F6F4FB",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#1D0B38",
+        "bg": "#F2EFF9",
+        "ratio": 15.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#1D0B38",
+        "bg": "#F5EFFE",
+        "ratio": 16.13,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#5B21B6",
+        "bg": "#F6F4FB",
+        "ratio": 8.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#1D0B38",
+        "bg": "#E5DAF9",
+        "ratio": 13.59,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#7C3AED",
+        "bg": "#F5EFFE",
+        "ratio": 5.06,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#1D0B38",
+        "bg": "#EEE9F7",
+        "ratio": 15.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#1D0B38",
+        "bg": "#EEE9F7",
+        "ratio": 15.24,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9F1239",
+        "bg": "#EEE9F7",
+        "ratio": 6.73,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#EEE9F7",
+        "ratio": 5.99,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#5B21B6",
+        "bg": "#EEE9F7",
+        "ratio": 7.54,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#5B21B6",
+        "bg": "#EEE9F7",
+        "ratio": 7.54,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#1D0B38",
+        "bg": "#FFFFFF",
+        "ratio": 18.15,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#1D0B38",
+        "bg": "#F6F4FB",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#1D0B38",
+        "bg": "#F6F4FB",
+        "ratio": 16.64,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#7C3AED",
+        "ratio": 5.7,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Blossom Dark",
+    "family": "Blossom",
+    "variant": "dark",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#FDF2F7",
+        "bg": "#130810",
+        "ratio": 17.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#EC4899",
+        "bg": "#130810",
+        "ratio": 5.56,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#997090",
+        "bg": "#130810",
+        "ratio": 4.74,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#EC4899",
+        "bg": "#130810",
+        "ratio": 5.56,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#F472B6",
+        "bg": "#130810",
+        "ratio": 7.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#FDF2F7",
+        "bg": "#130810",
+        "ratio": 17.96,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#FBCFE8",
+        "bg": "#130810",
+        "ratio": 14.2,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#FBBF24",
+        "bg": "#130810",
+        "ratio": 11.76,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#F9A8D4",
+        "bg": "#130810",
+        "ratio": 10.82,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#EC4899",
+        "bg": "#130810",
+        "ratio": 5.56,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#FDF2F7",
+        "bg": "#1C0D18",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#F9A8D4",
+        "bg": "#1C0D18",
+        "ratio": 10.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#FDF2F7",
+        "bg": "#1C0D18",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#FDF2F7",
+        "bg": "#2E1528",
+        "ratio": 15.33,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#FDF2F7",
+        "bg": "#2D1020",
+        "ratio": 15.93,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#F9A8D4",
+        "bg": "#1C0D18",
+        "ratio": 10.34,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#FDF2F7",
+        "bg": "#3D162D",
+        "ratio": 14.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#EC4899",
+        "bg": "#2D1020",
+        "ratio": 4.93,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#FDF2F7",
+        "bg": "#271322",
+        "ratio": 15.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#FDF2F7",
+        "bg": "#271322",
+        "ratio": 15.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#F43F5E",
+        "bg": "#271322",
+        "ratio": 4.76,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#34D399",
+        "bg": "#271322",
+        "ratio": 9.08,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#EC4899",
+        "bg": "#271322",
+        "ratio": 4.95,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#F9A8D4",
+        "bg": "#271322",
+        "ratio": 9.63,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#FDF2F7",
+        "bg": "#1C0D18",
+        "ratio": 17.16,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#FDF2F7",
+        "bg": "#271322",
+        "ratio": 15.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#FDF2F7",
+        "bg": "#271322",
+        "ratio": 15.98,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#000000",
+        "bg": "#EC4899",
+        "ratio": 5.95,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  },
+  {
+    "themeName": "SONDER — Blossom Light",
+    "family": "Blossom",
+    "variant": "light",
+    "allPassed": true,
+    "results": [
+      {
+        "scope": "Editor",
+        "item": "Primary Text",
+        "fg": "#2C081E",
+        "bg": "#FFFFFF",
+        "ratio": 18.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Cursor",
+        "fg": "#DB2777",
+        "bg": "#FFFFFF",
+        "ratio": 4.6,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Comment",
+        "fg": "#8E6883",
+        "bg": "#FFFFFF",
+        "ratio": 4.71,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#DB2777",
+        "bg": "#FFFFFF",
+        "ratio": 4.6,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Function",
+        "fg": "#BE185D",
+        "bg": "#FFFFFF",
+        "ratio": 6.04,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Variable",
+        "fg": "#2C081E",
+        "bg": "#FFFFFF",
+        "ratio": 18.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "String",
+        "fg": "#15803D",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Number",
+        "fg": "#B45309",
+        "bg": "#FFFFFF",
+        "ratio": 5.02,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Type",
+        "fg": "#831843",
+        "bg": "#FFFFFF",
+        "ratio": 9.65,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Editor",
+        "item": "Operator",
+        "fg": "#DB2777",
+        "bg": "#FFFFFF",
+        "ratio": 4.6,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Primary Text",
+        "fg": "#2C081E",
+        "bg": "#FDF4F8",
+        "ratio": 16.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Title Text",
+        "fg": "#831843",
+        "bg": "#FDF4F8",
+        "ratio": 8.95,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Active Selection",
+        "fg": "#2C081E",
+        "bg": "#FDF4F8",
+        "ratio": 16.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Sidebar",
+        "item": "Hover Item",
+        "fg": "#2C081E",
+        "bg": "#FBEEF4",
+        "ratio": 16.06,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Text",
+        "fg": "#2C081E",
+        "bg": "#FCEEF4",
+        "ratio": 16.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Inactive Tab Text",
+        "fg": "#831843",
+        "bg": "#FDF4F8",
+        "ratio": 8.95,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Tab Hover Text",
+        "fg": "#2C081E",
+        "bg": "#F8D7E6",
+        "ratio": 13.66,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Tabs",
+        "item": "Active Tab Indicator",
+        "fg": "#DB2777",
+        "bg": "#FCEEF4",
+        "ratio": 4.09,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA Large"
+      },
+      {
+        "scope": "Panel",
+        "item": "Panel Active Title",
+        "fg": "#2C081E",
+        "bg": "#F8E7F0",
+        "ratio": 15.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Panel",
+        "item": "Terminal Text",
+        "fg": "#2C081E",
+        "bg": "#F8E7F0",
+        "ratio": 15.23,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Red",
+        "fg": "#9F1239",
+        "bg": "#F8E7F0",
+        "ratio": 6.75,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Green",
+        "fg": "#166534",
+        "bg": "#F8E7F0",
+        "ratio": 6,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Terminal",
+        "item": "ANSI Blue",
+        "fg": "#831843",
+        "bg": "#F8E7F0",
+        "ratio": 8.12,
+        "minRequired": 4,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Status Bar",
+        "item": "Status Text",
+        "fg": "#831843",
+        "bg": "#F8E7F0",
+        "ratio": 8.12,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Input Text",
+        "fg": "#2C081E",
+        "bg": "#FFFFFF",
+        "ratio": 18.09,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Dropdown Text",
+        "fg": "#2C081E",
+        "bg": "#FDF4F8",
+        "ratio": 16.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Notification Text",
+        "fg": "#2C081E",
+        "bg": "#FDF4F8",
+        "ratio": 16.78,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AAA"
+      },
+      {
+        "scope": "Interactive",
+        "item": "Badge Indicator",
+        "fg": "#FFFFFF",
+        "bg": "#DB2777",
+        "ratio": 4.6,
+        "minRequired": 3,
+        "status": "PASS",
+        "grade": "AA"
+      }
+    ]
+  }
+]

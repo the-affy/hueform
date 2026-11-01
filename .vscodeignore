@@ -1,0 +1,16 @@
+.vscode/**
+test-files/**
+build-themes.js
+themes/*.js
+scripts/**
+tests/**
+icons/source/**
+docs/**
+reports/**
+.agent/**
+.craftlens/**
+.gitignore
+*.vsix
+release/**
+.DS_Store
+Thumbs.db

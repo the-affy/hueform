@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "sonder-demo-config",
+  "version": "2.0.0",
+  "description": "SONDER Theme demo configuration — tests JSON syntax highlighting",
+  "author": {
+    "name": "SONDER Theme Contributors",
+    "email": "hello@sonder.design",
+    "url": "https://github.com/sonder-theme/sonder"
+  },
+  "license": "MIT",
+  "private": true,
+  "keywords": ["sonder", "theme", "vscode", "minimalist", "collection"],
+  "palette": {
+    "ai": {
+      "hex": "#2E2D67",
+      "name": "Deep Indigo",
+      "japanese": "藍",
+      "romanji": "Ai",
+      "meaning": "Indigo — the traditional Japanese dye color",
+      "usage": ["selection", "backgrounds", "UI surfaces", "active states"]
+    },
+    "fuji": {
+      "hex": "#B37DD3",
+      "name": "Wisteria",
+      "japanese": "藤",
+      "romanji": "Fuji",
+      "meaning": "Wisteria flower — delicate purple cascade",
+      "usage": ["functions", "methods", "types", "classes", "interfaces"]
+    },
+    "uguisu": {
+      "hex": "#AAAA3B",
+      "name": "Muted Olive",
+      "japanese": "鶯",
+      "romanji": "Uguisu",
+      "meaning": "Bush Warbler — olive-green bird associated with spring",
+      "usage": ["strings", "numbers", "constants", "enum values"]
+    },
+    "kure": {
+      "hex": "#F72BB4",
+      "name": "Vivid Magenta",
+      "japanese": "紅",
+      "romanji": "Kure",
+      "meaning": "Crimson — used sparingly for emphasis",
+      "usage": ["keywords", "control flow", "storage types", "language constants"]
+    },
+    "shiro": {
+      "hex": "#E6E8FB",
+      "name": "Cool Washi White",
+      "japanese": "白",
+      "romanji": "Shiro",
+      "meaning": "White — cool-toned like Japanese washi paper",
+      "usage": ["primary text", "identifiers", "normal code"]
+    }
+  },
+  "derived": {
+    "backgrounds": {
+      "editor": "#0D0D1A",
+      "sidebar": "#111125",
+      "panel": "#13132A",
+      "elevated": "#181830",
+      "lineHighlight": "#161630"
+    },
+    "text": {
+      "primary": "#E6E8FB",
+      "secondary": "#C0C0DC",
+      "tertiary": "#8888AA",
+      "comment": "#5A5A8A",
+      "inactive": "#3A3A5A"
+    },
+    "borders": {
+      "muted": "#252545",
+      "subtle": "#1E1E38"
+    },
+    "semantic": {
+      "error": "#F74B8C",
+      "warning": "#C4C43F",
+      "info": "#7B9BE8",
+      "hint": "#5A6AA0",
+      "success": "#7EC86E"
+    },
+    "bracketPairs": {
+      "level1": "#B37DD3",
+      "level2": "#C4C43F",
+      "level3": "#F72BB4",
+      "level4": "#8A5DA0",
+      "level5": "#8A8A2A",
+      "level6": "#A01878"
+    }
+  },
+  "features": {
+    "livingCursor": {
+      "enabled": false,
+      "sequence": ["#B37DD3", "#2E2D67"],
+      "intervalMs": 530,
+      "description": "Cursor configuration sample"
+    },
+    "inkSelection": {
+      "background": "#2E2D67",
+      "foreground": "#E6E8FB",
+      "description": "High contrast theme selection highlight"
+    },
+    "bracketHierarchy": {
+      "enabled": true,
+      "description": "Deliberate 6-level bracket pair coloring using the theme palette"
+    },
+    "focusMode": {
+      "enabled": false,
+      "command": "workbench.action.toggleZenMode",
+      "description": "Quiets secondary UI elements — code becomes the visual center"
+    },
+    "inkBleedDiagnostics": {
+      "error": "#F74B8C",
+      "warning": "#C4C43F",
+      "info": "#7B9BE8",
+      "hint": "#5A6AA0",
+      "description": "Diagnostic colors use ink-bleed metaphor — subtle, not neon"
+    }
+  },
+  "stats": {
+    "colorKeys": 426,
+    "tokenRules": 87,
+    "semanticTokens": 30,
+    "languagesCovered": [
+      "TypeScript",
+      "JavaScript",
+      "React/JSX",
+      "HTML",
+      "CSS",
+      "JSON",
+      "YAML",
+      "Markdown",
+      "Python",
+      "Shell",
+      "SQL"
+    ],
+    "wcagCompliant": true,
+    "targetContrastRatio": "AA (4.5:1 for normal text)"
+  },
+  "contrastRatios": {
+    "shiroOnEditorBg": { "ratio": 15.1, "passes": "AAA" },
+    "fujiOnEditorBg": { "ratio": 4.7, "passes": "AA Large" },
+    "uguisuSafeOnEditorBg": { "ratio": 5.5, "passes": "AA" },
+    "kureOnEditorBg": { "ratio": 4.5, "passes": "AA Large" },
+    "commentOnEditorBg": { "ratio": 3.2, "passes": "AA Large (secondary text)" },
+    "errorOnEditorBg": { "ratio": 4.8, "passes": "AA" }
+  },
+  "marketplace": {
+    "publisher": "sonder-theme",
+    "extensionId": "sonder-theme.sonder",
+    "vsixFile": "sonder-2.0.0.vsix",
+    "categories": ["Themes"],
+    "galleryBanner": {
+      "color": "#0D0D1A",
+      "theme": "dark"
+    },
+    "engines": {
+      "vscode": "^1.85.0"
+    }
+  },
+  "philosophy": {
+    "concept": "夜 — Night",
+    "tagline": "ink, paper and neon light at night in Japan",
+    "priorities": [
+      "usability",
+      "readability",
+      "accessibility",
+      "visual hierarchy",
+      "identity",
+      "novelty"
+    ],
+    "avoids": [
+      "pure black or pure white",
+      "excessive saturation",
+      "glowing neon effects",
+      "too many competing colors",
+      "bright borders everywhere",
+      "anime or sakura aesthetics",
+      "cyberpunk overload",
+      "random color assignments"
+    ]
+  },
+  "numbers": {
+    "integer": 42,
+    "float": 3.14159,
+    "negative": -273.15,
+    "scientific": 6.022e23,
+    "hex": "0xFF",
+    "binary": "0b10101010",
+    "octal": "0o755",
+    "zero": 0,
+    "max": 9007199254740991
+  },
+  "booleans": {
+    "trueValue": true,
+    "falseValue": false,
+    "nullValue": null
+  },
+  "nested": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "level4": {
+            "deep": "value",
+            "count": 4,
+            "active": true
+          }
+        }
+      }
+    }
+  },
+  "arrays": {
+    "empty": [],
+    "numbers": [1, 2, 3, 5, 8, 13, 21, 34, 55, 89],
+    "strings": ["Ai", "Fuji", "Uguisu", "Kure", "Shiro"],
+    "mixed": [1, "two", true, null, { "key": "value" }, [1, 2, 3]],
+    "objects": [
+      { "id": 1, "name": "Alpha", "value": 10.5 },
+      { "id": 2, "name": "Beta", "value": 20.3 },
+      { "id": 3, "name": "Gamma", "value": 30.1 }
+    ]
+  }
+}
+

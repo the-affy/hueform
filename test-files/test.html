@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SONDER — VS Code Theme Collection showcase" />
+    <meta name="author" content="SONDER Theme Contributors" />
+    <meta property="og:title" content="SONDER — VS Code Theme Collection" />
+    <meta property="og:type" content="website" />
+    <title>SONDER &mdash; VS Code Theme Collection</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <style>
+      :root {
+        --color-bg:       #0D0D1A;
+        --color-ai:       #2E2D67;
+        --color-fuji:     #B37DD3;
+        --color-uguisu:   #C4C43F;
+        --color-kure:     #F72BB4;
+        --color-shiro:    #E6E8FB;
+        --color-border:   #252545;
+        --color-comment:  #5A5A8A;
+      }
+
+      body {
+        background-color: var(--color-bg);
+        color: var(--color-shiro);
+        font-family: 'Monaspace Neon', 'JetBrains Mono', monospace;
+        margin: 0;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <header class="hero" id="top" role="banner">
+      <nav aria-label="Main navigation">
+        <ul role="list">
+          <li><a href="#palette">Palette</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#install">Install</a></li>
+        </ul>
+      </nav>
+
+      <hgroup>
+        <h1 class="hero__title">
+          SONDER
+        </h1>
+        <p class="hero__tagline">
+          Every theme has a character of its own. A curated collection of 22 themes.
+        </p>
+      </hgroup>
+
+      <a href="#install" class="cta-button" role="button">Install Now &rarr;</a>
+    </header>
+
+    <!-- Palette Section -->
+    <main id="main-content">
+      <section id="palette" aria-labelledby="palette-heading">
+        <h2 id="palette-heading">The Five-Ink Palette</h2>
+
+        <figure>
+          <figcaption>SONDER color swatches</figcaption>
+          <div class="palette-grid" role="list">
+            <article class="swatch" role="listitem" data-color="ai" style="background:#2E2D67;">
+              <h3 class="swatch__name">藍 &mdash; Ai</h3>
+              <code class="swatch__hex">#2E2D67</code>
+              <p class="swatch__role">Selection &amp; Backgrounds</p>
+            </article>
+
+            <article class="swatch" role="listitem" data-color="fuji" style="background:#B37DD3;">
+              <h3 class="swatch__name">藤 &mdash; Fuji</h3>
+              <code class="swatch__hex">#B37DD3</code>
+              <p class="swatch__role">Functions &amp; Types</p>
+            </article>
+
+            <article class="swatch" role="listitem" data-color="uguisu" style="background:#C4C43F;">
+              <h3 class="swatch__name">鶯 &mdash; Uguisu</h3>
+              <code class="swatch__hex">#C4C43F</code>
+              <p class="swatch__role">Strings &amp; Numbers</p>
+            </article>
+
+            <article class="swatch" role="listitem" data-color="kure" style="background:#F72BB4;">
+              <h3 class="swatch__name">紅 &mdash; Kure</h3>
+              <code class="swatch__hex">#F72BB4</code>
+              <p class="swatch__role">Keywords &amp; Control</p>
+            </article>
+
+            <article class="swatch" role="listitem" data-color="shiro" style="background:#E6E8FB;color:#0D0D1A;">
+              <h3 class="swatch__name">白 &mdash; Shiro</h3>
+              <code class="swatch__hex">#E6E8FB</code>
+              <p class="swatch__role">Primary Text</p>
+            </article>
+          </div>
+        </figure>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" aria-labelledby="features-heading">
+        <h2 id="features-heading">Signature Features</h2>
+
+        <details open>
+          <summary>✦ 22 Curated Themes</summary>
+          <p>
+            11 distinct color families, each crafted with dedicated Dark and Light variants.
+          </p>
+        </details>
+
+        <details>
+          <summary>🖋 Independent Light Mode</summary>
+          <p>Light themes crafted from soft paper tones and high-contrast typography, avoiding inverted eye strain.</p>
+        </details>
+
+        <details>
+          <summary>♿ WCAG AA Contrast</summary>
+          <p>All 22 themes verified for AA contrast across primary code tokens.</p>
+        </details>
+      </section>
+
+      <!-- Install Section -->
+      <section id="install" aria-labelledby="install-heading">
+        <h2 id="install-heading">Installation</h2>
+
+        <ol>
+          <li>Open <abbr title="Visual Studio Code">VS Code</abbr></li>
+          <li>Press <kbd>Ctrl</kbd>+<kbd>P</kbd> (or <kbd>Cmd</kbd>+<kbd>P</kbd> on macOS)</li>
+          <li>Run: <code>ext install sonder-theme.sonder</code></li>
+          <li>Select <strong>SONDER</strong> from the theme picker</li>
+        </ol>
+
+        <blockquote cite="https://github.com/sonder-theme/sonder">
+          <p>SONDER — Every theme has a character of its own.</p>
+          <footer>&mdash; <cite>SONDER Theme README</cite></footer>
+        </blockquote>
+      </section>
+
+      <!-- Table -->
+      <section>
+        <h2>Contrast Ratios</h2>
+        <table>
+          <caption>WCAG contrast ratios against background #0D0D1A</caption>
+          <thead>
+            <tr>
+              <th scope="col">Color</th>
+              <th scope="col">Hex</th>
+              <th scope="col">Ratio</th>
+              <th scope="col">Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Shiro 白</td>
+              <td><code>#E6E8FB</code></td>
+              <td>14.8:1</td>
+              <td>AAA</td>
+            </tr>
+            <tr>
+              <td>Uguisu 鶯</td>
+              <td><code>#C4C43F</code></td>
+              <td>5.5:1</td>
+              <td>AA</td>
+            </tr>
+            <tr>
+              <td>Fuji 藤</td>
+              <td><code>#B37DD3</code></td>
+              <td>4.7:1</td>
+              <td>AA*</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">* Large text / bold context only</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>
+        &copy; 2026 SONDER Theme Contributors &bull;
+        <a href="https://github.com/sonder-theme/sonder" rel="external noopener">GitHub</a> &bull;
+        <a href="LICENSE">MIT License</a>
+      </p>
+      <address>
+        Contact: <a href="mailto:hello@sonder.design">hello@sonder.design</a>
+      </address>
+    </footer>
+
+    <script type="module">
+      // Progressively enhance: copy hex on swatch click
+      document.querySelectorAll('.swatch__hex').forEach(el => {
+        el.addEventListener('click', async (e) => {
+          const hex = e.target.textContent.trim();
+          await navigator.clipboard.writeText(hex);
+          el.setAttribute('data-copied', 'true');
+          setTimeout(() => el.removeAttribute('data-copied'), 2000);
+        });
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    </script>
+  </body>
+</html>

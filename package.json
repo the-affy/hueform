@@ -1,0 +1,349 @@
+{
+  "name": "sonder",
+  "displayName": "SONDER — VS Code Theme & Icon Collection",
+  "description": "A thoughtfully curated collection of 22 dark & light VS Code themes, matching themed icon sets, and subtle workbench enhancements.",
+  "version": "1.0.0",
+  "publisher": "sonder-theme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "main": "./src/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "themes",
+    "icons",
+    "file icons",
+    "icon theme",
+    "minimal",
+    "minimalist",
+    "pierre",
+    "abyss",
+    "nocturne",
+    "sakura",
+    "umber",
+    "midnight",
+    "forest",
+    "nebula",
+    "ocean",
+    "ember",
+    "lavender",
+    "blossom",
+    "sonder"
+  ],
+  "galleryBanner": {
+    "color": "#0B132B",
+    "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "scripts": {
+    "build:themes": "node build-themes.js",
+    "build:icons": "node scripts/build-icons.js",
+    "test": "node tests/verify-icons.js && node tests/test-theme-switching.js && node tests/test-icon-contrast.js",
+    "package": "vsce package -o sonder-1.0.0.vsix"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "sonder.toggleCursorAnimation",
+        "title": "Toggle Cursor Glide Animation",
+        "category": "SONDER"
+      },
+      {
+        "command": "sonder.toggleFolderHighlights",
+        "title": "Toggle Themed Folder Highlights",
+        "category": "SONDER"
+      },
+      {
+        "command": "sonder.toggleAutoMatchIconTheme",
+        "title": "Toggle Automatic Icon Theme Matching",
+        "category": "SONDER"
+      },
+      {
+        "command": "sonder.syncActiveIconTheme",
+        "title": "Match File Icons to Active Color Theme",
+        "category": "SONDER"
+      }
+    ],
+    "configuration": {
+      "title": "SONDER Theme Collection",
+      "properties": {
+        "sonder.autoMatchIconTheme": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically match the file icon theme with the active SONDER color theme (22 matching themes across 11 families and dark/light variants)."
+        },
+        "sonder.cursor.animation": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable smooth cursor glide motion matching the active SONDER theme."
+        },
+        "sonder.folderHighlights.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight important project folders (src, components, tests, docs) with subtle themed badges in the explorer tree."
+        }
+      }
+    },
+    "iconThemes": [
+      {
+        "id": "sonder-abyss-icons-dark",
+        "label": "SONDER Abyss Icons Dark",
+        "path": "./icons/themes/sonder-abyss-icons-dark.json"
+      },
+      {
+        "id": "sonder-abyss-icons-light",
+        "label": "SONDER Abyss Icons Light",
+        "path": "./icons/themes/sonder-abyss-icons-light.json"
+      },
+      {
+        "id": "sonder-nocturne-icons-dark",
+        "label": "SONDER Nocturne Icons Dark",
+        "path": "./icons/themes/sonder-nocturne-icons-dark.json"
+      },
+      {
+        "id": "sonder-nocturne-icons-light",
+        "label": "SONDER Nocturne Icons Light",
+        "path": "./icons/themes/sonder-nocturne-icons-light.json"
+      },
+      {
+        "id": "sonder-sakura-icons-dark",
+        "label": "SONDER Sakura Icons Dark",
+        "path": "./icons/themes/sonder-sakura-icons-dark.json"
+      },
+      {
+        "id": "sonder-sakura-icons-light",
+        "label": "SONDER Sakura Icons Light",
+        "path": "./icons/themes/sonder-sakura-icons-light.json"
+      },
+      {
+        "id": "sonder-umber-icons-dark",
+        "label": "SONDER Umber Icons Dark",
+        "path": "./icons/themes/sonder-umber-icons-dark.json"
+      },
+      {
+        "id": "sonder-umber-icons-light",
+        "label": "SONDER Umber Icons Light",
+        "path": "./icons/themes/sonder-umber-icons-light.json"
+      },
+      {
+        "id": "sonder-midnight-icons-dark",
+        "label": "SONDER Midnight Icons Dark",
+        "path": "./icons/themes/sonder-midnight-icons-dark.json"
+      },
+      {
+        "id": "sonder-midnight-icons-light",
+        "label": "SONDER Midnight Icons Light",
+        "path": "./icons/themes/sonder-midnight-icons-light.json"
+      },
+      {
+        "id": "sonder-forest-icons-dark",
+        "label": "SONDER Forest Icons Dark",
+        "path": "./icons/themes/sonder-forest-icons-dark.json"
+      },
+      {
+        "id": "sonder-forest-icons-light",
+        "label": "SONDER Forest Icons Light",
+        "path": "./icons/themes/sonder-forest-icons-light.json"
+      },
+      {
+        "id": "sonder-nebula-icons-dark",
+        "label": "SONDER Nebula Icons Dark",
+        "path": "./icons/themes/sonder-nebula-icons-dark.json"
+      },
+      {
+        "id": "sonder-nebula-icons-light",
+        "label": "SONDER Nebula Icons Light",
+        "path": "./icons/themes/sonder-nebula-icons-light.json"
+      },
+      {
+        "id": "sonder-ocean-icons-dark",
+        "label": "SONDER Ocean Icons Dark",
+        "path": "./icons/themes/sonder-ocean-icons-dark.json"
+      },
+      {
+        "id": "sonder-ocean-icons-light",
+        "label": "SONDER Ocean Icons Light",
+        "path": "./icons/themes/sonder-ocean-icons-light.json"
+      },
+      {
+        "id": "sonder-ember-icons-dark",
+        "label": "SONDER Ember Icons Dark",
+        "path": "./icons/themes/sonder-ember-icons-dark.json"
+      },
+      {
+        "id": "sonder-ember-icons-light",
+        "label": "SONDER Ember Icons Light",
+        "path": "./icons/themes/sonder-ember-icons-light.json"
+      },
+      {
+        "id": "sonder-lavender-icons-dark",
+        "label": "SONDER Lavender Icons Dark",
+        "path": "./icons/themes/sonder-lavender-icons-dark.json"
+      },
+      {
+        "id": "sonder-lavender-icons-light",
+        "label": "SONDER Lavender Icons Light",
+        "path": "./icons/themes/sonder-lavender-icons-light.json"
+      },
+      {
+        "id": "sonder-blossom-icons-dark",
+        "label": "SONDER Blossom Icons Dark",
+        "path": "./icons/themes/sonder-blossom-icons-dark.json"
+      },
+      {
+        "id": "sonder-blossom-icons-light",
+        "label": "SONDER Blossom Icons Light",
+        "path": "./icons/themes/sonder-blossom-icons-light.json"
+      }
+    ],
+    "themes": [
+      {
+        "id": "sonder-abyss-dark",
+        "label": "SONDER — Abyss Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-abyss-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-abyss-light",
+        "label": "SONDER — Abyss Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-abyss-light-color-theme.json"
+      },
+      {
+        "id": "sonder-nocturne-dark",
+        "label": "SONDER — Nocturne Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-nocturne-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-nocturne-light",
+        "label": "SONDER — Nocturne Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-nocturne-light-color-theme.json"
+      },
+      {
+        "id": "sonder-sakura-dark",
+        "label": "SONDER — Sakura Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-sakura-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-sakura-light",
+        "label": "SONDER — Sakura Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-sakura-light-color-theme.json"
+      },
+      {
+        "id": "sonder-umber-dark",
+        "label": "SONDER — Umber Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-umber-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-umber-light",
+        "label": "SONDER — Umber Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-umber-light-color-theme.json"
+      },
+      {
+        "id": "sonder-midnight-dark",
+        "label": "SONDER — Midnight Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-midnight-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-midnight-light",
+        "label": "SONDER — Midnight Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-midnight-light-color-theme.json"
+      },
+      {
+        "id": "sonder-forest-dark",
+        "label": "SONDER — Forest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-forest-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-forest-light",
+        "label": "SONDER — Forest Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-forest-light-color-theme.json"
+      },
+      {
+        "id": "sonder-nebula-dark",
+        "label": "SONDER — Nebula Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-nebula-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-nebula-light",
+        "label": "SONDER — Nebula Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-nebula-light-color-theme.json"
+      },
+      {
+        "id": "sonder-ocean-dark",
+        "label": "SONDER — Ocean Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-ocean-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-ocean-light",
+        "label": "SONDER — Ocean Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-ocean-light-color-theme.json"
+      },
+      {
+        "id": "sonder-ember-dark",
+        "label": "SONDER — Ember Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-ember-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-ember-light",
+        "label": "SONDER — Ember Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-ember-light-color-theme.json"
+      },
+      {
+        "id": "sonder-lavender-dark",
+        "label": "SONDER — Lavender Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-lavender-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-lavender-light",
+        "label": "SONDER — Lavender Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-lavender-light-color-theme.json"
+      },
+      {
+        "id": "sonder-blossom-dark",
+        "label": "SONDER — Blossom Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonder-blossom-dark-color-theme.json"
+      },
+      {
+        "id": "sonder-blossom-light",
+        "label": "SONDER — Blossom Light",
+        "uiTheme": "vs",
+        "path": "./themes/sonder-blossom-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonder-theme/sonder"
+  },
+  "bugs": {
+    "url": "https://github.com/sonder-theme/sonder/issues"
+  },
+  "homepage": "https://github.com/sonder-theme/sonder#readme",
+  "license": "MIT"
+}
