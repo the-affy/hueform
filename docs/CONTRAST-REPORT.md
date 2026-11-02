@@ -41,725 +41,725 @@
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#DCE9ED` | `#051017` | **15.48:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#52C5D6` | `#051017` | **9.44:1** | AAA | ✅ PASS |
-| Editor | Comment | `#628CA0` | `#051017` | **5.29:1** | AA | ✅ PASS |
-| Editor | Keyword | `#52C5D6` | `#051017` | **9.44:1** | AAA | ✅ PASS |
-| Editor | Function | `#7FD1DF` | `#051017` | **11.06:1** | AAA | ✅ PASS |
-| Editor | Variable | `#DCE9ED` | `#051017` | **15.48:1** | AAA | ✅ PASS |
-| Editor | String | `#98D9B6` | `#051017` | **11.84:1** | AAA | ✅ PASS |
-| Editor | Number | `#F0A868` | `#051017` | **9.61:1** | AAA | ✅ PASS |
-| Editor | Type | `#88B7C7` | `#051017` | **8.82:1** | AAA | ✅ PASS |
-| Editor | Operator | `#7FD1DF` | `#051017` | **11.06:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#DCE9ED` | `#0A1C27` | **14:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#88B7C7` | `#0A1C27` | **7.98:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#DCE9ED` | `#0A1C27` | **14:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#DCE9ED` | `#122A39` | **11.95:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#DCE9ED` | `#0E262E` | **12.67:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#88B7C7` | `#0A1C27` | **7.98:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#DCE9ED` | `#163743` | **10.18:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#52C5D6` | `#0E262E` | **7.73:1** | AAA | ✅ PASS |
-| Panel | Panel Active Title | `#DCE9ED` | `#102634` | **12.55:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#DCE9ED` | `#102634` | **12.55:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#F87171` | `#102634` | **5.63:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#4ADE80` | `#102634` | **8.93:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#52C5D6` | `#102634` | **7.65:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#88B7C7` | `#102634` | **7.15:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#DCE9ED` | `#0A1C27` | **14:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#DCE9ED` | `#102634` | **12.55:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#DCE9ED` | `#102634` | **12.55:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#52C5D6` | **10.32:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#D5E4EC` | `#040D14` | **15.04:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#3EAABF` | `#040D14` | **7.18:1** | AAA | ✅ PASS |
+| Editor | Comment | `#5A8296` | `#040D14` | **4.72:1** | AA | ✅ PASS |
+| Editor | Keyword | `#3EAABF` | `#040D14` | **7.18:1** | AAA | ✅ PASS |
+| Editor | Function | `#6BBCCF` | `#040D14` | **9.06:1** | AAA | ✅ PASS |
+| Editor | Variable | `#D5E4EC` | `#040D14` | **15.04:1** | AAA | ✅ PASS |
+| Editor | String | `#7ECEAA` | `#040D14` | **10.53:1** | AAA | ✅ PASS |
+| Editor | Number | `#E59D62` | `#040D14` | **8.7:1** | AAA | ✅ PASS |
+| Editor | Type | `#80A8B8` | `#040D14` | **7.65:1** | AAA | ✅ PASS |
+| Editor | Operator | `#6BBCCF` | `#040D14` | **9.06:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#D5E4EC` | `#081722` | **13.96:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#80A8B8` | `#081722` | **7.1:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#D5E4EC` | `#081722` | **13.96:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#D5E4EC` | `#0E2332` | **12.36:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#D5E4EC` | `#0B2029` | **12.88:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#80A8B8` | `#081722` | **7.1:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#D5E4EC` | `#112F3B` | **10.8:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#3EAABF` | `#0B2029` | **6.15:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#D5E4EC` | `#0E2130` | **12.62:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#D5E4EC` | `#0E2130` | **12.62:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#F87171` | `#0E2130` | **5.94:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#4ADE80` | `#0E2130` | **9.42:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#3EAABF` | `#0E2130` | **6.03:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#80A8B8` | `#0E2130` | **6.42:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#D5E4EC` | `#081722` | **13.96:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#D5E4EC` | `#0E2130` | **12.62:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#D5E4EC` | `#0E2130` | **12.62:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#3EAABF` | **7.71:1** | AAA | ✅ PASS |
 
 ### SONDER — Abyss Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#0B1E29` | `#FFFFFF` | **17.05:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#0A7D92` | `#FFFFFF` | **4.81:1** | AA | ✅ PASS |
-| Editor | Comment | `#5C7887` | `#FFFFFF` | **4.68:1** | AA | ✅ PASS |
-| Editor | Keyword | `#0A7D92` | `#FFFFFF` | **4.81:1** | AA | ✅ PASS |
-| Editor | Function | `#1B647A` | `#FFFFFF` | **6.67:1** | AA | ✅ PASS |
-| Editor | Variable | `#0B1E29` | `#FFFFFF` | **17.05:1** | AAA | ✅ PASS |
-| Editor | String | `#1E6E45` | `#FFFFFF` | **6.23:1** | AA | ✅ PASS |
-| Editor | Number | `#A35417` | `#FFFFFF` | **5.47:1** | AA | ✅ PASS |
-| Editor | Type | `#23495D` | `#FFFFFF` | **9.62:1** | AAA | ✅ PASS |
-| Editor | Operator | `#1B647A` | `#FFFFFF` | **6.67:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#0B1E29` | `#F1F5F8` | **15.55:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#23495D` | `#F1F5F8` | **8.78:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#0B1E29` | `#F1F5F8` | **15.55:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#0B1E29` | `#EAF1F5` | **14.93:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#0B1E29` | `#EBF5F6` | **15.36:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#23495D` | `#F1F5F8` | **8.78:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#0B1E29` | `#D1E4EA` | **12.98:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#0A7D92` | `#EBF5F6` | **4.34:1** | AA Large | ✅ PASS |
-| Panel | Panel Active Title | `#0B1E29` | `#E3ECF1` | **14.23:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#0B1E29` | `#E3ECF1` | **14.23:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#B91C1C` | `#E3ECF1` | **5.4:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#E3ECF1` | **5.95:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#0369A1` | `#E3ECF1` | **4.95:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#23495D` | `#E3ECF1` | **8.03:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#0B1E29` | `#FFFFFF` | **17.05:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#0B1E29` | `#F1F5F8` | **15.55:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#0B1E29` | `#F1F5F8` | **15.55:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#0A7D92` | **4.81:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#071720` | `#EFF2F5` | **16.22:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#0C606E` | `#EFF2F5` | **6.41:1** | AA | ✅ PASS |
+| Editor | Comment | `#526E7D` | `#EFF2F5` | **4.81:1** | AA | ✅ PASS |
+| Editor | Keyword | `#0C606E` | `#EFF2F5` | **6.41:1** | AA | ✅ PASS |
+| Editor | Function | `#135A7A` | `#EFF2F5` | **6.74:1** | AA | ✅ PASS |
+| Editor | Variable | `#071720` | `#EFF2F5` | **16.22:1** | AAA | ✅ PASS |
+| Editor | String | `#156644` | `#EFF2F5` | **6.2:1** | AA | ✅ PASS |
+| Editor | Number | `#92400E` | `#EFF2F5` | **6.31:1** | AA | ✅ PASS |
+| Editor | Type | `#234E6B` | `#EFF2F5` | **7.87:1** | AAA | ✅ PASS |
+| Editor | Operator | `#135A7A` | `#EFF2F5` | **6.74:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#071720` | `#DFE5EB` | **14.36:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#234E6B` | `#DFE5EB` | **6.97:1** | AA | ✅ PASS |
+| Sidebar | Active Selection | `#071720` | `#DFE5EB` | **14.36:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#071720` | `#D7DFE6` | **13.53:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#071720` | `#DDE6EA` | **14.39:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#234E6B` | `#DFE5EB` | **6.97:1** | AA | ✅ PASS |
+| Tabs | Tab Hover Text | `#071720` | `#C1D2DA` | **11.71:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#0C606E` | `#DDE6EA` | **5.69:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#071720` | `#CFD8E1` | **12.64:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#071720` | `#CFD8E1` | **12.64:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#B91C1C` | `#CFD8E1` | **4.49:1** | AA Large | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#CFD8E1` | **4.94:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#0C606E` | `#CFD8E1` | **5:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#234E6B` | `#CFD8E1` | **6.14:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#071720` | `#EFF2F5` | **16.22:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#071720` | `#DFE5EB` | **14.36:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#071720` | `#DFE5EB` | **14.36:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#0C606E` | **7.21:1** | AAA | ✅ PASS |
 
 ### SONDER — Nocturne Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#F2EDFB` | `#0A0914` | **17.21:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#B37DD3` | `#0A0914` | **6.39:1** | AA | ✅ PASS |
-| Editor | Comment | `#8177AB` | `#0A0914` | **4.86:1** | AA | ✅ PASS |
-| Editor | Keyword | `#F472B6` | `#0A0914` | **7.47:1** | AAA | ✅ PASS |
-| Editor | Function | `#B37DD3` | `#0A0914` | **6.39:1** | AA | ✅ PASS |
-| Editor | Variable | `#F2EDFB` | `#0A0914` | **17.21:1** | AAA | ✅ PASS |
-| Editor | String | `#E9D8A6` | `#0A0914` | **13.97:1** | AAA | ✅ PASS |
-| Editor | Number | `#FBBF24` | `#0A0914` | **11.84:1** | AAA | ✅ PASS |
-| Editor | Type | `#C4A5E8` | `#0A0914` | **9.32:1** | AAA | ✅ PASS |
-| Editor | Operator | `#E879F9` | `#0A0914` | **8.04:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#F2EDFB` | `#121024` | **16.25:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#C4A5E8` | `#121024` | **8.79:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#F2EDFB` | `#121024` | **16.25:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#F2EDFB` | `#1D1A37` | **14.57:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#F2EDFB` | `#1E172B` | **15.08:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#C4A5E8` | `#121024` | **8.79:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#F2EDFB` | `#2C2140` | **13.07:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#B37DD3` | `#1E172B` | **5.6:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#F2EDFB` | `#1A1733` | **15.06:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#F2EDFB` | `#1A1733` | **15.06:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#FB7185` | `#1A1733` | **6.43:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#4ADE80` | `#1A1733` | **9.92:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#B37DD3` | `#1A1733` | **5.59:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#C4A5E8` | `#1A1733` | **8.15:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#F2EDFB` | `#121024` | **16.25:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#F2EDFB` | `#1A1733` | **15.06:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#F2EDFB` | `#1A1733` | **15.06:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#B37DD3` | **6.79:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#EFEBF7` | `#0A0912` | **16.87:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#A77DC8` | `#0A0912` | **6.04:1** | AA | ✅ PASS |
+| Editor | Comment | `#8177A1` | `#0A0912` | **4.8:1** | AA | ✅ PASS |
+| Editor | Keyword | `#D47FA6` | `#0A0912` | **6.96:1** | AA | ✅ PASS |
+| Editor | Function | `#A77DC8` | `#0A0912` | **6.04:1** | AA | ✅ PASS |
+| Editor | Variable | `#EFEBF7` | `#0A0912` | **16.87:1** | AAA | ✅ PASS |
+| Editor | String | `#E0CCA0` | `#0A0912` | **12.55:1** | AAA | ✅ PASS |
+| Editor | Number | `#DEAC62` | `#0A0912` | **9.6:1** | AAA | ✅ PASS |
+| Editor | Type | `#B89FD6` | `#0A0912` | **8.45:1** | AAA | ✅ PASS |
+| Editor | Operator | `#BA8BD9` | `#0A0912` | **7.34:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#EFEBF7` | `#121020` | **15.97:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#B89FD6` | `#121020` | **8:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#EFEBF7` | `#121020` | **15.97:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#EFEBF7` | `#1C192F` | **14.56:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#EFEBF7` | `#1D1728` | **14.85:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#B89FD6` | `#121020` | **8:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#EFEBF7` | `#2A213B` | **12.98:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#A77DC8` | `#1D1728` | **5.32:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#EFEBF7` | `#19172A` | **14.95:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#EFEBF7` | `#19172A` | **14.95:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#FB7185` | `#19172A` | **6.52:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#4ADE80` | `#19172A` | **10.07:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#A77DC8` | `#19172A` | **5.35:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#B89FD6` | `#19172A` | **7.49:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#EFEBF7` | `#121020` | **15.97:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#EFEBF7` | `#19172A` | **14.95:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#EFEBF7` | `#19172A` | **14.95:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#A77DC8` | **6.41:1** | AA | ✅ PASS |
 
 ### SONDER — Nocturne Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#1B1231` | `#FFFFFF` | **17.83:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#7E22CE` | `#FFFFFF` | **6.98:1** | AA | ✅ PASS |
-| Editor | Comment | `#7C6E97` | `#FFFFFF` | **4.63:1** | AA | ✅ PASS |
-| Editor | Keyword | `#A21CAF` | `#FFFFFF` | **6.32:1** | AA | ✅ PASS |
-| Editor | Function | `#7E22CE` | `#FFFFFF` | **6.98:1** | AA | ✅ PASS |
-| Editor | Variable | `#1B1231` | `#FFFFFF` | **17.83:1** | AAA | ✅ PASS |
-| Editor | String | `#854D0E` | `#FFFFFF` | **6.85:1** | AA | ✅ PASS |
-| Editor | Number | `#B45309` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Type | `#4D297A` | `#FFFFFF` | **10.97:1** | AAA | ✅ PASS |
-| Editor | Operator | `#6B21A8` | `#FFFFFF` | **8.72:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#1B1231` | `#F5F3FA` | **16.21:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#4D297A` | `#F5F3FA` | **9.97:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#1B1231` | `#F5F3FA` | **16.21:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#1B1231` | `#F0EDF8` | **15.43:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#1B1231` | `#F5EDFB` | **15.62:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#4D297A` | `#F5F3FA` | **9.97:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#1B1231` | `#E4D6F4` | **12.93:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#7E22CE` | `#F5EDFB` | **6.12:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#1B1231` | `#EBE6F5` | **14.58:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#1B1231` | `#EBE6F5` | **14.58:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9F1239` | `#EBE6F5` | **6.55:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#EBE6F5` | **5.83:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#581C87` | `#EBE6F5` | **8.89:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#4D297A` | `#EBE6F5` | **8.97:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#1B1231` | `#FFFFFF` | **17.83:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#1B1231` | `#F5F3FA` | **16.21:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#1B1231` | `#F5F3FA` | **16.21:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#7E22CE` | **6.98:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#1A132B` | `#F6F5F9` | **16.51:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#6F26B8` | `#F6F5F9` | **7.31:1** | AAA | ✅ PASS |
+| Editor | Comment | `#6B5E87` | `#F6F5F9` | **5.41:1** | AA | ✅ PASS |
+| Editor | Keyword | `#8F2060` | `#F6F5F9` | **7.61:1** | AAA | ✅ PASS |
+| Editor | Function | `#6F26B8` | `#F6F5F9` | **7.31:1** | AAA | ✅ PASS |
+| Editor | Variable | `#1A132B` | `#F6F5F9` | **16.51:1** | AAA | ✅ PASS |
+| Editor | String | `#73531A` | `#F6F5F9` | **6.49:1** | AA | ✅ PASS |
+| Editor | Number | `#A34F0C` | `#F6F5F9` | **5.26:1** | AA | ✅ PASS |
+| Editor | Type | `#4F3574` | `#F6F5F9` | **9.24:1** | AAA | ✅ PASS |
+| Editor | Operator | `#5E1F9E` | `#F6F5F9` | **8.93:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#1A132B` | `#EDEAF3` | **15.07:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#4F3574` | `#EDEAF3` | **8.44:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#1A132B` | `#EDEAF3` | **15.07:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#1A132B` | `#E8E4F0` | **14.32:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#1A132B` | `#EBE4F4` | **14.45:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#4F3574` | `#EDEAF3` | **8.44:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#1A132B` | `#DBCFEB` | **12.06:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#6F26B8` | `#EBE4F4` | **6.4:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#1A132B` | `#E2DEEC` | **13.56:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#1A132B` | `#E2DEEC` | **13.56:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9F1239` | `#E2DEEC` | **6.07:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#E2DEEC` | **5.4:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#581C87` | `#E2DEEC` | **8.23:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#4F3574` | `#E2DEEC` | **7.59:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#1A132B` | `#F6F5F9` | **16.51:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#1A132B` | `#EDEAF3` | **15.07:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#1A132B` | `#EDEAF3` | **15.07:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#6F26B8` | **7.94:1** | AAA | ✅ PASS |
 
 ### SONDER — Sakura Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#FDF0F3` | `#120E12` | **17.26:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#FB7185` | `#120E12` | **7.11:1** | AAA | ✅ PASS |
-| Editor | Comment | `#947B93` | `#120E12` | **5.02:1** | AA | ✅ PASS |
-| Editor | Keyword | `#FB7185` | `#120E12` | **7.11:1** | AAA | ✅ PASS |
-| Editor | Function | `#FDA4AF` | `#120E12` | **10.12:1** | AAA | ✅ PASS |
-| Editor | Variable | `#FDF0F3` | `#120E12` | **17.26:1** | AAA | ✅ PASS |
-| Editor | String | `#CBD5E1` | `#120E12` | **12.89:1** | AAA | ✅ PASS |
-| Editor | Number | `#FED7AA` | `#120E12` | **14.14:1** | AAA | ✅ PASS |
-| Editor | Type | `#F4A4AF` | `#120E12` | **9.82:1** | AAA | ✅ PASS |
-| Editor | Operator | `#FB7185` | `#120E12` | **7.11:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#FDF0F3` | `#1A141A` | **16.34:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#F4A4AF` | `#1A141A` | **9.3:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#FDF0F3` | `#1A141A` | **16.34:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#FDF0F3` | `#2B202B` | **14.09:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#FDF0F3` | `#2E1A20` | **14.74:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#F4A4AF` | `#1A141A` | **9.3:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#FDF0F3` | `#3E232B` | **12.79:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#FB7185` | `#2E1A20` | **6.07:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#FDF0F3` | `#251C26` | **14.88:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#FDF0F3` | `#251C26` | **14.88:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#FB7185` | `#251C26` | **6.13:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#4ADE80` | `#251C26` | **9.47:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#FDA4AF` | `#251C26` | **8.73:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#F4A4AF` | `#251C26` | **8.47:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#FDF0F3` | `#1A141A` | **16.34:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#FDF0F3` | `#251C26` | **14.88:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#FDF0F3` | `#251C26` | **14.88:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#FB7185` | **7.8:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#FBF0F3` | `#130E12` | **17.16:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#F4728B` | `#130E12` | **6.94:1** | AA | ✅ PASS |
+| Editor | Comment | `#8F7388` | `#130E12` | **4.53:1** | AA | ✅ PASS |
+| Editor | Keyword | `#F4728B` | `#130E12` | **6.94:1** | AA | ✅ PASS |
+| Editor | Function | `#EE8BA4` | `#130E12` | **8.06:1** | AAA | ✅ PASS |
+| Editor | Variable | `#FBF0F3` | `#130E12` | **17.16:1** | AAA | ✅ PASS |
+| Editor | String | `#C2D6A4` | `#130E12` | **12.23:1** | AAA | ✅ PASS |
+| Editor | Number | `#F2B880` | `#130E12` | **10.87:1** | AAA | ✅ PASS |
+| Editor | Type | `#E8A2B0` | `#130E12` | **9.3:1** | AAA | ✅ PASS |
+| Editor | Operator | `#F4728B` | `#130E12` | **6.94:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#FBF0F3` | `#1D151C` | **16.03:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#E8A2B0` | `#1D151C` | **8.69:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#FBF0F3` | `#1D151C` | **16.03:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#FBF0F3` | `#2D212C` | **13.81:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#FBF0F3` | `#2E1A21` | **14.67:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#E8A2B0` | `#1D151C` | **8.69:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#FBF0F3` | `#3F242E` | **12.55:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#F4728B` | `#2E1A21` | **5.93:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#FBF0F3` | `#271C26` | **14.73:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#FBF0F3` | `#271C26` | **14.73:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#F4728B` | `#271C26` | **5.96:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#4ADE80` | `#271C26` | **9.41:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#F9A8B6` | `#271C26` | **8.83:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#E8A2B0` | `#271C26` | **7.99:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#FBF0F3` | `#1D151C` | **16.03:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#FBF0F3` | `#271C26` | **14.73:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#FBF0F3` | `#271C26` | **14.73:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#F4728B` | **7.63:1** | AAA | ✅ PASS |
 
 ### SONDER — Sakura Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#241217` | `#FFFFFF` | **17.89:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#BE123C` | `#FFFFFF` | **6.29:1** | AA | ✅ PASS |
-| Editor | Comment | `#8A6B73` | `#FFFFFF` | **4.74:1** | AA | ✅ PASS |
-| Editor | Keyword | `#BE123C` | `#FFFFFF` | **6.29:1** | AA | ✅ PASS |
-| Editor | Function | `#9F1239` | `#FFFFFF` | **8.02:1** | AAA | ✅ PASS |
-| Editor | Variable | `#241217` | `#FFFFFF` | **17.89:1** | AAA | ✅ PASS |
-| Editor | String | `#285E43` | `#FFFFFF` | **7.57:1** | AAA | ✅ PASS |
-| Editor | Number | `#A14E15` | `#FFFFFF` | **5.81:1** | AA | ✅ PASS |
-| Editor | Type | `#6E2838` | `#FFFFFF` | **10.38:1** | AAA | ✅ PASS |
-| Editor | Operator | `#BE123C` | `#FFFFFF` | **6.29:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#241217` | `#FDF5F6` | **16.67:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#6E2838` | `#FDF5F6` | **9.67:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#241217` | `#FDF5F6` | **16.67:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#241217` | `#FBEFF1` | **15.95:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#241217` | `#FAECEF` | **15.6:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#6E2838` | `#FDF5F6` | **9.67:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#241217` | `#F4D5DC` | **13.12:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#BE123C` | `#FAECEF` | **5.48:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#241217` | `#F8E9EB` | **15.2:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#241217` | `#F8E9EB` | **15.2:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9F1239` | `#F8E9EB` | **6.81:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#F8E9EB` | **6.06:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#9F1239` | `#F8E9EB` | **6.81:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#6E2838` | `#F8E9EB` | **8.82:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#241217` | `#FFFFFF` | **17.89:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#241217` | `#FDF5F6` | **16.67:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#241217` | `#FDF5F6` | **16.67:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#BE123C` | **6.29:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#261219` | `#FAF5F6` | **16.45:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#B81B42` | `#FAF5F6` | **5.94:1** | AA | ✅ PASS |
+| Editor | Comment | `#7D5C66` | `#FAF5F6` | **5.41:1** | AA | ✅ PASS |
+| Editor | Keyword | `#B81B42` | `#FAF5F6` | **5.94:1** | AA | ✅ PASS |
+| Editor | Function | `#981434` | `#FAF5F6` | **7.83:1** | AAA | ✅ PASS |
+| Editor | Variable | `#261219` | `#FAF5F6` | **16.45:1** | AAA | ✅ PASS |
+| Editor | String | `#2A663E` | `#FAF5F6` | **6.34:1** | AA | ✅ PASS |
+| Editor | Number | `#A35018` | `#FAF5F6` | **5.23:1** | AA | ✅ PASS |
+| Editor | Type | `#70273B` | `#FAF5F6` | **9.53:1** | AAA | ✅ PASS |
+| Editor | Operator | `#B81B42` | `#FAF5F6` | **5.94:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#261219` | `#F4E9EC` | **14.97:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#70273B` | `#F4E9EC` | **8.67:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#261219` | `#F4E9EC` | **14.97:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#261219` | `#EFE2E6` | **14.11:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#261219` | `#F5E4E8` | **14.49:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#70273B` | `#F4E9EC` | **8.67:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#261219` | `#ECCCD4` | **11.97:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#B81B42` | `#F5E4E8` | **5.24:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#261219` | `#EADBDF` | **13.27:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#261219` | `#EADBDF` | **13.27:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#981434` | `#EADBDF` | **6.32:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#EADBDF` | **5.33:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#981434` | `#EADBDF` | **6.32:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#70273B` | `#EADBDF` | **7.69:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#261219` | `#FAF5F6` | **16.45:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#261219` | `#F4E9EC` | **14.97:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#261219` | `#F4E9EC` | **14.97:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#B81B42` | **6.42:1** | AA | ✅ PASS |
 
 ### SONDER — Umber Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#FDF8F3` | `#120E0B` | **18.2:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#E07A5F` | `#120E0B` | **6.51:1** | AA | ✅ PASS |
-| Editor | Comment | `#967D6F` | `#120E0B` | **4.99:1** | AA | ✅ PASS |
-| Editor | Keyword | `#E07A5F` | `#120E0B` | **6.51:1** | AA | ✅ PASS |
-| Editor | Function | `#E9C46A` | `#120E0B` | **11.5:1** | AAA | ✅ PASS |
-| Editor | Variable | `#FDF8F3` | `#120E0B` | **18.2:1** | AAA | ✅ PASS |
-| Editor | String | `#A7C957` | `#120E0B` | **10.18:1** | AAA | ✅ PASS |
-| Editor | Number | `#F4A261` | `#120E0B` | **9.32:1** | AAA | ✅ PASS |
-| Editor | Type | `#D4A373` | `#120E0B` | **8.49:1** | AAA | ✅ PASS |
-| Editor | Operator | `#E07A5F` | `#120E0B` | **6.51:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#FDF8F3` | `#1C1510` | **17.09:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#D4A373` | `#1C1510` | **7.98:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#FDF8F3` | `#1C1510` | **17.09:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#FDF8F3` | `#2D231C` | **14.54:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#FDF8F3` | `#2B1B15` | **15.66:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#D4A373` | `#1C1510` | **7.98:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#FDF8F3` | `#3B251D` | **13.55:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#E07A5F` | `#2B1B15` | **5.6:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#FDF8F3` | `#271E18` | **15.48:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#FDF8F3` | `#271E18` | **15.48:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#E76F51` | `#271E18` | **5.28:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#A7C957` | `#271E18` | **8.66:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#E07A5F` | `#271E18` | **5.54:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#D4A373` | `#271E18` | **7.23:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#FDF8F3` | `#1C1510` | **17.09:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#FDF8F3` | `#271E18` | **15.48:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#FDF8F3` | `#271E18` | **15.48:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#E07A5F` | **7.12:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#FAF3EC` | `#130F0B` | **17.35:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#DE7456` | `#130F0B` | **6.12:1** | AA | ✅ PASS |
+| Editor | Comment | `#8E7766` | `#130F0B` | **4.52:1** | AA | ✅ PASS |
+| Editor | Keyword | `#DE7456` | `#130F0B` | **6.12:1** | AA | ✅ PASS |
+| Editor | Function | `#E5B860` | `#130F0B` | **10.32:1** | AAA | ✅ PASS |
+| Editor | Variable | `#FAF3EC` | `#130F0B` | **17.35:1** | AAA | ✅ PASS |
+| Editor | String | `#A3C660` | `#130F0B` | **9.81:1** | AAA | ✅ PASS |
+| Editor | Number | `#EFA058` | `#130F0B` | **8.94:1** | AAA | ✅ PASS |
+| Editor | Type | `#D4A274` | `#130F0B` | **8.38:1** | AAA | ✅ PASS |
+| Editor | Operator | `#DE7456` | `#130F0B` | **6.12:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#FAF3EC` | `#1D1611` | **16.25:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#D4A274` | `#1D1611` | **7.85:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#FAF3EC` | `#1D1611` | **16.25:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#FAF3EC` | `#2D241C` | **13.83:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#FAF3EC` | `#2B1B14` | **15.04:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#D4A274` | `#1D1611` | **7.85:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#FAF3EC` | `#3C251C` | **12.96:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#DE7456` | `#2B1B14` | **5.31:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#FAF3EC` | `#271F18` | **14.74:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#FAF3EC` | `#271F18` | **14.74:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#E76F51` | `#271F18` | **5.24:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#A3C660` | `#271F18` | **8.34:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#DE7456` | `#271F18` | **5.2:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#D4A274` | `#271F18` | **7.12:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#FAF3EC` | `#1D1611` | **16.25:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#FAF3EC` | `#271F18` | **14.74:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#FAF3EC` | `#271F18` | **14.74:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#DE7456` | **6.74:1** | AA | ✅ PASS |
 
 ### SONDER — Umber Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#26180E` | `#FFFFFF` | **17.22:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#A74B2A` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Editor | Comment | `#806A58` | `#FFFFFF` | **5.1:1** | AA | ✅ PASS |
-| Editor | Keyword | `#A74B2A` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Editor | Function | `#8B4513` | `#FFFFFF` | **7.1:1** | AAA | ✅ PASS |
-| Editor | Variable | `#26180E` | `#FFFFFF` | **17.22:1** | AAA | ✅ PASS |
-| Editor | String | `#386641` | `#FFFFFF` | **6.68:1** | AA | ✅ PASS |
-| Editor | Number | `#B25E1B` | `#FFFFFF` | **4.66:1** | AA | ✅ PASS |
-| Editor | Type | `#634027` | `#FFFFFF` | **9.16:1** | AAA | ✅ PASS |
-| Editor | Operator | `#A74B2A` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#26180E` | `#FAF6F0` | **16:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#634027` | `#FAF6F0` | **8.51:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#26180E` | `#FAF6F0` | **16:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#26180E` | `#F6F0E8` | **15.21:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#26180E` | `#F8F1EE` | **15.42:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#634027` | `#FAF6F0` | **8.51:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#26180E` | `#EEDED4` | **13.15:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#A74B2A` | `#F8F1EE` | **5.11:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#26180E` | `#F2EAE0` | **14.45:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#26180E` | `#F2EAE0` | **14.45:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9A3412` | `#F2EAE0` | **6.13:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#F2EAE0` | **5.98:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#78350F` | `#F2EAE0` | **7.61:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#634027` | `#F2EAE0` | **7.68:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#26180E` | `#FFFFFF` | **17.22:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#26180E` | `#FAF6F0` | **16:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#26180E` | `#FAF6F0` | **16:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#A74B2A` | **5.7:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#24180E` | `#FAF7F2` | **16.21:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#9E4324` | `#FAF7F2` | **5.99:1** | AA | ✅ PASS |
+| Editor | Comment | `#75604F` | `#FAF7F2` | **5.55:1** | AA | ✅ PASS |
+| Editor | Keyword | `#9E4324` | `#FAF7F2` | **5.99:1** | AA | ✅ PASS |
+| Editor | Function | `#8A5714` | `#FAF7F2` | **5.69:1** | AA | ✅ PASS |
+| Editor | Variable | `#24180E` | `#FAF7F2` | **16.21:1** | AAA | ✅ PASS |
+| Editor | String | `#3D662B` | `#FAF7F2` | **6.27:1** | AA | ✅ PASS |
+| Editor | Number | `#AA5515` | `#FAF7F2` | **4.89:1** | AA | ✅ PASS |
+| Editor | Type | `#684124` | `#FAF7F2` | **8.29:1** | AAA | ✅ PASS |
+| Editor | Operator | `#9E4324` | `#FAF7F2` | **5.99:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#24180E` | `#F0EAE0` | **14.48:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#684124` | `#F0EAE0` | **7.4:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#24180E` | `#F0EAE0` | **14.48:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#24180E` | `#EBE3D7` | **13.61:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#24180E` | `#F3E9E2` | **14.49:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#684124` | `#F0EAE0` | **7.4:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#24180E` | `#E5D3C6` | **11.93:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#9E4324` | `#F3E9E2` | **5.35:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#24180E` | `#E5DCCE` | **12.76:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#24180E` | `#E5DCCE` | **12.76:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9A3412` | `#E5DCCE` | **5.38:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#E5DCCE` | **5.25:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#78350F` | `#E5DCCE` | **6.68:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#684124` | `#E5DCCE` | **6.52:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#24180E` | `#FAF7F2` | **16.21:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#24180E` | `#F0EAE0` | **14.48:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#24180E` | `#F0EAE0` | **14.48:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#9E4324` | **6.4:1** | AA | ✅ PASS |
 
 ### SONDER — Midnight Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#EBF2FA` | `#060A13` | **17.55:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#38BDF8` | `#060A13` | **9.24:1** | AAA | ✅ PASS |
-| Editor | Comment | `#6C7EAB` | `#060A13` | **4.91:1** | AA | ✅ PASS |
-| Editor | Keyword | `#818CF8` | `#060A13` | **6.64:1** | AA | ✅ PASS |
-| Editor | Function | `#38BDF8` | `#060A13` | **9.24:1** | AAA | ✅ PASS |
-| Editor | Variable | `#EBF2FA` | `#060A13` | **17.55:1** | AAA | ✅ PASS |
-| Editor | String | `#86EFAC` | `#060A13` | **14.1:1** | AAA | ✅ PASS |
-| Editor | Number | `#FDBA74` | `#060A13` | **11.74:1** | AAA | ✅ PASS |
-| Editor | Type | `#85B5F2` | `#060A13` | **9.32:1** | AAA | ✅ PASS |
-| Editor | Operator | `#38BDF8` | `#060A13` | **9.24:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#EBF2FA` | `#0C1224` | **16.51:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#85B5F2` | `#0C1224` | **8.77:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#EBF2FA` | `#0C1224` | **16.51:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#EBF2FA` | `#151D37` | **14.74:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#EBF2FA` | `#0C1F2E` | **14.88:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#85B5F2` | `#0C1224` | **8.77:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#EBF2FA` | `#132D46` | **12.48:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#38BDF8` | `#0C1F2E` | **7.84:1** | AAA | ✅ PASS |
-| Panel | Panel Active Title | `#EBF2FA` | `#131B34` | **15.08:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#EBF2FA` | `#131B34` | **15.08:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#F87171` | `#131B34` | **6.15:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#4ADE80` | `#131B34` | **9.77:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#38BDF8` | `#131B34` | **7.94:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#85B5F2` | `#131B34` | **8.01:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#EBF2FA` | `#0C1224` | **16.51:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#EBF2FA` | `#131B34` | **15.08:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#EBF2FA` | `#131B34` | **15.08:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#38BDF8` | **9.8:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#EBF2FC` | `#070B16` | **17.44:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#38BAF5` | `#070B16` | **8.9:1** | AAA | ✅ PASS |
+| Editor | Comment | `#657DAA` | `#070B16` | **4.74:1** | AA | ✅ PASS |
+| Editor | Keyword | `#788AF5` | `#070B16` | **6.32:1** | AA | ✅ PASS |
+| Editor | Function | `#38BAF5` | `#070B16` | **8.9:1** | AAA | ✅ PASS |
+| Editor | Variable | `#EBF2FC` | `#070B16` | **17.44:1** | AAA | ✅ PASS |
+| Editor | String | `#6EE7B7` | `#070B16` | **12.89:1** | AAA | ✅ PASS |
+| Editor | Number | `#F5B06B` | `#070B16` | **10.58:1** | AAA | ✅ PASS |
+| Editor | Type | `#87B4ED` | `#070B16` | **9.15:1** | AAA | ✅ PASS |
+| Editor | Operator | `#38BAF5` | `#070B16` | **8.9:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#EBF2FC` | `#0D1426` | **16.28:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#87B4ED` | `#0D1426` | **8.54:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#EBF2FC` | `#0D1426` | **16.28:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#EBF2FC` | `#16203B` | **14.3:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#EBF2FC` | `#0D2031` | **14.7:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#87B4ED` | `#0D1426` | **8.54:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#EBF2FC` | `#142F47` | **12.2:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#38BAF5` | `#0D2031` | **7.5:1** | AAA | ✅ PASS |
+| Panel | Panel Active Title | `#EBF2FC` | `#141E38` | **14.65:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#EBF2FC` | `#141E38` | **14.65:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#F87171` | `#141E38` | **5.97:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#4ADE80` | `#141E38` | **9.47:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#38BAF5` | `#141E38` | **7.47:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#87B4ED` | `#141E38` | **7.69:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#EBF2FC` | `#0D1426` | **16.28:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#EBF2FC` | `#141E38` | **14.65:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#EBF2FC` | `#141E38` | **14.65:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#38BAF5` | **9.51:1** | AAA | ✅ PASS |
 
 ### SONDER — Midnight Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#0A142F` | `#FFFFFF` | **18.2:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#0284C7` | `#FFFFFF` | **4.1:1** | AA Large | ✅ PASS |
-| Editor | Comment | `#5B6E8C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Keyword | `#2563EB` | `#FFFFFF` | **5.17:1** | AA | ✅ PASS |
-| Editor | Function | `#0369A1` | `#FFFFFF` | **5.93:1** | AA | ✅ PASS |
-| Editor | Variable | `#0A142F` | `#FFFFFF` | **18.2:1** | AAA | ✅ PASS |
-| Editor | String | `#15803D` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Number | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Type | `#1E3A8A` | `#FFFFFF` | **10.36:1** | AAA | ✅ PASS |
-| Editor | Operator | `#0369A1` | `#FFFFFF` | **5.93:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#0A142F` | `#F2F5F9` | **16.64:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#1E3A8A` | `#F2F5F9` | **9.47:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#0A142F` | `#F2F5F9` | **16.64:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#0A142F` | `#EBF0F7` | **15.89:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#0A142F` | `#EBF5FB` | **16.45:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#1E3A8A` | `#F2F5F9` | **9.47:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#0A142F` | `#D0E5F2` | **14.01:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#0284C7` | `#EBF5FB` | **3.7:1** | AA Large | ✅ PASS |
-| Panel | Panel Active Title | `#0A142F` | `#E4EBF4` | **15.15:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#0A142F` | `#E4EBF4` | **15.15:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#991B1B` | `#E4EBF4` | **6.92:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#E4EBF4` | **5.94:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#1E40AF` | `#E4EBF4` | **7.26:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#1E3A8A` | `#E4EBF4` | **8.63:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#0A142F` | `#FFFFFF` | **18.2:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#0A142F` | `#F2F5F9` | **16.64:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#0A142F` | `#F2F5F9` | **16.64:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#0284C7` | **4.1:1** | AA Large | ✅ PASS |
+| Editor | Primary Text | `#09162D` | `#F3F6FA` | **16.64:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#1D64D8` | `#F3F6FA` | **5.01:1** | AA | ✅ PASS |
+| Editor | Comment | `#526E8F` | `#F3F6FA` | **4.86:1** | AA | ✅ PASS |
+| Editor | Keyword | `#1D64D8` | `#F3F6FA` | **5.01:1** | AA | ✅ PASS |
+| Editor | Function | `#1E40AF` | `#F3F6FA` | **8.05:1** | AAA | ✅ PASS |
+| Editor | Variable | `#09162D` | `#F3F6FA` | **16.64:1** | AAA | ✅ PASS |
+| Editor | String | `#157F3B` | `#F3F6FA` | **4.69:1** | AA | ✅ PASS |
+| Editor | Number | `#B84A0E` | `#F3F6FA` | **4.81:1** | AA | ✅ PASS |
+| Editor | Type | `#1B4485` | `#F3F6FA` | **8.76:1** | AAA | ✅ PASS |
+| Editor | Operator | `#1D64D8` | `#F3F6FA` | **5.01:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#09162D` | `#E5ECF4` | **15.15:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#1B4485` | `#E5ECF4` | **7.97:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#09162D` | `#E5ECF4` | **15.15:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#09162D` | `#DEE7F1` | **14.44:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#09162D` | `#E2EAF7` | **14.9:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#1B4485` | `#E5ECF4` | **7.97:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#09162D` | `#C9D9F0` | **12.6:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#1D64D8` | `#E2EAF7` | **4.49:1** | AA Large | ✅ PASS |
+| Panel | Panel Active Title | `#09162D` | `#D6E2EE` | **13.72:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#09162D` | `#D6E2EE` | **13.72:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#991B1B` | `#D6E2EE` | **6.32:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#D6E2EE` | **5.42:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#1E40AF` | `#D6E2EE` | **6.63:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#1B4485` | `#D6E2EE` | **7.22:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#09162D` | `#F3F6FA` | **16.64:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#09162D` | `#E5ECF4` | **15.15:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#09162D` | `#E5ECF4` | **15.15:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#1D64D8` | **5.43:1** | AA | ✅ PASS |
 
 ### SONDER — Forest Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#EDF7F1` | `#08120C` | **17.4:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#4ADE80` | `#08120C` | **10.93:1** | AAA | ✅ PASS |
-| Editor | Comment | `#6C8D79` | `#08120C` | **5.19:1** | AA | ✅ PASS |
-| Editor | Keyword | `#2DD4BF` | `#08120C` | **10.24:1** | AAA | ✅ PASS |
-| Editor | Function | `#4ADE80` | `#08120C` | **10.93:1** | AAA | ✅ PASS |
-| Editor | Variable | `#EDF7F1` | `#08120C` | **17.4:1** | AAA | ✅ PASS |
-| Editor | String | `#D9F99D` | `#08120C` | **16.32:1** | AAA | ✅ PASS |
-| Editor | Number | `#FCD34D` | `#08120C` | **13.21:1** | AAA | ✅ PASS |
-| Editor | Type | `#88CDA0` | `#08120C` | **10.24:1** | AAA | ✅ PASS |
-| Editor | Operator | `#4ADE80` | `#08120C` | **10.93:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#EDF7F1` | `#0E1C14` | **16.05:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#88CDA0` | `#0E1C14` | **9.45:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#EDF7F1` | `#0E1C14` | **16.05:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#EDF7F1` | `#182C20` | **13.5:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#EDF7F1` | `#102A1A` | **14.02:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#88CDA0` | `#0E1C14` | **9.45:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#EDF7F1` | `#183B25` | **11.34:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#4ADE80` | `#102A1A` | **8.81:1** | AAA | ✅ PASS |
-| Panel | Panel Active Title | `#EDF7F1` | `#16281D` | **14.15:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#EDF7F1` | `#16281D` | **14.15:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#FB7185` | `#16281D` | **5.76:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#4ADE80` | `#16281D` | **8.89:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#2DD4BF` | `#16281D` | **8.32:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#88CDA0` | `#16281D` | **8.33:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#EDF7F1` | `#0E1C14` | **16.05:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#EDF7F1` | `#16281D` | **14.15:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#EDF7F1` | `#16281D` | **14.15:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#4ADE80` | **12.05:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#EEF7F2` | `#07120C` | **17.46:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#3DD678` | `#07120C` | **10.07:1** | AAA | ✅ PASS |
+| Editor | Comment | `#638C71` | `#07120C` | **5.01:1** | AA | ✅ PASS |
+| Editor | Keyword | `#29C7B2` | `#07120C` | **9:1** | AAA | ✅ PASS |
+| Editor | Function | `#3DD678` | `#07120C` | **10.07:1** | AAA | ✅ PASS |
+| Editor | Variable | `#EEF7F2` | `#07120C` | **17.46:1** | AAA | ✅ PASS |
+| Editor | String | `#D2F48D` | `#07120C` | **15.5:1** | AAA | ✅ PASS |
+| Editor | Number | `#F5C74E` | `#07120C` | **11.96:1** | AAA | ✅ PASS |
+| Editor | Type | `#80C899` | `#07120C` | **9.66:1** | AAA | ✅ PASS |
+| Editor | Operator | `#3DD678` | `#07120C` | **10.07:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#EEF7F2` | `#0D1E14` | **15.85:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#80C899` | `#0D1E14` | **8.77:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#EEF7F2` | `#0D1E14` | **15.85:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#EEF7F2` | `#162F20` | **13.15:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#EEF7F2` | `#0D2A19` | **14.11:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#80C899` | `#0D1E14` | **8.77:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#EEF7F2` | `#153B24` | **11.42:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#3DD678` | `#0D2A19` | **8.14:1** | AAA | ✅ PASS |
+| Panel | Panel Active Title | `#EEF7F2` | `#142B1D` | **13.8:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#EEF7F2` | `#142B1D` | **13.8:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#FB7185` | `#142B1D` | **5.6:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#3DD678` | `#142B1D` | **7.96:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#29C7B2` | `#142B1D` | **7.11:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#80C899` | `#142B1D` | **7.64:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#EEF7F2` | `#0D1E14` | **15.85:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#EEF7F2` | `#142B1D` | **13.8:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#EEF7F2` | `#142B1D` | **13.8:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#3DD678` | **11.09:1** | AAA | ✅ PASS |
 
 ### SONDER — Forest Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#0B2514` | `#FFFFFF` | **16.29:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#15803D` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Comment | `#587564` | `#FFFFFF` | **5.07:1** | AA | ✅ PASS |
-| Editor | Keyword | `#0F766E` | `#FFFFFF` | **5.47:1** | AA | ✅ PASS |
-| Editor | Function | `#15803D` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Variable | `#0B2514` | `#FFFFFF` | **16.29:1** | AAA | ✅ PASS |
-| Editor | String | `#4D7C0F` | `#FFFFFF` | **4.99:1** | AA | ✅ PASS |
-| Editor | Number | `#B45309` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Type | `#166534` | `#FFFFFF` | **7.13:1** | AAA | ✅ PASS |
-| Editor | Operator | `#15803D` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#0B2514` | `#F2F7F4` | **15.04:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#166534` | `#F2F7F4` | **6.58:1** | AA | ✅ PASS |
-| Sidebar | Active Selection | `#0B2514` | `#F2F7F4` | **15.04:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#0B2514` | `#EBF3EE` | **14.42:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#0B2514` | `#ECF5EF` | **14.64:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#166534` | `#F2F7F4` | **6.58:1** | AA | ✅ PASS |
-| Tabs | Tab Hover Text | `#0B2514` | `#D3E6DA` | **12.49:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#15803D` | `#ECF5EF` | **4.51:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#0B2514` | `#E4EFE8` | **13.82:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#0B2514` | `#E4EFE8` | **13.82:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#991B1B` | `#E4EFE8` | **7.05:1** | AAA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#E4EFE8` | **6.05:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#115E59` | `#E4EFE8` | **6.43:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#166534` | `#E4EFE8` | **6.05:1** | AA | ✅ PASS |
-| Interactive | Input Text | `#0B2514` | `#FFFFFF` | **16.29:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#0B2514` | `#F2F7F4` | **15.04:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#0B2514` | `#F2F7F4` | **15.04:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#0A2413` | `#F3F7F4` | **15.24:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#15803D` | `#F3F7F4` | **4.64:1** | AA | ✅ PASS |
+| Editor | Comment | `#537460` | `#F3F7F4` | **4.81:1** | AA | ✅ PASS |
+| Editor | Keyword | `#0D6E66` | `#F3F7F4` | **5.65:1** | AA | ✅ PASS |
+| Editor | Function | `#15803D` | `#F3F7F4` | **4.64:1** | AA | ✅ PASS |
+| Editor | Variable | `#0A2413` | `#F3F7F4` | **15.24:1** | AAA | ✅ PASS |
+| Editor | String | `#4D7C0F` | `#F3F7F4` | **4.62:1** | AA | ✅ PASS |
+| Editor | Number | `#A8520C` | `#F3F7F4` | **5.01:1** | AA | ✅ PASS |
+| Editor | Type | `#155E32` | `#F3F7F4` | **7.25:1** | AAA | ✅ PASS |
+| Editor | Operator | `#15803D` | `#F3F7F4` | **4.64:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#0A2413` | `#E6EFE9` | **14.03:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#155E32` | `#E6EFE9` | **6.68:1** | AA | ✅ PASS |
+| Sidebar | Active Selection | `#0A2413` | `#E6EFE9` | **14.03:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#0A2413` | `#DFEAE3` | **13.35:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#0A2413` | `#E1EDE5` | **13.69:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#155E32` | `#E6EFE9` | **6.68:1** | AA | ✅ PASS |
+| Tabs | Tab Hover Text | `#0A2413` | `#C9DFD1` | **11.74:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#15803D` | `#E1EDE5` | **4.17:1** | AA Large | ✅ PASS |
+| Panel | Panel Active Title | `#0A2413` | `#D7E5DC` | **12.65:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#0A2413` | `#D7E5DC` | **12.65:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#991B1B` | `#D7E5DC` | **6.38:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#D7E5DC` | **5.48:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#115E59` | `#D7E5DC` | **5.83:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#155E32` | `#D7E5DC` | **6.02:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#0A2413` | `#F3F7F4` | **15.24:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#0A2413` | `#E6EFE9` | **14.03:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#0A2413` | `#E6EFE9` | **14.03:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#15803D` | **5.02:1** | AA | ✅ PASS |
 
 ### SONDER — Nebula Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#F6EEFF` | `#0B0716` | **17.6:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#E879F9` | `#0B0716` | **8.08:1** | AAA | ✅ PASS |
-| Editor | Comment | `#8971B0` | `#0B0716` | **4.78:1** | AA | ✅ PASS |
-| Editor | Keyword | `#E879F9` | `#0B0716` | **8.08:1** | AAA | ✅ PASS |
-| Editor | Function | `#A78BFA` | `#0B0716` | **7.31:1** | AAA | ✅ PASS |
-| Editor | Variable | `#F6EEFF` | `#0B0716` | **17.6:1** | AAA | ✅ PASS |
-| Editor | String | `#FBCFE8` | `#0B0716` | **14.38:1** | AAA | ✅ PASS |
-| Editor | Number | `#FDBA74` | `#0B0716` | **11.79:1** | AAA | ✅ PASS |
-| Editor | Type | `#C58AFE` | `#0B0716` | **7.99:1** | AAA | ✅ PASS |
-| Editor | Operator | `#E879F9` | `#0B0716` | **8.08:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#F6EEFF` | `#130D25` | **16.72:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#C58AFE` | `#130D25` | **7.59:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#F6EEFF` | `#130D25` | **16.72:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#F6EEFF` | `#21173D` | **14.82:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#F6EEFF` | `#261531` | **15.07:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#C58AFE` | `#130D25` | **7.59:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#F6EEFF` | `#351E47` | **13.02:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#E879F9` | `#261531` | **6.92:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#F6EEFF` | `#1C1336` | **15.55:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#F6EEFF` | `#1C1336` | **15.55:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#F43F5E` | `#1C1336` | **4.78:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#34D399` | `#1C1336` | **9.14:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#818CF8` | `#1C1336` | **5.89:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#C58AFE` | `#1C1336` | **7.06:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#F6EEFF` | `#130D25` | **16.72:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#F6EEFF` | `#1C1336` | **15.55:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#F6EEFF` | `#1C1336` | **15.55:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#E879F9` | **8.53:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#F7EEFF` | `#0B0618` | **17.68:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#EE62C8` | `#0B0618` | **6.85:1** | AA | ✅ PASS |
+| Editor | Comment | `#8870B1` | `#0B0618` | **4.75:1** | AA | ✅ PASS |
+| Editor | Keyword | `#EE62C8` | `#0B0618` | **6.85:1** | AA | ✅ PASS |
+| Editor | Function | `#A77BFA` | `#0B0618` | **6.51:1** | AA | ✅ PASS |
+| Editor | Variable | `#F7EEFF` | `#0B0618` | **17.68:1** | AAA | ✅ PASS |
+| Editor | String | `#7DD3FC` | `#0B0618` | **11.96:1** | AAA | ✅ PASS |
+| Editor | Number | `#FDBA74` | `#0B0618` | **11.82:1** | AAA | ✅ PASS |
+| Editor | Type | `#CA92FA` | `#0B0618` | **8.55:1** | AAA | ✅ PASS |
+| Editor | Operator | `#EE62C8` | `#0B0618` | **6.85:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#F7EEFF` | `#140C2C` | **16.65:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#CA92FA` | `#140C2C` | **8.05:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#F7EEFF` | `#140C2C` | **16.65:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#F7EEFF` | `#231645` | **14.64:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#F7EEFF` | `#26112D` | **15.52:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#CA92FA` | `#140C2C` | **8.05:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#F7EEFF` | `#371A45` | **13.34:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#EE62C8` | `#26112D` | **6.01:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#F7EEFF` | `#1C123D` | **15.48:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#F7EEFF` | `#1C123D` | **15.48:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#F43F5E` | `#1C123D` | **4.75:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#34D399` | `#1C123D` | **9.08:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#8C7AF7` | `#1C123D` | **5.19:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#CA92FA` | `#1C123D` | **7.48:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#F7EEFF` | `#140C2C` | **16.65:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#F7EEFF` | `#1C123D` | **15.48:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#F7EEFF` | `#1C123D` | **15.48:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#EE62C8` | **7.22:1** | AAA | ✅ PASS |
 
 ### SONDER — Nebula Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#1E0A3C` | `#FFFFFF` | **18.04:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#9333EA` | `#FFFFFF` | **5.38:1** | AA | ✅ PASS |
-| Editor | Comment | `#7D669C` | `#FFFFFF` | **4.94:1** | AA | ✅ PASS |
-| Editor | Keyword | `#9333EA` | `#FFFFFF` | **5.38:1** | AA | ✅ PASS |
-| Editor | Function | `#7C3AED` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Editor | Variable | `#1E0A3C` | `#FFFFFF` | **18.04:1** | AAA | ✅ PASS |
-| Editor | String | `#9D174D` | `#FFFFFF` | **7.88:1** | AAA | ✅ PASS |
-| Editor | Number | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Type | `#581C87` | `#FFFFFF` | **10.88:1** | AAA | ✅ PASS |
-| Editor | Operator | `#9333EA` | `#FFFFFF` | **5.38:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#1E0A3C` | `#F7F3FC` | **16.48:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#581C87` | `#F7F3FC` | **9.93:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#1E0A3C` | `#F7F3FC` | **16.48:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#1E0A3C` | `#F3EEFB` | **15.84:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#1E0A3C` | `#F6EFFD` | **16.05:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#581C87` | `#F7F3FC` | **9.93:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#1E0A3C` | `#E9D8F9` | **13.45:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#9333EA` | `#F6EFFD` | **4.79:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#1E0A3C` | `#EFE8F9` | **15.11:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#1E0A3C` | `#EFE8F9` | **15.11:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9F1239` | `#EFE8F9` | **6.71:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#EFE8F9` | **5.97:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#581C87` | `#EFE8F9` | **9.1:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#581C87` | `#EFE8F9` | **9.1:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#1E0A3C` | `#FFFFFF` | **18.04:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#1E0A3C` | `#F7F3FC` | **16.48:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#1E0A3C` | `#F7F3FC` | **16.48:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#9333EA` | **5.38:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#1C0A36` | `#F7F4FB` | **16.83:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#9828C9` | `#F7F4FB` | **5.54:1** | AA | ✅ PASS |
+| Editor | Comment | `#725B8F` | `#F7F4FB` | **5.35:1** | AA | ✅ PASS |
+| Editor | Keyword | `#9828C9` | `#F7F4FB` | **5.54:1** | AA | ✅ PASS |
+| Editor | Function | `#6D28D9` | `#F7F4FB` | **6.53:1** | AA | ✅ PASS |
+| Editor | Variable | `#1C0A36` | `#F7F4FB` | **16.83:1** | AAA | ✅ PASS |
+| Editor | String | `#0E7490` | `#F7F4FB` | **4.92:1** | AA | ✅ PASS |
+| Editor | Number | `#B83E0A` | `#F7F4FB` | **5.17:1** | AA | ✅ PASS |
+| Editor | Type | `#5E1D96` | `#F7F4FB` | **9.22:1** | AAA | ✅ PASS |
+| Editor | Operator | `#9828C9` | `#F7F4FB` | **5.54:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#1C0A36` | `#EDE5F6` | **14.96:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#5E1D96` | `#EDE5F6` | **8.19:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#1C0A36` | `#EDE5F6` | **14.96:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#1C0A36` | `#E6DCF2` | **13.86:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#1C0A36` | `#EFE4F7` | **14.93:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#5E1D96` | `#EDE5F6` | **8.19:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#1C0A36` | `#E1CBF0` | **12.22:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#9828C9` | `#EFE4F7` | **4.91:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#1C0A36` | `#DFD2EE` | **12.73:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#1C0A36` | `#DFD2EE` | **12.73:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9F1239` | `#DFD2EE` | **5.57:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#DFD2EE` | **4.95:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#581C87` | `#DFD2EE` | **7.56:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#5E1D96` | `#DFD2EE` | **6.97:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#1C0A36` | `#F7F4FB` | **16.83:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#1C0A36` | `#EDE5F6` | **14.96:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#1C0A36` | `#EDE5F6` | **14.96:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#9828C9` | **6.03:1** | AA | ✅ PASS |
 
 ### SONDER — Ocean Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#EBF5FA` | `#05121D` | **17.08:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#22D3EE` | `#05121D` | **10.46:1** | AAA | ✅ PASS |
-| Editor | Comment | `#5C87AC` | `#05121D` | **4.97:1** | AA | ✅ PASS |
-| Editor | Keyword | `#38BDF8` | `#05121D` | **8.83:1** | AAA | ✅ PASS |
-| Editor | Function | `#22D3EE` | `#05121D` | **10.46:1** | AAA | ✅ PASS |
-| Editor | Variable | `#EBF5FA` | `#05121D` | **17.08:1** | AAA | ✅ PASS |
-| Editor | String | `#A5F3FC` | `#05121D` | **15.15:1** | AAA | ✅ PASS |
-| Editor | Number | `#FDBA74` | `#05121D` | **11.21:1** | AAA | ✅ PASS |
-| Editor | Type | `#60C5F8` | `#05121D` | **9.76:1** | AAA | ✅ PASS |
-| Editor | Operator | `#22D3EE` | `#05121D` | **10.46:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#EBF5FA` | `#0A1C2B` | **15.63:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#60C5F8` | `#0A1C2B` | **8.93:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#EBF5FA` | `#0A1C2B` | **15.63:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#EBF5FA` | `#122B41` | **13.11:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#EBF5FA` | `#082936` | **13.74:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#60C5F8` | `#0A1C2B` | **8.93:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#EBF5FA` | `#0E394A` | **11.14:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#22D3EE` | `#082936` | **8.42:1** | AAA | ✅ PASS |
-| Panel | Panel Active Title | `#EBF5FA` | `#10283D` | **13.62:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#EBF5FA` | `#10283D` | **13.62:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#F87171` | `#10283D` | **5.45:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#34D399` | `#10283D` | **7.84:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#38BDF8` | `#10283D` | **7.04:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#60C5F8` | `#10283D` | **7.78:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#EBF5FA` | `#0A1C2B` | **15.63:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#EBF5FA` | `#10283D` | **13.62:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#EBF5FA` | `#10283D` | **13.62:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#22D3EE` | **11.62:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#EBF6FC` | `#041322` | **17.05:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#14D2E6` | `#041322` | **10.16:1** | AAA | ✅ PASS |
+| Editor | Comment | `#5684A8` | `#041322` | **4.69:1** | AA | ✅ PASS |
+| Editor | Keyword | `#14D2E6` | `#041322` | **10.16:1** | AAA | ✅ PASS |
+| Editor | Function | `#38BDF8` | `#041322` | **8.74:1** | AAA | ✅ PASS |
+| Editor | Variable | `#EBF6FC` | `#041322` | **17.05:1** | AAA | ✅ PASS |
+| Editor | String | `#98F5D8` | `#041322` | **14.61:1** | AAA | ✅ PASS |
+| Editor | Number | `#FBBF24` | `#041322` | **11.22:1** | AAA | ✅ PASS |
+| Editor | Type | `#52C2F8` | `#041322` | **9.3:1** | AAA | ✅ PASS |
+| Editor | Operator | `#14D2E6` | `#041322` | **10.16:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#EBF6FC` | `#081F33` | **15.25:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#52C2F8` | `#081F33` | **8.32:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#EBF6FC` | `#081F33` | **15.25:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#EBF6FC` | `#0F304B` | **12.38:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#EBF6FC` | `#062A3A` | **13.66:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#52C2F8` | `#081F33` | **8.32:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#EBF6FC` | `#0A3C50` | **10.77:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#14D2E6` | `#062A3A` | **8.14:1** | AAA | ✅ PASS |
+| Panel | Panel Active Title | `#EBF6FC` | `#0E2B45` | **13.19:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#EBF6FC` | `#0E2B45` | **13.19:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#F87171` | `#0E2B45` | **5.24:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#34D399` | `#0E2B45` | **7.53:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#38BDF8` | `#0E2B45` | **6.76:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#52C2F8` | `#0E2B45` | **7.19:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#EBF6FC` | `#081F33` | **15.25:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#EBF6FC` | `#0E2B45` | **13.19:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#EBF6FC` | `#0E2B45` | **13.19:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#14D2E6` | **11.39:1** | AAA | ✅ PASS |
 
 ### SONDER — Ocean Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#06253B` | `#FFFFFF` | **15.72:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#0284C7` | `#FFFFFF` | **4.1:1** | AA Large | ✅ PASS |
-| Editor | Comment | `#537B96` | `#FFFFFF` | **4.52:1** | AA | ✅ PASS |
-| Editor | Keyword | `#0369A1` | `#FFFFFF` | **5.93:1** | AA | ✅ PASS |
-| Editor | Function | `#0E7490` | `#FFFFFF` | **5.36:1** | AA | ✅ PASS |
-| Editor | Variable | `#06253B` | `#FFFFFF` | **15.72:1** | AAA | ✅ PASS |
-| Editor | String | `#0F766E` | `#FFFFFF` | **5.47:1** | AA | ✅ PASS |
-| Editor | Number | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Type | `#0369A1` | `#FFFFFF` | **5.93:1** | AA | ✅ PASS |
-| Editor | Operator | `#0369A1` | `#FFFFFF` | **5.93:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#06253B` | `#F0F6FA` | **14.43:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#0369A1` | `#F0F6FA` | **5.44:1** | AA | ✅ PASS |
-| Sidebar | Active Selection | `#06253B` | `#F0F6FA` | **14.43:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#06253B` | `#E9F3F8` | **13.96:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#06253B` | `#EBF5FB` | **14.22:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#0369A1` | `#F0F6FA` | **5.44:1** | AA | ✅ PASS |
-| Tabs | Tab Hover Text | `#06253B` | `#CFE6F3` | **12.18:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#0284C7` | `#EBF5FB` | **3.7:1** | AA Large | ✅ PASS |
-| Panel | Panel Active Title | `#06253B` | `#E2EFF6` | **13.41:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#06253B` | `#E2EFF6` | **13.41:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#991B1B` | `#E2EFF6` | **7.09:1** | AAA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#E2EFF6` | **6.08:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#075985` | `#E2EFF6` | **6.45:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#0369A1` | `#E2EFF6` | **5.06:1** | AA | ✅ PASS |
-| Interactive | Input Text | `#06253B` | `#FFFFFF` | **15.72:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#06253B` | `#F0F6FA` | **14.43:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#06253B` | `#F0F6FA` | **14.43:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#021A26` | `#EBF7F9` | **16.3:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#0284C7` | `#EBF7F9` | **3.75:1** | AA Large | ✅ PASS |
+| Editor | Comment | `#44747E` | `#EBF7F9` | **4.75:1** | AA | ✅ PASS |
+| Editor | Keyword | `#006FA3` | `#EBF7F9` | **5.05:1** | AA | ✅ PASS |
+| Editor | Function | `#047A8A` | `#EBF7F9` | **4.62:1** | AA | ✅ PASS |
+| Editor | Variable | `#021A26` | `#EBF7F9` | **16.3:1** | AAA | ✅ PASS |
+| Editor | String | `#067E67` | `#EBF7F9` | **4.59:1** | AA | ✅ PASS |
+| Editor | Number | `#BA3B10` | `#EBF7F9` | **5.16:1** | AA | ✅ PASS |
+| Editor | Type | `#02677E` | `#EBF7F9` | **5.92:1** | AA | ✅ PASS |
+| Editor | Operator | `#006FA3` | `#EBF7F9` | **5.05:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#021A26` | `#D8EDF2` | **14.7:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#02677E` | `#D8EDF2` | **5.34:1** | AA | ✅ PASS |
+| Sidebar | Active Selection | `#021A26` | `#D8EDF2` | **14.7:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#021A26` | `#CFE8EF` | **13.95:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#021A26` | `#D8EEF5` | **14.82:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#02677E` | `#D8EDF2` | **5.34:1** | AA | ✅ PASS |
+| Tabs | Tab Hover Text | `#021A26` | `#BADEEC` | **12.52:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#0284C7` | `#D8EEF5` | **3.41:1** | AA Large | ✅ PASS |
+| Panel | Panel Active Title | `#021A26` | `#C6E3EB` | **13.23:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#021A26` | `#C6E3EB` | **13.23:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#991B1B` | `#C6E3EB` | **6.17:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#C6E3EB` | **5.29:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#006FA3` | `#C6E3EB` | **4.1:1** | AA Large | ✅ PASS |
+| Status Bar | Status Text | `#02677E` | `#C6E3EB` | **4.81:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#021A26` | `#EBF7F9` | **16.3:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#021A26` | `#D8EDF2` | **14.7:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#021A26` | `#D8EDF2` | **14.7:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#0284C7` | **4.1:1** | AA Large | ✅ PASS |
 
 ### SONDER — Ember Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#FFF3ED` | `#140A07` | **17.93:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#F97316` | `#140A07` | **6.96:1** | AA | ✅ PASS |
-| Editor | Comment | `#9B7365` | `#140A07` | **4.68:1** | AA | ✅ PASS |
-| Editor | Keyword | `#F97316` | `#140A07` | **6.96:1** | AA | ✅ PASS |
-| Editor | Function | `#FBBF24` | `#140A07` | **11.69:1** | AAA | ✅ PASS |
-| Editor | Variable | `#FFF3ED` | `#140A07` | **17.93:1** | AAA | ✅ PASS |
-| Editor | String | `#FED7AA` | `#140A07` | **14.42:1** | AAA | ✅ PASS |
-| Editor | Number | `#FB7185` | `#140A07` | **7.25:1** | AAA | ✅ PASS |
-| Editor | Type | `#FDBA74` | `#140A07` | **11.57:1** | AAA | ✅ PASS |
-| Editor | Operator | `#F97316` | `#140A07` | **6.96:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#FFF3ED` | `#1C0F0A` | **17.2:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#FDBA74` | `#1C0F0A` | **11.1:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#FFF3ED` | `#1C0F0A` | **17.2:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#FFF3ED` | `#2E1911` | **15.27:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#FFF3ED` | `#2F1709` | **15.47:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#FDBA74` | `#1C0F0A` | **11.1:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#FFF3ED` | `#3F1F0C` | **13.66:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#F97316` | `#2F1709` | **6.01:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#FFF3ED` | `#271610` | **15.97:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#FFF3ED` | `#271610` | **15.97:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#EF4444` | `#271610` | **4.62:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#84CC16` | `#271610` | **8.8:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#F97316` | `#271610` | **6.2:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#FDBA74` | `#271610` | **10.3:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#FFF3ED` | `#1C0F0A` | **17.2:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#FFF3ED` | `#271610` | **15.97:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#FFF3ED` | `#271610` | **15.97:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#F97316` | **7.49:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#FFF3EB` | `#140A06` | **17.91:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#FA741B` | `#140A06` | **7.04:1** | AAA | ✅ PASS |
+| Editor | Comment | `#9A7363` | `#140A06` | **4.65:1** | AA | ✅ PASS |
+| Editor | Keyword | `#FA741B` | `#140A06` | **7.04:1** | AAA | ✅ PASS |
+| Editor | Function | `#F59E0B` | `#140A06` | **9.09:1** | AAA | ✅ PASS |
+| Editor | Variable | `#FFF3EB` | `#140A06` | **17.91:1** | AAA | ✅ PASS |
+| Editor | String | `#FCD34D` | `#140A06` | **13.54:1** | AAA | ✅ PASS |
+| Editor | Number | `#F87171` | `#140A06` | **7.06:1** | AAA | ✅ PASS |
+| Editor | Type | `#FDB56C` | `#140A06` | **11.16:1** | AAA | ✅ PASS |
+| Editor | Operator | `#FA741B` | `#140A06` | **7.04:1** | AAA | ✅ PASS |
+| Sidebar | Primary Text | `#FFF3EB` | `#1F0F09` | **17.05:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#FDB56C` | `#1F0F09` | **10.62:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#FFF3EB` | `#1F0F09` | **17.05:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#FFF3EB` | `#31190F` | **15.1:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#FFF3EB` | `#301709` | **15.39:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#FDB56C` | `#1F0F09` | **10.62:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#FFF3EB` | `#421F0C` | **13.45:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#FA741B` | `#301709` | **6.05:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#FFF3EB` | `#2A160D` | **15.81:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#FFF3EB` | `#2A160D` | **15.81:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#EF4444` | `#2A160D` | **4.58:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#84CC16` | `#2A160D` | **8.72:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#FA741B` | `#2A160D` | **6.22:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#FDB56C` | `#2A160D` | **9.85:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#FFF3EB` | `#1F0F09` | **17.05:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#FFF3EB` | `#2A160D` | **15.81:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#FFF3EB` | `#2A160D` | **15.81:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#FA741B` | **7.58:1** | AAA | ✅ PASS |
 
 ### SONDER — Ember Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#2E1208` | `#FFFFFF` | **17.41:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#EA580C` | `#FFFFFF` | **3.56:1** | AA Large | ✅ PASS |
-| Editor | Comment | `#87685D` | `#FFFFFF` | **5.04:1** | AA | ✅ PASS |
-| Editor | Keyword | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Function | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Editor | Variable | `#2E1208` | `#FFFFFF` | **17.41:1** | AAA | ✅ PASS |
-| Editor | String | `#2D6A4F` | `#FFFFFF` | **6.39:1** | AA | ✅ PASS |
-| Editor | Number | `#B91C1C` | `#FFFFFF` | **6.47:1** | AA | ✅ PASS |
-| Editor | Type | `#9A3412` | `#FFFFFF` | **7.31:1** | AAA | ✅ PASS |
-| Editor | Operator | `#C2410C` | `#FFFFFF` | **5.18:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#2E1208` | `#FCF6F2` | **16.25:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#9A3412` | `#FCF6F2` | **6.82:1** | AA | ✅ PASS |
-| Sidebar | Active Selection | `#2E1208` | `#FCF6F2` | **16.25:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#2E1208` | `#FAF1EB` | **15.62:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#2E1208` | `#FDF2EC` | **15.83:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#9A3412` | `#FCF6F2` | **6.82:1** | AA | ✅ PASS |
-| Tabs | Tab Hover Text | `#2E1208` | `#F9E0D2` | **13.78:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#EA580C` | `#FDF2EC` | **3.24:1** | AA Large | ✅ PASS |
-| Panel | Panel Active Title | `#2E1208` | `#F7ECE4` | **14.98:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#2E1208` | `#F7ECE4` | **14.98:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9A3412` | `#F7ECE4` | **6.29:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#F7ECE4` | **6.14:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#9A3412` | `#F7ECE4` | **6.29:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#9A3412` | `#F7ECE4` | **6.29:1** | AA | ✅ PASS |
-| Interactive | Input Text | `#2E1208` | `#FFFFFF` | **17.41:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#2E1208` | `#FCF6F2` | **16.25:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#2E1208` | `#FCF6F2` | **16.25:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#EA580C` | **3.56:1** | AA Large | ✅ PASS |
+| Editor | Primary Text | `#2B0F05` | `#FAF3EC` | **16.28:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#BD3900` | `#FAF3EC` | **5.09:1** | AA | ✅ PASS |
+| Editor | Comment | `#7B5848` | `#FAF3EC` | **5.73:1** | AA | ✅ PASS |
+| Editor | Keyword | `#BD3900` | `#FAF3EC` | **5.09:1** | AA | ✅ PASS |
+| Editor | Function | `#9E2E02` | `#FAF3EC` | **6.71:1** | AA | ✅ PASS |
+| Editor | Variable | `#2B0F05` | `#FAF3EC` | **16.28:1** | AAA | ✅ PASS |
+| Editor | String | `#824408` | `#FAF3EC` | **6.87:1** | AA | ✅ PASS |
+| Editor | Number | `#B91C1C` | `#FAF3EC` | **5.88:1** | AA | ✅ PASS |
+| Editor | Type | `#8F3008` | `#FAF3EC` | **7.36:1** | AAA | ✅ PASS |
+| Editor | Operator | `#BD3900` | `#FAF3EC` | **5.09:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#2B0F05` | `#F2E6DA` | **14.58:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#8F3008` | `#F2E6DA` | **6.59:1** | AA | ✅ PASS |
+| Sidebar | Active Selection | `#2B0F05` | `#F2E6DA` | **14.58:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#2B0F05` | `#EDDED0` | **13.6:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#2B0F05` | `#F5E4D9` | **14.47:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#8F3008` | `#F2E6DA` | **6.59:1** | AA | ✅ PASS |
+| Tabs | Tab Hover Text | `#2B0F05` | `#EBCEBB` | **12:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#BD3900` | `#F5E4D9` | **4.53:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#2B0F05` | `#E7D6C6` | **12.64:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#2B0F05` | `#E7D6C6` | **12.64:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9A3412` | `#E7D6C6` | **5.16:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#E7D6C6` | **5.04:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#9A3412` | `#E7D6C6` | **5.16:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#8F3008` | `#E7D6C6` | **5.72:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#2B0F05` | `#FAF3EC` | **16.28:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#2B0F05` | `#F2E6DA` | **14.58:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#2B0F05` | `#F2E6DA` | **14.58:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#BD3900` | **5.6:1** | AA | ✅ PASS |
 
 ### SONDER — Lavender Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#F6F3FE` | `#0C081A` | **18:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#A78BFA` | `#0C081A` | **7.24:1** | AAA | ✅ PASS |
-| Editor | Comment | `#8373B0` | `#0C081A` | **4.74:1** | AA | ✅ PASS |
-| Editor | Keyword | `#C084FC` | `#0C081A` | **7.46:1** | AAA | ✅ PASS |
-| Editor | Function | `#A78BFA` | `#0C081A` | **7.24:1** | AAA | ✅ PASS |
-| Editor | Variable | `#F6F3FE` | `#0C081A` | **18:1** | AAA | ✅ PASS |
-| Editor | String | `#E9D5FF` | `#0C081A` | **14.48:1** | AAA | ✅ PASS |
-| Editor | Number | `#F472B6` | `#0C081A` | **7.44:1** | AAA | ✅ PASS |
-| Editor | Type | `#C9BAFE` | `#0C081A` | **11.21:1** | AAA | ✅ PASS |
-| Editor | Operator | `#A78BFA` | `#0C081A` | **7.24:1** | AAA | ✅ PASS |
-| Sidebar | Primary Text | `#F6F3FE` | `#130D29` | **17.16:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#C9BAFE` | `#130D29` | **10.69:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#F6F3FE` | `#130D29` | **17.16:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#F6F3FE` | `#1F1641` | **15.34:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#F6F3FE` | `#1F1835` | **15.46:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#C9BAFE` | `#130D29` | **10.69:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#F6F3FE` | `#2B214A` | **13.51:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#A78BFA` | `#1F1835` | **6.22:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#F6F3FE` | `#1B1339` | **15.99:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#F6F3FE` | `#1B1339` | **15.99:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#FB7185` | `#1B1339` | **6.51:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#34D399` | `#1B1339` | **9.11:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#A78BFA` | `#1B1339` | **6.44:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#C9BAFE` | `#1B1339` | **9.96:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#F6F3FE` | `#130D29` | **17.16:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#F6F3FE` | `#1B1339` | **15.99:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#F6F3FE` | `#1B1339` | **15.99:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#A78BFA` | **7.72:1** | AAA | ✅ PASS |
+| Editor | Primary Text | `#F6F4FD` | `#0B0819` | **18.13:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#9B8AFB` | `#0B0819` | **6.98:1** | AA | ✅ PASS |
+| Editor | Comment | `#8076A5` | `#0B0819` | **4.75:1** | AA | ✅ PASS |
+| Editor | Keyword | `#B87CF8` | `#0B0819` | **6.85:1** | AA | ✅ PASS |
+| Editor | Function | `#9B8AFB` | `#0B0819` | **6.98:1** | AA | ✅ PASS |
+| Editor | Variable | `#F6F4FD` | `#0B0819` | **18.13:1** | AAA | ✅ PASS |
+| Editor | String | `#E5D5FC` | `#0B0819` | **14.35:1** | AAA | ✅ PASS |
+| Editor | Number | `#F472B6` | `#0B0819` | **7.46:1** | AAA | ✅ PASS |
+| Editor | Type | `#B8A8F8` | `#0B0819` | **9.4:1** | AAA | ✅ PASS |
+| Editor | Operator | `#9B8AFB` | `#0B0819` | **6.98:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#F6F4FD` | `#120E25` | **17.29:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#B8A8F8` | `#120E25` | **8.96:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#F6F4FD` | `#120E25` | **17.29:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#F6F4FD` | `#1E183B` | **15.43:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#F6F4FD` | `#1C1834` | **15.68:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#B8A8F8` | `#120E25` | **8.96:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#F6F4FD` | `#282247` | **13.67:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#9B8AFB` | `#1C1834` | **6.04:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#F6F4FD` | `#191433` | **16.21:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#F6F4FD` | `#191433` | **16.21:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#FB7185` | `#191433` | **6.56:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#34D399` | `#191433` | **9.19:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#9B8AFB` | `#191433` | **6.24:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#B8A8F8` | `#191433` | **8.4:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#F6F4FD` | `#120E25` | **17.29:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#F6F4FD` | `#191433` | **16.21:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#F6F4FD` | `#191433` | **16.21:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#9B8AFB` | **7.42:1** | AAA | ✅ PASS |
 
 ### SONDER — Lavender Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#1D0B38` | `#FFFFFF` | **18.15:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#7C3AED` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Editor | Comment | `#7A6A9B` | `#FFFFFF` | **4.81:1** | AA | ✅ PASS |
-| Editor | Keyword | `#7C3AED` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Editor | Function | `#6D28D9` | `#FFFFFF` | **7.1:1** | AAA | ✅ PASS |
-| Editor | Variable | `#1D0B38` | `#FFFFFF` | **18.15:1** | AAA | ✅ PASS |
-| Editor | String | `#1E6E56` | `#FFFFFF` | **6.14:1** | AA | ✅ PASS |
-| Editor | Number | `#9D174D` | `#FFFFFF` | **7.88:1** | AAA | ✅ PASS |
-| Editor | Type | `#5B21B6` | `#FFFFFF` | **8.98:1** | AAA | ✅ PASS |
-| Editor | Operator | `#7C3AED` | `#FFFFFF` | **5.7:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#1D0B38` | `#F6F4FB` | **16.64:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#5B21B6` | `#F6F4FB` | **8.23:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#1D0B38` | `#F6F4FB` | **16.64:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#1D0B38` | `#F2EFF9` | **15.98:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#1D0B38` | `#F5EFFE` | **16.13:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#5B21B6` | `#F6F4FB` | **8.23:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#1D0B38` | `#E5DAF9` | **13.59:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#7C3AED` | `#F5EFFE` | **5.06:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#1D0B38` | `#EEE9F7` | **15.24:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#1D0B38` | `#EEE9F7` | **15.24:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9F1239` | `#EEE9F7` | **6.73:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#EEE9F7` | **5.99:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#5B21B6` | `#EEE9F7` | **7.54:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#5B21B6` | `#EEE9F7` | **7.54:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#1D0B38` | `#FFFFFF` | **18.15:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#1D0B38` | `#F6F4FB` | **16.64:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#1D0B38` | `#F6F4FB` | **16.64:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#7C3AED` | **5.7:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#121636` | `#F4F5FB` | **16.17:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#4F46E5` | `#F4F5FB` | **5.78:1** | AA | ✅ PASS |
+| Editor | Comment | `#5C668D` | `#F4F5FB` | **5.16:1** | AA | ✅ PASS |
+| Editor | Keyword | `#4F46E5` | `#F4F5FB` | **5.78:1** | AA | ✅ PASS |
+| Editor | Function | `#3730A3` | `#F4F5FB` | **9.13:1** | AAA | ✅ PASS |
+| Editor | Variable | `#121636` | `#F4F5FB` | **16.17:1** | AAA | ✅ PASS |
+| Editor | String | `#157158` | `#F4F5FB` | **5.46:1** | AA | ✅ PASS |
+| Editor | Number | `#941848` | `#F4F5FB` | **7.77:1** | AAA | ✅ PASS |
+| Editor | Type | `#4338CA` | `#F4F5FB` | **7.26:1** | AAA | ✅ PASS |
+| Editor | Operator | `#4F46E5` | `#F4F5FB` | **5.78:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#121636` | `#E6E8F6` | **14.44:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#4338CA` | `#E6E8F6` | **6.49:1** | AA | ✅ PASS |
+| Sidebar | Active Selection | `#121636` | `#E6E8F6` | **14.44:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#121636` | `#DFE1F2` | **13.56:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#121636` | `#E7E7F9` | **14.41:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#4338CA` | `#E6E8F6` | **6.49:1** | AA | ✅ PASS |
+| Tabs | Tab Hover Text | `#121636` | `#D1D1F4` | **11.84:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#4F46E5` | `#E7E7F9` | **5.15:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#121636` | `#D7DAED` | **12.68:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#121636` | `#D7DAED` | **12.68:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9F1239` | `#D7DAED` | **5.78:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#D7DAED` | **5.14:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#4F46E5` | `#D7DAED` | **4.53:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#4338CA` | `#D7DAED` | **5.7:1** | AA | ✅ PASS |
+| Interactive | Input Text | `#121636` | `#F4F5FB` | **16.17:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#121636` | `#E6E8F6` | **14.44:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#121636` | `#E6E8F6` | **14.44:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#4F46E5` | **6.29:1** | AA | ✅ PASS |
 
 ### SONDER — Blossom Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#FDF2F7` | `#130810` | **17.96:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#EC4899` | `#130810` | **5.56:1** | AA | ✅ PASS |
-| Editor | Comment | `#997090` | `#130810` | **4.74:1** | AA | ✅ PASS |
-| Editor | Keyword | `#EC4899` | `#130810` | **5.56:1** | AA | ✅ PASS |
-| Editor | Function | `#F472B6` | `#130810` | **7.41:1** | AAA | ✅ PASS |
-| Editor | Variable | `#FDF2F7` | `#130810` | **17.96:1** | AAA | ✅ PASS |
-| Editor | String | `#FBCFE8` | `#130810` | **14.2:1** | AAA | ✅ PASS |
-| Editor | Number | `#FBBF24` | `#130810` | **11.76:1** | AAA | ✅ PASS |
-| Editor | Type | `#F9A8D4` | `#130810` | **10.82:1** | AAA | ✅ PASS |
-| Editor | Operator | `#EC4899` | `#130810` | **5.56:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#FDF2F7` | `#1C0D18` | **17.16:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#F9A8D4` | `#1C0D18` | **10.34:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#FDF2F7` | `#1C0D18` | **17.16:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#FDF2F7` | `#2E1528` | **15.33:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#FDF2F7` | `#2D1020` | **15.93:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#F9A8D4` | `#1C0D18` | **10.34:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#FDF2F7` | `#3D162D` | **14.23:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#EC4899` | `#2D1020` | **4.93:1** | AA | ✅ PASS |
-| Panel | Panel Active Title | `#FDF2F7` | `#271322` | **15.98:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#FDF2F7` | `#271322` | **15.98:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#F43F5E` | `#271322` | **4.76:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#34D399` | `#271322` | **9.08:1** | AAA | ✅ PASS |
-| Terminal | ANSI Blue | `#EC4899` | `#271322` | **4.95:1** | AA | ✅ PASS |
-| Status Bar | Status Text | `#F9A8D4` | `#271322` | **9.63:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#FDF2F7` | `#1C0D18` | **17.16:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#FDF2F7` | `#271322` | **15.98:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#FDF2F7` | `#271322` | **15.98:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#000000` | `#EC4899` | **5.95:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#FDF1F6` | `#140711` | **17.87:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#E94090` | `#140711` | **5.24:1** | AA | ✅ PASS |
+| Editor | Comment | `#986F8D` | `#140711` | **4.67:1** | AA | ✅ PASS |
+| Editor | Keyword | `#E94090` | `#140711` | **5.24:1** | AA | ✅ PASS |
+| Editor | Function | `#FB8268` | `#140711` | **7.95:1** | AAA | ✅ PASS |
+| Editor | Variable | `#FDF1F6` | `#140711` | **17.87:1** | AAA | ✅ PASS |
+| Editor | String | `#FED7AA` | `#140711` | **14.52:1** | AAA | ✅ PASS |
+| Editor | Number | `#FBBF24` | `#140711` | **11.78:1** | AAA | ✅ PASS |
+| Editor | Type | `#F8A4CE` | `#140711` | **10.48:1** | AAA | ✅ PASS |
+| Editor | Operator | `#E94090` | `#140711` | **5.24:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#FDF1F6` | `#1E0C1B` | **16.99:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#F8A4CE` | `#1E0C1B` | **9.96:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#FDF1F6` | `#1E0C1B` | **16.99:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#FDF1F6` | `#31142C` | **15.07:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#FDF1F6` | `#2E0E20` | **15.91:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#F8A4CE` | `#1E0C1B` | **9.96:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#FDF1F6` | `#3E142E` | **14.2:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#E94090` | `#2E0E20` | **4.67:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#FDF1F6` | `#291125` | **15.89:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#FDF1F6` | `#291125` | **15.89:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#FB7185` | `#291125` | **6.5:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#34D399` | `#291125` | **9.09:1** | AAA | ✅ PASS |
+| Terminal | ANSI Blue | `#E94090` | `#291125` | **4.66:1** | AA | ✅ PASS |
+| Status Bar | Status Text | `#F8A4CE` | `#291125` | **9.32:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#FDF1F6` | `#1E0C1B` | **16.99:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#FDF1F6` | `#291125` | **15.89:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#FDF1F6` | `#291125` | **15.89:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#000000` | `#E94090` | **5.6:1** | AA | ✅ PASS |
 
 ### SONDER — Blossom Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
-| Editor | Primary Text | `#2C081E` | `#FFFFFF` | **18.09:1** | AAA | ✅ PASS |
-| Editor | Cursor | `#DB2777` | `#FFFFFF` | **4.6:1** | AA | ✅ PASS |
-| Editor | Comment | `#8E6883` | `#FFFFFF` | **4.71:1** | AA | ✅ PASS |
-| Editor | Keyword | `#DB2777` | `#FFFFFF` | **4.6:1** | AA | ✅ PASS |
-| Editor | Function | `#BE185D` | `#FFFFFF` | **6.04:1** | AA | ✅ PASS |
-| Editor | Variable | `#2C081E` | `#FFFFFF` | **18.09:1** | AAA | ✅ PASS |
-| Editor | String | `#15803D` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Number | `#B45309` | `#FFFFFF` | **5.02:1** | AA | ✅ PASS |
-| Editor | Type | `#831843` | `#FFFFFF` | **9.65:1** | AAA | ✅ PASS |
-| Editor | Operator | `#DB2777` | `#FFFFFF` | **4.6:1** | AA | ✅ PASS |
-| Sidebar | Primary Text | `#2C081E` | `#FDF4F8` | **16.78:1** | AAA | ✅ PASS |
-| Sidebar | Title Text | `#831843` | `#FDF4F8` | **8.95:1** | AAA | ✅ PASS |
-| Sidebar | Active Selection | `#2C081E` | `#FDF4F8` | **16.78:1** | AAA | ✅ PASS |
-| Sidebar | Hover Item | `#2C081E` | `#FBEEF4` | **16.06:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Text | `#2C081E` | `#FCEEF4` | **16.09:1** | AAA | ✅ PASS |
-| Tabs | Inactive Tab Text | `#831843` | `#FDF4F8` | **8.95:1** | AAA | ✅ PASS |
-| Tabs | Tab Hover Text | `#2C081E` | `#F8D7E6` | **13.66:1** | AAA | ✅ PASS |
-| Tabs | Active Tab Indicator | `#DB2777` | `#FCEEF4` | **4.09:1** | AA Large | ✅ PASS |
-| Panel | Panel Active Title | `#2C081E` | `#F8E7F0` | **15.23:1** | AAA | ✅ PASS |
-| Panel | Terminal Text | `#2C081E` | `#F8E7F0` | **15.23:1** | AAA | ✅ PASS |
-| Terminal | ANSI Red | `#9F1239` | `#F8E7F0` | **6.75:1** | AA | ✅ PASS |
-| Terminal | ANSI Green | `#166534` | `#F8E7F0` | **6:1** | AA | ✅ PASS |
-| Terminal | ANSI Blue | `#831843` | `#F8E7F0` | **8.12:1** | AAA | ✅ PASS |
-| Status Bar | Status Text | `#831843` | `#F8E7F0` | **8.12:1** | AAA | ✅ PASS |
-| Interactive | Input Text | `#2C081E` | `#FFFFFF` | **18.09:1** | AAA | ✅ PASS |
-| Interactive | Dropdown Text | `#2C081E` | `#FDF4F8` | **16.78:1** | AAA | ✅ PASS |
-| Interactive | Notification Text | `#2C081E` | `#FDF4F8` | **16.78:1** | AAA | ✅ PASS |
-| Interactive | Badge Indicator | `#FFFFFF` | `#DB2777` | **4.6:1** | AA | ✅ PASS |
+| Editor | Primary Text | `#2B0D18` | `#FCF3F2` | **16.4:1** | AAA | ✅ PASS |
+| Editor | Cursor | `#C41C5E` | `#FCF3F2` | **5.24:1** | AA | ✅ PASS |
+| Editor | Comment | `#7F5462` | `#FCF3F2` | **5.75:1** | AA | ✅ PASS |
+| Editor | Keyword | `#C41C5E` | `#FCF3F2` | **5.24:1** | AA | ✅ PASS |
+| Editor | Function | `#A3164D` | `#FCF3F2` | **6.92:1** | AA | ✅ PASS |
+| Editor | Variable | `#2B0D18` | `#FCF3F2` | **16.4:1** | AAA | ✅ PASS |
+| Editor | String | `#9E3610` | `#FCF3F2` | **6.44:1** | AA | ✅ PASS |
+| Editor | Number | `#B45309` | `#FCF3F2` | **4.6:1** | AA | ✅ PASS |
+| Editor | Type | `#7A1A40` | `#FCF3F2` | **9.39:1** | AAA | ✅ PASS |
+| Editor | Operator | `#C41C5E` | `#FCF3F2` | **5.24:1** | AA | ✅ PASS |
+| Sidebar | Primary Text | `#2B0D18` | `#F6E6E3` | **14.78:1** | AAA | ✅ PASS |
+| Sidebar | Title Text | `#7A1A40` | `#F6E6E3` | **8.46:1** | AAA | ✅ PASS |
+| Sidebar | Active Selection | `#2B0D18` | `#F6E6E3` | **14.78:1** | AAA | ✅ PASS |
+| Sidebar | Hover Item | `#2B0D18` | `#F1DEDA` | **13.81:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Text | `#2B0D18` | `#F8E2E6` | **14.5:1** | AAA | ✅ PASS |
+| Tabs | Inactive Tab Text | `#7A1A40` | `#F6E6E3` | **8.46:1** | AAA | ✅ PASS |
+| Tabs | Tab Hover Text | `#2B0D18` | `#EFCAD0` | **11.96:1** | AAA | ✅ PASS |
+| Tabs | Active Tab Indicator | `#C41C5E` | `#F8E2E6` | **4.63:1** | AA | ✅ PASS |
+| Panel | Panel Active Title | `#2B0D18` | `#ECD6D1` | **12.87:1** | AAA | ✅ PASS |
+| Panel | Terminal Text | `#2B0D18` | `#ECD6D1` | **12.87:1** | AAA | ✅ PASS |
+| Terminal | ANSI Red | `#9F1239` | `#ECD6D1` | **5.77:1** | AA | ✅ PASS |
+| Terminal | ANSI Green | `#166534` | `#ECD6D1` | **5.13:1** | AA | ✅ PASS |
+| Terminal | ANSI Blue | `#7A1A40` | `#ECD6D1` | **7.37:1** | AAA | ✅ PASS |
+| Status Bar | Status Text | `#7A1A40` | `#ECD6D1` | **7.37:1** | AAA | ✅ PASS |
+| Interactive | Input Text | `#2B0D18` | `#FCF3F2` | **16.4:1** | AAA | ✅ PASS |
+| Interactive | Dropdown Text | `#2B0D18` | `#F6E6E3` | **14.78:1** | AAA | ✅ PASS |
+| Interactive | Notification Text | `#2B0D18` | `#F6E6E3` | **14.78:1** | AAA | ✅ PASS |
+| Interactive | Badge Indicator | `#FFFFFF` | `#C41C5E` | **5.71:1** | AA | ✅ PASS |
 

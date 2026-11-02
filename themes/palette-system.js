@@ -21,71 +21,71 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Deep, atmospheric, restrained, and focused.',
     dark: {
       palette: {
-        darkest:  '#051017', // Primary Editor
-        deep:     '#0A1C27', // Sidebar
-        surface:  '#102634', // Panel / Status Bar
-        mid:      '#1E3F54', // Borders & separators
-        primary:  '#88B7C7', // Secondary text & types
-        lightest: '#DCE9ED'  // Primary editor text
+        darkest:  '#040D14', // Deep trench blue-black
+        deep:     '#081722', // Sidebar
+        surface:  '#0E2130', // Panel / Status Bar
+        mid:      '#18364B', // Borders & separators
+        primary:  '#80A8B8', // Secondary text & types
+        lightest: '#D5E4EC'  // Primary editor text
       },
-      accent: '#52C5D6',
-      accentSecondary: '#4E9AB5',
+      accent: '#3EAABF',
+      accentSecondary: '#5296A8',
       syntax: {
-        kw:    '#52C5D6',
-        fn:    '#7FD1DF',
-        str:   '#98D9B6',
-        num:   '#F0A868',
-        type:  '#88B7C7',
-        var:   '#DCE9ED',
-        const: '#F0A868',
-        prop:  '#DCE9ED',
-        comm:  '#628CA0',
-        op:    '#7FD1DF',
-        tag:   '#52C5D6',
-        attr:  '#7FD1DF'
+        kw:    '#3EAABF',
+        fn:    '#6BBCCF',
+        str:   '#7ECEAA',
+        num:   '#E59D62',
+        type:  '#80A8B8',
+        var:   '#D5E4EC',
+        const: '#E59D62',
+        prop:  '#D5E4EC',
+        comm:  '#5A8296',
+        op:    '#6BBCCF',
+        tag:   '#3EAABF',
+        attr:  '#6BBCCF'
       },
       terminal: {
-        black:   '#0A1C27',
+        black:   '#081722',
         red:     '#F87171',
         green:   '#4ADE80',
         yellow:  '#FBBF24',
-        blue:    '#52C5D6',
-        magenta: '#C084FC',
+        blue:    '#3EAABF',
+        magenta: '#B89FD6',
         cyan:    '#38BDF8',
-        white:   '#DCE9ED'
+        white:   '#D5E4EC'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F1F5F8', // Sidebar
-        deep:     '#E3ECF1', // Panel / Status Bar
-        mid:      '#C6D7E1', // Borders & separators
-        primary:  '#23495D', // Secondary text & types
-        darkest:  '#0B1E29'  // Primary editor text
+        lightest: '#EFF2F5', // Glacial cool slate paper
+        surface:  '#DFE5EB', // Sidebar
+        deep:     '#CFD8E1', // Panel / Status Bar
+        mid:      '#B6CAD6', // Borders & separators
+        primary:  '#234E6B', // Secondary text & types
+        darkest:  '#071720'  // Primary editor text
       },
-      accent: '#0A7D92',
-      accentSecondary: '#1B647A',
+      accent: '#0C606E',
+      accentSecondary: '#135A7A',
       syntax: {
-        kw:    '#0A7D92',
-        fn:    '#1B647A',
-        str:   '#1E6E45',
-        num:   '#A35417',
-        type:  '#23495D',
-        var:   '#0B1E29',
-        const: '#A35417',
-        prop:  '#0B1E29',
-        comm:  '#5C7887',
-        op:    '#1B647A',
-        tag:   '#0A7D92',
-        attr:  '#1B647A'
+        kw:    '#0C606E',
+        fn:    '#135A7A',
+        str:   '#156644',
+        num:   '#92400E',
+        type:  '#234E6B',
+        var:   '#071720',
+        const: '#92400E',
+        prop:  '#071720',
+        comm:  '#526E7D',
+        op:    '#135A7A',
+        tag:   '#0C606E',
+        attr:  '#135A7A'
       },
       terminal: {
-        black:   '#0B1E29',
+        black:   '#071720',
         red:     '#B91C1C',
         green:   '#166534',
         yellow:  '#92400E',
-        blue:    '#0369A1',
+        blue:    '#0C606E',
         magenta: '#7E22CE',
         cyan:    '#0E7490',
         white:   '#475569'
@@ -98,67 +98,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Rich, mysterious, elegant, and contemplative.',
     dark: {
       palette: {
-        darkest:  '#0A0914', // Primary Editor
-        deep:     '#121024', // Sidebar
-        surface:  '#1A1733', // Panel / Status Bar
-        mid:      '#2E2954', // Borders & separators
-        primary:  '#C4A5E8', // Secondary text & types
-        lightest: '#F2EDFB'  // Primary editor text
+        darkest:  '#0A0912', // Smoky blackberry near-black
+        deep:     '#121020', // Sidebar
+        surface:  '#19172A', // Panel / Status Bar
+        mid:      '#2B2745', // Borders & separators
+        primary:  '#B89FD6', // Secondary text & types
+        lightest: '#EFEBF7'  // Primary editor text
       },
-      accent: '#B37DD3',
-      accentSecondary: '#E879F9',
+      accent: '#A77DC8',
+      accentSecondary: '#C88EE0',
       syntax: {
-        kw:    '#F472B6',
-        fn:    '#B37DD3',
-        str:   '#E9D8A6',
-        num:   '#FBBF24',
-        type:  '#C4A5E8',
-        var:   '#F2EDFB',
-        const: '#FBBF24',
-        prop:  '#F2EDFB',
-        comm:  '#8177AB',
-        op:    '#E879F9',
-        tag:   '#F472B6',
-        attr:  '#B37DD3'
+        kw:    '#D47FA6',
+        fn:    '#A77DC8',
+        str:   '#E0CCA0',
+        num:   '#DEAC62',
+        type:  '#B89FD6',
+        var:   '#EFEBF7',
+        const: '#DEAC62',
+        prop:  '#EFEBF7',
+        comm:  '#8177A1',
+        op:    '#BA8BD9',
+        tag:   '#D47FA6',
+        attr:  '#A77DC8'
       },
       terminal: {
-        black:   '#121024',
+        black:   '#121020',
         red:     '#FB7185',
         green:   '#4ADE80',
         yellow:  '#FBBF24',
-        blue:    '#B37DD3',
-        magenta: '#E879F9',
+        blue:    '#A77DC8',
+        magenta: '#C88EE0',
         cyan:    '#67E8F9',
-        white:   '#F2EDFB'
+        white:   '#EFEBF7'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F5F3FA', // Sidebar
-        deep:     '#EBE6F5', // Panel / Status Bar
-        mid:      '#D4C8EB', // Borders & separators
-        primary:  '#4D297A', // Secondary text & types
-        darkest:  '#1B1231'  // Primary editor text
+        lightest: '#F6F5F9', // Dusk mist paper
+        surface:  '#EDEAF3', // Sidebar
+        deep:     '#E2DEEC', // Panel / Status Bar
+        mid:      '#CAC2DD', // Borders & separators
+        primary:  '#4F3574', // Secondary text & types
+        darkest:  '#1A132B'  // Primary editor text
       },
-      accent: '#7E22CE',
-      accentSecondary: '#A21CAF',
+      accent: '#6F26B8',
+      accentSecondary: '#8C279E',
       syntax: {
-        kw:    '#A21CAF',
-        fn:    '#7E22CE',
-        str:   '#854D0E',
-        num:   '#B45309',
-        type:  '#4D297A',
-        var:   '#1B1231',
-        const: '#B45309',
-        prop:  '#1B1231',
-        comm:  '#7C6E97',
-        op:    '#6B21A8',
-        tag:   '#A21CAF',
-        attr:  '#7E22CE'
+        kw:    '#8F2060',
+        fn:    '#6F26B8',
+        str:   '#73531A',
+        num:   '#A34F0C',
+        type:  '#4F3574',
+        var:   '#1A132B',
+        const: '#A34F0C',
+        prop:  '#1A132B',
+        comm:  '#6B5E87',
+        op:    '#5E1F9E',
+        tag:   '#8F2060',
+        attr:  '#6F26B8'
       },
       terminal: {
-        black:   '#1B1231',
+        black:   '#1A132B',
         red:     '#9F1239',
         green:   '#166534',
         yellow:  '#92400E',
@@ -175,71 +175,71 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Soft, delicate, airy, and calming.',
     dark: {
       palette: {
-        darkest:  '#120E12', // Primary Editor
-        deep:     '#1A141A', // Sidebar
-        surface:  '#251C26', // Panel / Status Bar
-        mid:      '#443245', // Borders & separators
-        primary:  '#F4A4AF', // Secondary text & types
-        lightest: '#FDF0F3'  // Primary editor text
+        darkest:  '#130E12', // Dark rosewood charcoal
+        deep:     '#1D151C', // Sidebar
+        surface:  '#271C26', // Panel / Status Bar
+        mid:      '#463243', // Borders & separators
+        primary:  '#E8A2B0', // Secondary text & types
+        lightest: '#FBF0F3'  // Primary editor text
       },
-      accent: '#FB7185',
-      accentSecondary: '#FDA4AF',
+      accent: '#F4728B',
+      accentSecondary: '#F9A8B6',
       syntax: {
-        kw:    '#FB7185',
-        fn:    '#FDA4AF',
-        str:   '#CBD5E1',
-        num:   '#FED7AA',
-        type:  '#F4A4AF',
-        var:   '#FDF0F3',
-        const: '#FED7AA',
-        prop:  '#FDF0F3',
-        comm:  '#947B93',
-        op:    '#FB7185',
-        tag:   '#FB7185',
-        attr:  '#FDA4AF'
+        kw:    '#F4728B',
+        fn:    '#EE8BA4',
+        str:   '#C2D6A4',
+        num:   '#F2B880',
+        type:  '#E8A2B0',
+        var:   '#FBF0F3',
+        const: '#F2B880',
+        prop:  '#FBF0F3',
+        comm:  '#8F7388',
+        op:    '#F4728B',
+        tag:   '#F4728B',
+        attr:  '#EE8BA4'
       },
       terminal: {
-        black:   '#1A141A',
-        red:     '#FB7185',
+        black:   '#1D151C',
+        red:     '#F4728B',
         green:   '#4ADE80',
         yellow:  '#FCD34D',
-        blue:    '#FDA4AF',
-        magenta: '#F472B6',
+        blue:    '#F9A8B6',
+        magenta: '#EE8BA4',
         cyan:    '#67E8F9',
-        white:   '#FDF0F3'
+        white:   '#FBF0F3'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#FDF5F6', // Sidebar
-        deep:     '#F8E9EB', // Panel / Status Bar
-        mid:      '#E9CAD0', // Borders & separators
-        primary:  '#6E2838', // Secondary text & types
-        darkest:  '#241217'  // Primary editor text
+        lightest: '#FAF5F6', // Rose-porcelain paper
+        surface:  '#F4E9EC', // Sidebar
+        deep:     '#EADBDF', // Panel / Status Bar
+        mid:      '#D8BCC4', // Borders & separators
+        primary:  '#70273B', // Secondary text & types
+        darkest:  '#261219'  // Primary editor text
       },
-      accent: '#BE123C',
-      accentSecondary: '#9F1239',
+      accent: '#B81B42',
+      accentSecondary: '#981434',
       syntax: {
-        kw:    '#BE123C',
-        fn:    '#9F1239',
-        str:   '#285E43',
-        num:   '#A14E15',
-        type:  '#6E2838',
-        var:   '#241217',
-        const: '#A14E15',
-        prop:  '#241217',
-        comm:  '#8A6B73',
-        op:    '#BE123C',
-        tag:   '#BE123C',
-        attr:  '#9F1239'
+        kw:    '#B81B42',
+        fn:    '#981434',
+        str:   '#2A663E',
+        num:   '#A35018',
+        type:  '#70273B',
+        var:   '#261219',
+        const: '#A35018',
+        prop:  '#261219',
+        comm:  '#7D5C66',
+        op:    '#B81B42',
+        tag:   '#B81B42',
+        attr:  '#981434'
       },
       terminal: {
-        black:   '#241217',
-        red:     '#9F1239',
+        black:   '#261219',
+        red:     '#981434',
         green:   '#166534',
         yellow:  '#92400E',
-        blue:    '#9F1239',
+        blue:    '#981434',
         magenta: '#831843',
         cyan:    '#0E7490',
         white:   '#475569'
@@ -252,67 +252,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Warm, earthy, natural, and grounded.',
     dark: {
       palette: {
-        darkest:  '#120E0B', // Primary Editor
-        deep:     '#1C1510', // Sidebar
-        surface:  '#271E18', // Panel / Status Bar
-        mid:      '#47372D', // Borders & separators
-        primary:  '#D4A373', // Secondary text & types
-        lightest: '#FDF8F3'  // Primary editor text
+        darkest:  '#130F0B', // Rich espresso earth
+        deep:     '#1D1611', // Sidebar
+        surface:  '#271F18', // Panel / Status Bar
+        mid:      '#46382C', // Borders & separators
+        primary:  '#D4A274', // Secondary text & types
+        lightest: '#FAF3EC'  // Primary editor text
       },
-      accent: '#E07A5F',
-      accentSecondary: '#E9C46A',
+      accent: '#DE7456',
+      accentSecondary: '#E5B860',
       syntax: {
-        kw:    '#E07A5F',
-        fn:    '#E9C46A',
-        str:   '#A7C957',
-        num:   '#F4A261',
-        type:  '#D4A373',
-        var:   '#FDF8F3',
-        const: '#F4A261',
-        prop:  '#FDF8F3',
-        comm:  '#967D6F',
-        op:    '#E07A5F',
-        tag:   '#E07A5F',
-        attr:  '#E9C46A'
+        kw:    '#DE7456',
+        fn:    '#E5B860',
+        str:   '#A3C660',
+        num:   '#EFA058',
+        type:  '#D4A274',
+        var:   '#FAF3EC',
+        const: '#EFA058',
+        prop:  '#FAF3EC',
+        comm:  '#8E7766',
+        op:    '#DE7456',
+        tag:   '#DE7456',
+        attr:  '#E5B860'
       },
       terminal: {
-        black:   '#1C1510',
+        black:   '#1D1611',
         red:     '#E76F51',
-        green:   '#A7C957',
-        yellow:  '#E9C46A',
-        blue:    '#E07A5F',
+        green:   '#A3C660',
+        yellow:  '#E5B860',
+        blue:    '#DE7456',
         magenta: '#DDA15E',
         cyan:    '#8AB17D',
-        white:   '#FDF8F3'
+        white:   '#FAF3EC'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#FAF6F0', // Sidebar
-        deep:     '#F2EAE0', // Panel / Status Bar
-        mid:      '#DFCFC1', // Borders & separators
-        primary:  '#634027', // Secondary text & types
-        darkest:  '#26180E'  // Primary editor text
+        lightest: '#FAF7F2', // Warm parchment alabaster
+        surface:  '#F0EAE0', // Sidebar
+        deep:     '#E5DCCE', // Panel / Status Bar
+        mid:      '#CEC0AF', // Borders & separators
+        primary:  '#684124', // Secondary text & types
+        darkest:  '#24180E'  // Primary editor text
       },
-      accent: '#A74B2A',
-      accentSecondary: '#8B4513',
+      accent: '#9E4324',
+      accentSecondary: '#8A5714',
       syntax: {
-        kw:    '#A74B2A',
-        fn:    '#8B4513',
-        str:   '#386641',
-        num:   '#B25E1B',
-        type:  '#634027',
-        var:   '#26180E',
-        const: '#B25E1B',
-        prop:  '#26180E',
-        comm:  '#806A58',
-        op:    '#A74B2A',
-        tag:   '#A74B2A',
-        attr:  '#8B4513'
+        kw:    '#9E4324',
+        fn:    '#8A5714',
+        str:   '#3D662B',
+        num:   '#AA5515',
+        type:  '#684124',
+        var:   '#24180E',
+        const: '#AA5515',
+        prop:  '#24180E',
+        comm:  '#75604F',
+        op:    '#9E4324',
+        tag:   '#9E4324',
+        attr:  '#8A5714'
       },
       terminal: {
-        black:   '#26180E',
+        black:   '#24180E',
         red:     '#9A3412',
         green:   '#166534',
         yellow:  '#854D0E',
@@ -329,67 +329,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Deep, cinematic, precise, and nocturnal.',
     dark: {
       palette: {
-        darkest:  '#060A13', // Primary Editor
-        deep:     '#0C1224', // Sidebar
-        surface:  '#131B34', // Panel / Status Bar
-        mid:      '#222E54', // Borders & separators
-        primary:  '#85B5F2', // Secondary text & types
-        lightest: '#EBF2FA'  // Primary editor text
+        darkest:  '#070B16', // Nocturnal navy-black
+        deep:     '#0D1426', // Sidebar
+        surface:  '#141E38', // Panel / Status Bar
+        mid:      '#23325B', // Borders & separators
+        primary:  '#87B4ED', // Secondary text & types
+        lightest: '#EBF2FC'  // Primary editor text
       },
-      accent: '#38BDF8',
-      accentSecondary: '#818CF8',
+      accent: '#38BAF5',
+      accentSecondary: '#788AF5',
       syntax: {
-        kw:    '#818CF8',
-        fn:    '#38BDF8',
-        str:   '#86EFAC',
-        num:   '#FDBA74',
-        type:  '#85B5F2',
-        var:   '#EBF2FA',
-        const: '#FDBA74',
-        prop:  '#EBF2FA',
-        comm:  '#6C7EAB',
-        op:    '#38BDF8',
-        tag:   '#818CF8',
-        attr:  '#38BDF8'
+        kw:    '#788AF5',
+        fn:    '#38BAF5',
+        str:   '#6EE7B7',
+        num:   '#F5B06B',
+        type:  '#87B4ED',
+        var:   '#EBF2FC',
+        const: '#F5B06B',
+        prop:  '#EBF2FC',
+        comm:  '#657DAA',
+        op:    '#38BAF5',
+        tag:   '#788AF5',
+        attr:  '#38BAF5'
       },
       terminal: {
-        black:   '#0C1224',
+        black:   '#0D1426',
         red:     '#F87171',
         green:   '#4ADE80',
         yellow:  '#FBBF24',
-        blue:    '#38BDF8',
-        magenta: '#818CF8',
+        blue:    '#38BAF5',
+        magenta: '#788AF5',
         cyan:    '#67E8F9',
-        white:   '#EBF2FA'
+        white:   '#EBF2FC'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F2F5F9', // Sidebar
-        deep:     '#E4EBF4', // Panel / Status Bar
-        mid:      '#C6D4E5', // Borders & separators
-        primary:  '#1E3A8A', // Secondary text & types
-        darkest:  '#0A142F'  // Primary editor text
+        lightest: '#F3F6FA', // Architectural ice paper
+        surface:  '#E5ECF4', // Sidebar
+        deep:     '#D6E2EE', // Panel / Status Bar
+        mid:      '#B5C8DC', // Borders & separators
+        primary:  '#1B4485', // Secondary text & types
+        darkest:  '#09162D'  // Primary editor text
       },
-      accent: '#0284C7',
-      accentSecondary: '#2563EB',
+      accent: '#1D64D8',
+      accentSecondary: '#1E40AF',
       syntax: {
-        kw:    '#2563EB',
-        fn:    '#0369A1',
-        str:   '#15803D',
-        num:   '#C2410C',
-        type:  '#1E3A8A',
-        var:   '#0A142F',
-        const: '#C2410C',
-        prop:  '#0A142F',
-        comm:  '#5B6E8C',
-        op:    '#0369A1',
-        tag:   '#2563EB',
-        attr:  '#0369A1'
+        kw:    '#1D64D8',
+        fn:    '#1E40AF',
+        str:   '#157F3B',
+        num:   '#B84A0E',
+        type:  '#1B4485',
+        var:   '#09162D',
+        const: '#B84A0E',
+        prop:  '#09162D',
+        comm:  '#526E8F',
+        op:    '#1D64D8',
+        tag:   '#1D64D8',
+        attr:  '#1E40AF'
       },
       terminal: {
-        black:   '#0A142F',
+        black:   '#09162D',
         red:     '#991B1B',
         green:   '#166534',
         yellow:  '#92400E',
@@ -406,67 +406,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Organic, quiet, grounded, and refreshing.',
     dark: {
       palette: {
-        darkest:  '#08120C', // Primary Editor
-        deep:     '#0E1C14', // Sidebar
-        surface:  '#16281D', // Panel / Status Bar
-        mid:      '#284432', // Borders & separators
-        primary:  '#88CDA0', // Secondary text & types
-        lightest: '#EDF7F1'  // Primary editor text
+        darkest:  '#07120C', // Deep spruce green-black
+        deep:     '#0D1E14', // Sidebar
+        surface:  '#142B1D', // Panel / Status Bar
+        mid:      '#244932', // Borders & separators
+        primary:  '#80C899', // Secondary text & types
+        lightest: '#EEF7F2'  // Primary editor text
       },
-      accent: '#4ADE80',
-      accentSecondary: '#2DD4BF',
+      accent: '#3DD678',
+      accentSecondary: '#29C7B2',
       syntax: {
-        kw:    '#2DD4BF',
-        fn:    '#4ADE80',
-        str:   '#D9F99D',
-        num:   '#FCD34D',
-        type:  '#88CDA0',
-        var:   '#EDF7F1',
-        const: '#FCD34D',
-        prop:  '#EDF7F1',
-        comm:  '#6C8D79',
-        op:    '#4ADE80',
-        tag:   '#2DD4BF',
-        attr:  '#4ADE80'
+        kw:    '#29C7B2',
+        fn:    '#3DD678',
+        str:   '#D2F48D',
+        num:   '#F5C74E',
+        type:  '#80C899',
+        var:   '#EEF7F2',
+        const: '#F5C74E',
+        prop:  '#EEF7F2',
+        comm:  '#638C71',
+        op:    '#3DD678',
+        tag:   '#29C7B2',
+        attr:  '#3DD678'
       },
       terminal: {
-        black:   '#0E1C14',
+        black:   '#0D1E14',
         red:     '#FB7185',
-        green:   '#4ADE80',
-        yellow:  '#FCD34D',
-        blue:    '#2DD4BF',
+        green:   '#3DD678',
+        yellow:  '#F5C74E',
+        blue:    '#29C7B2',
         magenta: '#A78BFA',
         cyan:    '#67E8F9',
-        white:   '#EDF7F1'
+        white:   '#EEF7F2'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F2F7F4', // Sidebar
-        deep:     '#E4EFE8', // Panel / Status Bar
-        mid:      '#C3D8CB', // Borders & separators
-        primary:  '#166534', // Secondary text & types
-        darkest:  '#0B2514'  // Primary editor text
+        lightest: '#F3F7F4', // Botanical sage-dew paper
+        surface:  '#E6EFE9', // Sidebar
+        deep:     '#D7E5DC', // Panel / Status Bar
+        mid:      '#B5CDC0', // Borders & separators
+        primary:  '#155E32', // Secondary text & types
+        darkest:  '#0A2413'  // Primary editor text
       },
       accent: '#15803D',
-      accentSecondary: '#0F766E',
+      accentSecondary: '#0D6E66',
       syntax: {
-        kw:    '#0F766E',
+        kw:    '#0D6E66',
         fn:    '#15803D',
         str:   '#4D7C0F',
-        num:   '#B45309',
-        type:  '#166534',
-        var:   '#0B2514',
-        const: '#B45309',
-        prop:  '#0B2514',
-        comm:  '#587564',
+        num:   '#A8520C',
+        type:  '#155E32',
+        var:   '#0A2413',
+        const: '#A8520C',
+        prop:  '#0A2413',
+        comm:  '#537460',
         op:    '#15803D',
-        tag:   '#0F766E',
+        tag:   '#0D6E66',
         attr:  '#15803D'
       },
       terminal: {
-        black:   '#0B2514',
+        black:   '#0A2413',
         red:     '#991B1B',
         green:   '#166534',
         yellow:  '#854D0E',
@@ -483,67 +483,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Atmospheric, imaginative, and futuristic.',
     dark: {
       palette: {
-        darkest:  '#0B0716', // Primary Editor
-        deep:     '#130D25', // Sidebar
-        surface:  '#1C1336', // Panel / Status Bar
-        mid:      '#372562', // Borders & separators
-        primary:  '#C58AFE', // Secondary text & types
-        lightest: '#F6EEFF'  // Primary editor text
+        darkest:  '#0B0618', // Deep cosmic space violet-black
+        deep:     '#140C2C', // Sidebar
+        surface:  '#1C123D', // Panel / Status Bar
+        mid:      '#39246B', // Borders & separators
+        primary:  '#CA92FA', // Secondary text & types
+        lightest: '#F7EEFF'  // Primary editor text
       },
-      accent: '#E879F9',
-      accentSecondary: '#818CF8',
+      accent: '#EE62C8',
+      accentSecondary: '#8C7AF7',
       syntax: {
-        kw:    '#E879F9',
-        fn:    '#A78BFA',
-        str:   '#FBCFE8',
+        kw:    '#EE62C8',
+        fn:    '#A77BFA',
+        str:   '#7DD3FC',
         num:   '#FDBA74',
-        type:  '#C58AFE',
-        var:   '#F6EEFF',
+        type:  '#CA92FA',
+        var:   '#F7EEFF',
         const: '#FDBA74',
-        prop:  '#F6EEFF',
-        comm:  '#8971B0',
-        op:    '#E879F9',
-        tag:   '#E879F9',
-        attr:  '#A78BFA'
+        prop:  '#F7EEFF',
+        comm:  '#8870B1',
+        op:    '#EE62C8',
+        tag:   '#EE62C8',
+        attr:  '#A77BFA'
       },
       terminal: {
-        black:   '#130D25',
+        black:   '#140C2C',
         red:     '#F43F5E',
         green:   '#34D399',
         yellow:  '#FBBF24',
-        blue:    '#818CF8',
-        magenta: '#E879F9',
-        cyan:    '#67E8F9',
-        white:   '#F6EEFF'
+        blue:    '#8C7AF7',
+        magenta: '#EE62C8',
+        cyan:    '#7DD3FC',
+        white:   '#F7EEFF'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F7F3FC', // Sidebar
-        deep:     '#EFE8F9', // Panel / Status Bar
-        mid:      '#D6C5F0', // Borders & separators
-        primary:  '#581C87', // Secondary text & types
-        darkest:  '#1E0A3C'  // Primary editor text
+        lightest: '#F7F4FB', // Starlight lilac paper
+        surface:  '#EDE5F6', // Sidebar
+        deep:     '#DFD2EE', // Panel / Status Bar
+        mid:      '#C5AEDB', // Borders & separators
+        primary:  '#5E1D96', // Secondary text & types
+        darkest:  '#1C0A36'  // Primary editor text
       },
-      accent: '#9333EA',
-      accentSecondary: '#7C3AED',
+      accent: '#9828C9',
+      accentSecondary: '#6D28D9',
       syntax: {
-        kw:    '#9333EA',
-        fn:    '#7C3AED',
-        str:   '#9D174D',
-        num:   '#C2410C',
-        type:  '#581C87',
-        var:   '#1E0A3C',
-        const: '#C2410C',
-        prop:  '#1E0A3C',
-        comm:  '#7D669C',
-        op:    '#9333EA',
-        tag:   '#9333EA',
-        attr:  '#7C3AED'
+        kw:    '#9828C9',
+        fn:    '#6D28D9',
+        str:   '#0E7490',
+        num:   '#B83E0A',
+        type:  '#5E1D96',
+        var:   '#1C0A36',
+        const: '#B83E0A',
+        prop:  '#1C0A36',
+        comm:  '#725B8F',
+        op:    '#9828C9',
+        tag:   '#9828C9',
+        attr:  '#6D28D9'
       },
       terminal: {
-        black:   '#1E0A3C',
+        black:   '#1C0A36',
         red:     '#9F1239',
         green:   '#166534',
         yellow:  '#92400E',
@@ -560,71 +560,71 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Clear, cool, modern, and expansive.',
     dark: {
       palette: {
-        darkest:  '#05121D', // Primary Editor
-        deep:     '#0A1C2B', // Sidebar
-        surface:  '#10283D', // Panel / Status Bar
-        mid:      '#1D4262', // Borders & separators
-        primary:  '#60C5F8', // Secondary text & types
-        lightest: '#EBF5FA'  // Primary editor text
+        darkest:  '#041322', // Marine blue-black
+        deep:     '#081F33', // Sidebar
+        surface:  '#0E2B45', // Panel / Status Bar
+        mid:      '#1A4970', // Borders & separators
+        primary:  '#52C2F8', // Secondary text & types
+        lightest: '#EBF6FC'  // Primary editor text
       },
-      accent: '#22D3EE',
+      accent: '#14D2E6',
       accentSecondary: '#38BDF8',
       syntax: {
-        kw:    '#38BDF8',
-        fn:    '#22D3EE',
-        str:   '#A5F3FC',
-        num:   '#FDBA74',
-        type:  '#60C5F8',
-        var:   '#EBF5FA',
-        const: '#FDBA74',
-        prop:  '#EBF5FA',
-        comm:  '#5C87AC',
-        op:    '#22D3EE',
-        tag:   '#38BDF8',
-        attr:  '#22D3EE'
+        kw:    '#14D2E6',
+        fn:    '#38BDF8',
+        str:   '#98F5D8',
+        num:   '#FBBF24',
+        type:  '#52C2F8',
+        var:   '#EBF6FC',
+        const: '#FBBF24',
+        prop:  '#EBF6FC',
+        comm:  '#5684A8',
+        op:    '#14D2E6',
+        tag:   '#14D2E6',
+        attr:  '#38BDF8'
       },
       terminal: {
-        black:   '#0A1C2B',
+        black:   '#081F33',
         red:     '#F87171',
         green:   '#34D399',
         yellow:  '#FBBF24',
         blue:    '#38BDF8',
         magenta: '#818CF8',
-        cyan:    '#22D3EE',
-        white:   '#EBF5FA'
+        cyan:    '#14D2E6',
+        white:   '#EBF6FC'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F0F6FA', // Sidebar
-        deep:     '#E2EFF6', // Panel / Status Bar
-        mid:      '#BFDCEB', // Borders & separators
-        primary:  '#0369A1', // Secondary text & types
-        darkest:  '#06253B'  // Primary editor text
+        lightest: '#EBF7F9', // Luminous sea-spray aquamarine paper
+        surface:  '#D8EDF2', // Sidebar
+        deep:     '#C6E3EB', // Panel / Status Bar
+        mid:      '#A4CDD2', // Borders & separators
+        primary:  '#02677E', // Secondary text & types
+        darkest:  '#021A26'  // Primary editor text
       },
       accent: '#0284C7',
-      accentSecondary: '#0891B2',
+      accentSecondary: '#047A8A',
       syntax: {
-        kw:    '#0369A1',
-        fn:    '#0E7490',
-        str:   '#0F766E',
-        num:   '#C2410C',
-        type:  '#0369A1',
-        var:   '#06253B',
-        const: '#C2410C',
-        prop:  '#06253B',
-        comm:  '#537B96',
-        op:    '#0369A1',
-        tag:   '#0369A1',
-        attr:  '#0E7490'
+        kw:    '#006FA3',
+        fn:    '#047A8A',
+        str:   '#067E67',
+        num:   '#BA3B10',
+        type:  '#02677E',
+        var:   '#021A26',
+        const: '#BA3B10',
+        prop:  '#021A26',
+        comm:  '#44747E',
+        op:    '#006FA3',
+        tag:   '#006FA3',
+        attr:  '#047A8A'
       },
       terminal: {
-        black:   '#06253B',
+        black:   '#021A26',
         red:     '#991B1B',
         green:   '#166534',
         yellow:  '#92400E',
-        blue:    '#075985',
+        blue:    '#006FA3',
         magenta: '#701A75',
         cyan:    '#0E7490',
         white:   '#475569'
@@ -637,67 +637,67 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Warm, energetic, bold, and focused.',
     dark: {
       palette: {
-        darkest:  '#140A07', // Primary Editor
-        deep:     '#1C0F0A', // Sidebar
-        surface:  '#271610', // Panel / Status Bar
-        mid:      '#48281C', // Borders & separators
-        primary:  '#FDBA74', // Secondary text & types
-        lightest: '#FFF3ED'  // Primary editor text
+        darkest:  '#140A06', // Warm charcoal ember
+        deep:     '#1F0F09', // Sidebar
+        surface:  '#2A160D', // Panel / Status Bar
+        mid:      '#4B2718', // Borders & separators
+        primary:  '#FDB56C', // Secondary text & types
+        lightest: '#FFF3EB'  // Primary editor text
       },
-      accent: '#F97316',
-      accentSecondary: '#FBBF24',
+      accent: '#FA741B',
+      accentSecondary: '#F59E0B',
       syntax: {
-        kw:    '#F97316',
-        fn:    '#FBBF24',
-        str:   '#FED7AA',
-        num:   '#FB7185',
-        type:  '#FDBA74',
-        var:   '#FFF3ED',
-        const: '#FB7185',
-        prop:  '#FFF3ED',
-        comm:  '#9B7365',
-        op:    '#F97316',
-        tag:   '#F97316',
-        attr:  '#FBBF24'
+        kw:    '#FA741B',
+        fn:    '#F59E0B',
+        str:   '#FCD34D',
+        num:   '#F87171',
+        type:  '#FDB56C',
+        var:   '#FFF3EB',
+        const: '#F87171',
+        prop:  '#FFF3EB',
+        comm:  '#9A7363',
+        op:    '#FA741B',
+        tag:   '#FA741B',
+        attr:  '#F59E0B'
       },
       terminal: {
-        black:   '#1C0F0A',
+        black:   '#1F0F09',
         red:     '#EF4444',
         green:   '#84CC16',
         yellow:  '#FBBF24',
-        blue:    '#F97316',
+        blue:    '#FA741B',
         magenta: '#F43F5E',
         cyan:    '#38BDF8',
-        white:   '#FFF3ED'
+        white:   '#FFF3EB'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#FCF6F2', // Sidebar
-        deep:     '#F7ECE4', // Panel / Status Bar
-        mid:      '#E8D2C2', // Borders & separators
-        primary:  '#9A3412', // Secondary text & types
-        darkest:  '#2E1208'  // Primary editor text
+        lightest: '#FAF3EC', // Sun-warmed peach-amber ember paper
+        surface:  '#F2E6DA', // Sidebar
+        deep:     '#E7D6C6', // Panel / Status Bar
+        mid:      '#CFB7A0', // Borders & separators
+        primary:  '#8F3008', // Secondary text & types
+        darkest:  '#2B0F05'  // Primary editor text
       },
-      accent: '#EA580C',
-      accentSecondary: '#C2410C',
+      accent: '#BD3900',
+      accentSecondary: '#9E2E02',
       syntax: {
-        kw:    '#C2410C',
-        fn:    '#C2410C',
-        str:   '#2D6A4F',
+        kw:    '#BD3900',
+        fn:    '#9E2E02',
+        str:   '#824408',
         num:   '#B91C1C',
-        type:  '#9A3412',
-        var:   '#2E1208',
+        type:  '#8F3008',
+        var:   '#2B0F05',
         const: '#B91C1C',
-        prop:  '#2E1208',
-        comm:  '#87685D',
-        op:    '#C2410C',
-        tag:   '#C2410C',
-        attr:  '#C2410C'
+        prop:  '#2B0F05',
+        comm:  '#7B5848',
+        op:    '#BD3900',
+        tag:   '#BD3900',
+        attr:  '#9E2E02'
       },
       terminal: {
-        black:   '#2E1208',
+        black:   '#2B0F05',
         red:     '#9A3412',
         green:   '#166534',
         yellow:  '#854D0E',
@@ -714,71 +714,71 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Elegant, gentle, creative, and soothing.',
     dark: {
       palette: {
-        darkest:  '#0C081A', // Primary Editor
-        deep:     '#130D29', // Sidebar
-        surface:  '#1B1339', // Panel / Status Bar
-        mid:      '#322366', // Borders & separators
-        primary:  '#C9BAFE', // Secondary text & types
-        lightest: '#F6F3FE'  // Primary editor text
+        darkest:  '#0B0819', // Soft wisteria indigo-black
+        deep:     '#120E25', // Sidebar
+        surface:  '#191433', // Panel / Status Bar
+        mid:      '#30275C', // Borders & separators
+        primary:  '#B8A8F8', // Secondary text & types
+        lightest: '#F6F4FD'  // Primary editor text
       },
-      accent: '#A78BFA',
-      accentSecondary: '#DDD6FE',
+      accent: '#9B8AFB',
+      accentSecondary: '#C4B5FD',
       syntax: {
-        kw:    '#C084FC',
-        fn:    '#A78BFA',
-        str:   '#E9D5FF',
+        kw:    '#B87CF8',
+        fn:    '#9B8AFB',
+        str:   '#E5D5FC',
         num:   '#F472B6',
-        type:  '#C9BAFE',
-        var:   '#F6F3FE',
+        type:  '#B8A8F8',
+        var:   '#F6F4FD',
         const: '#F472B6',
-        prop:  '#F6F3FE',
-        comm:  '#8373B0',
-        op:    '#A78BFA',
-        tag:   '#C084FC',
-        attr:  '#A78BFA'
+        prop:  '#F6F4FD',
+        comm:  '#8076A5',
+        op:    '#9B8AFB',
+        tag:   '#B87CF8',
+        attr:  '#9B8AFB'
       },
       terminal: {
-        black:   '#130D29',
+        black:   '#120E25',
         red:     '#FB7185',
         green:   '#34D399',
         yellow:  '#FBBF24',
-        blue:    '#A78BFA',
-        magenta: '#C084FC',
+        blue:    '#9B8AFB',
+        magenta: '#B87CF8',
         cyan:    '#67E8F9',
-        white:   '#F6F3FE'
+        white:   '#F6F4FD'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#F6F4FB', // Sidebar
-        deep:     '#EEE9F7', // Panel / Status Bar
-        mid:      '#D4C9EB', // Borders & separators
-        primary:  '#5B21B6', // Secondary text & types
-        darkest:  '#1D0B38'  // Primary editor text
+        lightest: '#F4F5FB', // Calming periwinkle-milk paper
+        surface:  '#E6E8F6', // Sidebar
+        deep:     '#D7DAED', // Panel / Status Bar
+        mid:      '#B6BCDF', // Borders & separators
+        primary:  '#4338CA', // Secondary text & types
+        darkest:  '#121636'  // Primary editor text
       },
-      accent: '#7C3AED',
-      accentSecondary: '#6D28D9',
+      accent: '#4F46E5',
+      accentSecondary: '#4338CA',
       syntax: {
-        kw:    '#7C3AED',
-        fn:    '#6D28D9',
-        str:   '#1E6E56',
-        num:   '#9D174D',
-        type:  '#5B21B6',
-        var:   '#1D0B38',
-        const: '#9D174D',
-        prop:  '#1D0B38',
-        comm:  '#7A6A9B',
-        op:    '#7C3AED',
-        tag:   '#7C3AED',
-        attr:  '#6D28D9'
+        kw:    '#4F46E5',
+        fn:    '#3730A3',
+        str:   '#157158',
+        num:   '#941848',
+        type:  '#4338CA',
+        var:   '#121636',
+        const: '#941848',
+        prop:  '#121636',
+        comm:  '#5C668D',
+        op:    '#4F46E5',
+        tag:   '#4F46E5',
+        attr:  '#3730A3'
       },
       terminal: {
-        black:   '#1D0B38',
+        black:   '#121636',
         red:     '#9F1239',
         green:   '#166534',
         yellow:  '#92400E',
-        blue:    '#5B21B6',
+        blue:    '#4F46E5',
         magenta: '#86198F',
         cyan:    '#0E7490',
         white:   '#475569'
@@ -791,71 +791,71 @@ const PALETTE_DEFINITIONS = [
     tagline: 'Vibrant, floral, playful, and harmonious.',
     dark: {
       palette: {
-        darkest:  '#130810', // Primary Editor
-        deep:     '#1C0D18', // Sidebar
-        surface:  '#271322', // Panel / Status Bar
-        mid:      '#4A203F', // Borders & separators
-        primary:  '#F9A8D4', // Secondary text & types
-        lightest: '#FDF2F7'  // Primary editor text
+        darkest:  '#140711', // Warm blackberry plum-black
+        deep:     '#1E0C1B', // Sidebar
+        surface:  '#291125', // Panel / Status Bar
+        mid:      '#4D2045', // Borders & separators
+        primary:  '#F8A4CE', // Secondary text & types
+        lightest: '#FDF1F6'  // Primary editor text
       },
-      accent: '#EC4899',
-      accentSecondary: '#F43F5E',
+      accent: '#E94090',
+      accentSecondary: '#FB7185',
       syntax: {
-        kw:    '#EC4899',
-        fn:    '#F472B6',
-        str:   '#FBCFE8',
+        kw:    '#E94090',
+        fn:    '#FB8268', // Radiant floral apricot-coral bloom
+        str:   '#FED7AA',
         num:   '#FBBF24',
-        type:  '#F9A8D4',
-        var:   '#FDF2F7',
+        type:  '#F8A4CE',
+        var:   '#FDF1F6',
         const: '#FBBF24',
-        prop:  '#FDF2F7',
-        comm:  '#997090',
-        op:    '#EC4899',
-        tag:   '#EC4899',
-        attr:  '#F472B6'
+        prop:  '#FDF1F6',
+        comm:  '#986F8D',
+        op:    '#E94090',
+        tag:   '#E94090',
+        attr:  '#FB8268'
       },
       terminal: {
-        black:   '#1C0D18',
-        red:     '#F43F5E',
+        black:   '#1E0C1B',
+        red:     '#FB7185',
         green:   '#34D399',
         yellow:  '#FBBF24',
-        blue:    '#EC4899',
+        blue:    '#E94090',
         magenta: '#F472B6',
         cyan:    '#67E8F9',
-        white:   '#FDF2F7'
+        white:   '#FDF1F6'
       }
     },
     light: {
       palette: {
-        lightest: '#FFFFFF', // Primary Editor
-        surface:  '#FDF4F8', // Sidebar
-        deep:     '#F8E7F0', // Panel / Status Bar
-        mid:      '#EBC8DD', // Borders & separators
-        primary:  '#831843', // Secondary text & types
-        darkest:  '#2C081E'  // Primary editor text
+        lightest: '#FCF3F2', // Warm apricot-blossom porcelain paper
+        surface:  '#F6E6E3', // Sidebar
+        deep:     '#ECD6D1', // Panel / Status Bar
+        mid:      '#DAB9B2', // Borders & separators
+        primary:  '#7A1A40', // Secondary text & types
+        darkest:  '#2B0D18'  // Primary editor text
       },
-      accent: '#DB2777',
-      accentSecondary: '#BE185D',
+      accent: '#C41C5E',
+      accentSecondary: '#A3164D',
       syntax: {
-        kw:    '#DB2777',
-        fn:    '#BE185D',
-        str:   '#15803D',
+        kw:    '#C41C5E',
+        fn:    '#A3164D',
+        str:   '#9E3610',
         num:   '#B45309',
-        type:  '#831843',
-        var:   '#2C081E',
+        type:  '#7A1A40',
+        var:   '#2B0D18',
         const: '#B45309',
-        prop:  '#2C081E',
-        comm:  '#8E6883',
-        op:    '#DB2777',
-        tag:   '#DB2777',
-        attr:  '#BE185D'
+        prop:  '#2B0D18',
+        comm:  '#7F5462',
+        op:    '#C41C5E',
+        tag:   '#C41C5E',
+        attr:  '#A3164D'
       },
       terminal: {
-        black:   '#2C081E',
+        black:   '#2B0D18',
         red:     '#9F1239',
         green:   '#166534',
         yellow:  '#92400E',
-        blue:    '#831843',
+        blue:    '#7A1A40',
         magenta: '#86198F',
         cyan:    '#0E7490',
         white:   '#475569'

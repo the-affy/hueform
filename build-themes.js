@@ -28,7 +28,7 @@ const {
  *   editor.background  = lightest (pure canvas/paper)
  *   sideBar.background = surface (2nd lightest, subtle paper tone)
  *   panel.background   = deep (3rd lightest, supporting layer)
- *   tab.activeBackground = #FFFFFF + 8% accent tint (soft theme-colored active tab)
+ *   tab.activeBackground = var(--color-accent) + 8% accent tint (soft theme-colored active tab)
  *   tab.inactiveBackground = surface (recedes with sidebar)
  */
 function deriveSurfaces(themeDef, isDark) {
@@ -73,7 +73,7 @@ function deriveSurfaces(themeDef, isDark) {
     const tabsHeaderBg = p.surface;
 
     // Dynamic Tab Colors (Light mode)
-    const tabActiveBg = mix('#FFFFFF', accent, 0.08);
+    const tabActiveBg = mix(p.lightest, accent, 0.08);
     const tabInactiveBg = p.surface;
     const tabHoverBg = mix(p.surface, accent, 0.14);
     const tabUnfocusedActiveBg = mix(tabActiveBg, p.surface, 0.5);
@@ -90,7 +90,7 @@ function deriveSurfaces(themeDef, isDark) {
       tabUnfocusedActiveBg,
       hoverBg: mix(p.surface, p.deep, 0.5),
       activeBg: mix(p.surface, p.deep, 0.9),
-      inputBg: '#FFFFFF',
+      inputBg: p.lightest,
       popupBg: p.surface,
       border: p.mid,
       borderSubtle: mix(p.surface, p.mid, 0.35)
@@ -175,7 +175,7 @@ function generateThemeJson(family, variant) {
       focusBorder: a.focusBorder,
       foreground: fg,
       disabledForeground: withAlpha(fgSubtle, '99'),
-      'widget.shadow': isDark ? '#00000066' : '#00000018',
+      'widget.shadow': isDark ? 'var(--color-accent)66' : '#00000018',
       'widget.border': s.border,
       'selection.background': a.selectionBg,
       descriptionForeground: fgMuted,
@@ -587,6 +587,87 @@ function generateMarkdownReport(auditList) {
   return md;
 }
 
+/**
+ * Generate human-readable palette mapping documentation
+ */
+function generatePaletteMappingMarkdown(paletteDefs) {
+  let md = `# SONDER — Semantic Palette & Adaptive Surface Mapping\n\n`;
+  md += `> *"Every theme has a character of its own."*\n\n`;
+  md += `This document provides the exact source-of-truth semantic palette mapping and contrast verification for all 22 SONDER themes across both Dark and Light modes.\n\n`;
+  md += `## 1. Architectural Hierarchy Principles\n\n`;
+  md += `### Dark Themes\n`;
+  md += `- **Editor Background (\`editor.background\`):** Assigned to \`palette.darkest\` — the deepest, most immersive layer.\n`;
+  md += `- **Sidebar Background (\`sideBar.background\`):** Assigned to \`palette.deep\` — second deepest with clear perceptual separation.\n`;
+  md += `- **Panel & Status Bar (\`panel.background\`, \`statusBar.background\`):** Assigned to \`palette.surface\` — third deepest supporting layer.\n`;
+  md += `- **Active Tab (\`tab.activeBackground\`):** Harmonized active canvas derived from \`palette.darkest\` tinted with 12% accent.\n`;
+  md += `- **Inactive Tab (\`tab.inactiveBackground\`):** Recedes into \`palette.deep\` with sidebar.\n\n`;
+  md += `### Light Themes\n`;
+  md += `- **Editor Background (\`editor.background\`):** Assigned to \`palette.lightest\` — subtle chromatic paper canvas.\n`;
+  md += `- **Sidebar Background (\`sideBar.background\`):** Assigned to \`palette.surface\` — second lightest, subtle paper tone.\n`;
+  md += `- **Panel & Status Bar (\`panel.background\`, \`statusBar.background\`):** Assigned to \`palette.deep\` — third lightest, supporting ground.\n`;
+  md += `- **Active Tab (\`tab.activeBackground\`):** Harmonized paper canvas derived from \`palette.lightest\` tinted with 8% accent.\n`;
+  md += `- **Inactive Tab (\`tab.inactiveBackground\`):** Recedes into \`palette.surface\` with sidebar.\n\n`;
+  md += `---\n\n`;
+  md += `## 2. Palette Definitions by Theme Family\n\n`;
+
+  paletteDefs.forEach(fam => {
+    md += `### ${fam.name} Family\n`;
+    md += `*Tagline: ${fam.tagline}*\n\n`;
+
+    // Dark
+    md += `#### SONDER ${fam.name} Dark\n\n`;
+    md += `| Semantic Role | Hex | Intended Purpose |\n`;
+    md += `|---|---|---|\n`;
+    md += `| \`palette.darkest\` | \`${fam.dark.palette.darkest}\` | Primary Canvas (Editor Background) |\n`;
+    md += `| \`palette.deep\` | \`${fam.dark.palette.deep}\` | Sidebar, Inactive Tabs, Input Box |\n`;
+    md += `| \`palette.surface\` | \`${fam.dark.palette.surface}\` | Panel, Terminal, Status Bar, Popups |\n`;
+    md += `| \`palette.mid\` | \`${fam.dark.palette.mid}\` | Structural Borders, Separators |\n`;
+    md += `| \`palette.primary\` | \`${fam.dark.palette.primary}\` | Secondary Text, Types, Titles |\n`;
+    md += `| \`palette.lightest\` | \`${fam.dark.palette.lightest}\` | Primary Text (Editor Foreground) |\n`;
+    md += `| \`accent\` | \`${fam.dark.accent}\` | Primary Accent, Cursor, Active Indicators |\n`;
+    md += `| \`accentSecondary\` | \`${fam.dark.accentSecondary}\` | Word Highlights, Links, Secondary Accent |\n\n`;
+
+    // Light
+    md += `#### SONDER ${fam.name} Light\n\n`;
+    md += `| Semantic Role | Hex | Intended Purpose |\n`;
+    md += `|---|---|---|\n`;
+    md += `| \`palette.lightest\` | \`${fam.light.palette.lightest}\` | Primary Canvas (Editor Background) |\n`;
+    md += `| \`palette.surface\` | \`${fam.light.palette.surface}\` | Sidebar, Inactive Tabs, Popups |\n`;
+    md += `| \`palette.deep\` | \`${fam.light.palette.deep}\` | Panel, Terminal, Status Bar |\n`;
+    md += `| \`palette.mid\` | \`${fam.light.palette.mid}\` | Structural Borders, Separators |\n`;
+    md += `| \`palette.primary\` | \`${fam.light.palette.primary}\` | Secondary Text, Types, Titles |\n`;
+    md += `| \`palette.darkest\` | \`${fam.light.palette.darkest}\` | Primary Text (Editor Foreground) |\n`;
+    md += `| \`accent\` | \`${fam.light.accent}\` | Primary Accent, Cursor, Active Indicators |\n`;
+    md += `| \`accentSecondary\` | \`${fam.light.accentSecondary}\` | Word Highlights, Links, Secondary Accent |\n\n`;
+  });
+
+  md += `---\n\n`;
+  md += `## 3. WCAG AA Contrast Audit Summary\n\n`;
+  md += `| Theme Name | Editor Bg | Editor Fg | Ratio | WCAG Grade | Sidebar Ratio | Panel Ratio |\n`;
+  md += `|---|---|---|---|---|---|---|\n`;
+
+  paletteDefs.forEach(fam => {
+    ['dark', 'light'].forEach(v => {
+      const isDark = v === 'dark';
+      const def = fam[v];
+      const p = def.palette;
+      const edBg = isDark ? p.darkest : p.lightest;
+      const edFg = isDark ? p.lightest : p.darkest;
+      const sbBg = isDark ? p.deep : p.surface;
+      const panBg = isDark ? p.surface : p.deep;
+
+      const edRatio = contrastRatio(edFg, edBg);
+      const sbRatio = contrastRatio(edFg, sbBg);
+      const panRatio = contrastRatio(edFg, panBg);
+
+      const grade = edRatio >= 7.0 ? 'AAA' : edRatio >= 4.5 ? 'AA' : 'FAIL';
+      md += `| **SONDER — ${fam.name} ${isDark ? 'Dark' : 'Light'}** | \`${edBg}\` | \`${edFg}\` | **${edRatio.toFixed(2)}:1** | ${grade} | ${sbRatio.toFixed(2)}:1 | ${panRatio.toFixed(2)}:1 |\n`;
+    });
+  });
+
+  return md;
+}
+
 // CLI Execution Block
 if (require.main === module) {
   const themesDir = path.join(__dirname, 'themes');
@@ -630,6 +711,12 @@ if (require.main === module) {
   const mdReportPath = path.join(docsDir, 'CONTRAST-REPORT.md');
   fs.writeFileSync(mdReportPath, mdReport);
   console.log(`✓ Generated human-readable report: ${mdReportPath}`);
+
+  // Write Palette Mapping Markdown
+  const palMappingMd = generatePaletteMappingMarkdown(PALETTE_DEFINITIONS);
+  const palMappingPath = path.join(docsDir, 'PALETTE-MAPPING.md');
+  fs.writeFileSync(palMappingPath, palMappingMd);
+  console.log(`✓ Generated palette mapping doc: ${palMappingPath}`);
 
   const allThemesPass = auditList.every(a => a.allPassed);
   console.log(`\nBuild complete. All ${totalThemes} themes generated. 100% WCAG AA/AAA compliance: ${allThemesPass}`);

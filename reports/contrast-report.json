@@ -8,9 +8,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#DCE9ED",
-        "bg": "#051017",
-        "ratio": 15.48,
+        "fg": "#D5E4EC",
+        "bg": "#040D14",
+        "ratio": 15.04,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -18,9 +18,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#52C5D6",
-        "bg": "#051017",
-        "ratio": 9.44,
+        "fg": "#3EAABF",
+        "bg": "#040D14",
+        "ratio": 7.18,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -28,9 +28,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#628CA0",
-        "bg": "#051017",
-        "ratio": 5.29,
+        "fg": "#5A8296",
+        "bg": "#040D14",
+        "ratio": 4.72,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -38,9 +38,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#52C5D6",
-        "bg": "#051017",
-        "ratio": 9.44,
+        "fg": "#3EAABF",
+        "bg": "#040D14",
+        "ratio": 7.18,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -48,9 +48,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#7FD1DF",
-        "bg": "#051017",
-        "ratio": 11.06,
+        "fg": "#6BBCCF",
+        "bg": "#040D14",
+        "ratio": 9.06,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -58,9 +58,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#DCE9ED",
-        "bg": "#051017",
-        "ratio": 15.48,
+        "fg": "#D5E4EC",
+        "bg": "#040D14",
+        "ratio": 15.04,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -68,9 +68,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#98D9B6",
-        "bg": "#051017",
-        "ratio": 11.84,
+        "fg": "#7ECEAA",
+        "bg": "#040D14",
+        "ratio": 10.53,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -78,9 +78,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#F0A868",
-        "bg": "#051017",
-        "ratio": 9.61,
+        "fg": "#E59D62",
+        "bg": "#040D14",
+        "ratio": 8.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -88,9 +88,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#88B7C7",
-        "bg": "#051017",
-        "ratio": 8.82,
+        "fg": "#80A8B8",
+        "bg": "#040D14",
+        "ratio": 7.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -98,9 +98,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#7FD1DF",
-        "bg": "#051017",
-        "ratio": 11.06,
+        "fg": "#6BBCCF",
+        "bg": "#040D14",
+        "ratio": 9.06,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -108,9 +108,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#DCE9ED",
-        "bg": "#0A1C27",
-        "ratio": 14,
+        "fg": "#D5E4EC",
+        "bg": "#081722",
+        "ratio": 13.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -118,9 +118,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#88B7C7",
-        "bg": "#0A1C27",
-        "ratio": 7.98,
+        "fg": "#80A8B8",
+        "bg": "#081722",
+        "ratio": 7.1,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -128,9 +128,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#DCE9ED",
-        "bg": "#0A1C27",
-        "ratio": 14,
+        "fg": "#D5E4EC",
+        "bg": "#081722",
+        "ratio": 13.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -138,9 +138,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#DCE9ED",
-        "bg": "#122A39",
-        "ratio": 11.95,
+        "fg": "#D5E4EC",
+        "bg": "#0E2332",
+        "ratio": 12.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -148,9 +148,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#DCE9ED",
-        "bg": "#0E262E",
-        "ratio": 12.67,
+        "fg": "#D5E4EC",
+        "bg": "#0B2029",
+        "ratio": 12.88,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -158,9 +158,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#88B7C7",
-        "bg": "#0A1C27",
-        "ratio": 7.98,
+        "fg": "#80A8B8",
+        "bg": "#081722",
+        "ratio": 7.1,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -168,9 +168,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#DCE9ED",
-        "bg": "#163743",
-        "ratio": 10.18,
+        "fg": "#D5E4EC",
+        "bg": "#112F3B",
+        "ratio": 10.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -178,19 +178,19 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#52C5D6",
-        "bg": "#0E262E",
-        "ratio": 7.73,
+        "fg": "#3EAABF",
+        "bg": "#0B2029",
+        "ratio": 6.15,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#DCE9ED",
-        "bg": "#102634",
-        "ratio": 12.55,
+        "fg": "#D5E4EC",
+        "bg": "#0E2130",
+        "ratio": 12.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -198,9 +198,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#DCE9ED",
-        "bg": "#102634",
-        "ratio": 12.55,
+        "fg": "#D5E4EC",
+        "bg": "#0E2130",
+        "ratio": 12.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -209,8 +209,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#F87171",
-        "bg": "#102634",
-        "ratio": 5.63,
+        "bg": "#0E2130",
+        "ratio": 5.94,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -219,8 +219,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#4ADE80",
-        "bg": "#102634",
-        "ratio": 8.93,
+        "bg": "#0E2130",
+        "ratio": 9.42,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -228,29 +228,29 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#52C5D6",
-        "bg": "#102634",
-        "ratio": 7.65,
+        "fg": "#3EAABF",
+        "bg": "#0E2130",
+        "ratio": 6.03,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#88B7C7",
-        "bg": "#102634",
-        "ratio": 7.15,
+        "fg": "#80A8B8",
+        "bg": "#0E2130",
+        "ratio": 6.42,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#DCE9ED",
-        "bg": "#0A1C27",
-        "ratio": 14,
+        "fg": "#D5E4EC",
+        "bg": "#081722",
+        "ratio": 13.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -258,9 +258,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#DCE9ED",
-        "bg": "#102634",
-        "ratio": 12.55,
+        "fg": "#D5E4EC",
+        "bg": "#0E2130",
+        "ratio": 12.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -268,9 +268,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#DCE9ED",
-        "bg": "#102634",
-        "ratio": 12.55,
+        "fg": "#D5E4EC",
+        "bg": "#0E2130",
+        "ratio": 12.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -279,8 +279,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#52C5D6",
-        "ratio": 10.32,
+        "bg": "#3EAABF",
+        "ratio": 7.71,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -296,9 +296,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#0B1E29",
-        "bg": "#FFFFFF",
-        "ratio": 17.05,
+        "fg": "#071720",
+        "bg": "#EFF2F5",
+        "ratio": 16.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -306,9 +306,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#0A7D92",
-        "bg": "#FFFFFF",
-        "ratio": 4.81,
+        "fg": "#0C606E",
+        "bg": "#EFF2F5",
+        "ratio": 6.41,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -316,18 +316,8 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#5C7887",
-        "bg": "#FFFFFF",
-        "ratio": 4.68,
-        "minRequired": 4.5,
-        "status": "PASS",
-        "grade": "AA"
-      },
-      {
-        "scope": "Editor",
-        "item": "Keyword",
-        "fg": "#0A7D92",
-        "bg": "#FFFFFF",
+        "fg": "#526E7D",
+        "bg": "#EFF2F5",
         "ratio": 4.81,
         "minRequired": 4.5,
         "status": "PASS",
@@ -335,10 +325,20 @@
       },
       {
         "scope": "Editor",
+        "item": "Keyword",
+        "fg": "#0C606E",
+        "bg": "#EFF2F5",
+        "ratio": 6.41,
+        "minRequired": 4.5,
+        "status": "PASS",
+        "grade": "AA"
+      },
+      {
+        "scope": "Editor",
         "item": "Function",
-        "fg": "#1B647A",
-        "bg": "#FFFFFF",
-        "ratio": 6.67,
+        "fg": "#135A7A",
+        "bg": "#EFF2F5",
+        "ratio": 6.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -346,9 +346,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#0B1E29",
-        "bg": "#FFFFFF",
-        "ratio": 17.05,
+        "fg": "#071720",
+        "bg": "#EFF2F5",
+        "ratio": 16.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -356,9 +356,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#1E6E45",
-        "bg": "#FFFFFF",
-        "ratio": 6.23,
+        "fg": "#156644",
+        "bg": "#EFF2F5",
+        "ratio": 6.2,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -366,9 +366,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#A35417",
-        "bg": "#FFFFFF",
-        "ratio": 5.47,
+        "fg": "#92400E",
+        "bg": "#EFF2F5",
+        "ratio": 6.31,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -376,9 +376,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#23495D",
-        "bg": "#FFFFFF",
-        "ratio": 9.62,
+        "fg": "#234E6B",
+        "bg": "#EFF2F5",
+        "ratio": 7.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -386,9 +386,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#1B647A",
-        "bg": "#FFFFFF",
-        "ratio": 6.67,
+        "fg": "#135A7A",
+        "bg": "#EFF2F5",
+        "ratio": 6.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -396,9 +396,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#0B1E29",
-        "bg": "#F1F5F8",
-        "ratio": 15.55,
+        "fg": "#071720",
+        "bg": "#DFE5EB",
+        "ratio": 14.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -406,19 +406,19 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#23495D",
-        "bg": "#F1F5F8",
-        "ratio": 8.78,
+        "fg": "#234E6B",
+        "bg": "#DFE5EB",
+        "ratio": 6.97,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#0B1E29",
-        "bg": "#F1F5F8",
-        "ratio": 15.55,
+        "fg": "#071720",
+        "bg": "#DFE5EB",
+        "ratio": 14.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -426,9 +426,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#0B1E29",
-        "bg": "#EAF1F5",
-        "ratio": 14.93,
+        "fg": "#071720",
+        "bg": "#D7DFE6",
+        "ratio": 13.53,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -436,9 +436,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#0B1E29",
-        "bg": "#EBF5F6",
-        "ratio": 15.36,
+        "fg": "#071720",
+        "bg": "#DDE6EA",
+        "ratio": 14.39,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -446,19 +446,19 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#23495D",
-        "bg": "#F1F5F8",
-        "ratio": 8.78,
+        "fg": "#234E6B",
+        "bg": "#DFE5EB",
+        "ratio": 6.97,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#0B1E29",
-        "bg": "#D1E4EA",
-        "ratio": 12.98,
+        "fg": "#071720",
+        "bg": "#C1D2DA",
+        "ratio": 11.71,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -466,19 +466,19 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#0A7D92",
-        "bg": "#EBF5F6",
-        "ratio": 4.34,
+        "fg": "#0C606E",
+        "bg": "#DDE6EA",
+        "ratio": 5.69,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       },
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#0B1E29",
-        "bg": "#E3ECF1",
-        "ratio": 14.23,
+        "fg": "#071720",
+        "bg": "#CFD8E1",
+        "ratio": 12.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -486,9 +486,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#0B1E29",
-        "bg": "#E3ECF1",
-        "ratio": 14.23,
+        "fg": "#071720",
+        "bg": "#CFD8E1",
+        "ratio": 12.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -497,18 +497,18 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#B91C1C",
-        "bg": "#E3ECF1",
-        "ratio": 5.4,
+        "bg": "#CFD8E1",
+        "ratio": 4.49,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AA Large"
       },
       {
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#E3ECF1",
-        "ratio": 5.95,
+        "bg": "#CFD8E1",
+        "ratio": 4.94,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -516,9 +516,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#0369A1",
-        "bg": "#E3ECF1",
-        "ratio": 4.95,
+        "fg": "#0C606E",
+        "bg": "#CFD8E1",
+        "ratio": 5,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -526,19 +526,19 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#23495D",
-        "bg": "#E3ECF1",
-        "ratio": 8.03,
+        "fg": "#234E6B",
+        "bg": "#CFD8E1",
+        "ratio": 6.14,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#0B1E29",
-        "bg": "#FFFFFF",
-        "ratio": 17.05,
+        "fg": "#071720",
+        "bg": "#EFF2F5",
+        "ratio": 16.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -546,9 +546,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#0B1E29",
-        "bg": "#F1F5F8",
-        "ratio": 15.55,
+        "fg": "#071720",
+        "bg": "#DFE5EB",
+        "ratio": 14.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -556,9 +556,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#0B1E29",
-        "bg": "#F1F5F8",
-        "ratio": 15.55,
+        "fg": "#071720",
+        "bg": "#DFE5EB",
+        "ratio": 14.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -567,11 +567,11 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#0A7D92",
-        "ratio": 4.81,
+        "bg": "#0C606E",
+        "ratio": 7.21,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       }
     ]
   },
@@ -584,9 +584,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#F2EDFB",
-        "bg": "#0A0914",
-        "ratio": 17.21,
+        "fg": "#EFEBF7",
+        "bg": "#0A0912",
+        "ratio": 16.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -594,9 +594,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#B37DD3",
-        "bg": "#0A0914",
-        "ratio": 6.39,
+        "fg": "#A77DC8",
+        "bg": "#0A0912",
+        "ratio": 6.04,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -604,9 +604,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#8177AB",
-        "bg": "#0A0914",
-        "ratio": 4.86,
+        "fg": "#8177A1",
+        "bg": "#0A0912",
+        "ratio": 4.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -614,19 +614,19 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#F472B6",
-        "bg": "#0A0914",
-        "ratio": 7.47,
+        "fg": "#D47FA6",
+        "bg": "#0A0912",
+        "ratio": 6.96,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#B37DD3",
-        "bg": "#0A0914",
-        "ratio": 6.39,
+        "fg": "#A77DC8",
+        "bg": "#0A0912",
+        "ratio": 6.04,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -634,9 +634,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#F2EDFB",
-        "bg": "#0A0914",
-        "ratio": 17.21,
+        "fg": "#EFEBF7",
+        "bg": "#0A0912",
+        "ratio": 16.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -644,9 +644,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#E9D8A6",
-        "bg": "#0A0914",
-        "ratio": 13.97,
+        "fg": "#E0CCA0",
+        "bg": "#0A0912",
+        "ratio": 12.55,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -654,9 +654,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FBBF24",
-        "bg": "#0A0914",
-        "ratio": 11.84,
+        "fg": "#DEAC62",
+        "bg": "#0A0912",
+        "ratio": 9.6,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -664,9 +664,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#C4A5E8",
-        "bg": "#0A0914",
-        "ratio": 9.32,
+        "fg": "#B89FD6",
+        "bg": "#0A0912",
+        "ratio": 8.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -674,9 +674,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#E879F9",
-        "bg": "#0A0914",
-        "ratio": 8.04,
+        "fg": "#BA8BD9",
+        "bg": "#0A0912",
+        "ratio": 7.34,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -684,9 +684,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#F2EDFB",
-        "bg": "#121024",
-        "ratio": 16.25,
+        "fg": "#EFEBF7",
+        "bg": "#121020",
+        "ratio": 15.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -694,9 +694,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#C4A5E8",
-        "bg": "#121024",
-        "ratio": 8.79,
+        "fg": "#B89FD6",
+        "bg": "#121020",
+        "ratio": 8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -704,9 +704,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#F2EDFB",
-        "bg": "#121024",
-        "ratio": 16.25,
+        "fg": "#EFEBF7",
+        "bg": "#121020",
+        "ratio": 15.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -714,9 +714,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#F2EDFB",
-        "bg": "#1D1A37",
-        "ratio": 14.57,
+        "fg": "#EFEBF7",
+        "bg": "#1C192F",
+        "ratio": 14.56,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -724,9 +724,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#F2EDFB",
-        "bg": "#1E172B",
-        "ratio": 15.08,
+        "fg": "#EFEBF7",
+        "bg": "#1D1728",
+        "ratio": 14.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -734,9 +734,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#C4A5E8",
-        "bg": "#121024",
-        "ratio": 8.79,
+        "fg": "#B89FD6",
+        "bg": "#121020",
+        "ratio": 8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -744,9 +744,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#F2EDFB",
-        "bg": "#2C2140",
-        "ratio": 13.07,
+        "fg": "#EFEBF7",
+        "bg": "#2A213B",
+        "ratio": 12.98,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -754,9 +754,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#B37DD3",
-        "bg": "#1E172B",
-        "ratio": 5.6,
+        "fg": "#A77DC8",
+        "bg": "#1D1728",
+        "ratio": 5.32,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -764,9 +764,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#F2EDFB",
-        "bg": "#1A1733",
-        "ratio": 15.06,
+        "fg": "#EFEBF7",
+        "bg": "#19172A",
+        "ratio": 14.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -774,9 +774,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#F2EDFB",
-        "bg": "#1A1733",
-        "ratio": 15.06,
+        "fg": "#EFEBF7",
+        "bg": "#19172A",
+        "ratio": 14.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -785,8 +785,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#FB7185",
-        "bg": "#1A1733",
-        "ratio": 6.43,
+        "bg": "#19172A",
+        "ratio": 6.52,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -795,8 +795,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#4ADE80",
-        "bg": "#1A1733",
-        "ratio": 9.92,
+        "bg": "#19172A",
+        "ratio": 10.07,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -804,9 +804,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#B37DD3",
-        "bg": "#1A1733",
-        "ratio": 5.59,
+        "fg": "#A77DC8",
+        "bg": "#19172A",
+        "ratio": 5.35,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -814,9 +814,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#C4A5E8",
-        "bg": "#1A1733",
-        "ratio": 8.15,
+        "fg": "#B89FD6",
+        "bg": "#19172A",
+        "ratio": 7.49,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -824,9 +824,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#F2EDFB",
-        "bg": "#121024",
-        "ratio": 16.25,
+        "fg": "#EFEBF7",
+        "bg": "#121020",
+        "ratio": 15.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -834,9 +834,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#F2EDFB",
-        "bg": "#1A1733",
-        "ratio": 15.06,
+        "fg": "#EFEBF7",
+        "bg": "#19172A",
+        "ratio": 14.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -844,9 +844,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#F2EDFB",
-        "bg": "#1A1733",
-        "ratio": 15.06,
+        "fg": "#EFEBF7",
+        "bg": "#19172A",
+        "ratio": 14.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -855,8 +855,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#B37DD3",
-        "ratio": 6.79,
+        "bg": "#A77DC8",
+        "ratio": 6.41,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -872,9 +872,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#1B1231",
-        "bg": "#FFFFFF",
-        "ratio": 17.83,
+        "fg": "#1A132B",
+        "bg": "#F6F5F9",
+        "ratio": 16.51,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -882,19 +882,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#7E22CE",
-        "bg": "#FFFFFF",
-        "ratio": 6.98,
+        "fg": "#6F26B8",
+        "bg": "#F6F5F9",
+        "ratio": 7.31,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#7C6E97",
-        "bg": "#FFFFFF",
-        "ratio": 4.63,
+        "fg": "#6B5E87",
+        "bg": "#F6F5F9",
+        "ratio": 5.41,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -902,29 +902,29 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#A21CAF",
-        "bg": "#FFFFFF",
-        "ratio": 6.32,
+        "fg": "#8F2060",
+        "bg": "#F6F5F9",
+        "ratio": 7.61,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#7E22CE",
-        "bg": "#FFFFFF",
-        "ratio": 6.98,
+        "fg": "#6F26B8",
+        "bg": "#F6F5F9",
+        "ratio": 7.31,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#1B1231",
-        "bg": "#FFFFFF",
-        "ratio": 17.83,
+        "fg": "#1A132B",
+        "bg": "#F6F5F9",
+        "ratio": 16.51,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -932,9 +932,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#854D0E",
-        "bg": "#FFFFFF",
-        "ratio": 6.85,
+        "fg": "#73531A",
+        "bg": "#F6F5F9",
+        "ratio": 6.49,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -942,9 +942,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#B45309",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "fg": "#A34F0C",
+        "bg": "#F6F5F9",
+        "ratio": 5.26,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -952,9 +952,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#4D297A",
-        "bg": "#FFFFFF",
-        "ratio": 10.97,
+        "fg": "#4F3574",
+        "bg": "#F6F5F9",
+        "ratio": 9.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -962,9 +962,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#6B21A8",
-        "bg": "#FFFFFF",
-        "ratio": 8.72,
+        "fg": "#5E1F9E",
+        "bg": "#F6F5F9",
+        "ratio": 8.93,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -972,9 +972,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#1B1231",
-        "bg": "#F5F3FA",
-        "ratio": 16.21,
+        "fg": "#1A132B",
+        "bg": "#EDEAF3",
+        "ratio": 15.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -982,9 +982,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#4D297A",
-        "bg": "#F5F3FA",
-        "ratio": 9.97,
+        "fg": "#4F3574",
+        "bg": "#EDEAF3",
+        "ratio": 8.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -992,9 +992,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#1B1231",
-        "bg": "#F5F3FA",
-        "ratio": 16.21,
+        "fg": "#1A132B",
+        "bg": "#EDEAF3",
+        "ratio": 15.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1002,9 +1002,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#1B1231",
-        "bg": "#F0EDF8",
-        "ratio": 15.43,
+        "fg": "#1A132B",
+        "bg": "#E8E4F0",
+        "ratio": 14.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1012,9 +1012,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#1B1231",
-        "bg": "#F5EDFB",
-        "ratio": 15.62,
+        "fg": "#1A132B",
+        "bg": "#EBE4F4",
+        "ratio": 14.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1022,9 +1022,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#4D297A",
-        "bg": "#F5F3FA",
-        "ratio": 9.97,
+        "fg": "#4F3574",
+        "bg": "#EDEAF3",
+        "ratio": 8.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1032,9 +1032,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#1B1231",
-        "bg": "#E4D6F4",
-        "ratio": 12.93,
+        "fg": "#1A132B",
+        "bg": "#DBCFEB",
+        "ratio": 12.06,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1042,9 +1042,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#7E22CE",
-        "bg": "#F5EDFB",
-        "ratio": 6.12,
+        "fg": "#6F26B8",
+        "bg": "#EBE4F4",
+        "ratio": 6.4,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1052,9 +1052,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#1B1231",
-        "bg": "#EBE6F5",
-        "ratio": 14.58,
+        "fg": "#1A132B",
+        "bg": "#E2DEEC",
+        "ratio": 13.56,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1062,9 +1062,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#1B1231",
-        "bg": "#EBE6F5",
-        "ratio": 14.58,
+        "fg": "#1A132B",
+        "bg": "#E2DEEC",
+        "ratio": 13.56,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1073,8 +1073,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9F1239",
-        "bg": "#EBE6F5",
-        "ratio": 6.55,
+        "bg": "#E2DEEC",
+        "ratio": 6.07,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1083,8 +1083,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#EBE6F5",
-        "ratio": 5.83,
+        "bg": "#E2DEEC",
+        "ratio": 5.4,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1093,8 +1093,8 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#581C87",
-        "bg": "#EBE6F5",
-        "ratio": 8.89,
+        "bg": "#E2DEEC",
+        "ratio": 8.23,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -1102,9 +1102,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#4D297A",
-        "bg": "#EBE6F5",
-        "ratio": 8.97,
+        "fg": "#4F3574",
+        "bg": "#E2DEEC",
+        "ratio": 7.59,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1112,9 +1112,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#1B1231",
-        "bg": "#FFFFFF",
-        "ratio": 17.83,
+        "fg": "#1A132B",
+        "bg": "#F6F5F9",
+        "ratio": 16.51,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1122,9 +1122,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#1B1231",
-        "bg": "#F5F3FA",
-        "ratio": 16.21,
+        "fg": "#1A132B",
+        "bg": "#EDEAF3",
+        "ratio": 15.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1132,9 +1132,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#1B1231",
-        "bg": "#F5F3FA",
-        "ratio": 16.21,
+        "fg": "#1A132B",
+        "bg": "#EDEAF3",
+        "ratio": 15.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1143,11 +1143,11 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#7E22CE",
-        "ratio": 6.98,
+        "bg": "#6F26B8",
+        "ratio": 7.94,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       }
     ]
   },
@@ -1160,9 +1160,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#FDF0F3",
-        "bg": "#120E12",
-        "ratio": 17.26,
+        "fg": "#FBF0F3",
+        "bg": "#130E12",
+        "ratio": 17.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1170,19 +1170,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#FB7185",
-        "bg": "#120E12",
-        "ratio": 7.11,
+        "fg": "#F4728B",
+        "bg": "#130E12",
+        "ratio": 6.94,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#947B93",
-        "bg": "#120E12",
-        "ratio": 5.02,
+        "fg": "#8F7388",
+        "bg": "#130E12",
+        "ratio": 4.53,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1190,19 +1190,19 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#FB7185",
-        "bg": "#120E12",
-        "ratio": 7.11,
+        "fg": "#F4728B",
+        "bg": "#130E12",
+        "ratio": 6.94,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#FDA4AF",
-        "bg": "#120E12",
-        "ratio": 10.12,
+        "fg": "#EE8BA4",
+        "bg": "#130E12",
+        "ratio": 8.06,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1210,9 +1210,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#FDF0F3",
-        "bg": "#120E12",
-        "ratio": 17.26,
+        "fg": "#FBF0F3",
+        "bg": "#130E12",
+        "ratio": 17.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1220,9 +1220,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#CBD5E1",
-        "bg": "#120E12",
-        "ratio": 12.89,
+        "fg": "#C2D6A4",
+        "bg": "#130E12",
+        "ratio": 12.23,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1230,9 +1230,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FED7AA",
-        "bg": "#120E12",
-        "ratio": 14.14,
+        "fg": "#F2B880",
+        "bg": "#130E12",
+        "ratio": 10.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1240,9 +1240,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#F4A4AF",
-        "bg": "#120E12",
-        "ratio": 9.82,
+        "fg": "#E8A2B0",
+        "bg": "#130E12",
+        "ratio": 9.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1250,19 +1250,19 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#FB7185",
-        "bg": "#120E12",
-        "ratio": 7.11,
+        "fg": "#F4728B",
+        "bg": "#130E12",
+        "ratio": 6.94,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#FDF0F3",
-        "bg": "#1A141A",
-        "ratio": 16.34,
+        "fg": "#FBF0F3",
+        "bg": "#1D151C",
+        "ratio": 16.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1270,9 +1270,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#F4A4AF",
-        "bg": "#1A141A",
-        "ratio": 9.3,
+        "fg": "#E8A2B0",
+        "bg": "#1D151C",
+        "ratio": 8.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1280,9 +1280,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#FDF0F3",
-        "bg": "#1A141A",
-        "ratio": 16.34,
+        "fg": "#FBF0F3",
+        "bg": "#1D151C",
+        "ratio": 16.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1290,9 +1290,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#FDF0F3",
-        "bg": "#2B202B",
-        "ratio": 14.09,
+        "fg": "#FBF0F3",
+        "bg": "#2D212C",
+        "ratio": 13.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1300,9 +1300,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#FDF0F3",
-        "bg": "#2E1A20",
-        "ratio": 14.74,
+        "fg": "#FBF0F3",
+        "bg": "#2E1A21",
+        "ratio": 14.67,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1310,9 +1310,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#F4A4AF",
-        "bg": "#1A141A",
-        "ratio": 9.3,
+        "fg": "#E8A2B0",
+        "bg": "#1D151C",
+        "ratio": 8.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1320,9 +1320,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#FDF0F3",
-        "bg": "#3E232B",
-        "ratio": 12.79,
+        "fg": "#FBF0F3",
+        "bg": "#3F242E",
+        "ratio": 12.55,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1330,9 +1330,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#FB7185",
-        "bg": "#2E1A20",
-        "ratio": 6.07,
+        "fg": "#F4728B",
+        "bg": "#2E1A21",
+        "ratio": 5.93,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1340,9 +1340,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#FDF0F3",
-        "bg": "#251C26",
-        "ratio": 14.88,
+        "fg": "#FBF0F3",
+        "bg": "#271C26",
+        "ratio": 14.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1350,9 +1350,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#FDF0F3",
-        "bg": "#251C26",
-        "ratio": 14.88,
+        "fg": "#FBF0F3",
+        "bg": "#271C26",
+        "ratio": 14.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1360,9 +1360,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Red",
-        "fg": "#FB7185",
-        "bg": "#251C26",
-        "ratio": 6.13,
+        "fg": "#F4728B",
+        "bg": "#271C26",
+        "ratio": 5.96,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1371,8 +1371,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#4ADE80",
-        "bg": "#251C26",
-        "ratio": 9.47,
+        "bg": "#271C26",
+        "ratio": 9.41,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -1380,9 +1380,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#FDA4AF",
-        "bg": "#251C26",
-        "ratio": 8.73,
+        "fg": "#F9A8B6",
+        "bg": "#271C26",
+        "ratio": 8.83,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -1390,9 +1390,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#F4A4AF",
-        "bg": "#251C26",
-        "ratio": 8.47,
+        "fg": "#E8A2B0",
+        "bg": "#271C26",
+        "ratio": 7.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1400,9 +1400,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#FDF0F3",
-        "bg": "#1A141A",
-        "ratio": 16.34,
+        "fg": "#FBF0F3",
+        "bg": "#1D151C",
+        "ratio": 16.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1410,9 +1410,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#FDF0F3",
-        "bg": "#251C26",
-        "ratio": 14.88,
+        "fg": "#FBF0F3",
+        "bg": "#271C26",
+        "ratio": 14.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1420,9 +1420,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#FDF0F3",
-        "bg": "#251C26",
-        "ratio": 14.88,
+        "fg": "#FBF0F3",
+        "bg": "#271C26",
+        "ratio": 14.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1431,8 +1431,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#FB7185",
-        "ratio": 7.8,
+        "bg": "#F4728B",
+        "ratio": 7.63,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -1448,9 +1448,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#241217",
-        "bg": "#FFFFFF",
-        "ratio": 17.89,
+        "fg": "#261219",
+        "bg": "#FAF5F6",
+        "ratio": 16.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1458,9 +1458,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#BE123C",
-        "bg": "#FFFFFF",
-        "ratio": 6.29,
+        "fg": "#B81B42",
+        "bg": "#FAF5F6",
+        "ratio": 5.94,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1468,9 +1468,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#8A6B73",
-        "bg": "#FFFFFF",
-        "ratio": 4.74,
+        "fg": "#7D5C66",
+        "bg": "#FAF5F6",
+        "ratio": 5.41,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1478,9 +1478,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#BE123C",
-        "bg": "#FFFFFF",
-        "ratio": 6.29,
+        "fg": "#B81B42",
+        "bg": "#FAF5F6",
+        "ratio": 5.94,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1488,9 +1488,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#9F1239",
-        "bg": "#FFFFFF",
-        "ratio": 8.02,
+        "fg": "#981434",
+        "bg": "#FAF5F6",
+        "ratio": 7.83,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1498,9 +1498,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#241217",
-        "bg": "#FFFFFF",
-        "ratio": 17.89,
+        "fg": "#261219",
+        "bg": "#FAF5F6",
+        "ratio": 16.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1508,19 +1508,19 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#285E43",
-        "bg": "#FFFFFF",
-        "ratio": 7.57,
+        "fg": "#2A663E",
+        "bg": "#FAF5F6",
+        "ratio": 6.34,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#A14E15",
-        "bg": "#FFFFFF",
-        "ratio": 5.81,
+        "fg": "#A35018",
+        "bg": "#FAF5F6",
+        "ratio": 5.23,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1528,9 +1528,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#6E2838",
-        "bg": "#FFFFFF",
-        "ratio": 10.38,
+        "fg": "#70273B",
+        "bg": "#FAF5F6",
+        "ratio": 9.53,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1538,9 +1538,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#BE123C",
-        "bg": "#FFFFFF",
-        "ratio": 6.29,
+        "fg": "#B81B42",
+        "bg": "#FAF5F6",
+        "ratio": 5.94,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1548,9 +1548,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#241217",
-        "bg": "#FDF5F6",
-        "ratio": 16.67,
+        "fg": "#261219",
+        "bg": "#F4E9EC",
+        "ratio": 14.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1558,9 +1558,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#6E2838",
-        "bg": "#FDF5F6",
-        "ratio": 9.67,
+        "fg": "#70273B",
+        "bg": "#F4E9EC",
+        "ratio": 8.67,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1568,9 +1568,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#241217",
-        "bg": "#FDF5F6",
-        "ratio": 16.67,
+        "fg": "#261219",
+        "bg": "#F4E9EC",
+        "ratio": 14.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1578,9 +1578,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#241217",
-        "bg": "#FBEFF1",
-        "ratio": 15.95,
+        "fg": "#261219",
+        "bg": "#EFE2E6",
+        "ratio": 14.11,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1588,9 +1588,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#241217",
-        "bg": "#FAECEF",
-        "ratio": 15.6,
+        "fg": "#261219",
+        "bg": "#F5E4E8",
+        "ratio": 14.49,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1598,9 +1598,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#6E2838",
-        "bg": "#FDF5F6",
-        "ratio": 9.67,
+        "fg": "#70273B",
+        "bg": "#F4E9EC",
+        "ratio": 8.67,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1608,9 +1608,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#241217",
-        "bg": "#F4D5DC",
-        "ratio": 13.12,
+        "fg": "#261219",
+        "bg": "#ECCCD4",
+        "ratio": 11.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1618,9 +1618,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#BE123C",
-        "bg": "#FAECEF",
-        "ratio": 5.48,
+        "fg": "#B81B42",
+        "bg": "#F5E4E8",
+        "ratio": 5.24,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1628,9 +1628,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#241217",
-        "bg": "#F8E9EB",
-        "ratio": 15.2,
+        "fg": "#261219",
+        "bg": "#EADBDF",
+        "ratio": 13.27,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1638,9 +1638,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#241217",
-        "bg": "#F8E9EB",
-        "ratio": 15.2,
+        "fg": "#261219",
+        "bg": "#EADBDF",
+        "ratio": 13.27,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1648,9 +1648,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Red",
-        "fg": "#9F1239",
-        "bg": "#F8E9EB",
-        "ratio": 6.81,
+        "fg": "#981434",
+        "bg": "#EADBDF",
+        "ratio": 6.32,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1659,8 +1659,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#F8E9EB",
-        "ratio": 6.06,
+        "bg": "#EADBDF",
+        "ratio": 5.33,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1668,9 +1668,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#9F1239",
-        "bg": "#F8E9EB",
-        "ratio": 6.81,
+        "fg": "#981434",
+        "bg": "#EADBDF",
+        "ratio": 6.32,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1678,9 +1678,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#6E2838",
-        "bg": "#F8E9EB",
-        "ratio": 8.82,
+        "fg": "#70273B",
+        "bg": "#EADBDF",
+        "ratio": 7.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1688,9 +1688,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#241217",
-        "bg": "#FFFFFF",
-        "ratio": 17.89,
+        "fg": "#261219",
+        "bg": "#FAF5F6",
+        "ratio": 16.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1698,9 +1698,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#241217",
-        "bg": "#FDF5F6",
-        "ratio": 16.67,
+        "fg": "#261219",
+        "bg": "#F4E9EC",
+        "ratio": 14.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1708,9 +1708,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#241217",
-        "bg": "#FDF5F6",
-        "ratio": 16.67,
+        "fg": "#261219",
+        "bg": "#F4E9EC",
+        "ratio": 14.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1719,8 +1719,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#BE123C",
-        "ratio": 6.29,
+        "bg": "#B81B42",
+        "ratio": 6.42,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1736,9 +1736,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#FDF8F3",
-        "bg": "#120E0B",
-        "ratio": 18.2,
+        "fg": "#FAF3EC",
+        "bg": "#130F0B",
+        "ratio": 17.35,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1746,9 +1746,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#E07A5F",
-        "bg": "#120E0B",
-        "ratio": 6.51,
+        "fg": "#DE7456",
+        "bg": "#130F0B",
+        "ratio": 6.12,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1756,9 +1756,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#967D6F",
-        "bg": "#120E0B",
-        "ratio": 4.99,
+        "fg": "#8E7766",
+        "bg": "#130F0B",
+        "ratio": 4.52,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1766,9 +1766,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#E07A5F",
-        "bg": "#120E0B",
-        "ratio": 6.51,
+        "fg": "#DE7456",
+        "bg": "#130F0B",
+        "ratio": 6.12,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1776,9 +1776,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#E9C46A",
-        "bg": "#120E0B",
-        "ratio": 11.5,
+        "fg": "#E5B860",
+        "bg": "#130F0B",
+        "ratio": 10.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1786,9 +1786,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#FDF8F3",
-        "bg": "#120E0B",
-        "ratio": 18.2,
+        "fg": "#FAF3EC",
+        "bg": "#130F0B",
+        "ratio": 17.35,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1796,9 +1796,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#A7C957",
-        "bg": "#120E0B",
-        "ratio": 10.18,
+        "fg": "#A3C660",
+        "bg": "#130F0B",
+        "ratio": 9.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1806,9 +1806,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#F4A261",
-        "bg": "#120E0B",
-        "ratio": 9.32,
+        "fg": "#EFA058",
+        "bg": "#130F0B",
+        "ratio": 8.94,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1816,9 +1816,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#D4A373",
-        "bg": "#120E0B",
-        "ratio": 8.49,
+        "fg": "#D4A274",
+        "bg": "#130F0B",
+        "ratio": 8.38,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1826,9 +1826,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#E07A5F",
-        "bg": "#120E0B",
-        "ratio": 6.51,
+        "fg": "#DE7456",
+        "bg": "#130F0B",
+        "ratio": 6.12,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -1836,9 +1836,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#FDF8F3",
-        "bg": "#1C1510",
-        "ratio": 17.09,
+        "fg": "#FAF3EC",
+        "bg": "#1D1611",
+        "ratio": 16.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1846,9 +1846,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#D4A373",
-        "bg": "#1C1510",
-        "ratio": 7.98,
+        "fg": "#D4A274",
+        "bg": "#1D1611",
+        "ratio": 7.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1856,9 +1856,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#FDF8F3",
-        "bg": "#1C1510",
-        "ratio": 17.09,
+        "fg": "#FAF3EC",
+        "bg": "#1D1611",
+        "ratio": 16.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1866,9 +1866,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#FDF8F3",
-        "bg": "#2D231C",
-        "ratio": 14.54,
+        "fg": "#FAF3EC",
+        "bg": "#2D241C",
+        "ratio": 13.83,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1876,9 +1876,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#FDF8F3",
-        "bg": "#2B1B15",
-        "ratio": 15.66,
+        "fg": "#FAF3EC",
+        "bg": "#2B1B14",
+        "ratio": 15.04,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1886,9 +1886,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#D4A373",
-        "bg": "#1C1510",
-        "ratio": 7.98,
+        "fg": "#D4A274",
+        "bg": "#1D1611",
+        "ratio": 7.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1896,9 +1896,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#FDF8F3",
-        "bg": "#3B251D",
-        "ratio": 13.55,
+        "fg": "#FAF3EC",
+        "bg": "#3C251C",
+        "ratio": 12.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1906,9 +1906,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#E07A5F",
-        "bg": "#2B1B15",
-        "ratio": 5.6,
+        "fg": "#DE7456",
+        "bg": "#2B1B14",
+        "ratio": 5.31,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -1916,9 +1916,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#FDF8F3",
-        "bg": "#271E18",
-        "ratio": 15.48,
+        "fg": "#FAF3EC",
+        "bg": "#271F18",
+        "ratio": 14.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1926,9 +1926,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#FDF8F3",
-        "bg": "#271E18",
-        "ratio": 15.48,
+        "fg": "#FAF3EC",
+        "bg": "#271F18",
+        "ratio": 14.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1937,8 +1937,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#E76F51",
-        "bg": "#271E18",
-        "ratio": 5.28,
+        "bg": "#271F18",
+        "ratio": 5.24,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1946,9 +1946,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Green",
-        "fg": "#A7C957",
-        "bg": "#271E18",
-        "ratio": 8.66,
+        "fg": "#A3C660",
+        "bg": "#271F18",
+        "ratio": 8.34,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -1956,9 +1956,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#E07A5F",
-        "bg": "#271E18",
-        "ratio": 5.54,
+        "fg": "#DE7456",
+        "bg": "#271F18",
+        "ratio": 5.2,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -1966,9 +1966,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#D4A373",
-        "bg": "#271E18",
-        "ratio": 7.23,
+        "fg": "#D4A274",
+        "bg": "#271F18",
+        "ratio": 7.12,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1976,9 +1976,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#FDF8F3",
-        "bg": "#1C1510",
-        "ratio": 17.09,
+        "fg": "#FAF3EC",
+        "bg": "#1D1611",
+        "ratio": 16.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1986,9 +1986,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#FDF8F3",
-        "bg": "#271E18",
-        "ratio": 15.48,
+        "fg": "#FAF3EC",
+        "bg": "#271F18",
+        "ratio": 14.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -1996,9 +1996,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#FDF8F3",
-        "bg": "#271E18",
-        "ratio": 15.48,
+        "fg": "#FAF3EC",
+        "bg": "#271F18",
+        "ratio": 14.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2007,11 +2007,11 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#E07A5F",
-        "ratio": 7.12,
+        "bg": "#DE7456",
+        "ratio": 6.74,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       }
     ]
   },
@@ -2024,9 +2024,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#26180E",
-        "bg": "#FFFFFF",
-        "ratio": 17.22,
+        "fg": "#24180E",
+        "bg": "#FAF7F2",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2034,9 +2034,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#A74B2A",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#9E4324",
+        "bg": "#FAF7F2",
+        "ratio": 5.99,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -2044,9 +2044,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#806A58",
-        "bg": "#FFFFFF",
-        "ratio": 5.1,
+        "fg": "#75604F",
+        "bg": "#FAF7F2",
+        "ratio": 5.55,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2054,9 +2054,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#A74B2A",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#9E4324",
+        "bg": "#FAF7F2",
+        "ratio": 5.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2064,19 +2064,19 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#8B4513",
-        "bg": "#FFFFFF",
-        "ratio": 7.1,
+        "fg": "#8A5714",
+        "bg": "#FAF7F2",
+        "ratio": 5.69,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#26180E",
-        "bg": "#FFFFFF",
-        "ratio": 17.22,
+        "fg": "#24180E",
+        "bg": "#FAF7F2",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2084,9 +2084,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#386641",
-        "bg": "#FFFFFF",
-        "ratio": 6.68,
+        "fg": "#3D662B",
+        "bg": "#FAF7F2",
+        "ratio": 6.27,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2094,9 +2094,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#B25E1B",
-        "bg": "#FFFFFF",
-        "ratio": 4.66,
+        "fg": "#AA5515",
+        "bg": "#FAF7F2",
+        "ratio": 4.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2104,9 +2104,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#634027",
-        "bg": "#FFFFFF",
-        "ratio": 9.16,
+        "fg": "#684124",
+        "bg": "#FAF7F2",
+        "ratio": 8.29,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2114,9 +2114,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#A74B2A",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#9E4324",
+        "bg": "#FAF7F2",
+        "ratio": 5.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2124,9 +2124,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#26180E",
-        "bg": "#FAF6F0",
-        "ratio": 16,
+        "fg": "#24180E",
+        "bg": "#F0EAE0",
+        "ratio": 14.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2134,9 +2134,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#634027",
-        "bg": "#FAF6F0",
-        "ratio": 8.51,
+        "fg": "#684124",
+        "bg": "#F0EAE0",
+        "ratio": 7.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2144,9 +2144,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#26180E",
-        "bg": "#FAF6F0",
-        "ratio": 16,
+        "fg": "#24180E",
+        "bg": "#F0EAE0",
+        "ratio": 14.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2154,9 +2154,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#26180E",
-        "bg": "#F6F0E8",
-        "ratio": 15.21,
+        "fg": "#24180E",
+        "bg": "#EBE3D7",
+        "ratio": 13.61,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2164,9 +2164,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#26180E",
-        "bg": "#F8F1EE",
-        "ratio": 15.42,
+        "fg": "#24180E",
+        "bg": "#F3E9E2",
+        "ratio": 14.49,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2174,9 +2174,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#634027",
-        "bg": "#FAF6F0",
-        "ratio": 8.51,
+        "fg": "#684124",
+        "bg": "#F0EAE0",
+        "ratio": 7.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2184,9 +2184,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#26180E",
-        "bg": "#EEDED4",
-        "ratio": 13.15,
+        "fg": "#24180E",
+        "bg": "#E5D3C6",
+        "ratio": 11.93,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2194,9 +2194,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#A74B2A",
-        "bg": "#F8F1EE",
-        "ratio": 5.11,
+        "fg": "#9E4324",
+        "bg": "#F3E9E2",
+        "ratio": 5.35,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -2204,9 +2204,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#26180E",
-        "bg": "#F2EAE0",
-        "ratio": 14.45,
+        "fg": "#24180E",
+        "bg": "#E5DCCE",
+        "ratio": 12.76,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2214,9 +2214,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#26180E",
-        "bg": "#F2EAE0",
-        "ratio": 14.45,
+        "fg": "#24180E",
+        "bg": "#E5DCCE",
+        "ratio": 12.76,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2225,8 +2225,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9A3412",
-        "bg": "#F2EAE0",
-        "ratio": 6.13,
+        "bg": "#E5DCCE",
+        "ratio": 5.38,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -2235,8 +2235,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#F2EAE0",
-        "ratio": 5.98,
+        "bg": "#E5DCCE",
+        "ratio": 5.25,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -2245,28 +2245,28 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#78350F",
-        "bg": "#F2EAE0",
-        "ratio": 7.61,
+        "bg": "#E5DCCE",
+        "ratio": 6.68,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#634027",
-        "bg": "#F2EAE0",
-        "ratio": 7.68,
+        "fg": "#684124",
+        "bg": "#E5DCCE",
+        "ratio": 6.52,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#26180E",
-        "bg": "#FFFFFF",
-        "ratio": 17.22,
+        "fg": "#24180E",
+        "bg": "#FAF7F2",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2274,9 +2274,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#26180E",
-        "bg": "#FAF6F0",
-        "ratio": 16,
+        "fg": "#24180E",
+        "bg": "#F0EAE0",
+        "ratio": 14.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2284,9 +2284,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#26180E",
-        "bg": "#FAF6F0",
-        "ratio": 16,
+        "fg": "#24180E",
+        "bg": "#F0EAE0",
+        "ratio": 14.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2295,8 +2295,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#A74B2A",
-        "ratio": 5.7,
+        "bg": "#9E4324",
+        "ratio": 6.4,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -2312,9 +2312,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#EBF2FA",
-        "bg": "#060A13",
-        "ratio": 17.55,
+        "fg": "#EBF2FC",
+        "bg": "#070B16",
+        "ratio": 17.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2322,9 +2322,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#38BDF8",
-        "bg": "#060A13",
-        "ratio": 9.24,
+        "fg": "#38BAF5",
+        "bg": "#070B16",
+        "ratio": 8.9,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -2332,9 +2332,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#6C7EAB",
-        "bg": "#060A13",
-        "ratio": 4.91,
+        "fg": "#657DAA",
+        "bg": "#070B16",
+        "ratio": 4.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2342,9 +2342,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#818CF8",
-        "bg": "#060A13",
-        "ratio": 6.64,
+        "fg": "#788AF5",
+        "bg": "#070B16",
+        "ratio": 6.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2352,9 +2352,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#38BDF8",
-        "bg": "#060A13",
-        "ratio": 9.24,
+        "fg": "#38BAF5",
+        "bg": "#070B16",
+        "ratio": 8.9,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2362,9 +2362,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#EBF2FA",
-        "bg": "#060A13",
-        "ratio": 17.55,
+        "fg": "#EBF2FC",
+        "bg": "#070B16",
+        "ratio": 17.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2372,9 +2372,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#86EFAC",
-        "bg": "#060A13",
-        "ratio": 14.1,
+        "fg": "#6EE7B7",
+        "bg": "#070B16",
+        "ratio": 12.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2382,9 +2382,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FDBA74",
-        "bg": "#060A13",
-        "ratio": 11.74,
+        "fg": "#F5B06B",
+        "bg": "#070B16",
+        "ratio": 10.58,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2392,9 +2392,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#85B5F2",
-        "bg": "#060A13",
-        "ratio": 9.32,
+        "fg": "#87B4ED",
+        "bg": "#070B16",
+        "ratio": 9.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2402,9 +2402,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#38BDF8",
-        "bg": "#060A13",
-        "ratio": 9.24,
+        "fg": "#38BAF5",
+        "bg": "#070B16",
+        "ratio": 8.9,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2412,9 +2412,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#EBF2FA",
-        "bg": "#0C1224",
-        "ratio": 16.51,
+        "fg": "#EBF2FC",
+        "bg": "#0D1426",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2422,9 +2422,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#85B5F2",
-        "bg": "#0C1224",
-        "ratio": 8.77,
+        "fg": "#87B4ED",
+        "bg": "#0D1426",
+        "ratio": 8.54,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2432,9 +2432,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#EBF2FA",
-        "bg": "#0C1224",
-        "ratio": 16.51,
+        "fg": "#EBF2FC",
+        "bg": "#0D1426",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2442,9 +2442,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#EBF2FA",
-        "bg": "#151D37",
-        "ratio": 14.74,
+        "fg": "#EBF2FC",
+        "bg": "#16203B",
+        "ratio": 14.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2452,9 +2452,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#EBF2FA",
-        "bg": "#0C1F2E",
-        "ratio": 14.88,
+        "fg": "#EBF2FC",
+        "bg": "#0D2031",
+        "ratio": 14.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2462,9 +2462,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#85B5F2",
-        "bg": "#0C1224",
-        "ratio": 8.77,
+        "fg": "#87B4ED",
+        "bg": "#0D1426",
+        "ratio": 8.54,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2472,9 +2472,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#EBF2FA",
-        "bg": "#132D46",
-        "ratio": 12.48,
+        "fg": "#EBF2FC",
+        "bg": "#142F47",
+        "ratio": 12.2,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2482,9 +2482,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#38BDF8",
-        "bg": "#0C1F2E",
-        "ratio": 7.84,
+        "fg": "#38BAF5",
+        "bg": "#0D2031",
+        "ratio": 7.5,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -2492,9 +2492,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#EBF2FA",
-        "bg": "#131B34",
-        "ratio": 15.08,
+        "fg": "#EBF2FC",
+        "bg": "#141E38",
+        "ratio": 14.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2502,9 +2502,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#EBF2FA",
-        "bg": "#131B34",
-        "ratio": 15.08,
+        "fg": "#EBF2FC",
+        "bg": "#141E38",
+        "ratio": 14.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2513,8 +2513,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#F87171",
-        "bg": "#131B34",
-        "ratio": 6.15,
+        "bg": "#141E38",
+        "ratio": 5.97,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -2523,8 +2523,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#4ADE80",
-        "bg": "#131B34",
-        "ratio": 9.77,
+        "bg": "#141E38",
+        "ratio": 9.47,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -2532,9 +2532,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#38BDF8",
-        "bg": "#131B34",
-        "ratio": 7.94,
+        "fg": "#38BAF5",
+        "bg": "#141E38",
+        "ratio": 7.47,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -2542,9 +2542,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#85B5F2",
-        "bg": "#131B34",
-        "ratio": 8.01,
+        "fg": "#87B4ED",
+        "bg": "#141E38",
+        "ratio": 7.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2552,9 +2552,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#EBF2FA",
-        "bg": "#0C1224",
-        "ratio": 16.51,
+        "fg": "#EBF2FC",
+        "bg": "#0D1426",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2562,9 +2562,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#EBF2FA",
-        "bg": "#131B34",
-        "ratio": 15.08,
+        "fg": "#EBF2FC",
+        "bg": "#141E38",
+        "ratio": 14.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2572,9 +2572,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#EBF2FA",
-        "bg": "#131B34",
-        "ratio": 15.08,
+        "fg": "#EBF2FC",
+        "bg": "#141E38",
+        "ratio": 14.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2583,8 +2583,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#38BDF8",
-        "ratio": 9.8,
+        "bg": "#38BAF5",
+        "ratio": 9.51,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -2600,9 +2600,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#0A142F",
-        "bg": "#FFFFFF",
-        "ratio": 18.2,
+        "fg": "#09162D",
+        "bg": "#F3F6FA",
+        "ratio": 16.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2610,19 +2610,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#0284C7",
-        "bg": "#FFFFFF",
-        "ratio": 4.1,
+        "fg": "#1D64D8",
+        "bg": "#F3F6FA",
+        "ratio": 5.01,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#5B6E8C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#526E8F",
+        "bg": "#F3F6FA",
+        "ratio": 4.86,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2630,9 +2630,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#2563EB",
-        "bg": "#FFFFFF",
-        "ratio": 5.17,
+        "fg": "#1D64D8",
+        "bg": "#F3F6FA",
+        "ratio": 5.01,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2640,19 +2640,19 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#0369A1",
-        "bg": "#FFFFFF",
-        "ratio": 5.93,
+        "fg": "#1E40AF",
+        "bg": "#F3F6FA",
+        "ratio": 8.05,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#0A142F",
-        "bg": "#FFFFFF",
-        "ratio": 18.2,
+        "fg": "#09162D",
+        "bg": "#F3F6FA",
+        "ratio": 16.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2660,9 +2660,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#15803D",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "fg": "#157F3B",
+        "bg": "#F3F6FA",
+        "ratio": 4.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2670,9 +2670,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#B84A0E",
+        "bg": "#F3F6FA",
+        "ratio": 4.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2680,9 +2680,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#1E3A8A",
-        "bg": "#FFFFFF",
-        "ratio": 10.36,
+        "fg": "#1B4485",
+        "bg": "#F3F6FA",
+        "ratio": 8.76,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2690,9 +2690,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#0369A1",
-        "bg": "#FFFFFF",
-        "ratio": 5.93,
+        "fg": "#1D64D8",
+        "bg": "#F3F6FA",
+        "ratio": 5.01,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2700,9 +2700,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#0A142F",
-        "bg": "#F2F5F9",
-        "ratio": 16.64,
+        "fg": "#09162D",
+        "bg": "#E5ECF4",
+        "ratio": 15.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2710,9 +2710,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#1E3A8A",
-        "bg": "#F2F5F9",
-        "ratio": 9.47,
+        "fg": "#1B4485",
+        "bg": "#E5ECF4",
+        "ratio": 7.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2720,9 +2720,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#0A142F",
-        "bg": "#F2F5F9",
-        "ratio": 16.64,
+        "fg": "#09162D",
+        "bg": "#E5ECF4",
+        "ratio": 15.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2730,9 +2730,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#0A142F",
-        "bg": "#EBF0F7",
-        "ratio": 15.89,
+        "fg": "#09162D",
+        "bg": "#DEE7F1",
+        "ratio": 14.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2740,9 +2740,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#0A142F",
-        "bg": "#EBF5FB",
-        "ratio": 16.45,
+        "fg": "#09162D",
+        "bg": "#E2EAF7",
+        "ratio": 14.9,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2750,9 +2750,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#1E3A8A",
-        "bg": "#F2F5F9",
-        "ratio": 9.47,
+        "fg": "#1B4485",
+        "bg": "#E5ECF4",
+        "ratio": 7.97,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2760,9 +2760,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#0A142F",
-        "bg": "#D0E5F2",
-        "ratio": 14.01,
+        "fg": "#09162D",
+        "bg": "#C9D9F0",
+        "ratio": 12.6,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2770,9 +2770,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#0284C7",
-        "bg": "#EBF5FB",
-        "ratio": 3.7,
+        "fg": "#1D64D8",
+        "bg": "#E2EAF7",
+        "ratio": 4.49,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA Large"
@@ -2780,9 +2780,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#0A142F",
-        "bg": "#E4EBF4",
-        "ratio": 15.15,
+        "fg": "#09162D",
+        "bg": "#D6E2EE",
+        "ratio": 13.72,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2790,9 +2790,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#0A142F",
-        "bg": "#E4EBF4",
-        "ratio": 15.15,
+        "fg": "#09162D",
+        "bg": "#D6E2EE",
+        "ratio": 13.72,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2801,8 +2801,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#991B1B",
-        "bg": "#E4EBF4",
-        "ratio": 6.92,
+        "bg": "#D6E2EE",
+        "ratio": 6.32,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -2811,8 +2811,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#E4EBF4",
-        "ratio": 5.94,
+        "bg": "#D6E2EE",
+        "ratio": 5.42,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -2821,18 +2821,18 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#1E40AF",
-        "bg": "#E4EBF4",
-        "ratio": 7.26,
+        "bg": "#D6E2EE",
+        "ratio": 6.63,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#1E3A8A",
-        "bg": "#E4EBF4",
-        "ratio": 8.63,
+        "fg": "#1B4485",
+        "bg": "#D6E2EE",
+        "ratio": 7.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2840,9 +2840,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#0A142F",
-        "bg": "#FFFFFF",
-        "ratio": 18.2,
+        "fg": "#09162D",
+        "bg": "#F3F6FA",
+        "ratio": 16.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2850,9 +2850,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#0A142F",
-        "bg": "#F2F5F9",
-        "ratio": 16.64,
+        "fg": "#09162D",
+        "bg": "#E5ECF4",
+        "ratio": 15.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2860,9 +2860,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#0A142F",
-        "bg": "#F2F5F9",
-        "ratio": 16.64,
+        "fg": "#09162D",
+        "bg": "#E5ECF4",
+        "ratio": 15.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2871,11 +2871,11 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#0284C7",
-        "ratio": 4.1,
+        "bg": "#1D64D8",
+        "ratio": 5.43,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       }
     ]
   },
@@ -2888,9 +2888,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#EDF7F1",
-        "bg": "#08120C",
-        "ratio": 17.4,
+        "fg": "#EEF7F2",
+        "bg": "#07120C",
+        "ratio": 17.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2898,9 +2898,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#4ADE80",
-        "bg": "#08120C",
-        "ratio": 10.93,
+        "fg": "#3DD678",
+        "bg": "#07120C",
+        "ratio": 10.07,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -2908,9 +2908,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#6C8D79",
-        "bg": "#08120C",
-        "ratio": 5.19,
+        "fg": "#638C71",
+        "bg": "#07120C",
+        "ratio": 5.01,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -2918,9 +2918,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#2DD4BF",
-        "bg": "#08120C",
-        "ratio": 10.24,
+        "fg": "#29C7B2",
+        "bg": "#07120C",
+        "ratio": 9,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2928,9 +2928,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#4ADE80",
-        "bg": "#08120C",
-        "ratio": 10.93,
+        "fg": "#3DD678",
+        "bg": "#07120C",
+        "ratio": 10.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2938,9 +2938,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#EDF7F1",
-        "bg": "#08120C",
-        "ratio": 17.4,
+        "fg": "#EEF7F2",
+        "bg": "#07120C",
+        "ratio": 17.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2948,9 +2948,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#D9F99D",
-        "bg": "#08120C",
-        "ratio": 16.32,
+        "fg": "#D2F48D",
+        "bg": "#07120C",
+        "ratio": 15.5,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2958,9 +2958,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FCD34D",
-        "bg": "#08120C",
-        "ratio": 13.21,
+        "fg": "#F5C74E",
+        "bg": "#07120C",
+        "ratio": 11.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2968,9 +2968,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#88CDA0",
-        "bg": "#08120C",
-        "ratio": 10.24,
+        "fg": "#80C899",
+        "bg": "#07120C",
+        "ratio": 9.66,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2978,9 +2978,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#4ADE80",
-        "bg": "#08120C",
-        "ratio": 10.93,
+        "fg": "#3DD678",
+        "bg": "#07120C",
+        "ratio": 10.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2988,9 +2988,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#EDF7F1",
-        "bg": "#0E1C14",
-        "ratio": 16.05,
+        "fg": "#EEF7F2",
+        "bg": "#0D1E14",
+        "ratio": 15.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -2998,9 +2998,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#88CDA0",
-        "bg": "#0E1C14",
-        "ratio": 9.45,
+        "fg": "#80C899",
+        "bg": "#0D1E14",
+        "ratio": 8.77,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3008,9 +3008,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#EDF7F1",
-        "bg": "#0E1C14",
-        "ratio": 16.05,
+        "fg": "#EEF7F2",
+        "bg": "#0D1E14",
+        "ratio": 15.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3018,9 +3018,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#EDF7F1",
-        "bg": "#182C20",
-        "ratio": 13.5,
+        "fg": "#EEF7F2",
+        "bg": "#162F20",
+        "ratio": 13.15,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3028,9 +3028,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#EDF7F1",
-        "bg": "#102A1A",
-        "ratio": 14.02,
+        "fg": "#EEF7F2",
+        "bg": "#0D2A19",
+        "ratio": 14.11,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3038,9 +3038,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#88CDA0",
-        "bg": "#0E1C14",
-        "ratio": 9.45,
+        "fg": "#80C899",
+        "bg": "#0D1E14",
+        "ratio": 8.77,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3048,9 +3048,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#EDF7F1",
-        "bg": "#183B25",
-        "ratio": 11.34,
+        "fg": "#EEF7F2",
+        "bg": "#153B24",
+        "ratio": 11.42,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3058,9 +3058,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#4ADE80",
-        "bg": "#102A1A",
-        "ratio": 8.81,
+        "fg": "#3DD678",
+        "bg": "#0D2A19",
+        "ratio": 8.14,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -3068,9 +3068,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#EDF7F1",
-        "bg": "#16281D",
-        "ratio": 14.15,
+        "fg": "#EEF7F2",
+        "bg": "#142B1D",
+        "ratio": 13.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3078,9 +3078,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#EDF7F1",
-        "bg": "#16281D",
-        "ratio": 14.15,
+        "fg": "#EEF7F2",
+        "bg": "#142B1D",
+        "ratio": 13.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3089,8 +3089,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#FB7185",
-        "bg": "#16281D",
-        "ratio": 5.76,
+        "bg": "#142B1D",
+        "ratio": 5.6,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3098,9 +3098,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Green",
-        "fg": "#4ADE80",
-        "bg": "#16281D",
-        "ratio": 8.89,
+        "fg": "#3DD678",
+        "bg": "#142B1D",
+        "ratio": 7.96,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -3108,9 +3108,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#2DD4BF",
-        "bg": "#16281D",
-        "ratio": 8.32,
+        "fg": "#29C7B2",
+        "bg": "#142B1D",
+        "ratio": 7.11,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -3118,9 +3118,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#88CDA0",
-        "bg": "#16281D",
-        "ratio": 8.33,
+        "fg": "#80C899",
+        "bg": "#142B1D",
+        "ratio": 7.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3128,9 +3128,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#EDF7F1",
-        "bg": "#0E1C14",
-        "ratio": 16.05,
+        "fg": "#EEF7F2",
+        "bg": "#0D1E14",
+        "ratio": 15.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3138,9 +3138,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#EDF7F1",
-        "bg": "#16281D",
-        "ratio": 14.15,
+        "fg": "#EEF7F2",
+        "bg": "#142B1D",
+        "ratio": 13.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3148,9 +3148,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#EDF7F1",
-        "bg": "#16281D",
-        "ratio": 14.15,
+        "fg": "#EEF7F2",
+        "bg": "#142B1D",
+        "ratio": 13.8,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3159,8 +3159,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#4ADE80",
-        "ratio": 12.05,
+        "bg": "#3DD678",
+        "ratio": 11.09,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -3176,9 +3176,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#0B2514",
-        "bg": "#FFFFFF",
-        "ratio": 16.29,
+        "fg": "#0A2413",
+        "bg": "#F3F7F4",
+        "ratio": 15.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3187,8 +3187,8 @@
         "scope": "Editor",
         "item": "Cursor",
         "fg": "#15803D",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "bg": "#F3F7F4",
+        "ratio": 4.64,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -3196,9 +3196,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#587564",
-        "bg": "#FFFFFF",
-        "ratio": 5.07,
+        "fg": "#537460",
+        "bg": "#F3F7F4",
+        "ratio": 4.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3206,9 +3206,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#0F766E",
-        "bg": "#FFFFFF",
-        "ratio": 5.47,
+        "fg": "#0D6E66",
+        "bg": "#F3F7F4",
+        "ratio": 5.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3217,8 +3217,8 @@
         "scope": "Editor",
         "item": "Function",
         "fg": "#15803D",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "bg": "#F3F7F4",
+        "ratio": 4.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3226,9 +3226,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#0B2514",
-        "bg": "#FFFFFF",
-        "ratio": 16.29,
+        "fg": "#0A2413",
+        "bg": "#F3F7F4",
+        "ratio": 15.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3237,8 +3237,8 @@
         "scope": "Editor",
         "item": "String",
         "fg": "#4D7C0F",
-        "bg": "#FFFFFF",
-        "ratio": 4.99,
+        "bg": "#F3F7F4",
+        "ratio": 4.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3246,9 +3246,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#B45309",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "fg": "#A8520C",
+        "bg": "#F3F7F4",
+        "ratio": 5.01,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3256,9 +3256,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#166534",
-        "bg": "#FFFFFF",
-        "ratio": 7.13,
+        "fg": "#155E32",
+        "bg": "#F3F7F4",
+        "ratio": 7.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3267,8 +3267,8 @@
         "scope": "Editor",
         "item": "Operator",
         "fg": "#15803D",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "bg": "#F3F7F4",
+        "ratio": 4.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3276,9 +3276,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#0B2514",
-        "bg": "#F2F7F4",
-        "ratio": 15.04,
+        "fg": "#0A2413",
+        "bg": "#E6EFE9",
+        "ratio": 14.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3286,9 +3286,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#166534",
-        "bg": "#F2F7F4",
-        "ratio": 6.58,
+        "fg": "#155E32",
+        "bg": "#E6EFE9",
+        "ratio": 6.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3296,9 +3296,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#0B2514",
-        "bg": "#F2F7F4",
-        "ratio": 15.04,
+        "fg": "#0A2413",
+        "bg": "#E6EFE9",
+        "ratio": 14.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3306,9 +3306,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#0B2514",
-        "bg": "#EBF3EE",
-        "ratio": 14.42,
+        "fg": "#0A2413",
+        "bg": "#DFEAE3",
+        "ratio": 13.35,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3316,9 +3316,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#0B2514",
-        "bg": "#ECF5EF",
-        "ratio": 14.64,
+        "fg": "#0A2413",
+        "bg": "#E1EDE5",
+        "ratio": 13.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3326,9 +3326,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#166534",
-        "bg": "#F2F7F4",
-        "ratio": 6.58,
+        "fg": "#155E32",
+        "bg": "#E6EFE9",
+        "ratio": 6.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3336,9 +3336,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#0B2514",
-        "bg": "#D3E6DA",
-        "ratio": 12.49,
+        "fg": "#0A2413",
+        "bg": "#C9DFD1",
+        "ratio": 11.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3347,18 +3347,18 @@
         "scope": "Tabs",
         "item": "Active Tab Indicator",
         "fg": "#15803D",
-        "bg": "#ECF5EF",
-        "ratio": 4.51,
+        "bg": "#E1EDE5",
+        "ratio": 4.17,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AA Large"
       },
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#0B2514",
-        "bg": "#E4EFE8",
-        "ratio": 13.82,
+        "fg": "#0A2413",
+        "bg": "#D7E5DC",
+        "ratio": 12.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3366,9 +3366,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#0B2514",
-        "bg": "#E4EFE8",
-        "ratio": 13.82,
+        "fg": "#0A2413",
+        "bg": "#D7E5DC",
+        "ratio": 12.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3377,18 +3377,18 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#991B1B",
-        "bg": "#E4EFE8",
-        "ratio": 7.05,
+        "bg": "#D7E5DC",
+        "ratio": 6.38,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#E4EFE8",
-        "ratio": 6.05,
+        "bg": "#D7E5DC",
+        "ratio": 5.48,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3397,8 +3397,8 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#115E59",
-        "bg": "#E4EFE8",
-        "ratio": 6.43,
+        "bg": "#D7E5DC",
+        "ratio": 5.83,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3406,9 +3406,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#166534",
-        "bg": "#E4EFE8",
-        "ratio": 6.05,
+        "fg": "#155E32",
+        "bg": "#D7E5DC",
+        "ratio": 6.02,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3416,9 +3416,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#0B2514",
-        "bg": "#FFFFFF",
-        "ratio": 16.29,
+        "fg": "#0A2413",
+        "bg": "#F3F7F4",
+        "ratio": 15.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3426,9 +3426,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#0B2514",
-        "bg": "#F2F7F4",
-        "ratio": 15.04,
+        "fg": "#0A2413",
+        "bg": "#E6EFE9",
+        "ratio": 14.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3436,9 +3436,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#0B2514",
-        "bg": "#F2F7F4",
-        "ratio": 15.04,
+        "fg": "#0A2413",
+        "bg": "#E6EFE9",
+        "ratio": 14.03,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3464,9 +3464,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#F6EEFF",
-        "bg": "#0B0716",
-        "ratio": 17.6,
+        "fg": "#F7EEFF",
+        "bg": "#0B0618",
+        "ratio": 17.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3474,19 +3474,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#E879F9",
-        "bg": "#0B0716",
-        "ratio": 8.08,
+        "fg": "#EE62C8",
+        "bg": "#0B0618",
+        "ratio": 6.85,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#8971B0",
-        "bg": "#0B0716",
-        "ratio": 4.78,
+        "fg": "#8870B1",
+        "bg": "#0B0618",
+        "ratio": 4.75,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3494,29 +3494,29 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#E879F9",
-        "bg": "#0B0716",
-        "ratio": 8.08,
+        "fg": "#EE62C8",
+        "bg": "#0B0618",
+        "ratio": 6.85,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#A78BFA",
-        "bg": "#0B0716",
-        "ratio": 7.31,
+        "fg": "#A77BFA",
+        "bg": "#0B0618",
+        "ratio": 6.51,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#F6EEFF",
-        "bg": "#0B0716",
-        "ratio": 17.6,
+        "fg": "#F7EEFF",
+        "bg": "#0B0618",
+        "ratio": 17.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3524,9 +3524,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#FBCFE8",
-        "bg": "#0B0716",
-        "ratio": 14.38,
+        "fg": "#7DD3FC",
+        "bg": "#0B0618",
+        "ratio": 11.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3535,8 +3535,8 @@
         "scope": "Editor",
         "item": "Number",
         "fg": "#FDBA74",
-        "bg": "#0B0716",
-        "ratio": 11.79,
+        "bg": "#0B0618",
+        "ratio": 11.82,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3544,9 +3544,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#C58AFE",
-        "bg": "#0B0716",
-        "ratio": 7.99,
+        "fg": "#CA92FA",
+        "bg": "#0B0618",
+        "ratio": 8.55,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3554,19 +3554,19 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#E879F9",
-        "bg": "#0B0716",
-        "ratio": 8.08,
+        "fg": "#EE62C8",
+        "bg": "#0B0618",
+        "ratio": 6.85,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#F6EEFF",
-        "bg": "#130D25",
-        "ratio": 16.72,
+        "fg": "#F7EEFF",
+        "bg": "#140C2C",
+        "ratio": 16.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3574,9 +3574,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#C58AFE",
-        "bg": "#130D25",
-        "ratio": 7.59,
+        "fg": "#CA92FA",
+        "bg": "#140C2C",
+        "ratio": 8.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3584,9 +3584,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#F6EEFF",
-        "bg": "#130D25",
-        "ratio": 16.72,
+        "fg": "#F7EEFF",
+        "bg": "#140C2C",
+        "ratio": 16.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3594,9 +3594,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#F6EEFF",
-        "bg": "#21173D",
-        "ratio": 14.82,
+        "fg": "#F7EEFF",
+        "bg": "#231645",
+        "ratio": 14.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3604,9 +3604,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#F6EEFF",
-        "bg": "#261531",
-        "ratio": 15.07,
+        "fg": "#F7EEFF",
+        "bg": "#26112D",
+        "ratio": 15.52,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3614,9 +3614,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#C58AFE",
-        "bg": "#130D25",
-        "ratio": 7.59,
+        "fg": "#CA92FA",
+        "bg": "#140C2C",
+        "ratio": 8.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3624,9 +3624,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#F6EEFF",
-        "bg": "#351E47",
-        "ratio": 13.02,
+        "fg": "#F7EEFF",
+        "bg": "#371A45",
+        "ratio": 13.34,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3634,9 +3634,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#E879F9",
-        "bg": "#261531",
-        "ratio": 6.92,
+        "fg": "#EE62C8",
+        "bg": "#26112D",
+        "ratio": 6.01,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -3644,9 +3644,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#F6EEFF",
-        "bg": "#1C1336",
-        "ratio": 15.55,
+        "fg": "#F7EEFF",
+        "bg": "#1C123D",
+        "ratio": 15.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3654,9 +3654,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#F6EEFF",
-        "bg": "#1C1336",
-        "ratio": 15.55,
+        "fg": "#F7EEFF",
+        "bg": "#1C123D",
+        "ratio": 15.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3665,8 +3665,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#F43F5E",
-        "bg": "#1C1336",
-        "ratio": 4.78,
+        "bg": "#1C123D",
+        "ratio": 4.75,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3675,8 +3675,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#34D399",
-        "bg": "#1C1336",
-        "ratio": 9.14,
+        "bg": "#1C123D",
+        "ratio": 9.08,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -3684,9 +3684,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#818CF8",
-        "bg": "#1C1336",
-        "ratio": 5.89,
+        "fg": "#8C7AF7",
+        "bg": "#1C123D",
+        "ratio": 5.19,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3694,9 +3694,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#C58AFE",
-        "bg": "#1C1336",
-        "ratio": 7.06,
+        "fg": "#CA92FA",
+        "bg": "#1C123D",
+        "ratio": 7.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3704,9 +3704,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#F6EEFF",
-        "bg": "#130D25",
-        "ratio": 16.72,
+        "fg": "#F7EEFF",
+        "bg": "#140C2C",
+        "ratio": 16.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3714,9 +3714,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#F6EEFF",
-        "bg": "#1C1336",
-        "ratio": 15.55,
+        "fg": "#F7EEFF",
+        "bg": "#1C123D",
+        "ratio": 15.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3724,9 +3724,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#F6EEFF",
-        "bg": "#1C1336",
-        "ratio": 15.55,
+        "fg": "#F7EEFF",
+        "bg": "#1C123D",
+        "ratio": 15.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3735,8 +3735,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#E879F9",
-        "ratio": 8.53,
+        "bg": "#EE62C8",
+        "ratio": 7.22,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -3752,9 +3752,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#1E0A3C",
-        "bg": "#FFFFFF",
-        "ratio": 18.04,
+        "fg": "#1C0A36",
+        "bg": "#F7F4FB",
+        "ratio": 16.83,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3762,9 +3762,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#9333EA",
-        "bg": "#FFFFFF",
-        "ratio": 5.38,
+        "fg": "#9828C9",
+        "bg": "#F7F4FB",
+        "ratio": 5.54,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -3772,9 +3772,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#7D669C",
-        "bg": "#FFFFFF",
-        "ratio": 4.94,
+        "fg": "#725B8F",
+        "bg": "#F7F4FB",
+        "ratio": 5.35,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3782,9 +3782,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#9333EA",
-        "bg": "#FFFFFF",
-        "ratio": 5.38,
+        "fg": "#9828C9",
+        "bg": "#F7F4FB",
+        "ratio": 5.54,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3792,9 +3792,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#7C3AED",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#6D28D9",
+        "bg": "#F7F4FB",
+        "ratio": 6.53,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3802,9 +3802,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#1E0A3C",
-        "bg": "#FFFFFF",
-        "ratio": 18.04,
+        "fg": "#1C0A36",
+        "bg": "#F7F4FB",
+        "ratio": 16.83,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3812,19 +3812,19 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#9D174D",
-        "bg": "#FFFFFF",
-        "ratio": 7.88,
+        "fg": "#0E7490",
+        "bg": "#F7F4FB",
+        "ratio": 4.92,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#B83E0A",
+        "bg": "#F7F4FB",
+        "ratio": 5.17,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3832,9 +3832,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#581C87",
-        "bg": "#FFFFFF",
-        "ratio": 10.88,
+        "fg": "#5E1D96",
+        "bg": "#F7F4FB",
+        "ratio": 9.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3842,9 +3842,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#9333EA",
-        "bg": "#FFFFFF",
-        "ratio": 5.38,
+        "fg": "#9828C9",
+        "bg": "#F7F4FB",
+        "ratio": 5.54,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -3852,9 +3852,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#1E0A3C",
-        "bg": "#F7F3FC",
-        "ratio": 16.48,
+        "fg": "#1C0A36",
+        "bg": "#EDE5F6",
+        "ratio": 14.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3862,9 +3862,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#581C87",
-        "bg": "#F7F3FC",
-        "ratio": 9.93,
+        "fg": "#5E1D96",
+        "bg": "#EDE5F6",
+        "ratio": 8.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3872,9 +3872,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#1E0A3C",
-        "bg": "#F7F3FC",
-        "ratio": 16.48,
+        "fg": "#1C0A36",
+        "bg": "#EDE5F6",
+        "ratio": 14.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3882,9 +3882,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#1E0A3C",
-        "bg": "#F3EEFB",
-        "ratio": 15.84,
+        "fg": "#1C0A36",
+        "bg": "#E6DCF2",
+        "ratio": 13.86,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3892,9 +3892,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#1E0A3C",
-        "bg": "#F6EFFD",
-        "ratio": 16.05,
+        "fg": "#1C0A36",
+        "bg": "#EFE4F7",
+        "ratio": 14.93,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3902,9 +3902,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#581C87",
-        "bg": "#F7F3FC",
-        "ratio": 9.93,
+        "fg": "#5E1D96",
+        "bg": "#EDE5F6",
+        "ratio": 8.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3912,9 +3912,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#1E0A3C",
-        "bg": "#E9D8F9",
-        "ratio": 13.45,
+        "fg": "#1C0A36",
+        "bg": "#E1CBF0",
+        "ratio": 12.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3922,9 +3922,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#9333EA",
-        "bg": "#F6EFFD",
-        "ratio": 4.79,
+        "fg": "#9828C9",
+        "bg": "#EFE4F7",
+        "ratio": 4.91,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -3932,9 +3932,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#1E0A3C",
-        "bg": "#EFE8F9",
-        "ratio": 15.11,
+        "fg": "#1C0A36",
+        "bg": "#DFD2EE",
+        "ratio": 12.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3942,9 +3942,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#1E0A3C",
-        "bg": "#EFE8F9",
-        "ratio": 15.11,
+        "fg": "#1C0A36",
+        "bg": "#DFD2EE",
+        "ratio": 12.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -3953,8 +3953,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9F1239",
-        "bg": "#EFE8F9",
-        "ratio": 6.71,
+        "bg": "#DFD2EE",
+        "ratio": 5.57,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3963,8 +3963,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#EFE8F9",
-        "ratio": 5.97,
+        "bg": "#DFD2EE",
+        "ratio": 4.95,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -3973,8 +3973,8 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#581C87",
-        "bg": "#EFE8F9",
-        "ratio": 9.1,
+        "bg": "#DFD2EE",
+        "ratio": 7.56,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -3982,19 +3982,19 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#581C87",
-        "bg": "#EFE8F9",
-        "ratio": 9.1,
+        "fg": "#5E1D96",
+        "bg": "#DFD2EE",
+        "ratio": 6.97,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#1E0A3C",
-        "bg": "#FFFFFF",
-        "ratio": 18.04,
+        "fg": "#1C0A36",
+        "bg": "#F7F4FB",
+        "ratio": 16.83,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4002,9 +4002,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#1E0A3C",
-        "bg": "#F7F3FC",
-        "ratio": 16.48,
+        "fg": "#1C0A36",
+        "bg": "#EDE5F6",
+        "ratio": 14.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4012,9 +4012,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#1E0A3C",
-        "bg": "#F7F3FC",
-        "ratio": 16.48,
+        "fg": "#1C0A36",
+        "bg": "#EDE5F6",
+        "ratio": 14.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4023,8 +4023,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#9333EA",
-        "ratio": 5.38,
+        "bg": "#9828C9",
+        "ratio": 6.03,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -4040,9 +4040,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#EBF5FA",
-        "bg": "#05121D",
-        "ratio": 17.08,
+        "fg": "#EBF6FC",
+        "bg": "#041322",
+        "ratio": 17.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4050,9 +4050,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#22D3EE",
-        "bg": "#05121D",
-        "ratio": 10.46,
+        "fg": "#14D2E6",
+        "bg": "#041322",
+        "ratio": 10.16,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -4060,9 +4060,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#5C87AC",
-        "bg": "#05121D",
-        "ratio": 4.97,
+        "fg": "#5684A8",
+        "bg": "#041322",
+        "ratio": 4.69,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4070,9 +4070,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#38BDF8",
-        "bg": "#05121D",
-        "ratio": 8.83,
+        "fg": "#14D2E6",
+        "bg": "#041322",
+        "ratio": 10.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4080,9 +4080,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#22D3EE",
-        "bg": "#05121D",
-        "ratio": 10.46,
+        "fg": "#38BDF8",
+        "bg": "#041322",
+        "ratio": 8.74,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4090,9 +4090,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#EBF5FA",
-        "bg": "#05121D",
-        "ratio": 17.08,
+        "fg": "#EBF6FC",
+        "bg": "#041322",
+        "ratio": 17.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4100,9 +4100,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#A5F3FC",
-        "bg": "#05121D",
-        "ratio": 15.15,
+        "fg": "#98F5D8",
+        "bg": "#041322",
+        "ratio": 14.61,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4110,9 +4110,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FDBA74",
-        "bg": "#05121D",
-        "ratio": 11.21,
+        "fg": "#FBBF24",
+        "bg": "#041322",
+        "ratio": 11.22,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4120,9 +4120,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#60C5F8",
-        "bg": "#05121D",
-        "ratio": 9.76,
+        "fg": "#52C2F8",
+        "bg": "#041322",
+        "ratio": 9.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4130,9 +4130,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#22D3EE",
-        "bg": "#05121D",
-        "ratio": 10.46,
+        "fg": "#14D2E6",
+        "bg": "#041322",
+        "ratio": 10.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4140,9 +4140,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#EBF5FA",
-        "bg": "#0A1C2B",
-        "ratio": 15.63,
+        "fg": "#EBF6FC",
+        "bg": "#081F33",
+        "ratio": 15.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4150,9 +4150,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#60C5F8",
-        "bg": "#0A1C2B",
-        "ratio": 8.93,
+        "fg": "#52C2F8",
+        "bg": "#081F33",
+        "ratio": 8.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4160,9 +4160,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#EBF5FA",
-        "bg": "#0A1C2B",
-        "ratio": 15.63,
+        "fg": "#EBF6FC",
+        "bg": "#081F33",
+        "ratio": 15.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4170,9 +4170,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#EBF5FA",
-        "bg": "#122B41",
-        "ratio": 13.11,
+        "fg": "#EBF6FC",
+        "bg": "#0F304B",
+        "ratio": 12.38,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4180,9 +4180,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#EBF5FA",
-        "bg": "#082936",
-        "ratio": 13.74,
+        "fg": "#EBF6FC",
+        "bg": "#062A3A",
+        "ratio": 13.66,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4190,9 +4190,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#60C5F8",
-        "bg": "#0A1C2B",
-        "ratio": 8.93,
+        "fg": "#52C2F8",
+        "bg": "#081F33",
+        "ratio": 8.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4200,9 +4200,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#EBF5FA",
-        "bg": "#0E394A",
-        "ratio": 11.14,
+        "fg": "#EBF6FC",
+        "bg": "#0A3C50",
+        "ratio": 10.77,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4210,9 +4210,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#22D3EE",
-        "bg": "#082936",
-        "ratio": 8.42,
+        "fg": "#14D2E6",
+        "bg": "#062A3A",
+        "ratio": 8.14,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -4220,9 +4220,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#EBF5FA",
-        "bg": "#10283D",
-        "ratio": 13.62,
+        "fg": "#EBF6FC",
+        "bg": "#0E2B45",
+        "ratio": 13.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4230,9 +4230,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#EBF5FA",
-        "bg": "#10283D",
-        "ratio": 13.62,
+        "fg": "#EBF6FC",
+        "bg": "#0E2B45",
+        "ratio": 13.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4241,8 +4241,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#F87171",
-        "bg": "#10283D",
-        "ratio": 5.45,
+        "bg": "#0E2B45",
+        "ratio": 5.24,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -4251,8 +4251,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#34D399",
-        "bg": "#10283D",
-        "ratio": 7.84,
+        "bg": "#0E2B45",
+        "ratio": 7.53,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -4261,18 +4261,18 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#38BDF8",
-        "bg": "#10283D",
-        "ratio": 7.04,
+        "bg": "#0E2B45",
+        "ratio": 6.76,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#60C5F8",
-        "bg": "#10283D",
-        "ratio": 7.78,
+        "fg": "#52C2F8",
+        "bg": "#0E2B45",
+        "ratio": 7.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4280,9 +4280,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#EBF5FA",
-        "bg": "#0A1C2B",
-        "ratio": 15.63,
+        "fg": "#EBF6FC",
+        "bg": "#081F33",
+        "ratio": 15.25,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4290,9 +4290,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#EBF5FA",
-        "bg": "#10283D",
-        "ratio": 13.62,
+        "fg": "#EBF6FC",
+        "bg": "#0E2B45",
+        "ratio": 13.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4300,9 +4300,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#EBF5FA",
-        "bg": "#10283D",
-        "ratio": 13.62,
+        "fg": "#EBF6FC",
+        "bg": "#0E2B45",
+        "ratio": 13.19,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4311,8 +4311,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#22D3EE",
-        "ratio": 11.62,
+        "bg": "#14D2E6",
+        "ratio": 11.39,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -4328,9 +4328,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#06253B",
-        "bg": "#FFFFFF",
-        "ratio": 15.72,
+        "fg": "#021A26",
+        "bg": "#EBF7F9",
+        "ratio": 16.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4339,8 +4339,8 @@
         "scope": "Editor",
         "item": "Cursor",
         "fg": "#0284C7",
-        "bg": "#FFFFFF",
-        "ratio": 4.1,
+        "bg": "#EBF7F9",
+        "ratio": 3.75,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA Large"
@@ -4348,9 +4348,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#537B96",
-        "bg": "#FFFFFF",
-        "ratio": 4.52,
+        "fg": "#44747E",
+        "bg": "#EBF7F9",
+        "ratio": 4.75,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4358,9 +4358,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#0369A1",
-        "bg": "#FFFFFF",
-        "ratio": 5.93,
+        "fg": "#006FA3",
+        "bg": "#EBF7F9",
+        "ratio": 5.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4368,9 +4368,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#0E7490",
-        "bg": "#FFFFFF",
-        "ratio": 5.36,
+        "fg": "#047A8A",
+        "bg": "#EBF7F9",
+        "ratio": 4.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4378,9 +4378,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#06253B",
-        "bg": "#FFFFFF",
-        "ratio": 15.72,
+        "fg": "#021A26",
+        "bg": "#EBF7F9",
+        "ratio": 16.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4388,9 +4388,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#0F766E",
-        "bg": "#FFFFFF",
-        "ratio": 5.47,
+        "fg": "#067E67",
+        "bg": "#EBF7F9",
+        "ratio": 4.59,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4398,9 +4398,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#BA3B10",
+        "bg": "#EBF7F9",
+        "ratio": 5.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4408,9 +4408,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#0369A1",
-        "bg": "#FFFFFF",
-        "ratio": 5.93,
+        "fg": "#02677E",
+        "bg": "#EBF7F9",
+        "ratio": 5.92,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4418,9 +4418,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#0369A1",
-        "bg": "#FFFFFF",
-        "ratio": 5.93,
+        "fg": "#006FA3",
+        "bg": "#EBF7F9",
+        "ratio": 5.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4428,9 +4428,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#06253B",
-        "bg": "#F0F6FA",
-        "ratio": 14.43,
+        "fg": "#021A26",
+        "bg": "#D8EDF2",
+        "ratio": 14.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4438,9 +4438,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#0369A1",
-        "bg": "#F0F6FA",
-        "ratio": 5.44,
+        "fg": "#02677E",
+        "bg": "#D8EDF2",
+        "ratio": 5.34,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4448,9 +4448,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#06253B",
-        "bg": "#F0F6FA",
-        "ratio": 14.43,
+        "fg": "#021A26",
+        "bg": "#D8EDF2",
+        "ratio": 14.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4458,9 +4458,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#06253B",
-        "bg": "#E9F3F8",
-        "ratio": 13.96,
+        "fg": "#021A26",
+        "bg": "#CFE8EF",
+        "ratio": 13.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4468,9 +4468,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#06253B",
-        "bg": "#EBF5FB",
-        "ratio": 14.22,
+        "fg": "#021A26",
+        "bg": "#D8EEF5",
+        "ratio": 14.82,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4478,9 +4478,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#0369A1",
-        "bg": "#F0F6FA",
-        "ratio": 5.44,
+        "fg": "#02677E",
+        "bg": "#D8EDF2",
+        "ratio": 5.34,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4488,9 +4488,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#06253B",
-        "bg": "#CFE6F3",
-        "ratio": 12.18,
+        "fg": "#021A26",
+        "bg": "#BADEEC",
+        "ratio": 12.52,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4499,8 +4499,8 @@
         "scope": "Tabs",
         "item": "Active Tab Indicator",
         "fg": "#0284C7",
-        "bg": "#EBF5FB",
-        "ratio": 3.7,
+        "bg": "#D8EEF5",
+        "ratio": 3.41,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA Large"
@@ -4508,9 +4508,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#06253B",
-        "bg": "#E2EFF6",
-        "ratio": 13.41,
+        "fg": "#021A26",
+        "bg": "#C6E3EB",
+        "ratio": 13.23,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4518,9 +4518,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#06253B",
-        "bg": "#E2EFF6",
-        "ratio": 13.41,
+        "fg": "#021A26",
+        "bg": "#C6E3EB",
+        "ratio": 13.23,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4529,18 +4529,18 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#991B1B",
-        "bg": "#E2EFF6",
-        "ratio": 7.09,
+        "bg": "#C6E3EB",
+        "ratio": 6.17,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#E2EFF6",
-        "ratio": 6.08,
+        "bg": "#C6E3EB",
+        "ratio": 5.29,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -4548,19 +4548,19 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#075985",
-        "bg": "#E2EFF6",
-        "ratio": 6.45,
+        "fg": "#006FA3",
+        "bg": "#C6E3EB",
+        "ratio": 4.1,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AA Large"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#0369A1",
-        "bg": "#E2EFF6",
-        "ratio": 5.06,
+        "fg": "#02677E",
+        "bg": "#C6E3EB",
+        "ratio": 4.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4568,9 +4568,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#06253B",
-        "bg": "#FFFFFF",
-        "ratio": 15.72,
+        "fg": "#021A26",
+        "bg": "#EBF7F9",
+        "ratio": 16.3,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4578,9 +4578,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#06253B",
-        "bg": "#F0F6FA",
-        "ratio": 14.43,
+        "fg": "#021A26",
+        "bg": "#D8EDF2",
+        "ratio": 14.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4588,9 +4588,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#06253B",
-        "bg": "#F0F6FA",
-        "ratio": 14.43,
+        "fg": "#021A26",
+        "bg": "#D8EDF2",
+        "ratio": 14.7,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4616,9 +4616,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#FFF3ED",
-        "bg": "#140A07",
-        "ratio": 17.93,
+        "fg": "#FFF3EB",
+        "bg": "#140A06",
+        "ratio": 17.91,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4626,19 +4626,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#F97316",
-        "bg": "#140A07",
-        "ratio": 6.96,
+        "fg": "#FA741B",
+        "bg": "#140A06",
+        "ratio": 7.04,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#9B7365",
-        "bg": "#140A07",
-        "ratio": 4.68,
+        "fg": "#9A7363",
+        "bg": "#140A06",
+        "ratio": 4.65,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4646,19 +4646,19 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#F97316",
-        "bg": "#140A07",
-        "ratio": 6.96,
+        "fg": "#FA741B",
+        "bg": "#140A06",
+        "ratio": 7.04,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#FBBF24",
-        "bg": "#140A07",
-        "ratio": 11.69,
+        "fg": "#F59E0B",
+        "bg": "#140A06",
+        "ratio": 9.09,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4666,9 +4666,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#FFF3ED",
-        "bg": "#140A07",
-        "ratio": 17.93,
+        "fg": "#FFF3EB",
+        "bg": "#140A06",
+        "ratio": 17.91,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4676,9 +4676,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#FED7AA",
-        "bg": "#140A07",
-        "ratio": 14.42,
+        "fg": "#FCD34D",
+        "bg": "#140A06",
+        "ratio": 13.54,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4686,9 +4686,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#FB7185",
-        "bg": "#140A07",
-        "ratio": 7.25,
+        "fg": "#F87171",
+        "bg": "#140A06",
+        "ratio": 7.06,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4696,9 +4696,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#FDBA74",
-        "bg": "#140A07",
-        "ratio": 11.57,
+        "fg": "#FDB56C",
+        "bg": "#140A06",
+        "ratio": 11.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4706,19 +4706,19 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#F97316",
-        "bg": "#140A07",
-        "ratio": 6.96,
+        "fg": "#FA741B",
+        "bg": "#140A06",
+        "ratio": 7.04,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AA"
+        "grade": "AAA"
       },
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#FFF3ED",
-        "bg": "#1C0F0A",
-        "ratio": 17.2,
+        "fg": "#FFF3EB",
+        "bg": "#1F0F09",
+        "ratio": 17.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4726,9 +4726,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#FDBA74",
-        "bg": "#1C0F0A",
-        "ratio": 11.1,
+        "fg": "#FDB56C",
+        "bg": "#1F0F09",
+        "ratio": 10.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4736,9 +4736,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#FFF3ED",
-        "bg": "#1C0F0A",
-        "ratio": 17.2,
+        "fg": "#FFF3EB",
+        "bg": "#1F0F09",
+        "ratio": 17.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4746,9 +4746,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#FFF3ED",
-        "bg": "#2E1911",
-        "ratio": 15.27,
+        "fg": "#FFF3EB",
+        "bg": "#31190F",
+        "ratio": 15.1,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4756,9 +4756,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#FFF3ED",
-        "bg": "#2F1709",
-        "ratio": 15.47,
+        "fg": "#FFF3EB",
+        "bg": "#301709",
+        "ratio": 15.39,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4766,9 +4766,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#FDBA74",
-        "bg": "#1C0F0A",
-        "ratio": 11.1,
+        "fg": "#FDB56C",
+        "bg": "#1F0F09",
+        "ratio": 10.62,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4776,9 +4776,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#FFF3ED",
-        "bg": "#3F1F0C",
-        "ratio": 13.66,
+        "fg": "#FFF3EB",
+        "bg": "#421F0C",
+        "ratio": 13.45,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4786,9 +4786,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#F97316",
-        "bg": "#2F1709",
-        "ratio": 6.01,
+        "fg": "#FA741B",
+        "bg": "#301709",
+        "ratio": 6.05,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -4796,9 +4796,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#FFF3ED",
-        "bg": "#271610",
-        "ratio": 15.97,
+        "fg": "#FFF3EB",
+        "bg": "#2A160D",
+        "ratio": 15.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4806,9 +4806,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#FFF3ED",
-        "bg": "#271610",
-        "ratio": 15.97,
+        "fg": "#FFF3EB",
+        "bg": "#2A160D",
+        "ratio": 15.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4817,8 +4817,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#EF4444",
-        "bg": "#271610",
-        "ratio": 4.62,
+        "bg": "#2A160D",
+        "ratio": 4.58,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -4827,8 +4827,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#84CC16",
-        "bg": "#271610",
-        "ratio": 8.8,
+        "bg": "#2A160D",
+        "ratio": 8.72,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -4836,9 +4836,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#F97316",
-        "bg": "#271610",
-        "ratio": 6.2,
+        "fg": "#FA741B",
+        "bg": "#2A160D",
+        "ratio": 6.22,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -4846,9 +4846,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#FDBA74",
-        "bg": "#271610",
-        "ratio": 10.3,
+        "fg": "#FDB56C",
+        "bg": "#2A160D",
+        "ratio": 9.85,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4856,9 +4856,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#FFF3ED",
-        "bg": "#1C0F0A",
-        "ratio": 17.2,
+        "fg": "#FFF3EB",
+        "bg": "#1F0F09",
+        "ratio": 17.05,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4866,9 +4866,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#FFF3ED",
-        "bg": "#271610",
-        "ratio": 15.97,
+        "fg": "#FFF3EB",
+        "bg": "#2A160D",
+        "ratio": 15.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4876,9 +4876,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#FFF3ED",
-        "bg": "#271610",
-        "ratio": 15.97,
+        "fg": "#FFF3EB",
+        "bg": "#2A160D",
+        "ratio": 15.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4887,8 +4887,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#F97316",
-        "ratio": 7.49,
+        "bg": "#FA741B",
+        "ratio": 7.58,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -4904,9 +4904,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#2E1208",
-        "bg": "#FFFFFF",
-        "ratio": 17.41,
+        "fg": "#2B0F05",
+        "bg": "#FAF3EC",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4914,19 +4914,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#EA580C",
-        "bg": "#FFFFFF",
-        "ratio": 3.56,
+        "fg": "#BD3900",
+        "bg": "#FAF3EC",
+        "ratio": 5.09,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#87685D",
-        "bg": "#FFFFFF",
-        "ratio": 5.04,
+        "fg": "#7B5848",
+        "bg": "#FAF3EC",
+        "ratio": 5.73,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4934,9 +4934,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#BD3900",
+        "bg": "#FAF3EC",
+        "ratio": 5.09,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4944,9 +4944,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#9E2E02",
+        "bg": "#FAF3EC",
+        "ratio": 6.71,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4954,9 +4954,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#2E1208",
-        "bg": "#FFFFFF",
-        "ratio": 17.41,
+        "fg": "#2B0F05",
+        "bg": "#FAF3EC",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4964,9 +4964,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#2D6A4F",
-        "bg": "#FFFFFF",
-        "ratio": 6.39,
+        "fg": "#824408",
+        "bg": "#FAF3EC",
+        "ratio": 6.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4975,8 +4975,8 @@
         "scope": "Editor",
         "item": "Number",
         "fg": "#B91C1C",
-        "bg": "#FFFFFF",
-        "ratio": 6.47,
+        "bg": "#FAF3EC",
+        "ratio": 5.88,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -4984,9 +4984,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#9A3412",
-        "bg": "#FFFFFF",
-        "ratio": 7.31,
+        "fg": "#8F3008",
+        "bg": "#FAF3EC",
+        "ratio": 7.36,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -4994,9 +4994,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#C2410C",
-        "bg": "#FFFFFF",
-        "ratio": 5.18,
+        "fg": "#BD3900",
+        "bg": "#FAF3EC",
+        "ratio": 5.09,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5004,9 +5004,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#2E1208",
-        "bg": "#FCF6F2",
-        "ratio": 16.25,
+        "fg": "#2B0F05",
+        "bg": "#F2E6DA",
+        "ratio": 14.58,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5014,9 +5014,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#9A3412",
-        "bg": "#FCF6F2",
-        "ratio": 6.82,
+        "fg": "#8F3008",
+        "bg": "#F2E6DA",
+        "ratio": 6.59,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5024,9 +5024,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#2E1208",
-        "bg": "#FCF6F2",
-        "ratio": 16.25,
+        "fg": "#2B0F05",
+        "bg": "#F2E6DA",
+        "ratio": 14.58,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5034,9 +5034,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#2E1208",
-        "bg": "#FAF1EB",
-        "ratio": 15.62,
+        "fg": "#2B0F05",
+        "bg": "#EDDED0",
+        "ratio": 13.6,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5044,9 +5044,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#2E1208",
-        "bg": "#FDF2EC",
-        "ratio": 15.83,
+        "fg": "#2B0F05",
+        "bg": "#F5E4D9",
+        "ratio": 14.47,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5054,9 +5054,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#9A3412",
-        "bg": "#FCF6F2",
-        "ratio": 6.82,
+        "fg": "#8F3008",
+        "bg": "#F2E6DA",
+        "ratio": 6.59,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5064,9 +5064,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#2E1208",
-        "bg": "#F9E0D2",
-        "ratio": 13.78,
+        "fg": "#2B0F05",
+        "bg": "#EBCEBB",
+        "ratio": 12,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5074,19 +5074,19 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#EA580C",
-        "bg": "#FDF2EC",
-        "ratio": 3.24,
+        "fg": "#BD3900",
+        "bg": "#F5E4D9",
+        "ratio": 4.53,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       },
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#2E1208",
-        "bg": "#F7ECE4",
-        "ratio": 14.98,
+        "fg": "#2B0F05",
+        "bg": "#E7D6C6",
+        "ratio": 12.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5094,9 +5094,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#2E1208",
-        "bg": "#F7ECE4",
-        "ratio": 14.98,
+        "fg": "#2B0F05",
+        "bg": "#E7D6C6",
+        "ratio": 12.64,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5105,8 +5105,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9A3412",
-        "bg": "#F7ECE4",
-        "ratio": 6.29,
+        "bg": "#E7D6C6",
+        "ratio": 5.16,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5115,8 +5115,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#F7ECE4",
-        "ratio": 6.14,
+        "bg": "#E7D6C6",
+        "ratio": 5.04,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5125,8 +5125,8 @@
         "scope": "Terminal",
         "item": "ANSI Blue",
         "fg": "#9A3412",
-        "bg": "#F7ECE4",
-        "ratio": 6.29,
+        "bg": "#E7D6C6",
+        "ratio": 5.16,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5134,9 +5134,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#9A3412",
-        "bg": "#F7ECE4",
-        "ratio": 6.29,
+        "fg": "#8F3008",
+        "bg": "#E7D6C6",
+        "ratio": 5.72,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5144,9 +5144,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#2E1208",
-        "bg": "#FFFFFF",
-        "ratio": 17.41,
+        "fg": "#2B0F05",
+        "bg": "#FAF3EC",
+        "ratio": 16.28,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5154,9 +5154,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#2E1208",
-        "bg": "#FCF6F2",
-        "ratio": 16.25,
+        "fg": "#2B0F05",
+        "bg": "#F2E6DA",
+        "ratio": 14.58,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5164,9 +5164,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#2E1208",
-        "bg": "#FCF6F2",
-        "ratio": 16.25,
+        "fg": "#2B0F05",
+        "bg": "#F2E6DA",
+        "ratio": 14.58,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5175,11 +5175,11 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#EA580C",
-        "ratio": 3.56,
+        "bg": "#BD3900",
+        "ratio": 5.6,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       }
     ]
   },
@@ -5192,9 +5192,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#F6F3FE",
-        "bg": "#0C081A",
-        "ratio": 18,
+        "fg": "#F6F4FD",
+        "bg": "#0B0819",
+        "ratio": 18.13,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5202,19 +5202,19 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#A78BFA",
-        "bg": "#0C081A",
-        "ratio": 7.24,
+        "fg": "#9B8AFB",
+        "bg": "#0B0819",
+        "ratio": 6.98,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#8373B0",
-        "bg": "#0C081A",
-        "ratio": 4.74,
+        "fg": "#8076A5",
+        "bg": "#0B0819",
+        "ratio": 4.75,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5222,29 +5222,29 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#C084FC",
-        "bg": "#0C081A",
-        "ratio": 7.46,
+        "fg": "#B87CF8",
+        "bg": "#0B0819",
+        "ratio": 6.85,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#A78BFA",
-        "bg": "#0C081A",
-        "ratio": 7.24,
+        "fg": "#9B8AFB",
+        "bg": "#0B0819",
+        "ratio": 6.98,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#F6F3FE",
-        "bg": "#0C081A",
-        "ratio": 18,
+        "fg": "#F6F4FD",
+        "bg": "#0B0819",
+        "ratio": 18.13,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5252,9 +5252,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#E9D5FF",
-        "bg": "#0C081A",
-        "ratio": 14.48,
+        "fg": "#E5D5FC",
+        "bg": "#0B0819",
+        "ratio": 14.35,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5263,8 +5263,8 @@
         "scope": "Editor",
         "item": "Number",
         "fg": "#F472B6",
-        "bg": "#0C081A",
-        "ratio": 7.44,
+        "bg": "#0B0819",
+        "ratio": 7.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5272,9 +5272,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#C9BAFE",
-        "bg": "#0C081A",
-        "ratio": 11.21,
+        "fg": "#B8A8F8",
+        "bg": "#0B0819",
+        "ratio": 9.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5282,19 +5282,19 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#A78BFA",
-        "bg": "#0C081A",
-        "ratio": 7.24,
+        "fg": "#9B8AFB",
+        "bg": "#0B0819",
+        "ratio": 6.98,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#F6F3FE",
-        "bg": "#130D29",
-        "ratio": 17.16,
+        "fg": "#F6F4FD",
+        "bg": "#120E25",
+        "ratio": 17.29,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5302,9 +5302,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#C9BAFE",
-        "bg": "#130D29",
-        "ratio": 10.69,
+        "fg": "#B8A8F8",
+        "bg": "#120E25",
+        "ratio": 8.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5312,9 +5312,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#F6F3FE",
-        "bg": "#130D29",
-        "ratio": 17.16,
+        "fg": "#F6F4FD",
+        "bg": "#120E25",
+        "ratio": 17.29,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5322,9 +5322,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#F6F3FE",
-        "bg": "#1F1641",
-        "ratio": 15.34,
+        "fg": "#F6F4FD",
+        "bg": "#1E183B",
+        "ratio": 15.43,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5332,9 +5332,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#F6F3FE",
-        "bg": "#1F1835",
-        "ratio": 15.46,
+        "fg": "#F6F4FD",
+        "bg": "#1C1834",
+        "ratio": 15.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5342,9 +5342,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#C9BAFE",
-        "bg": "#130D29",
-        "ratio": 10.69,
+        "fg": "#B8A8F8",
+        "bg": "#120E25",
+        "ratio": 8.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5352,9 +5352,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#F6F3FE",
-        "bg": "#2B214A",
-        "ratio": 13.51,
+        "fg": "#F6F4FD",
+        "bg": "#282247",
+        "ratio": 13.67,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5362,9 +5362,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#A78BFA",
-        "bg": "#1F1835",
-        "ratio": 6.22,
+        "fg": "#9B8AFB",
+        "bg": "#1C1834",
+        "ratio": 6.04,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5372,9 +5372,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#F6F3FE",
-        "bg": "#1B1339",
-        "ratio": 15.99,
+        "fg": "#F6F4FD",
+        "bg": "#191433",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5382,9 +5382,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#F6F3FE",
-        "bg": "#1B1339",
-        "ratio": 15.99,
+        "fg": "#F6F4FD",
+        "bg": "#191433",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5393,8 +5393,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#FB7185",
-        "bg": "#1B1339",
-        "ratio": 6.51,
+        "bg": "#191433",
+        "ratio": 6.56,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5403,8 +5403,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#34D399",
-        "bg": "#1B1339",
-        "ratio": 9.11,
+        "bg": "#191433",
+        "ratio": 9.19,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -5412,9 +5412,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#A78BFA",
-        "bg": "#1B1339",
-        "ratio": 6.44,
+        "fg": "#9B8AFB",
+        "bg": "#191433",
+        "ratio": 6.24,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5422,9 +5422,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#C9BAFE",
-        "bg": "#1B1339",
-        "ratio": 9.96,
+        "fg": "#B8A8F8",
+        "bg": "#191433",
+        "ratio": 8.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5432,9 +5432,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#F6F3FE",
-        "bg": "#130D29",
-        "ratio": 17.16,
+        "fg": "#F6F4FD",
+        "bg": "#120E25",
+        "ratio": 17.29,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5442,9 +5442,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#F6F3FE",
-        "bg": "#1B1339",
-        "ratio": 15.99,
+        "fg": "#F6F4FD",
+        "bg": "#191433",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5452,9 +5452,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#F6F3FE",
-        "bg": "#1B1339",
-        "ratio": 15.99,
+        "fg": "#F6F4FD",
+        "bg": "#191433",
+        "ratio": 16.21,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5463,8 +5463,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#A78BFA",
-        "ratio": 7.72,
+        "bg": "#9B8AFB",
+        "ratio": 7.42,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AAA"
@@ -5480,9 +5480,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#1D0B38",
-        "bg": "#FFFFFF",
-        "ratio": 18.15,
+        "fg": "#121636",
+        "bg": "#F4F5FB",
+        "ratio": 16.17,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5490,9 +5490,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#7C3AED",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#4F46E5",
+        "bg": "#F4F5FB",
+        "ratio": 5.78,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5500,9 +5500,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#7A6A9B",
-        "bg": "#FFFFFF",
-        "ratio": 4.81,
+        "fg": "#5C668D",
+        "bg": "#F4F5FB",
+        "ratio": 5.16,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5510,9 +5510,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#7C3AED",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#4F46E5",
+        "bg": "#F4F5FB",
+        "ratio": 5.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5520,9 +5520,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#6D28D9",
-        "bg": "#FFFFFF",
-        "ratio": 7.1,
+        "fg": "#3730A3",
+        "bg": "#F4F5FB",
+        "ratio": 9.13,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5530,9 +5530,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#1D0B38",
-        "bg": "#FFFFFF",
-        "ratio": 18.15,
+        "fg": "#121636",
+        "bg": "#F4F5FB",
+        "ratio": 16.17,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5540,9 +5540,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#1E6E56",
-        "bg": "#FFFFFF",
-        "ratio": 6.14,
+        "fg": "#157158",
+        "bg": "#F4F5FB",
+        "ratio": 5.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5550,9 +5550,9 @@
       {
         "scope": "Editor",
         "item": "Number",
-        "fg": "#9D174D",
-        "bg": "#FFFFFF",
-        "ratio": 7.88,
+        "fg": "#941848",
+        "bg": "#F4F5FB",
+        "ratio": 7.77,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5560,9 +5560,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#5B21B6",
-        "bg": "#FFFFFF",
-        "ratio": 8.98,
+        "fg": "#4338CA",
+        "bg": "#F4F5FB",
+        "ratio": 7.26,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5570,9 +5570,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#7C3AED",
-        "bg": "#FFFFFF",
-        "ratio": 5.7,
+        "fg": "#4F46E5",
+        "bg": "#F4F5FB",
+        "ratio": 5.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5580,9 +5580,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#1D0B38",
-        "bg": "#F6F4FB",
-        "ratio": 16.64,
+        "fg": "#121636",
+        "bg": "#E6E8F6",
+        "ratio": 14.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5590,19 +5590,19 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#5B21B6",
-        "bg": "#F6F4FB",
-        "ratio": 8.23,
+        "fg": "#4338CA",
+        "bg": "#E6E8F6",
+        "ratio": 6.49,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#1D0B38",
-        "bg": "#F6F4FB",
-        "ratio": 16.64,
+        "fg": "#121636",
+        "bg": "#E6E8F6",
+        "ratio": 14.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5610,9 +5610,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#1D0B38",
-        "bg": "#F2EFF9",
-        "ratio": 15.98,
+        "fg": "#121636",
+        "bg": "#DFE1F2",
+        "ratio": 13.56,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5620,9 +5620,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#1D0B38",
-        "bg": "#F5EFFE",
-        "ratio": 16.13,
+        "fg": "#121636",
+        "bg": "#E7E7F9",
+        "ratio": 14.41,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5630,19 +5630,19 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#5B21B6",
-        "bg": "#F6F4FB",
-        "ratio": 8.23,
+        "fg": "#4338CA",
+        "bg": "#E6E8F6",
+        "ratio": 6.49,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#1D0B38",
-        "bg": "#E5DAF9",
-        "ratio": 13.59,
+        "fg": "#121636",
+        "bg": "#D1D1F4",
+        "ratio": 11.84,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5650,9 +5650,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#7C3AED",
-        "bg": "#F5EFFE",
-        "ratio": 5.06,
+        "fg": "#4F46E5",
+        "bg": "#E7E7F9",
+        "ratio": 5.15,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5660,9 +5660,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#1D0B38",
-        "bg": "#EEE9F7",
-        "ratio": 15.24,
+        "fg": "#121636",
+        "bg": "#D7DAED",
+        "ratio": 12.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5670,9 +5670,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#1D0B38",
-        "bg": "#EEE9F7",
-        "ratio": 15.24,
+        "fg": "#121636",
+        "bg": "#D7DAED",
+        "ratio": 12.68,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5681,8 +5681,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9F1239",
-        "bg": "#EEE9F7",
-        "ratio": 6.73,
+        "bg": "#D7DAED",
+        "ratio": 5.78,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5691,8 +5691,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#EEE9F7",
-        "ratio": 5.99,
+        "bg": "#D7DAED",
+        "ratio": 5.14,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5700,29 +5700,29 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#5B21B6",
-        "bg": "#EEE9F7",
-        "ratio": 7.54,
+        "fg": "#4F46E5",
+        "bg": "#D7DAED",
+        "ratio": 4.53,
         "minRequired": 4,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#5B21B6",
-        "bg": "#EEE9F7",
-        "ratio": 7.54,
+        "fg": "#4338CA",
+        "bg": "#D7DAED",
+        "ratio": 5.7,
         "minRequired": 4.5,
         "status": "PASS",
-        "grade": "AAA"
+        "grade": "AA"
       },
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#1D0B38",
-        "bg": "#FFFFFF",
-        "ratio": 18.15,
+        "fg": "#121636",
+        "bg": "#F4F5FB",
+        "ratio": 16.17,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5730,9 +5730,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#1D0B38",
-        "bg": "#F6F4FB",
-        "ratio": 16.64,
+        "fg": "#121636",
+        "bg": "#E6E8F6",
+        "ratio": 14.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5740,9 +5740,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#1D0B38",
-        "bg": "#F6F4FB",
-        "ratio": 16.64,
+        "fg": "#121636",
+        "bg": "#E6E8F6",
+        "ratio": 14.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5751,8 +5751,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#7C3AED",
-        "ratio": 5.7,
+        "bg": "#4F46E5",
+        "ratio": 6.29,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5768,9 +5768,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#FDF2F7",
-        "bg": "#130810",
-        "ratio": 17.96,
+        "fg": "#FDF1F6",
+        "bg": "#140711",
+        "ratio": 17.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5778,9 +5778,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#EC4899",
-        "bg": "#130810",
-        "ratio": 5.56,
+        "fg": "#E94090",
+        "bg": "#140711",
+        "ratio": 5.24,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5788,9 +5788,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#997090",
-        "bg": "#130810",
-        "ratio": 4.74,
+        "fg": "#986F8D",
+        "bg": "#140711",
+        "ratio": 4.67,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5798,9 +5798,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#EC4899",
-        "bg": "#130810",
-        "ratio": 5.56,
+        "fg": "#E94090",
+        "bg": "#140711",
+        "ratio": 5.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5808,9 +5808,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#F472B6",
-        "bg": "#130810",
-        "ratio": 7.41,
+        "fg": "#FB8268",
+        "bg": "#140711",
+        "ratio": 7.95,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5818,9 +5818,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#FDF2F7",
-        "bg": "#130810",
-        "ratio": 17.96,
+        "fg": "#FDF1F6",
+        "bg": "#140711",
+        "ratio": 17.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5828,9 +5828,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#FBCFE8",
-        "bg": "#130810",
-        "ratio": 14.2,
+        "fg": "#FED7AA",
+        "bg": "#140711",
+        "ratio": 14.52,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5839,8 +5839,8 @@
         "scope": "Editor",
         "item": "Number",
         "fg": "#FBBF24",
-        "bg": "#130810",
-        "ratio": 11.76,
+        "bg": "#140711",
+        "ratio": 11.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5848,9 +5848,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#F9A8D4",
-        "bg": "#130810",
-        "ratio": 10.82,
+        "fg": "#F8A4CE",
+        "bg": "#140711",
+        "ratio": 10.48,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5858,9 +5858,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#EC4899",
-        "bg": "#130810",
-        "ratio": 5.56,
+        "fg": "#E94090",
+        "bg": "#140711",
+        "ratio": 5.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -5868,9 +5868,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#FDF2F7",
-        "bg": "#1C0D18",
-        "ratio": 17.16,
+        "fg": "#FDF1F6",
+        "bg": "#1E0C1B",
+        "ratio": 16.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5878,9 +5878,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#F9A8D4",
-        "bg": "#1C0D18",
-        "ratio": 10.34,
+        "fg": "#F8A4CE",
+        "bg": "#1E0C1B",
+        "ratio": 9.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5888,9 +5888,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#FDF2F7",
-        "bg": "#1C0D18",
-        "ratio": 17.16,
+        "fg": "#FDF1F6",
+        "bg": "#1E0C1B",
+        "ratio": 16.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5898,9 +5898,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#FDF2F7",
-        "bg": "#2E1528",
-        "ratio": 15.33,
+        "fg": "#FDF1F6",
+        "bg": "#31142C",
+        "ratio": 15.07,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5908,9 +5908,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#FDF2F7",
-        "bg": "#2D1020",
-        "ratio": 15.93,
+        "fg": "#FDF1F6",
+        "bg": "#2E0E20",
+        "ratio": 15.91,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5918,9 +5918,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#F9A8D4",
-        "bg": "#1C0D18",
-        "ratio": 10.34,
+        "fg": "#F8A4CE",
+        "bg": "#1E0C1B",
+        "ratio": 9.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5928,9 +5928,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#FDF2F7",
-        "bg": "#3D162D",
-        "ratio": 14.23,
+        "fg": "#FDF1F6",
+        "bg": "#3E142E",
+        "ratio": 14.2,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5938,9 +5938,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#EC4899",
-        "bg": "#2D1020",
-        "ratio": 4.93,
+        "fg": "#E94090",
+        "bg": "#2E0E20",
+        "ratio": 4.67,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -5948,9 +5948,9 @@
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#FDF2F7",
-        "bg": "#271322",
-        "ratio": 15.98,
+        "fg": "#FDF1F6",
+        "bg": "#291125",
+        "ratio": 15.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5958,9 +5958,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#FDF2F7",
-        "bg": "#271322",
-        "ratio": 15.98,
+        "fg": "#FDF1F6",
+        "bg": "#291125",
+        "ratio": 15.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -5968,9 +5968,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Red",
-        "fg": "#F43F5E",
-        "bg": "#271322",
-        "ratio": 4.76,
+        "fg": "#FB7185",
+        "bg": "#291125",
+        "ratio": 6.5,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5979,8 +5979,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#34D399",
-        "bg": "#271322",
-        "ratio": 9.08,
+        "bg": "#291125",
+        "ratio": 9.09,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -5988,9 +5988,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#EC4899",
-        "bg": "#271322",
-        "ratio": 4.95,
+        "fg": "#E94090",
+        "bg": "#291125",
+        "ratio": 4.66,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -5998,9 +5998,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#F9A8D4",
-        "bg": "#271322",
-        "ratio": 9.63,
+        "fg": "#F8A4CE",
+        "bg": "#291125",
+        "ratio": 9.32,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6008,9 +6008,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#FDF2F7",
-        "bg": "#1C0D18",
-        "ratio": 17.16,
+        "fg": "#FDF1F6",
+        "bg": "#1E0C1B",
+        "ratio": 16.99,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6018,9 +6018,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#FDF2F7",
-        "bg": "#271322",
-        "ratio": 15.98,
+        "fg": "#FDF1F6",
+        "bg": "#291125",
+        "ratio": 15.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6028,9 +6028,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#FDF2F7",
-        "bg": "#271322",
-        "ratio": 15.98,
+        "fg": "#FDF1F6",
+        "bg": "#291125",
+        "ratio": 15.89,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6039,8 +6039,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#000000",
-        "bg": "#EC4899",
-        "ratio": 5.95,
+        "bg": "#E94090",
+        "ratio": 5.6,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -6056,9 +6056,9 @@
       {
         "scope": "Editor",
         "item": "Primary Text",
-        "fg": "#2C081E",
-        "bg": "#FFFFFF",
-        "ratio": 18.09,
+        "fg": "#2B0D18",
+        "bg": "#FCF3F2",
+        "ratio": 16.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6066,9 +6066,9 @@
       {
         "scope": "Editor",
         "item": "Cursor",
-        "fg": "#DB2777",
-        "bg": "#FFFFFF",
-        "ratio": 4.6,
+        "fg": "#C41C5E",
+        "bg": "#FCF3F2",
+        "ratio": 5.24,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"
@@ -6076,9 +6076,9 @@
       {
         "scope": "Editor",
         "item": "Comment",
-        "fg": "#8E6883",
-        "bg": "#FFFFFF",
-        "ratio": 4.71,
+        "fg": "#7F5462",
+        "bg": "#FCF3F2",
+        "ratio": 5.75,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6086,9 +6086,9 @@
       {
         "scope": "Editor",
         "item": "Keyword",
-        "fg": "#DB2777",
-        "bg": "#FFFFFF",
-        "ratio": 4.6,
+        "fg": "#C41C5E",
+        "bg": "#FCF3F2",
+        "ratio": 5.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6096,9 +6096,9 @@
       {
         "scope": "Editor",
         "item": "Function",
-        "fg": "#BE185D",
-        "bg": "#FFFFFF",
-        "ratio": 6.04,
+        "fg": "#A3164D",
+        "bg": "#FCF3F2",
+        "ratio": 6.92,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6106,9 +6106,9 @@
       {
         "scope": "Editor",
         "item": "Variable",
-        "fg": "#2C081E",
-        "bg": "#FFFFFF",
-        "ratio": 18.09,
+        "fg": "#2B0D18",
+        "bg": "#FCF3F2",
+        "ratio": 16.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6116,9 +6116,9 @@
       {
         "scope": "Editor",
         "item": "String",
-        "fg": "#15803D",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "fg": "#9E3610",
+        "bg": "#FCF3F2",
+        "ratio": 6.44,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6127,8 +6127,8 @@
         "scope": "Editor",
         "item": "Number",
         "fg": "#B45309",
-        "bg": "#FFFFFF",
-        "ratio": 5.02,
+        "bg": "#FCF3F2",
+        "ratio": 4.6,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6136,9 +6136,9 @@
       {
         "scope": "Editor",
         "item": "Type",
-        "fg": "#831843",
-        "bg": "#FFFFFF",
-        "ratio": 9.65,
+        "fg": "#7A1A40",
+        "bg": "#FCF3F2",
+        "ratio": 9.39,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6146,9 +6146,9 @@
       {
         "scope": "Editor",
         "item": "Operator",
-        "fg": "#DB2777",
-        "bg": "#FFFFFF",
-        "ratio": 4.6,
+        "fg": "#C41C5E",
+        "bg": "#FCF3F2",
+        "ratio": 5.24,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AA"
@@ -6156,9 +6156,9 @@
       {
         "scope": "Sidebar",
         "item": "Primary Text",
-        "fg": "#2C081E",
-        "bg": "#FDF4F8",
-        "ratio": 16.78,
+        "fg": "#2B0D18",
+        "bg": "#F6E6E3",
+        "ratio": 14.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6166,9 +6166,9 @@
       {
         "scope": "Sidebar",
         "item": "Title Text",
-        "fg": "#831843",
-        "bg": "#FDF4F8",
-        "ratio": 8.95,
+        "fg": "#7A1A40",
+        "bg": "#F6E6E3",
+        "ratio": 8.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6176,9 +6176,9 @@
       {
         "scope": "Sidebar",
         "item": "Active Selection",
-        "fg": "#2C081E",
-        "bg": "#FDF4F8",
-        "ratio": 16.78,
+        "fg": "#2B0D18",
+        "bg": "#F6E6E3",
+        "ratio": 14.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6186,9 +6186,9 @@
       {
         "scope": "Sidebar",
         "item": "Hover Item",
-        "fg": "#2C081E",
-        "bg": "#FBEEF4",
-        "ratio": 16.06,
+        "fg": "#2B0D18",
+        "bg": "#F1DEDA",
+        "ratio": 13.81,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6196,9 +6196,9 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Text",
-        "fg": "#2C081E",
-        "bg": "#FCEEF4",
-        "ratio": 16.09,
+        "fg": "#2B0D18",
+        "bg": "#F8E2E6",
+        "ratio": 14.5,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6206,9 +6206,9 @@
       {
         "scope": "Tabs",
         "item": "Inactive Tab Text",
-        "fg": "#831843",
-        "bg": "#FDF4F8",
-        "ratio": 8.95,
+        "fg": "#7A1A40",
+        "bg": "#F6E6E3",
+        "ratio": 8.46,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6216,9 +6216,9 @@
       {
         "scope": "Tabs",
         "item": "Tab Hover Text",
-        "fg": "#2C081E",
-        "bg": "#F8D7E6",
-        "ratio": 13.66,
+        "fg": "#2B0D18",
+        "bg": "#EFCAD0",
+        "ratio": 11.96,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6226,19 +6226,19 @@
       {
         "scope": "Tabs",
         "item": "Active Tab Indicator",
-        "fg": "#DB2777",
-        "bg": "#FCEEF4",
-        "ratio": 4.09,
+        "fg": "#C41C5E",
+        "bg": "#F8E2E6",
+        "ratio": 4.63,
         "minRequired": 3,
         "status": "PASS",
-        "grade": "AA Large"
+        "grade": "AA"
       },
       {
         "scope": "Panel",
         "item": "Panel Active Title",
-        "fg": "#2C081E",
-        "bg": "#F8E7F0",
-        "ratio": 15.23,
+        "fg": "#2B0D18",
+        "bg": "#ECD6D1",
+        "ratio": 12.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6246,9 +6246,9 @@
       {
         "scope": "Panel",
         "item": "Terminal Text",
-        "fg": "#2C081E",
-        "bg": "#F8E7F0",
-        "ratio": 15.23,
+        "fg": "#2B0D18",
+        "bg": "#ECD6D1",
+        "ratio": 12.87,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6257,8 +6257,8 @@
         "scope": "Terminal",
         "item": "ANSI Red",
         "fg": "#9F1239",
-        "bg": "#F8E7F0",
-        "ratio": 6.75,
+        "bg": "#ECD6D1",
+        "ratio": 5.77,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -6267,8 +6267,8 @@
         "scope": "Terminal",
         "item": "ANSI Green",
         "fg": "#166534",
-        "bg": "#F8E7F0",
-        "ratio": 6,
+        "bg": "#ECD6D1",
+        "ratio": 5.13,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AA"
@@ -6276,9 +6276,9 @@
       {
         "scope": "Terminal",
         "item": "ANSI Blue",
-        "fg": "#831843",
-        "bg": "#F8E7F0",
-        "ratio": 8.12,
+        "fg": "#7A1A40",
+        "bg": "#ECD6D1",
+        "ratio": 7.37,
         "minRequired": 4,
         "status": "PASS",
         "grade": "AAA"
@@ -6286,9 +6286,9 @@
       {
         "scope": "Status Bar",
         "item": "Status Text",
-        "fg": "#831843",
-        "bg": "#F8E7F0",
-        "ratio": 8.12,
+        "fg": "#7A1A40",
+        "bg": "#ECD6D1",
+        "ratio": 7.37,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6296,9 +6296,9 @@
       {
         "scope": "Interactive",
         "item": "Input Text",
-        "fg": "#2C081E",
-        "bg": "#FFFFFF",
-        "ratio": 18.09,
+        "fg": "#2B0D18",
+        "bg": "#FCF3F2",
+        "ratio": 16.4,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6306,9 +6306,9 @@
       {
         "scope": "Interactive",
         "item": "Dropdown Text",
-        "fg": "#2C081E",
-        "bg": "#FDF4F8",
-        "ratio": 16.78,
+        "fg": "#2B0D18",
+        "bg": "#F6E6E3",
+        "ratio": 14.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6316,9 +6316,9 @@
       {
         "scope": "Interactive",
         "item": "Notification Text",
-        "fg": "#2C081E",
-        "bg": "#FDF4F8",
-        "ratio": 16.78,
+        "fg": "#2B0D18",
+        "bg": "#F6E6E3",
+        "ratio": 14.78,
         "minRequired": 4.5,
         "status": "PASS",
         "grade": "AAA"
@@ -6327,8 +6327,8 @@
         "scope": "Interactive",
         "item": "Badge Indicator",
         "fg": "#FFFFFF",
-        "bg": "#DB2777",
-        "ratio": 4.6,
+        "bg": "#C41C5E",
+        "ratio": 5.71,
         "minRequired": 3,
         "status": "PASS",
         "grade": "AA"

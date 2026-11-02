@@ -3,7 +3,7 @@
   "displayName": "SONDER — VS Code Theme & Icon Collection",
   "description": "A thoughtfully curated collection of 22 dark & light VS Code themes, matching themed icon sets, and subtle workbench enhancements.",
   "version": "1.0.0",
-  "publisher": "sonder-theme",
+  "publisher": "theaffy",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -44,7 +44,7 @@
   "scripts": {
     "build:themes": "node build-themes.js",
     "build:icons": "node scripts/build-icons.js",
-    "test": "node tests/verify-icons.js && node tests/test-theme-switching.js && node tests/test-icon-contrast.js",
+    "test": "node tests/verify-icons.js && node tests/test-theme-switching.js && node tests/test-icon-contrast.js && node tests/test-color-system.js",
     "package": "vsce package -o sonder-1.0.0.vsix"
   },
   "contributes": {

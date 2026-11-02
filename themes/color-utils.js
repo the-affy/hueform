@@ -133,6 +133,47 @@ function relativeLuminance(rgb) {
   return 0.2126 * r + 0.7152 * g + 0.0722 * b;
 }
 
+// Convert RGB (0-255) to CIELAB [L*, a*, b*] under D65 illuminant
+function rgbToLab(r, g, b) {
+  let rL = r / 255;
+  let gL = g / 255;
+  let bL = b / 255;
+
+  rL = rL > 0.04045 ? Math.pow((rL + 0.055) / 1.055, 2.4) : rL / 12.92;
+  gL = gL > 0.04045 ? Math.pow((gL + 0.055) / 1.055, 2.4) : gL / 12.92;
+  bL = bL > 0.04045 ? Math.pow((bL + 0.055) / 1.055, 2.4) : bL / 12.92;
+
+  const x = (rL * 0.4124564 + gL * 0.3575761 + bL * 0.1804375) / 0.95047;
+  const y = (rL * 0.2126729 + gL * 0.7151522 + bL * 0.0721750) / 1.00000;
+  const z = (rL * 0.0193339 + gL * 0.1191920 + bL * 0.9503041) / 1.08883;
+
+  const f = t => t > 0.008856451679 ? Math.cbrt(t) : (7.787037037 * t) + (16 / 116);
+
+  const fx = f(x);
+  const fy = f(y);
+  const fz = f(z);
+
+  const L = 116 * fy - 16;
+  const a = 500 * (fx - fy);
+  const bVal = 200 * (fy - fz);
+
+  return [L, a, bVal];
+}
+
+// Compute CIE76 Delta-E (Delta-E*ab) perceptual color distance between two hex colors
+function deltaE(hex1, hex2) {
+  if (!hex1 || !hex2) return 0;
+  const h1 = hex1.startsWith('#') ? hex1.slice(0, 7) : `#${hex1.slice(0, 6)}`;
+  const h2 = hex2.startsWith('#') ? hex2.slice(0, 7) : `#${hex2.slice(0, 6)}`;
+  const lab1 = rgbToLab(...hexToRgb(h1));
+  const lab2 = rgbToLab(...hexToRgb(h2));
+  return Math.sqrt(
+    Math.pow(lab1[0] - lab2[0], 2) +
+    Math.pow(lab1[1] - lab2[1], 2) +
+    Math.pow(lab1[2] - lab2[2], 2)
+  );
+}
+
 // Contrast ratio between two colors (1:1 to 21:1)
 function contrastRatio(hex1, hex2) {
   const lum1 = relativeLuminance(hexToRgb(hex1));
@@ -152,6 +193,8 @@ module.exports = {
   mix,
   withAlpha,
   relativeLuminance,
-  contrastRatio
+  contrastRatio,
+  rgbToLab,
+  deltaE
 };
 
