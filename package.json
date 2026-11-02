@@ -345,5 +345,8 @@
     "url": "https://github.com/sonder-theme/sonder/issues"
   },
   "homepage": "https://github.com/sonder-theme/sonder#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.0"
+  }
 }
