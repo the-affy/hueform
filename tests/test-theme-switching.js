@@ -1,6 +1,6 @@
 /**
- * SONDER Theme Switching Test Suite
- * Tests deterministic mapping, dark/light variants, non-SONDER theme handling, and loop prevention.
+ * HUEFORM Theme Switching Test Suite
+ * Tests deterministic mapping, dark/light variants, non-HUEFORM theme handling, and loop prevention.
  */
 
 // Mock 'vscode' module for unit test runner outside extension host
@@ -9,7 +9,7 @@ const originalRequire = Module.prototype.require;
 
 const sharedVscodeMock = {
   window: {
-    activeColorTheme: { name: 'SONDER — Ember Dark', kind: 2 },
+    activeColorTheme: { name: 'HUEFORM — Ember Dark', kind: 2 },
     onDidChangeActiveColorTheme: () => ({ dispose: () => {} }),
     onDidChangeTextEditorSelection: () => ({ dispose: () => {} }),
     registerFileDecorationProvider: () => ({ dispose: () => {} }),
@@ -21,7 +21,8 @@ const sharedVscodeMock = {
     onDidChangeConfiguration: () => ({ dispose: () => {} })
   },
   commands: {
-    registerCommand: () => ({ dispose: () => {} })
+    registerCommand: () => ({ dispose: () => {} }),
+    executeCommand: () => {}
   },
   ConfigurationTarget: { Global: 1 },
   ThemeColor: class ThemeColor { constructor(id) { this.id = id; } },
@@ -40,121 +41,138 @@ Module.prototype.require = function(id) {
 };
 
 const assert = require('assert');
-const { resolveSonderIconTheme, isSonderIconTheme, SONDER_THEME_ID_TO_ICON_THEME, SonderIconThemeSyncManager } = require('../src/extension');
+const {
+  resolveHueformIconTheme,
+  isHueformIconTheme,
+  HUEFORM_THEME_ID_TO_ICON_THEME,
+  HueformIconThemeSyncManager
+} = require('../src/extension');
 
-console.log('Testing SONDER Automatic Theme-Matched File Icons Engine...');
+console.log('Testing HUEFORM Automatic Theme-Matched File Icons Engine...');
 
-// 1. Verify all 22 SONDER color themes map deterministically to their matching icon theme
+// 1. Verify all 22 HUEFORM color themes map deterministically to their matching icon theme
 const EXPECTED_MAPPINGS = [
-  ['SONDER — Abyss Dark',     'sonder-abyss-icons-dark'],
-  ['SONDER — Abyss Light',    'sonder-abyss-icons-light'],
-  ['SONDER — Nocturne Dark',  'sonder-nocturne-icons-dark'],
-  ['SONDER — Nocturne Light', 'sonder-nocturne-icons-light'],
-  ['SONDER — Sakura Dark',    'sonder-sakura-icons-dark'],
-  ['SONDER — Sakura Light',   'sonder-sakura-icons-light'],
-  ['SONDER — Umber Dark',     'sonder-umber-icons-dark'],
-  ['SONDER — Umber Light',    'sonder-umber-icons-light'],
-  ['SONDER — Midnight Dark',  'sonder-midnight-icons-dark'],
-  ['SONDER — Midnight Light', 'sonder-midnight-icons-light'],
-  ['SONDER — Forest Dark',    'sonder-forest-icons-dark'],
-  ['SONDER — Forest Light',   'sonder-forest-icons-light'],
-  ['SONDER — Nebula Dark',    'sonder-nebula-icons-dark'],
-  ['SONDER — Nebula Light',   'sonder-nebula-icons-light'],
-  ['SONDER — Ocean Dark',     'sonder-ocean-icons-dark'],
-  ['SONDER — Ocean Light',    'sonder-ocean-icons-light'],
-  ['SONDER — Ember Dark',     'sonder-ember-icons-dark'],
-  ['SONDER — Ember Light',    'sonder-ember-icons-light'],
-  ['SONDER — Lavender Dark',  'sonder-lavender-icons-dark'],
-  ['SONDER — Lavender Light', 'sonder-lavender-icons-light'],
-  ['SONDER — Blossom Dark',   'sonder-blossom-icons-dark'],
-  ['SONDER — Blossom Light',  'sonder-blossom-icons-light']
+  ['HUEFORM — Abyss Dark',     'hueform-abyss-icons-dark'],
+  ['HUEFORM — Abyss Light',    'hueform-abyss-icons-light'],
+  ['HUEFORM — Nocturne Dark',  'hueform-nocturne-icons-dark'],
+  ['HUEFORM — Nocturne Light', 'hueform-nocturne-icons-light'],
+  ['HUEFORM — Sakura Dark',    'hueform-sakura-icons-dark'],
+  ['HUEFORM — Sakura Light',   'hueform-sakura-icons-light'],
+  ['HUEFORM — Umber Dark',     'hueform-umber-icons-dark'],
+  ['HUEFORM — Umber Light',    'hueform-umber-icons-light'],
+  ['HUEFORM — Midnight Dark',  'hueform-midnight-icons-dark'],
+  ['HUEFORM — Midnight Light', 'hueform-midnight-icons-light'],
+  ['HUEFORM — Forest Dark',    'hueform-forest-icons-dark'],
+  ['HUEFORM — Forest Light',   'hueform-forest-icons-light'],
+  ['HUEFORM — Nebula Dark',    'hueform-nebula-icons-dark'],
+  ['HUEFORM — Nebula Light',   'hueform-nebula-icons-light'],
+  ['HUEFORM — Ocean Dark',     'hueform-ocean-icons-dark'],
+  ['HUEFORM — Ocean Light',    'hueform-ocean-icons-light'],
+  ['HUEFORM — Ember Dark',     'hueform-ember-icons-dark'],
+  ['HUEFORM — Ember Light',    'hueform-ember-icons-light'],
+  ['HUEFORM — Lavender Dark',  'hueform-lavender-icons-dark'],
+  ['HUEFORM — Lavender Light', 'hueform-lavender-icons-light'],
+  ['HUEFORM — Blossom Dark',   'hueform-blossom-icons-dark'],
+  ['HUEFORM — Blossom Light',  'hueform-blossom-icons-light']
 ];
 
 for (const [colorTheme, expectedIconTheme] of EXPECTED_MAPPINGS) {
-  const resolved = resolveSonderIconTheme(colorTheme);
+  const resolved = resolveHueformIconTheme(colorTheme);
   assert.strictEqual(resolved, expectedIconTheme, `Expected ${colorTheme} to resolve to ${expectedIconTheme}, got ${resolved}`);
 }
-console.log('✓ All 22 SONDER color themes resolve to their exact matching icon theme.');
+console.log('✓ All 22 HUEFORM color themes resolve to their exact matching icon theme.');
 
 // 1b. Verify stable theme IDs resolve identically
 const STABLE_ID_MAPPINGS = [
-  ['sonder-abyss-dark',     'sonder-abyss-icons-dark'],
-  ['sonder-abyss-light',    'sonder-abyss-icons-light'],
-  ['sonder-nocturne-dark',  'sonder-nocturne-icons-dark'],
-  ['sonder-nocturne-light', 'sonder-nocturne-icons-light'],
-  ['sonder-sakura-dark',    'sonder-sakura-icons-dark'],
-  ['sonder-sakura-light',   'sonder-sakura-icons-light'],
-  ['sonder-umber-dark',     'sonder-umber-icons-dark'],
-  ['sonder-umber-light',    'sonder-umber-icons-light'],
-  ['sonder-midnight-dark',  'sonder-midnight-icons-dark'],
-  ['sonder-midnight-light', 'sonder-midnight-icons-light'],
-  ['sonder-forest-dark',    'sonder-forest-icons-dark'],
-  ['sonder-forest-light',   'sonder-forest-icons-light'],
-  ['sonder-nebula-dark',    'sonder-nebula-icons-dark'],
-  ['sonder-nebula-light',   'sonder-nebula-icons-light'],
-  ['sonder-ocean-dark',     'sonder-ocean-icons-dark'],
-  ['sonder-ocean-light',    'sonder-ocean-icons-light'],
-  ['sonder-ember-dark',     'sonder-ember-icons-dark'],
-  ['sonder-ember-light',    'sonder-ember-icons-light'],
-  ['sonder-lavender-dark',  'sonder-lavender-icons-dark'],
-  ['sonder-lavender-light', 'sonder-lavender-icons-light'],
-  ['sonder-blossom-dark',   'sonder-blossom-icons-dark'],
-  ['sonder-blossom-light',  'sonder-blossom-icons-light']
+  ['hueform-abyss-dark',     'hueform-abyss-icons-dark'],
+  ['hueform-abyss-light',    'hueform-abyss-icons-light'],
+  ['hueform-nocturne-dark',  'hueform-nocturne-icons-dark'],
+  ['hueform-nocturne-light', 'hueform-nocturne-icons-light'],
+  ['hueform-sakura-dark',    'hueform-sakura-icons-dark'],
+  ['hueform-sakura-light',   'hueform-sakura-icons-light'],
+  ['hueform-umber-dark',     'hueform-umber-icons-dark'],
+  ['hueform-umber-light',    'hueform-umber-icons-light'],
+  ['hueform-midnight-dark',  'hueform-midnight-icons-dark'],
+  ['hueform-midnight-light', 'hueform-midnight-icons-light'],
+  ['hueform-forest-dark',    'hueform-forest-icons-dark'],
+  ['hueform-forest-light',   'hueform-forest-icons-light'],
+  ['hueform-nebula-dark',    'hueform-nebula-icons-dark'],
+  ['hueform-nebula-light',   'hueform-nebula-icons-light'],
+  ['hueform-ocean-dark',     'hueform-ocean-icons-dark'],
+  ['hueform-ocean-light',    'hueform-ocean-icons-light'],
+  ['hueform-ember-dark',     'hueform-ember-icons-dark'],
+  ['hueform-ember-light',    'hueform-ember-icons-light'],
+  ['hueform-lavender-dark',  'hueform-lavender-icons-dark'],
+  ['hueform-lavender-light', 'hueform-lavender-icons-light'],
+  ['hueform-blossom-dark',   'hueform-blossom-icons-dark'],
+  ['hueform-blossom-light',  'hueform-blossom-icons-light']
 ];
 
 for (const [stableId, expectedIconTheme] of STABLE_ID_MAPPINGS) {
-  const resolved = resolveSonderIconTheme(stableId);
+  const resolved = resolveHueformIconTheme(stableId);
   assert.strictEqual(resolved, expectedIconTheme, `Expected ${stableId} to resolve to ${expectedIconTheme}, got ${resolved}`);
 }
-console.log('✓ All 22 SONDER stable IDs resolve to their exact matching icon theme.');
+console.log('✓ All 22 HUEFORM stable IDs resolve to their exact matching icon theme.');
+
+// 1c. Verify legacy SONDER identifiers still resolve for backward compatibility
+const LEGACY_ID_MAPPINGS = [
+  ['sonder-abyss-dark',     'hueform-abyss-icons-dark'],
+  ['sonder-ember-light',    'hueform-ember-icons-light'],
+  ['SONDER — Blossom Dark', 'hueform-blossom-icons-dark']
+];
+for (const [legacyId, expectedIcon] of LEGACY_ID_MAPPINGS) {
+  const resolved = resolveHueformIconTheme(legacyId);
+  assert.strictEqual(resolved, expectedIcon, `Expected legacy ${legacyId} to resolve to ${expectedIcon}, got ${resolved}`);
+}
+console.log('✓ Legacy SONDER theme identifiers resolve to matching HUEFORM icon themes (backward compatibility).');
 
 // 2. Dark family switching sequence:
 // Abyss Dark -> Ember Dark -> Forest Dark -> Lavender Dark -> Blossom Dark
 const darkSequence = [
-  ['SONDER — Abyss Dark',    'sonder-abyss-icons-dark'],
-  ['SONDER — Ember Dark',    'sonder-ember-icons-dark'],
-  ['SONDER — Forest Dark',   'sonder-forest-icons-dark'],
-  ['SONDER — Lavender Dark', 'sonder-lavender-icons-dark'],
-  ['SONDER — Blossom Dark',  'sonder-blossom-icons-dark']
+  ['HUEFORM — Abyss Dark',    'hueform-abyss-icons-dark'],
+  ['HUEFORM — Ember Dark',    'hueform-ember-icons-dark'],
+  ['HUEFORM — Forest Dark',   'hueform-forest-icons-dark'],
+  ['HUEFORM — Lavender Dark', 'hueform-lavender-icons-dark'],
+  ['HUEFORM — Blossom Dark',  'hueform-blossom-icons-dark']
 ];
 
 for (const [theme, expectedIcon] of darkSequence) {
-  assert.strictEqual(resolveSonderIconTheme(theme), expectedIcon);
+  assert.strictEqual(resolveHueformIconTheme(theme), expectedIcon);
 }
 console.log('✓ Dark family switching sequence verified.');
 
 // 3. Light family switching sequence:
 // Abyss Light -> Ember Light -> Forest Light -> Lavender Light -> Blossom Light
 const lightSequence = [
-  ['SONDER — Abyss Light',    'sonder-abyss-icons-light'],
-  ['SONDER — Ember Light',    'sonder-ember-icons-light'],
-  ['SONDER — Forest Light',   'sonder-forest-icons-light'],
-  ['SONDER — Lavender Light', 'sonder-lavender-icons-light'],
-  ['SONDER — Blossom Light',  'sonder-blossom-icons-light']
+  ['HUEFORM — Abyss Light',    'hueform-abyss-icons-light'],
+  ['HUEFORM — Ember Light',    'hueform-ember-icons-light'],
+  ['HUEFORM — Forest Light',   'hueform-forest-icons-light'],
+  ['HUEFORM — Lavender Light', 'hueform-lavender-icons-light'],
+  ['HUEFORM — Blossom Light',  'hueform-blossom-icons-light']
 ];
 
 for (const [theme, expectedIcon] of lightSequence) {
-  assert.strictEqual(resolveSonderIconTheme(theme), expectedIcon);
+  assert.strictEqual(resolveHueformIconTheme(theme), expectedIcon);
 }
 console.log('✓ Light family switching sequence verified.');
 
 // 4. Dark -> Light transition (Ember Dark -> Ember Light)
-assert.strictEqual(resolveSonderIconTheme('SONDER — Ember Dark'), 'sonder-ember-icons-dark');
-assert.strictEqual(resolveSonderIconTheme('SONDER — Ember Light'), 'sonder-ember-icons-light');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Ember Dark'), 'hueform-ember-icons-dark');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Ember Light'), 'hueform-ember-icons-light');
 console.log('✓ Dark -> Light transition verified (Ember Dark -> Ember Light).');
 
 // 5. Light -> Dark transition (Ember Light -> Ember Dark)
-assert.strictEqual(resolveSonderIconTheme('SONDER — Ember Light'), 'sonder-ember-icons-light');
-assert.strictEqual(resolveSonderIconTheme('SONDER — Ember Dark'), 'sonder-ember-icons-dark');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Ember Light'), 'hueform-ember-icons-light');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Ember Dark'), 'hueform-ember-icons-dark');
 console.log('✓ Light -> Dark transition verified (Ember Light -> Ember Dark).');
 
 // 6. Family + appearance transition (Blossom Dark -> Ember Light)
-assert.strictEqual(resolveSonderIconTheme('SONDER — Blossom Dark'), 'sonder-blossom-icons-dark');
-assert.strictEqual(resolveSonderIconTheme('SONDER — Ember Light'), 'sonder-ember-icons-light');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Blossom Dark'), 'hueform-blossom-icons-dark');
+assert.strictEqual(resolveHueformIconTheme('HUEFORM — Ember Light'), 'hueform-ember-icons-light');
 console.log('✓ Family + Appearance transition verified (Blossom Dark -> Ember Light).');
 
-// 7. Non-SONDER themes (Leaving SONDER)
-const nonSonderThemes = [
+// 7. Non-HUEFORM themes (Leaving HUEFORM)
+const nonHueformThemes = [
   'Default Dark Modern',
   'Default Light Modern',
   'GitHub Dark',
@@ -165,20 +183,21 @@ const nonSonderThemes = [
   'Quiet Light'
 ];
 
-for (const nonSonder of nonSonderThemes) {
-  const result = resolveSonderIconTheme(nonSonder);
-  assert.strictEqual(result, null, `Expected ${nonSonder} to resolve to null, got ${result}`);
+for (const nonHueform of nonHueformThemes) {
+  const result = resolveHueformIconTheme(nonHueform);
+  assert.strictEqual(result, null, `Expected ${nonHueform} to resolve to null, got ${result}`);
 }
-console.log('✓ Non-SONDER themes cleanly resolve to null (triggers restore and stops managing).');
+console.log('✓ Non-HUEFORM themes cleanly resolve to null (triggers restore and stops managing).');
 
 // 8. Icon theme ID helper verification
-assert.strictEqual(isSonderIconTheme('sonder-abyss-icons-dark'), true);
-assert.strictEqual(isSonderIconTheme('sonder-ember-icons-light'), true);
-assert.strictEqual(isSonderIconTheme('vs-seti'), false);
-assert.strictEqual(isSonderIconTheme('material-icon-theme'), false);
-assert.strictEqual(isSonderIconTheme('vscode-icons'), false);
-assert.strictEqual(isSonderIconTheme(undefined), false);
-console.log('✓ isSonderIconTheme correctly identifies SONDER vs third-party/built-in icon themes.');
+assert.strictEqual(isHueformIconTheme('hueform-abyss-icons-dark'), true);
+assert.strictEqual(isHueformIconTheme('hueform-ember-icons-light'), true);
+assert.strictEqual(isHueformIconTheme('sonder-abyss-icons-dark'), true);
+assert.strictEqual(isHueformIconTheme('vs-seti'), false);
+assert.strictEqual(isHueformIconTheme('material-icon-theme'), false);
+assert.strictEqual(isHueformIconTheme('vscode-icons'), false);
+assert.strictEqual(isHueformIconTheme(undefined), false);
+console.log('✓ isHueformIconTheme correctly identifies HUEFORM vs third-party/built-in icon themes.');
 
 // 9. Asynchronous Single-Selection & Rapid Switching State Machine Simulation
 async function testSyncManagerLifecycle() {
@@ -192,11 +211,11 @@ async function testSyncManagerLifecycle() {
   };
 
   const workbenchState = {
-    colorTheme: 'sonder-abyss-dark',
-    iconTheme: 'sonder-abyss-icons-dark'
+    colorTheme: 'hueform-abyss-dark',
+    iconTheme: 'hueform-abyss-icons-dark'
   };
 
-  const sonderState = {
+  const hueformState = {
     autoMatchIconTheme: true
   };
 
@@ -212,11 +231,11 @@ async function testSyncManagerLifecycle() {
         }
       };
     }
-    if (section === 'sonder') {
+    if (section === 'hueform' || section === 'sonder') {
       return {
-        get: (key, fallback) => sonderState[key] !== undefined ? sonderState[key] : fallback,
+        get: (key, fallback) => hueformState[key] !== undefined ? hueformState[key] : fallback,
         update: async (key, val) => {
-          sonderState[key] = val;
+          hueformState[key] = val;
         }
       };
     }
@@ -228,11 +247,11 @@ async function testSyncManagerLifecycle() {
     globalState: mockGlobalState
   };
 
-  const manager = new SonderIconThemeSyncManager(mockContext);
+  const manager = new HueformIconThemeSyncManager(mockContext);
 
   // Test 9a: Single selection change (Abyss Dark -> Ember Dark)
-  // User picks Ember Dark in Quick Pick: workbench.colorTheme changes to 'sonder-ember-dark'
-  workbenchState.colorTheme = 'sonder-ember-dark';
+  // User picks Ember Dark in Quick Pick: workbench.colorTheme changes to 'hueform-ember-dark'
+  workbenchState.colorTheme = 'hueform-ember-dark';
   manager.queueSync('config:colorTheme');
 
   // Allow setImmediate turn to process
@@ -240,35 +259,35 @@ async function testSyncManagerLifecycle() {
 
   assert.strictEqual(
     workbenchState.iconTheme,
-    'sonder-ember-icons-dark',
-    `Expected iconTheme to be sonder-ember-icons-dark on first theme selection, got ${workbenchState.iconTheme}`
+    'hueform-ember-icons-dark',
+    `Expected iconTheme to be hueform-ember-icons-dark on first theme selection, got ${workbenchState.iconTheme}`
   );
   console.log('✓ Single selection immediately synchronizes icon theme on first turn (no double-apply needed).');
 
   // Test 9b: Rapid switching sequence cancellation
   // User rapidly navigates themes: Ember -> Forest -> Lavender -> Blossom
   // Only the final selected theme (Blossom) should be applied; intermediate obsolete sync turns abort.
-  workbenchState.colorTheme = 'sonder-forest-dark';
+  workbenchState.colorTheme = 'hueform-forest-dark';
   manager.queueSync('config:colorTheme');
 
-  workbenchState.colorTheme = 'sonder-lavender-dark';
+  workbenchState.colorTheme = 'hueform-lavender-dark';
   manager.queueSync('config:colorTheme');
 
-  workbenchState.colorTheme = 'sonder-blossom-dark';
+  workbenchState.colorTheme = 'hueform-blossom-dark';
   manager.queueSync('config:colorTheme');
 
   await new Promise(resolve => setImmediate(resolve));
 
   assert.strictEqual(
     workbenchState.iconTheme,
-    'sonder-blossom-icons-dark',
-    `Expected iconTheme to settle on final rapid switch (sonder-blossom-icons-dark), got ${workbenchState.iconTheme}`
+    'hueform-blossom-icons-dark',
+    `Expected iconTheme to settle on final rapid switch (hueform-blossom-icons-dark), got ${workbenchState.iconTheme}`
   );
   console.log('✓ Rapid switching sequence successfully aborts stale turns and applies final theme.');
 
-  // Test 9c: Transition to non-SONDER theme (Leaving SONDER)
-  // First simulate initial state where user had 'vs-seti' before SONDER
-  mockGlobalState.update('previousNonSonderIconTheme', 'vs-seti');
+  // Test 9c: Transition to non-HUEFORM theme (Leaving HUEFORM)
+  // First simulate initial state where user had 'vs-seti' before HUEFORM
+  mockGlobalState.update('previousNonHueformIconTheme', 'vs-seti');
   workbenchState.colorTheme = 'GitHub Dark';
   manager.queueSync('config:colorTheme');
 
@@ -277,14 +296,14 @@ async function testSyncManagerLifecycle() {
   assert.strictEqual(
     workbenchState.iconTheme,
     'vs-seti',
-    `Expected non-SONDER iconTheme to be restored to vs-seti, got ${workbenchState.iconTheme}`
+    `Expected non-HUEFORM iconTheme to be restored to vs-seti, got ${workbenchState.iconTheme}`
   );
   assert.strictEqual(
-    mockGlobalState.get('previousNonSonderIconTheme'),
+    mockGlobalState.get('previousNonHueformIconTheme'),
     undefined,
-    'Expected previousNonSonderIconTheme to be cleared after restoration'
+    'Expected previousNonHueformIconTheme to be cleared after restoration'
   );
-  console.log('✓ Leaving SONDER cleanly restores non-SONDER icon theme and releases icon control.');
+  console.log('✓ Leaving HUEFORM cleanly restores non-HUEFORM icon theme and releases icon control.');
 
   manager.dispose();
   vscode.workspace.getConfiguration = origGetConfig;

@@ -1,5 +1,5 @@
 /**
- * SONDER Semantic Palette System
+ * HUEFORM Semantic Palette System
  * Single source of truth for the 11 theme families across Dark and Light variants.
  * 
  * Hierarchy Contract:

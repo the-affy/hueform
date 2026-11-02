@@ -1,5 +1,5 @@
 /**
- * SONDER Icon Contrast Audit
+ * HUEFORM Icon Contrast Audit
  * Audits all 22 icon themes (11 Dark, 11 Light) for contrast and legibility:
  * Checks primary, secondary, muted, alt, and folder against sidebar and explorer surfaces.
  */
@@ -11,7 +11,7 @@ let totalChecks = 0;
 let passes = 0;
 let warnings = 0;
 
-console.log('Auditing Icon Contrast across 22 SONDER Themes...');
+console.log('Auditing Icon Contrast across 22 HUEFORM Themes...');
 
 for (const fam of PALETTE_DEFINITIONS) {
   // 1. Dark Variant Audit

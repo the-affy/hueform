@@ -1,5 +1,5 @@
 -- =============================================================================
--- SONDER Theme — SQL Test File
+-- HUEFORM Theme — SQL Test File
 -- Tests: keywords, identifiers, types, functions, comments, CTEs, window functions,
 --        transactions, constraints, subqueries, operators
 -- =============================================================================
@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS public.dim_users (
     role VARCHAR(32) NOT NULL DEFAULT 'developer' CHECK (role IN ('developer', 'designer', 'admin')),
     status VARCHAR(16) NOT NULL DEFAULT 'ACTIVE',
     reputation_score NUMERIC(8, 2) NOT NULL DEFAULT 100.00,
-    theme_preference JSONB NOT NULL DEFAULT '{"name": "SONDER — Midnight Dark"}',
+    theme_preference JSONB NOT NULL DEFAULT '{"name": "HUEFORM — Midnight Dark"}',
     created_at TIMESTAMPTZ NOT NULL DEFAULT clock_timestamp(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT clock_timestamp()
 );
@@ -38,9 +38,9 @@ CREATE INDEX IF NOT EXISTS idx_users_theme_gin
 -- ─── Data Insertion ──────────────────────────────────────────────────────────
 INSERT INTO public.dim_users (username, email, role, status, reputation_score)
 VALUES 
-    ('sonder_dev', 'developer@sonder.design', 'developer', 'ACTIVE', 1250.50),
-    ('abyss_user', 'user@sonder.design', 'designer', 'ACTIVE', 980.00),
-    ('admin_user', 'admin@sonder.design', 'admin', 'ACTIVE', 4500.25)
+    ('hueform_dev', 'developer@hueform.design', 'developer', 'ACTIVE', 1250.50),
+    ('abyss_user', 'user@hueform.design', 'designer', 'ACTIVE', 980.00),
+    ('admin_user', 'admin@hueform.design', 'admin', 'ACTIVE', 4500.25)
 ON CONFLICT (email) DO UPDATE 
 SET updated_at = clock_timestamp(),
     reputation_score = dim_users.reputation_score + 10.0;

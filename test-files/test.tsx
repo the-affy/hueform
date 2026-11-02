@@ -1,5 +1,5 @@
 /**
- * SONDER Theme — React TSX test file
+ * HUEFORM Theme — React TSX test file
  * Covers: functional components, hooks, events, conditional rendering, lists, types
  */
 
@@ -44,7 +44,7 @@ type CursorMode = 'living' | 'static';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const SONDER_COLORS: PaletteColor[] = [
+const HUEFORM_COLORS: PaletteColor[] = [
   { id: 'ai',     name: 'Ai',     japaneseName: '藍', hex: '#2E2D67', role: 'primary',    contrast: 3.2  },
   { id: 'fuji',   name: 'Fuji',   japaneseName: '藤', hex: '#B37DD3', role: 'primary',    contrast: 4.7  },
   { id: 'uguisu', name: 'Uguisu', japaneseName: '鶯', hex: '#C4C43F', role: 'primary',    contrast: 5.5  },
@@ -249,7 +249,7 @@ const PaletteSearch: FC<{ onFilter: (colors: PaletteColor[]) => void }> = ({ onF
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value;
     setQuery(val);
-    const filtered = SONDER_COLORS.filter(
+    const filtered = HUEFORM_COLORS.filter(
       c =>
         c.name.toLowerCase().includes(val.toLowerCase()) ||
         c.japaneseName.includes(val) ||
@@ -272,12 +272,12 @@ const PaletteSearch: FC<{ onFilter: (colors: PaletteColor[]) => void }> = ({ onF
 
 // ─── App Root ─────────────────────────────────────────────────────────────────
 
-const SonderPaletteApp: FC = () => {
-  const [filteredColors, setFilteredColors] = useState<PaletteColor[]>(SONDER_COLORS);
+const HueformPaletteApp: FC = () => {
+  const [filteredColors, setFilteredColors] = useState<PaletteColor[]>(HUEFORM_COLORS);
   const [cursorMode, setCursorMode] = useState<CursorMode>('living');
 
   useEffect(() => {
-    document.title = `SONDER Theme Preview`;
+    document.title = `HUEFORM Theme Preview`;
   }, [cursorMode]);
 
   const primaryColors = useMemo(
@@ -289,7 +289,7 @@ const SonderPaletteApp: FC = () => {
     <main className="min-h-screen bg-[#0D0D1A] text-[#E6E8FB] p-8">
       <header className="mb-8">
         <h1 className="text-4xl font-bold">
-          SONDER
+          HUEFORM
         </h1>
         <p className="mt-2 text-gray-400">Every theme has a character of its own</p>
       </header>
@@ -315,6 +315,6 @@ const SonderPaletteApp: FC = () => {
   );
 };
 
-export default SonderPaletteApp;
-export { Swatch, PaletteGrid, ColorDetail, CursorToggle, SONDER_COLORS };
+export default HueformPaletteApp;
+export { Swatch, PaletteGrid, ColorDetail, CursorToggle, HUEFORM_COLORS };
 export type { PaletteColor, SwatchProps, CursorMode };

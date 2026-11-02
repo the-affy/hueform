@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-02T05:25:43.012Z",
+  "timestamp": "2026-11-02T06:46:06.196Z",
   "scoringModel": {
     "description": "CIELAB Delta-E*ab (CIE76) multi-token composite perceptual distance model",
     "weights": {
@@ -16,7 +16,7 @@
   "totalThemes": 22,
   "themes": [
     {
-      "themeName": "SONDER — Abyss Dark",
+      "themeName": "HUEFORM — Abyss Dark",
       "familyId": "abyss",
       "familyName": "Abyss",
       "variant": "dark",
@@ -43,7 +43,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Abyss Light",
+      "themeName": "HUEFORM — Abyss Light",
       "familyId": "abyss",
       "familyName": "Abyss",
       "variant": "light",
@@ -70,7 +70,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Nocturne Dark",
+      "themeName": "HUEFORM — Nocturne Dark",
       "familyId": "nocturne",
       "familyName": "Nocturne",
       "variant": "dark",
@@ -97,7 +97,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Nocturne Light",
+      "themeName": "HUEFORM — Nocturne Light",
       "familyId": "nocturne",
       "familyName": "Nocturne",
       "variant": "light",
@@ -124,7 +124,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Sakura Dark",
+      "themeName": "HUEFORM — Sakura Dark",
       "familyId": "sakura",
       "familyName": "Sakura",
       "variant": "dark",
@@ -151,7 +151,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Sakura Light",
+      "themeName": "HUEFORM — Sakura Light",
       "familyId": "sakura",
       "familyName": "Sakura",
       "variant": "light",
@@ -178,7 +178,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Umber Dark",
+      "themeName": "HUEFORM — Umber Dark",
       "familyId": "umber",
       "familyName": "Umber",
       "variant": "dark",
@@ -205,7 +205,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Umber Light",
+      "themeName": "HUEFORM — Umber Light",
       "familyId": "umber",
       "familyName": "Umber",
       "variant": "light",
@@ -232,7 +232,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Midnight Dark",
+      "themeName": "HUEFORM — Midnight Dark",
       "familyId": "midnight",
       "familyName": "Midnight",
       "variant": "dark",
@@ -259,7 +259,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Midnight Light",
+      "themeName": "HUEFORM — Midnight Light",
       "familyId": "midnight",
       "familyName": "Midnight",
       "variant": "light",
@@ -286,7 +286,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Forest Dark",
+      "themeName": "HUEFORM — Forest Dark",
       "familyId": "forest",
       "familyName": "Forest",
       "variant": "dark",
@@ -313,7 +313,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Forest Light",
+      "themeName": "HUEFORM — Forest Light",
       "familyId": "forest",
       "familyName": "Forest",
       "variant": "light",
@@ -340,7 +340,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Nebula Dark",
+      "themeName": "HUEFORM — Nebula Dark",
       "familyId": "nebula",
       "familyName": "Nebula",
       "variant": "dark",
@@ -367,7 +367,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Nebula Light",
+      "themeName": "HUEFORM — Nebula Light",
       "familyId": "nebula",
       "familyName": "Nebula",
       "variant": "light",
@@ -394,7 +394,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Ocean Dark",
+      "themeName": "HUEFORM — Ocean Dark",
       "familyId": "ocean",
       "familyName": "Ocean",
       "variant": "dark",
@@ -421,7 +421,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Ocean Light",
+      "themeName": "HUEFORM — Ocean Light",
       "familyId": "ocean",
       "familyName": "Ocean",
       "variant": "light",
@@ -448,7 +448,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Ember Dark",
+      "themeName": "HUEFORM — Ember Dark",
       "familyId": "ember",
       "familyName": "Ember",
       "variant": "dark",
@@ -475,7 +475,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Ember Light",
+      "themeName": "HUEFORM — Ember Light",
       "familyId": "ember",
       "familyName": "Ember",
       "variant": "light",
@@ -502,7 +502,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Lavender Dark",
+      "themeName": "HUEFORM — Lavender Dark",
       "familyId": "lavender",
       "familyName": "Lavender",
       "variant": "dark",
@@ -529,7 +529,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Lavender Light",
+      "themeName": "HUEFORM — Lavender Light",
       "familyId": "lavender",
       "familyName": "Lavender",
       "variant": "light",
@@ -556,7 +556,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Blossom Dark",
+      "themeName": "HUEFORM — Blossom Dark",
       "familyId": "blossom",
       "familyName": "Blossom",
       "variant": "dark",
@@ -583,7 +583,7 @@
       "distinctivenessCategory": "DISTINCT"
     },
     {
-      "themeName": "SONDER — Blossom Light",
+      "themeName": "HUEFORM — Blossom Light",
       "familyId": "blossom",
       "familyName": "Blossom",
       "variant": "light",

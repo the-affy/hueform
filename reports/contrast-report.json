@@ -1,6 +1,6 @@
 [
   {
-    "themeName": "SONDER — Abyss Dark",
+    "themeName": "HUEFORM — Abyss Dark",
     "family": "Abyss",
     "variant": "dark",
     "allPassed": true,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Abyss Light",
+    "themeName": "HUEFORM — Abyss Light",
     "family": "Abyss",
     "variant": "light",
     "allPassed": true,
@@ -576,7 +576,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Nocturne Dark",
+    "themeName": "HUEFORM — Nocturne Dark",
     "family": "Nocturne",
     "variant": "dark",
     "allPassed": true,
@@ -864,7 +864,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Nocturne Light",
+    "themeName": "HUEFORM — Nocturne Light",
     "family": "Nocturne",
     "variant": "light",
     "allPassed": true,
@@ -1152,7 +1152,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Sakura Dark",
+    "themeName": "HUEFORM — Sakura Dark",
     "family": "Sakura",
     "variant": "dark",
     "allPassed": true,
@@ -1440,7 +1440,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Sakura Light",
+    "themeName": "HUEFORM — Sakura Light",
     "family": "Sakura",
     "variant": "light",
     "allPassed": true,
@@ -1728,7 +1728,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Umber Dark",
+    "themeName": "HUEFORM — Umber Dark",
     "family": "Umber",
     "variant": "dark",
     "allPassed": true,
@@ -2016,7 +2016,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Umber Light",
+    "themeName": "HUEFORM — Umber Light",
     "family": "Umber",
     "variant": "light",
     "allPassed": true,
@@ -2304,7 +2304,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Midnight Dark",
+    "themeName": "HUEFORM — Midnight Dark",
     "family": "Midnight",
     "variant": "dark",
     "allPassed": true,
@@ -2592,7 +2592,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Midnight Light",
+    "themeName": "HUEFORM — Midnight Light",
     "family": "Midnight",
     "variant": "light",
     "allPassed": true,
@@ -2880,7 +2880,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Forest Dark",
+    "themeName": "HUEFORM — Forest Dark",
     "family": "Forest",
     "variant": "dark",
     "allPassed": true,
@@ -3168,7 +3168,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Forest Light",
+    "themeName": "HUEFORM — Forest Light",
     "family": "Forest",
     "variant": "light",
     "allPassed": true,
@@ -3456,7 +3456,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Nebula Dark",
+    "themeName": "HUEFORM — Nebula Dark",
     "family": "Nebula",
     "variant": "dark",
     "allPassed": true,
@@ -3744,7 +3744,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Nebula Light",
+    "themeName": "HUEFORM — Nebula Light",
     "family": "Nebula",
     "variant": "light",
     "allPassed": true,
@@ -4032,7 +4032,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Ocean Dark",
+    "themeName": "HUEFORM — Ocean Dark",
     "family": "Ocean",
     "variant": "dark",
     "allPassed": true,
@@ -4320,7 +4320,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Ocean Light",
+    "themeName": "HUEFORM — Ocean Light",
     "family": "Ocean",
     "variant": "light",
     "allPassed": true,
@@ -4608,7 +4608,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Ember Dark",
+    "themeName": "HUEFORM — Ember Dark",
     "family": "Ember",
     "variant": "dark",
     "allPassed": true,
@@ -4896,7 +4896,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Ember Light",
+    "themeName": "HUEFORM — Ember Light",
     "family": "Ember",
     "variant": "light",
     "allPassed": true,
@@ -5184,7 +5184,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Lavender Dark",
+    "themeName": "HUEFORM — Lavender Dark",
     "family": "Lavender",
     "variant": "dark",
     "allPassed": true,
@@ -5472,7 +5472,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Lavender Light",
+    "themeName": "HUEFORM — Lavender Light",
     "family": "Lavender",
     "variant": "light",
     "allPassed": true,
@@ -5760,7 +5760,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Blossom Dark",
+    "themeName": "HUEFORM — Blossom Dark",
     "family": "Blossom",
     "variant": "dark",
     "allPassed": true,
@@ -6048,7 +6048,7 @@
     ]
   },
   {
-    "themeName": "SONDER — Blossom Light",
+    "themeName": "HUEFORM — Blossom Light",
     "family": "Blossom",
     "variant": "light",
     "allPassed": true,

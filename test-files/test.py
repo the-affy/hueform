@@ -1,5 +1,5 @@
 """
-SONDER Theme — Python Test File
+HUEFORM Theme — Python Test File
 Tests: imports, classes, decorators, f-strings, type hints,
        async/await, comprehensions, generators, lambda, dataclasses
 """
@@ -31,7 +31,7 @@ from typing import (
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 MAX_RETRIES: Final[int] = 3
-BASE_URL: Final[str] = "https://api.sonder.design/v1"
+BASE_URL: Final[str] = "https://api.hueform.design/v1"
 PALETTE: Final[dict[str, str]] = {
     "ai": "#2E2D67",
     "fuji": "#B37DD3",
@@ -344,7 +344,7 @@ async def async_paginate(
 
 # ─── Comprehensions and functional patterns ───────────────────────────────────
 def analyze_palette(palette: dict[str, str]) -> dict[str, Any]:
-    """Analyze the SONDER palette using functional patterns."""
+    """Analyze the HUEFORM palette using functional patterns."""
     colors = [
         Color(hex=v, name=k, japanese="", romanji=k)
         for k, v in palette.items()
@@ -407,7 +407,7 @@ def stringify(value: Union[int, float, bool]) -> str:
 
 # ─── Main ────────────────────────────────────────────────────────────────────
 async def main() -> None:
-    print("SONDER — Python Test\n")
+    print("HUEFORM — Python Test\n")
 
     # Palette analysis
     with Timer("Palette analysis"):
@@ -420,9 +420,9 @@ async def main() -> None:
 
     # Create users
     users = [
-        await service.create_user("Sonder", "dev@sonder.design", "admin"),
-        await service.create_user("Nocturne", "nocturne@sonder.design", "user"),
-        await service.create_user("Abyss", "abyss@sonder.design", "user"),
+        await service.create_user("Hueform", "dev@hueform.design", "admin"),
+        await service.create_user("Nocturne", "nocturne@hueform.design", "user"),
+        await service.create_user("Abyss", "abyss@hueform.design", "user"),
     ]
 
     for user in users:
@@ -483,7 +483,7 @@ async def main() -> None:
         print("Cleanup complete.")
 
     # Path operations
-    config_path = Path.home() / ".config" / "sonder" / "settings.json"
+    config_path = Path.home() / ".config" / "hueform" / "settings.json"
     print(f"\nConfig path: {config_path}")
     print(f"Exists: {config_path.exists()}")
 

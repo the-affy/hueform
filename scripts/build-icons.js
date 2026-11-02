@@ -1,11 +1,11 @@
 /**
- * SONDER Icon Theme Generator
+ * HUEFORM Icon Theme Generator
  * Automates:
  * 1. Loading source SVG templates from icons/source/
- * 2. Applying semantic color transformations for each of the 11 SONDER families across Dark & Light
+ * 2. Applying semantic color transformations for each of the 11 HUEFORM families across Dark & Light
  * 3. Auditing and optimizing contrast against respective family sidebar and explorer surfaces
  * 4. Generating dark and light SVGs in icons/generated/<family>/{dark,light}/
- * 5. Emitting 22 distinct VS Code icon theme JSONs in icons/themes/sonder-<family>-icons-{dark,light}.json
+ * 5. Emitting 22 distinct VS Code icon theme JSONs in icons/themes/hueform-<family>-icons-{dark,light}.json
  */
 
 const fs = require('fs');
@@ -310,25 +310,25 @@ for (const family of PALETTE_DEFINITIONS) {
 
   // 1. Dark Theme JSON
   const darkThemeJson = createVariantThemeJson('dark');
-  const darkThemeFileName = `sonder-${familyId}-icons-dark.json`;
+  const darkThemeFileName = `hueform-${familyId}-icons-dark.json`;
   fs.writeFileSync(path.join(THEMES_DIR, darkThemeFileName), JSON.stringify(darkThemeJson, null, 2), 'utf8');
   generatedThemes.push({
-    id: `sonder-${familyId}-icons-dark`,
-    label: `SONDER ${family.name} Icons Dark`,
+    id: `hueform-${familyId}-icons-dark`,
+    label: `HUEFORM ${family.name} Icons Dark`,
     path: `./icons/themes/${darkThemeFileName}`
   });
 
   // 2. Light Theme JSON
   const lightThemeJson = createVariantThemeJson('light');
-  const lightThemeFileName = `sonder-${familyId}-icons-light.json`;
+  const lightThemeFileName = `hueform-${familyId}-icons-light.json`;
   fs.writeFileSync(path.join(THEMES_DIR, lightThemeFileName), JSON.stringify(lightThemeJson, null, 2), 'utf8');
   generatedThemes.push({
-    id: `sonder-${familyId}-icons-light`,
-    label: `SONDER ${family.name} Icons Light`,
+    id: `hueform-${familyId}-icons-light`,
+    label: `HUEFORM ${family.name} Icons Light`,
     path: `./icons/themes/${lightThemeFileName}`
   });
 }
 
-console.log(`Successfully generated ${generatedThemes.length} SONDER Icon Themes in icons/themes/`);
+console.log(`Successfully generated ${generatedThemes.length} HUEFORM Icon Themes in icons/themes/`);
 
 module.exports = { generatedThemes };

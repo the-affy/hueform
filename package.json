@@ -1,7 +1,7 @@
 {
-  "name": "sonder",
-  "displayName": "SONDER — VS Code Theme & Icon Collection",
-  "description": "A thoughtfully curated collection of 22 dark & light VS Code themes, matching themed icon sets, and subtle workbench enhancements.",
+  "name": "hueform",
+  "displayName": "HUEFORM — VS Code Theme & Icon Collection",
+  "description": "A curated collection of 22 dark & light VS Code colour themes and matching file icon sets, crafted with intentional contrast, long-session eye comfort, and seamless theme synchronization.",
   "version": "1.0.0",
   "publisher": "theaffy",
   "engines": {
@@ -34,7 +34,7 @@
     "ember",
     "lavender",
     "blossom",
-    "sonder"
+    "hueform"
   ],
   "galleryBanner": {
     "color": "#0B132B",
@@ -45,45 +45,45 @@
     "build:themes": "node build-themes.js",
     "build:icons": "node scripts/build-icons.js",
     "test": "node tests/verify-icons.js && node tests/test-theme-switching.js && node tests/test-icon-contrast.js && node tests/test-color-system.js",
-    "package": "vsce package -o sonder-1.0.0.vsix"
+    "package": "vsce package -o hueform-1.0.0.vsix"
   },
   "contributes": {
     "commands": [
       {
-        "command": "sonder.toggleCursorAnimation",
+        "command": "hueform.toggleCursorAnimation",
         "title": "Toggle Cursor Glide Animation",
-        "category": "SONDER"
+        "category": "HUEFORM"
       },
       {
-        "command": "sonder.toggleFolderHighlights",
+        "command": "hueform.toggleFolderHighlights",
         "title": "Toggle Themed Folder Highlights",
-        "category": "SONDER"
+        "category": "HUEFORM"
       },
       {
-        "command": "sonder.toggleAutoMatchIconTheme",
+        "command": "hueform.toggleAutoMatchIconTheme",
         "title": "Toggle Automatic Icon Theme Matching",
-        "category": "SONDER"
+        "category": "HUEFORM"
       },
       {
-        "command": "sonder.syncActiveIconTheme",
+        "command": "hueform.syncActiveIconTheme",
         "title": "Match File Icons to Active Color Theme",
-        "category": "SONDER"
+        "category": "HUEFORM"
       }
     ],
     "configuration": {
-      "title": "SONDER Theme Collection",
+      "title": "HUEFORM Theme Collection",
       "properties": {
-        "sonder.autoMatchIconTheme": {
+        "hueform.autoMatchIconTheme": {
           "type": "boolean",
           "default": true,
-          "description": "Automatically match the file icon theme with the active SONDER color theme (22 matching themes across 11 families and dark/light variants)."
+          "description": "Automatically match the file icon theme with the active HUEFORM color theme (22 matching themes across 11 families and dark/light variants)."
         },
-        "sonder.cursor.animation": {
+        "hueform.cursor.animation": {
           "type": "boolean",
           "default": true,
-          "description": "Enable smooth cursor glide motion matching the active SONDER theme."
+          "description": "Enable smooth cursor glide motion matching the active HUEFORM theme."
         },
-        "sonder.folderHighlights.enabled": {
+        "hueform.folderHighlights.enabled": {
           "type": "boolean",
           "default": true,
           "description": "Highlight important project folders (src, components, tests, docs) with subtle themed badges in the explorer tree."
@@ -92,259 +92,259 @@
     },
     "iconThemes": [
       {
-        "id": "sonder-abyss-icons-dark",
-        "label": "SONDER Abyss Icons Dark",
-        "path": "./icons/themes/sonder-abyss-icons-dark.json"
+        "id": "hueform-abyss-icons-dark",
+        "label": "HUEFORM Abyss Icons Dark",
+        "path": "./icons/themes/hueform-abyss-icons-dark.json"
       },
       {
-        "id": "sonder-abyss-icons-light",
-        "label": "SONDER Abyss Icons Light",
-        "path": "./icons/themes/sonder-abyss-icons-light.json"
+        "id": "hueform-abyss-icons-light",
+        "label": "HUEFORM Abyss Icons Light",
+        "path": "./icons/themes/hueform-abyss-icons-light.json"
       },
       {
-        "id": "sonder-nocturne-icons-dark",
-        "label": "SONDER Nocturne Icons Dark",
-        "path": "./icons/themes/sonder-nocturne-icons-dark.json"
+        "id": "hueform-nocturne-icons-dark",
+        "label": "HUEFORM Nocturne Icons Dark",
+        "path": "./icons/themes/hueform-nocturne-icons-dark.json"
       },
       {
-        "id": "sonder-nocturne-icons-light",
-        "label": "SONDER Nocturne Icons Light",
-        "path": "./icons/themes/sonder-nocturne-icons-light.json"
+        "id": "hueform-nocturne-icons-light",
+        "label": "HUEFORM Nocturne Icons Light",
+        "path": "./icons/themes/hueform-nocturne-icons-light.json"
       },
       {
-        "id": "sonder-sakura-icons-dark",
-        "label": "SONDER Sakura Icons Dark",
-        "path": "./icons/themes/sonder-sakura-icons-dark.json"
+        "id": "hueform-sakura-icons-dark",
+        "label": "HUEFORM Sakura Icons Dark",
+        "path": "./icons/themes/hueform-sakura-icons-dark.json"
       },
       {
-        "id": "sonder-sakura-icons-light",
-        "label": "SONDER Sakura Icons Light",
-        "path": "./icons/themes/sonder-sakura-icons-light.json"
+        "id": "hueform-sakura-icons-light",
+        "label": "HUEFORM Sakura Icons Light",
+        "path": "./icons/themes/hueform-sakura-icons-light.json"
       },
       {
-        "id": "sonder-umber-icons-dark",
-        "label": "SONDER Umber Icons Dark",
-        "path": "./icons/themes/sonder-umber-icons-dark.json"
+        "id": "hueform-umber-icons-dark",
+        "label": "HUEFORM Umber Icons Dark",
+        "path": "./icons/themes/hueform-umber-icons-dark.json"
       },
       {
-        "id": "sonder-umber-icons-light",
-        "label": "SONDER Umber Icons Light",
-        "path": "./icons/themes/sonder-umber-icons-light.json"
+        "id": "hueform-umber-icons-light",
+        "label": "HUEFORM Umber Icons Light",
+        "path": "./icons/themes/hueform-umber-icons-light.json"
       },
       {
-        "id": "sonder-midnight-icons-dark",
-        "label": "SONDER Midnight Icons Dark",
-        "path": "./icons/themes/sonder-midnight-icons-dark.json"
+        "id": "hueform-midnight-icons-dark",
+        "label": "HUEFORM Midnight Icons Dark",
+        "path": "./icons/themes/hueform-midnight-icons-dark.json"
       },
       {
-        "id": "sonder-midnight-icons-light",
-        "label": "SONDER Midnight Icons Light",
-        "path": "./icons/themes/sonder-midnight-icons-light.json"
+        "id": "hueform-midnight-icons-light",
+        "label": "HUEFORM Midnight Icons Light",
+        "path": "./icons/themes/hueform-midnight-icons-light.json"
       },
       {
-        "id": "sonder-forest-icons-dark",
-        "label": "SONDER Forest Icons Dark",
-        "path": "./icons/themes/sonder-forest-icons-dark.json"
+        "id": "hueform-forest-icons-dark",
+        "label": "HUEFORM Forest Icons Dark",
+        "path": "./icons/themes/hueform-forest-icons-dark.json"
       },
       {
-        "id": "sonder-forest-icons-light",
-        "label": "SONDER Forest Icons Light",
-        "path": "./icons/themes/sonder-forest-icons-light.json"
+        "id": "hueform-forest-icons-light",
+        "label": "HUEFORM Forest Icons Light",
+        "path": "./icons/themes/hueform-forest-icons-light.json"
       },
       {
-        "id": "sonder-nebula-icons-dark",
-        "label": "SONDER Nebula Icons Dark",
-        "path": "./icons/themes/sonder-nebula-icons-dark.json"
+        "id": "hueform-nebula-icons-dark",
+        "label": "HUEFORM Nebula Icons Dark",
+        "path": "./icons/themes/hueform-nebula-icons-dark.json"
       },
       {
-        "id": "sonder-nebula-icons-light",
-        "label": "SONDER Nebula Icons Light",
-        "path": "./icons/themes/sonder-nebula-icons-light.json"
+        "id": "hueform-nebula-icons-light",
+        "label": "HUEFORM Nebula Icons Light",
+        "path": "./icons/themes/hueform-nebula-icons-light.json"
       },
       {
-        "id": "sonder-ocean-icons-dark",
-        "label": "SONDER Ocean Icons Dark",
-        "path": "./icons/themes/sonder-ocean-icons-dark.json"
+        "id": "hueform-ocean-icons-dark",
+        "label": "HUEFORM Ocean Icons Dark",
+        "path": "./icons/themes/hueform-ocean-icons-dark.json"
       },
       {
-        "id": "sonder-ocean-icons-light",
-        "label": "SONDER Ocean Icons Light",
-        "path": "./icons/themes/sonder-ocean-icons-light.json"
+        "id": "hueform-ocean-icons-light",
+        "label": "HUEFORM Ocean Icons Light",
+        "path": "./icons/themes/hueform-ocean-icons-light.json"
       },
       {
-        "id": "sonder-ember-icons-dark",
-        "label": "SONDER Ember Icons Dark",
-        "path": "./icons/themes/sonder-ember-icons-dark.json"
+        "id": "hueform-ember-icons-dark",
+        "label": "HUEFORM Ember Icons Dark",
+        "path": "./icons/themes/hueform-ember-icons-dark.json"
       },
       {
-        "id": "sonder-ember-icons-light",
-        "label": "SONDER Ember Icons Light",
-        "path": "./icons/themes/sonder-ember-icons-light.json"
+        "id": "hueform-ember-icons-light",
+        "label": "HUEFORM Ember Icons Light",
+        "path": "./icons/themes/hueform-ember-icons-light.json"
       },
       {
-        "id": "sonder-lavender-icons-dark",
-        "label": "SONDER Lavender Icons Dark",
-        "path": "./icons/themes/sonder-lavender-icons-dark.json"
+        "id": "hueform-lavender-icons-dark",
+        "label": "HUEFORM Lavender Icons Dark",
+        "path": "./icons/themes/hueform-lavender-icons-dark.json"
       },
       {
-        "id": "sonder-lavender-icons-light",
-        "label": "SONDER Lavender Icons Light",
-        "path": "./icons/themes/sonder-lavender-icons-light.json"
+        "id": "hueform-lavender-icons-light",
+        "label": "HUEFORM Lavender Icons Light",
+        "path": "./icons/themes/hueform-lavender-icons-light.json"
       },
       {
-        "id": "sonder-blossom-icons-dark",
-        "label": "SONDER Blossom Icons Dark",
-        "path": "./icons/themes/sonder-blossom-icons-dark.json"
+        "id": "hueform-blossom-icons-dark",
+        "label": "HUEFORM Blossom Icons Dark",
+        "path": "./icons/themes/hueform-blossom-icons-dark.json"
       },
       {
-        "id": "sonder-blossom-icons-light",
-        "label": "SONDER Blossom Icons Light",
-        "path": "./icons/themes/sonder-blossom-icons-light.json"
+        "id": "hueform-blossom-icons-light",
+        "label": "HUEFORM Blossom Icons Light",
+        "path": "./icons/themes/hueform-blossom-icons-light.json"
       }
     ],
     "themes": [
       {
-        "id": "sonder-abyss-dark",
-        "label": "SONDER — Abyss Dark",
+        "id": "hueform-abyss-dark",
+        "label": "HUEFORM — Abyss Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-abyss-dark-color-theme.json"
+        "path": "./themes/hueform-abyss-dark-color-theme.json"
       },
       {
-        "id": "sonder-abyss-light",
-        "label": "SONDER — Abyss Light",
+        "id": "hueform-abyss-light",
+        "label": "HUEFORM — Abyss Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-abyss-light-color-theme.json"
+        "path": "./themes/hueform-abyss-light-color-theme.json"
       },
       {
-        "id": "sonder-nocturne-dark",
-        "label": "SONDER — Nocturne Dark",
+        "id": "hueform-nocturne-dark",
+        "label": "HUEFORM — Nocturne Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-nocturne-dark-color-theme.json"
+        "path": "./themes/hueform-nocturne-dark-color-theme.json"
       },
       {
-        "id": "sonder-nocturne-light",
-        "label": "SONDER — Nocturne Light",
+        "id": "hueform-nocturne-light",
+        "label": "HUEFORM — Nocturne Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-nocturne-light-color-theme.json"
+        "path": "./themes/hueform-nocturne-light-color-theme.json"
       },
       {
-        "id": "sonder-sakura-dark",
-        "label": "SONDER — Sakura Dark",
+        "id": "hueform-sakura-dark",
+        "label": "HUEFORM — Sakura Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-sakura-dark-color-theme.json"
+        "path": "./themes/hueform-sakura-dark-color-theme.json"
       },
       {
-        "id": "sonder-sakura-light",
-        "label": "SONDER — Sakura Light",
+        "id": "hueform-sakura-light",
+        "label": "HUEFORM — Sakura Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-sakura-light-color-theme.json"
+        "path": "./themes/hueform-sakura-light-color-theme.json"
       },
       {
-        "id": "sonder-umber-dark",
-        "label": "SONDER — Umber Dark",
+        "id": "hueform-umber-dark",
+        "label": "HUEFORM — Umber Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-umber-dark-color-theme.json"
+        "path": "./themes/hueform-umber-dark-color-theme.json"
       },
       {
-        "id": "sonder-umber-light",
-        "label": "SONDER — Umber Light",
+        "id": "hueform-umber-light",
+        "label": "HUEFORM — Umber Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-umber-light-color-theme.json"
+        "path": "./themes/hueform-umber-light-color-theme.json"
       },
       {
-        "id": "sonder-midnight-dark",
-        "label": "SONDER — Midnight Dark",
+        "id": "hueform-midnight-dark",
+        "label": "HUEFORM — Midnight Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-midnight-dark-color-theme.json"
+        "path": "./themes/hueform-midnight-dark-color-theme.json"
       },
       {
-        "id": "sonder-midnight-light",
-        "label": "SONDER — Midnight Light",
+        "id": "hueform-midnight-light",
+        "label": "HUEFORM — Midnight Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-midnight-light-color-theme.json"
+        "path": "./themes/hueform-midnight-light-color-theme.json"
       },
       {
-        "id": "sonder-forest-dark",
-        "label": "SONDER — Forest Dark",
+        "id": "hueform-forest-dark",
+        "label": "HUEFORM — Forest Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-forest-dark-color-theme.json"
+        "path": "./themes/hueform-forest-dark-color-theme.json"
       },
       {
-        "id": "sonder-forest-light",
-        "label": "SONDER — Forest Light",
+        "id": "hueform-forest-light",
+        "label": "HUEFORM — Forest Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-forest-light-color-theme.json"
+        "path": "./themes/hueform-forest-light-color-theme.json"
       },
       {
-        "id": "sonder-nebula-dark",
-        "label": "SONDER — Nebula Dark",
+        "id": "hueform-nebula-dark",
+        "label": "HUEFORM — Nebula Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-nebula-dark-color-theme.json"
+        "path": "./themes/hueform-nebula-dark-color-theme.json"
       },
       {
-        "id": "sonder-nebula-light",
-        "label": "SONDER — Nebula Light",
+        "id": "hueform-nebula-light",
+        "label": "HUEFORM — Nebula Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-nebula-light-color-theme.json"
+        "path": "./themes/hueform-nebula-light-color-theme.json"
       },
       {
-        "id": "sonder-ocean-dark",
-        "label": "SONDER — Ocean Dark",
+        "id": "hueform-ocean-dark",
+        "label": "HUEFORM — Ocean Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-ocean-dark-color-theme.json"
+        "path": "./themes/hueform-ocean-dark-color-theme.json"
       },
       {
-        "id": "sonder-ocean-light",
-        "label": "SONDER — Ocean Light",
+        "id": "hueform-ocean-light",
+        "label": "HUEFORM — Ocean Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-ocean-light-color-theme.json"
+        "path": "./themes/hueform-ocean-light-color-theme.json"
       },
       {
-        "id": "sonder-ember-dark",
-        "label": "SONDER — Ember Dark",
+        "id": "hueform-ember-dark",
+        "label": "HUEFORM — Ember Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-ember-dark-color-theme.json"
+        "path": "./themes/hueform-ember-dark-color-theme.json"
       },
       {
-        "id": "sonder-ember-light",
-        "label": "SONDER — Ember Light",
+        "id": "hueform-ember-light",
+        "label": "HUEFORM — Ember Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-ember-light-color-theme.json"
+        "path": "./themes/hueform-ember-light-color-theme.json"
       },
       {
-        "id": "sonder-lavender-dark",
-        "label": "SONDER — Lavender Dark",
+        "id": "hueform-lavender-dark",
+        "label": "HUEFORM — Lavender Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-lavender-dark-color-theme.json"
+        "path": "./themes/hueform-lavender-dark-color-theme.json"
       },
       {
-        "id": "sonder-lavender-light",
-        "label": "SONDER — Lavender Light",
+        "id": "hueform-lavender-light",
+        "label": "HUEFORM — Lavender Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-lavender-light-color-theme.json"
+        "path": "./themes/hueform-lavender-light-color-theme.json"
       },
       {
-        "id": "sonder-blossom-dark",
-        "label": "SONDER — Blossom Dark",
+        "id": "hueform-blossom-dark",
+        "label": "HUEFORM — Blossom Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonder-blossom-dark-color-theme.json"
+        "path": "./themes/hueform-blossom-dark-color-theme.json"
       },
       {
-        "id": "sonder-blossom-light",
-        "label": "SONDER — Blossom Light",
+        "id": "hueform-blossom-light",
+        "label": "HUEFORM — Blossom Light",
         "uiTheme": "vs",
-        "path": "./themes/sonder-blossom-light-color-theme.json"
+        "path": "./themes/hueform-blossom-light-color-theme.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sonder-theme/sonder"
+    "url": "https://github.com/the-affy/hueform"
   },
   "bugs": {
-    "url": "https://github.com/sonder-theme/sonder/issues"
+    "url": "https://github.com/the-affy/hueform/issues"
   },
-  "homepage": "https://github.com/sonder-theme/sonder#readme",
+  "homepage": "https://github.com/the-affy/hueform#readme",
   "license": "MIT",
   "devDependencies": {
     "@vscode/vsce": "^4.1.0"

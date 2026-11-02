@@ -1,7 +1,7 @@
 /**
- * @fileoverview SONDER Theme — TypeScript test file
+ * @fileoverview HUEFORM Theme — TypeScript test file
  * @description Covers the full TypeScript grammar for theme preview.
- * @author SONDER Theme Contributors
+ * @author HUEFORM Theme Contributors
  * @version 2.0.0
  */
 
@@ -164,7 +164,7 @@ async function* generateColorSequence(
 
 // ─── Destructuring & Spread ───────────────────────────────────────────────────
 
-const sonderPalette = {
+const hueformPalette = {
   abyss:    { hex: '#00F0FF', name: 'Abyss', meaning: 'Electric Cyan' },
   nocturne: { hex: '#B37DD3', name: 'Nocturne', meaning: 'Wisteria Violet' },
   sakura:   { hex: '#FF69B4', name: 'Sakura', meaning: 'Rose Pink' },
@@ -172,8 +172,8 @@ const sonderPalette = {
   midnight: { hex: '#4CC9F0', name: 'Midnight', meaning: 'Sky Blue' },
 };
 
-const { abyss, nocturne, ...secondaryColors } = sonderPalette;
-const allColors = { ...sonderPalette, extra: { hex: '#5A5A8A', name: 'Muted', meaning: 'Comment' } };
+const { abyss, nocturne, ...secondaryColors } = hueformPalette;
+const allColors = { ...hueformPalette, extra: { hex: '#5A5A8A', name: 'Muted', meaning: 'Comment' } };
 
 // Array destructuring with rest and default
 const [primaryKeyword, secondaryKeyword = '#B37DD3', ...otherKeywords] = [
@@ -192,9 +192,9 @@ function colorBlock(entry: typeof abyss): string {
 }
 
 const paletteReport = `
-SONDER Palette (${new Date().getFullYear()})
+HUEFORM Palette (${new Date().getFullYear()})
 ${'─'.repeat(40)}
-${Object.values(sonderPalette).map(c => `  ${c.name}  ${c.hex}  ${c.meaning}`).join('\n')}
+${Object.values(hueformPalette).map(c => `  ${c.name}  ${c.hex}  ${c.meaning}`).join('\n')}
 `;
 
 // ─── Regular Expressions ──────────────────────────────────────────────────────
@@ -250,7 +250,7 @@ class PaletteManager extends EventEmitter {
     super();
   }
 
-  static getInstance(url = 'https://api.sonder.design'): PaletteManager {
+  static getInstance(url = 'https://api.hueform.design'): PaletteManager {
     if (!PaletteManager.instance) {
       PaletteManager.instance = new PaletteManager(url);
     }

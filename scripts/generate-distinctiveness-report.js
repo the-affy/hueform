@@ -1,5 +1,5 @@
 /**
- * SONDER Perceptual Distinctiveness Report Generator
+ * HUEFORM Perceptual Distinctiveness Report Generator
  * Evaluates CIELAB Delta-E*ab multi-token distances across all 22 themes (110 pairs).
  * 
  * Scoring Model:

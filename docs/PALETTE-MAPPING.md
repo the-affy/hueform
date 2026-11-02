@@ -1,8 +1,8 @@
-# SONDER — Semantic Palette & Adaptive Surface Mapping
+# HUEFORM — Semantic Palette & Adaptive Surface Mapping
 
-> *"Every theme has a character of its own."*
+> *"Colour with intention."*
 
-This document provides the exact source-of-truth semantic palette mapping and contrast verification for all 22 SONDER themes across both Dark and Light modes.
+This document provides the exact source-of-truth semantic palette mapping and contrast verification for all 22 HUEFORM themes across both Dark and Light modes.
 
 ## 1. Architectural Hierarchy Principles
 
@@ -27,7 +27,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Abyss Family
 *Tagline: Deep, atmospheric, restrained, and focused.*
 
-#### SONDER Abyss Dark
+#### HUEFORM Abyss Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -40,7 +40,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#3EAABF` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#5296A8` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Abyss Light
+#### HUEFORM Abyss Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -56,7 +56,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Nocturne Family
 *Tagline: Rich, mysterious, elegant, and contemplative.*
 
-#### SONDER Nocturne Dark
+#### HUEFORM Nocturne Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -69,7 +69,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#A77DC8` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#C88EE0` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Nocturne Light
+#### HUEFORM Nocturne Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -85,7 +85,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Sakura Family
 *Tagline: Soft, delicate, airy, and calming.*
 
-#### SONDER Sakura Dark
+#### HUEFORM Sakura Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -98,7 +98,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#F4728B` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#F9A8B6` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Sakura Light
+#### HUEFORM Sakura Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -114,7 +114,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Umber Family
 *Tagline: Warm, earthy, natural, and grounded.*
 
-#### SONDER Umber Dark
+#### HUEFORM Umber Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -127,7 +127,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#DE7456` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#E5B860` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Umber Light
+#### HUEFORM Umber Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -143,7 +143,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Midnight Family
 *Tagline: Deep, cinematic, precise, and nocturnal.*
 
-#### SONDER Midnight Dark
+#### HUEFORM Midnight Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -156,7 +156,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#38BAF5` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#788AF5` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Midnight Light
+#### HUEFORM Midnight Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -172,7 +172,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Forest Family
 *Tagline: Organic, quiet, grounded, and refreshing.*
 
-#### SONDER Forest Dark
+#### HUEFORM Forest Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -185,7 +185,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#3DD678` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#29C7B2` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Forest Light
+#### HUEFORM Forest Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -201,7 +201,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Nebula Family
 *Tagline: Atmospheric, imaginative, and futuristic.*
 
-#### SONDER Nebula Dark
+#### HUEFORM Nebula Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -214,7 +214,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#EE62C8` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#8C7AF7` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Nebula Light
+#### HUEFORM Nebula Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -230,7 +230,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Ocean Family
 *Tagline: Clear, cool, modern, and expansive.*
 
-#### SONDER Ocean Dark
+#### HUEFORM Ocean Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -243,7 +243,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#14D2E6` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#38BDF8` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Ocean Light
+#### HUEFORM Ocean Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -259,7 +259,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Ember Family
 *Tagline: Warm, energetic, bold, and focused.*
 
-#### SONDER Ember Dark
+#### HUEFORM Ember Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -272,7 +272,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#FA741B` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#F59E0B` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Ember Light
+#### HUEFORM Ember Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -288,7 +288,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Lavender Family
 *Tagline: Elegant, gentle, creative, and soothing.*
 
-#### SONDER Lavender Dark
+#### HUEFORM Lavender Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -301,7 +301,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#9B8AFB` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#C4B5FD` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Lavender Light
+#### HUEFORM Lavender Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -317,7 +317,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 ### Blossom Family
 *Tagline: Vibrant, floral, playful, and harmonious.*
 
-#### SONDER Blossom Dark
+#### HUEFORM Blossom Dark
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -330,7 +330,7 @@ This document provides the exact source-of-truth semantic palette mapping and co
 | `accent` | `#E94090` | Primary Accent, Cursor, Active Indicators |
 | `accentSecondary` | `#FB7185` | Word Highlights, Links, Secondary Accent |
 
-#### SONDER Blossom Light
+#### HUEFORM Blossom Light
 
 | Semantic Role | Hex | Intended Purpose |
 |---|---|---|
@@ -349,25 +349,25 @@ This document provides the exact source-of-truth semantic palette mapping and co
 
 | Theme Name | Editor Bg | Editor Fg | Ratio | WCAG Grade | Sidebar Ratio | Panel Ratio |
 |---|---|---|---|---|---|---|
-| **SONDER — Abyss Dark** | `#040D14` | `#D5E4EC` | **15.04:1** | AAA | 13.96:1 | 12.62:1 |
-| **SONDER — Abyss Light** | `#EFF2F5` | `#071720` | **16.22:1** | AAA | 14.36:1 | 12.64:1 |
-| **SONDER — Nocturne Dark** | `#0A0912` | `#EFEBF7` | **16.87:1** | AAA | 15.97:1 | 14.95:1 |
-| **SONDER — Nocturne Light** | `#F6F5F9` | `#1A132B` | **16.51:1** | AAA | 15.07:1 | 13.56:1 |
-| **SONDER — Sakura Dark** | `#130E12` | `#FBF0F3` | **17.16:1** | AAA | 16.03:1 | 14.73:1 |
-| **SONDER — Sakura Light** | `#FAF5F6` | `#261219` | **16.45:1** | AAA | 14.97:1 | 13.27:1 |
-| **SONDER — Umber Dark** | `#130F0B` | `#FAF3EC` | **17.35:1** | AAA | 16.25:1 | 14.74:1 |
-| **SONDER — Umber Light** | `#FAF7F2` | `#24180E` | **16.21:1** | AAA | 14.48:1 | 12.76:1 |
-| **SONDER — Midnight Dark** | `#070B16` | `#EBF2FC` | **17.44:1** | AAA | 16.28:1 | 14.65:1 |
-| **SONDER — Midnight Light** | `#F3F6FA` | `#09162D` | **16.64:1** | AAA | 15.15:1 | 13.72:1 |
-| **SONDER — Forest Dark** | `#07120C` | `#EEF7F2` | **17.46:1** | AAA | 15.85:1 | 13.80:1 |
-| **SONDER — Forest Light** | `#F3F7F4` | `#0A2413` | **15.24:1** | AAA | 14.03:1 | 12.65:1 |
-| **SONDER — Nebula Dark** | `#0B0618` | `#F7EEFF` | **17.68:1** | AAA | 16.65:1 | 15.48:1 |
-| **SONDER — Nebula Light** | `#F7F4FB` | `#1C0A36` | **16.83:1** | AAA | 14.96:1 | 12.73:1 |
-| **SONDER — Ocean Dark** | `#041322` | `#EBF6FC` | **17.05:1** | AAA | 15.25:1 | 13.19:1 |
-| **SONDER — Ocean Light** | `#EBF7F9` | `#021A26` | **16.30:1** | AAA | 14.70:1 | 13.23:1 |
-| **SONDER — Ember Dark** | `#140A06` | `#FFF3EB` | **17.91:1** | AAA | 17.05:1 | 15.81:1 |
-| **SONDER — Ember Light** | `#FAF3EC` | `#2B0F05` | **16.28:1** | AAA | 14.58:1 | 12.64:1 |
-| **SONDER — Lavender Dark** | `#0B0819` | `#F6F4FD` | **18.13:1** | AAA | 17.29:1 | 16.21:1 |
-| **SONDER — Lavender Light** | `#F4F5FB` | `#121636` | **16.17:1** | AAA | 14.44:1 | 12.68:1 |
-| **SONDER — Blossom Dark** | `#140711` | `#FDF1F6` | **17.87:1** | AAA | 16.99:1 | 15.89:1 |
-| **SONDER — Blossom Light** | `#FCF3F2` | `#2B0D18` | **16.40:1** | AAA | 14.78:1 | 12.87:1 |
+| **HUEFORM — Abyss Dark** | `#040D14` | `#D5E4EC` | **15.04:1** | AAA | 13.96:1 | 12.62:1 |
+| **HUEFORM — Abyss Light** | `#EFF2F5` | `#071720` | **16.22:1** | AAA | 14.36:1 | 12.64:1 |
+| **HUEFORM — Nocturne Dark** | `#0A0912` | `#EFEBF7` | **16.87:1** | AAA | 15.97:1 | 14.95:1 |
+| **HUEFORM — Nocturne Light** | `#F6F5F9` | `#1A132B` | **16.51:1** | AAA | 15.07:1 | 13.56:1 |
+| **HUEFORM — Sakura Dark** | `#130E12` | `#FBF0F3` | **17.16:1** | AAA | 16.03:1 | 14.73:1 |
+| **HUEFORM — Sakura Light** | `#FAF5F6` | `#261219` | **16.45:1** | AAA | 14.97:1 | 13.27:1 |
+| **HUEFORM — Umber Dark** | `#130F0B` | `#FAF3EC` | **17.35:1** | AAA | 16.25:1 | 14.74:1 |
+| **HUEFORM — Umber Light** | `#FAF7F2` | `#24180E` | **16.21:1** | AAA | 14.48:1 | 12.76:1 |
+| **HUEFORM — Midnight Dark** | `#070B16` | `#EBF2FC` | **17.44:1** | AAA | 16.28:1 | 14.65:1 |
+| **HUEFORM — Midnight Light** | `#F3F6FA` | `#09162D` | **16.64:1** | AAA | 15.15:1 | 13.72:1 |
+| **HUEFORM — Forest Dark** | `#07120C` | `#EEF7F2` | **17.46:1** | AAA | 15.85:1 | 13.80:1 |
+| **HUEFORM — Forest Light** | `#F3F7F4` | `#0A2413` | **15.24:1** | AAA | 14.03:1 | 12.65:1 |
+| **HUEFORM — Nebula Dark** | `#0B0618` | `#F7EEFF` | **17.68:1** | AAA | 16.65:1 | 15.48:1 |
+| **HUEFORM — Nebula Light** | `#F7F4FB` | `#1C0A36` | **16.83:1** | AAA | 14.96:1 | 12.73:1 |
+| **HUEFORM — Ocean Dark** | `#041322` | `#EBF6FC` | **17.05:1** | AAA | 15.25:1 | 13.19:1 |
+| **HUEFORM — Ocean Light** | `#EBF7F9` | `#021A26` | **16.30:1** | AAA | 14.70:1 | 13.23:1 |
+| **HUEFORM — Ember Dark** | `#140A06` | `#FFF3EB` | **17.91:1** | AAA | 17.05:1 | 15.81:1 |
+| **HUEFORM — Ember Light** | `#FAF3EC` | `#2B0F05` | **16.28:1** | AAA | 14.58:1 | 12.64:1 |
+| **HUEFORM — Lavender Dark** | `#0B0819` | `#F6F4FD` | **18.13:1** | AAA | 17.29:1 | 16.21:1 |
+| **HUEFORM — Lavender Light** | `#F4F5FB` | `#121636` | **16.17:1** | AAA | 14.44:1 | 12.68:1 |
+| **HUEFORM — Blossom Dark** | `#140711` | `#FDF1F6` | **17.87:1** | AAA | 16.99:1 | 15.89:1 |
+| **HUEFORM — Blossom Light** | `#FCF3F2` | `#2B0D18` | **16.40:1** | AAA | 14.78:1 | 12.87:1 |

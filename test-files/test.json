@@ -1,16 +1,16 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "sonder-demo-config",
+  "name": "hueform-demo-config",
   "version": "2.0.0",
-  "description": "SONDER Theme demo configuration — tests JSON syntax highlighting",
+  "description": "HUEFORM Theme demo configuration — tests JSON syntax highlighting",
   "author": {
-    "name": "SONDER Theme Contributors",
-    "email": "hello@sonder.design",
-    "url": "https://github.com/sonder-theme/sonder"
+    "name": "HUEFORM Theme Contributors",
+    "email": "hello@hueform.design",
+    "url": "https://github.com/the-affy/hueform"
   },
   "license": "MIT",
   "private": true,
-  "keywords": ["sonder", "theme", "vscode", "minimalist", "collection"],
+  "keywords": ["hueform", "theme", "vscode", "minimalist", "collection"],
   "palette": {
     "ai": {
       "hex": "#2E2D67",
@@ -146,9 +146,9 @@
     "errorOnEditorBg": { "ratio": 4.8, "passes": "AA" }
   },
   "marketplace": {
-    "publisher": "sonder-theme",
-    "extensionId": "sonder-theme.sonder",
-    "vsixFile": "sonder-2.0.0.vsix",
+    "publisher": "theaffy",
+    "extensionId": "theaffy.hueform",
+    "vsixFile": "hueform-1.0.0.vsix",
     "categories": ["Themes"],
     "galleryBanner": {
       "color": "#0D0D1A",

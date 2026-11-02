@@ -1,5 +1,5 @@
 /**
- * SONDER Adaptive Color Utilities
+ * HUEFORM Adaptive Color Utilities
  * Mathematical color operations, conversions, blending, and contrast checking.
  */
 

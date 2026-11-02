@@ -1,6 +1,6 @@
-# SONDER — Contrast & Accessibility Verification Report
+# HUEFORM — Contrast & Accessibility Verification Report
 
-> *"Every theme has a character of its own."*
+> *"Colour with intention."*
 
 **Standard:** WCAG 2.2 AA (Normal text ≥ 4.5:1, Large text & UI indicators ≥ 3.0:1)
 
@@ -10,34 +10,34 @@
 
 | Theme Name | Editor | Sidebar | Dynamic Tabs | Panel | Terminal | Status Bar | Overall Status |
 |---|---|---|---|---|---|---|---|
-| **SONDER — Abyss Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Abyss Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Nocturne Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Nocturne Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Sakura Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Sakura Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Umber Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Umber Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Midnight Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Midnight Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Forest Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Forest Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Nebula Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Nebula Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Ocean Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Ocean Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Ember Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Ember Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Lavender Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Lavender Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Blossom Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
-| **SONDER — Blossom Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Abyss Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Abyss Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Nocturne Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Nocturne Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Sakura Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Sakura Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Umber Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Umber Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Midnight Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Midnight Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Forest Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Forest Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Nebula Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Nebula Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Ocean Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Ocean Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Ember Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Ember Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Lavender Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Lavender Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Blossom Dark** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
+| **HUEFORM — Blossom Light** | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | ✅ PASS | **✅ PASS [AA/AAA]** |
 
 ---
 
 ## 2. Granular Token Audit by Theme
 
-### SONDER — Abyss Dark
+### HUEFORM — Abyss Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -70,7 +70,7 @@
 | Interactive | Notification Text | `#D5E4EC` | `#0E2130` | **12.62:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#3EAABF` | **7.71:1** | AAA | ✅ PASS |
 
-### SONDER — Abyss Light
+### HUEFORM — Abyss Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -103,7 +103,7 @@
 | Interactive | Notification Text | `#071720` | `#DFE5EB` | **14.36:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#0C606E` | **7.21:1** | AAA | ✅ PASS |
 
-### SONDER — Nocturne Dark
+### HUEFORM — Nocturne Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@
 | Interactive | Notification Text | `#EFEBF7` | `#19172A` | **14.95:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#A77DC8` | **6.41:1** | AA | ✅ PASS |
 
-### SONDER — Nocturne Light
+### HUEFORM — Nocturne Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -169,7 +169,7 @@
 | Interactive | Notification Text | `#1A132B` | `#EDEAF3` | **15.07:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#6F26B8` | **7.94:1** | AAA | ✅ PASS |
 
-### SONDER — Sakura Dark
+### HUEFORM — Sakura Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -202,7 +202,7 @@
 | Interactive | Notification Text | `#FBF0F3` | `#271C26` | **14.73:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#F4728B` | **7.63:1** | AAA | ✅ PASS |
 
-### SONDER — Sakura Light
+### HUEFORM — Sakura Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -235,7 +235,7 @@
 | Interactive | Notification Text | `#261219` | `#F4E9EC` | **14.97:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#B81B42` | **6.42:1** | AA | ✅ PASS |
 
-### SONDER — Umber Dark
+### HUEFORM — Umber Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -268,7 +268,7 @@
 | Interactive | Notification Text | `#FAF3EC` | `#271F18` | **14.74:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#DE7456` | **6.74:1** | AA | ✅ PASS |
 
-### SONDER — Umber Light
+### HUEFORM — Umber Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -301,7 +301,7 @@
 | Interactive | Notification Text | `#24180E` | `#F0EAE0` | **14.48:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#9E4324` | **6.4:1** | AA | ✅ PASS |
 
-### SONDER — Midnight Dark
+### HUEFORM — Midnight Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -334,7 +334,7 @@
 | Interactive | Notification Text | `#EBF2FC` | `#141E38` | **14.65:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#38BAF5` | **9.51:1** | AAA | ✅ PASS |
 
-### SONDER — Midnight Light
+### HUEFORM — Midnight Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -367,7 +367,7 @@
 | Interactive | Notification Text | `#09162D` | `#E5ECF4` | **15.15:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#1D64D8` | **5.43:1** | AA | ✅ PASS |
 
-### SONDER — Forest Dark
+### HUEFORM — Forest Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -400,7 +400,7 @@
 | Interactive | Notification Text | `#EEF7F2` | `#142B1D` | **13.8:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#3DD678` | **11.09:1** | AAA | ✅ PASS |
 
-### SONDER — Forest Light
+### HUEFORM — Forest Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -433,7 +433,7 @@
 | Interactive | Notification Text | `#0A2413` | `#E6EFE9` | **14.03:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#15803D` | **5.02:1** | AA | ✅ PASS |
 
-### SONDER — Nebula Dark
+### HUEFORM — Nebula Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -466,7 +466,7 @@
 | Interactive | Notification Text | `#F7EEFF` | `#1C123D` | **15.48:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#EE62C8` | **7.22:1** | AAA | ✅ PASS |
 
-### SONDER — Nebula Light
+### HUEFORM — Nebula Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -499,7 +499,7 @@
 | Interactive | Notification Text | `#1C0A36` | `#EDE5F6` | **14.96:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#9828C9` | **6.03:1** | AA | ✅ PASS |
 
-### SONDER — Ocean Dark
+### HUEFORM — Ocean Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -532,7 +532,7 @@
 | Interactive | Notification Text | `#EBF6FC` | `#0E2B45` | **13.19:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#14D2E6` | **11.39:1** | AAA | ✅ PASS |
 
-### SONDER — Ocean Light
+### HUEFORM — Ocean Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -565,7 +565,7 @@
 | Interactive | Notification Text | `#021A26` | `#D8EDF2` | **14.7:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#0284C7` | **4.1:1** | AA Large | ✅ PASS |
 
-### SONDER — Ember Dark
+### HUEFORM — Ember Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -598,7 +598,7 @@
 | Interactive | Notification Text | `#FFF3EB` | `#2A160D` | **15.81:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#FA741B` | **7.58:1** | AAA | ✅ PASS |
 
-### SONDER — Ember Light
+### HUEFORM — Ember Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -631,7 +631,7 @@
 | Interactive | Notification Text | `#2B0F05` | `#F2E6DA` | **14.58:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#BD3900` | **5.6:1** | AA | ✅ PASS |
 
-### SONDER — Lavender Dark
+### HUEFORM — Lavender Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -664,7 +664,7 @@
 | Interactive | Notification Text | `#F6F4FD` | `#191433` | **16.21:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#9B8AFB` | **7.42:1** | AAA | ✅ PASS |
 
-### SONDER — Lavender Light
+### HUEFORM — Lavender Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -697,7 +697,7 @@
 | Interactive | Notification Text | `#121636` | `#E6E8F6` | **14.44:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#FFFFFF` | `#4F46E5` | **6.29:1** | AA | ✅ PASS |
 
-### SONDER — Blossom Dark
+### HUEFORM — Blossom Dark
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|
@@ -730,7 +730,7 @@
 | Interactive | Notification Text | `#FDF1F6` | `#291125` | **15.89:1** | AAA | ✅ PASS |
 | Interactive | Badge Indicator | `#000000` | `#E94090` | **5.6:1** | AA | ✅ PASS |
 
-### SONDER — Blossom Light
+### HUEFORM — Blossom Light
 
 | Scope | UI Element / Token | Foreground | Background | Contrast Ratio | WCAG Grade | Status |
 |---|---|---|---|---|---|---|

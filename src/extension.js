@@ -1,10 +1,10 @@
 /**
- * SONDER VS Code Extension
+ * HUEFORM VS Code Extension
  * 
  * Features:
  * 1. 22 Themed File Icon Themes: 11 families × 2 variants (Dark & Light) with Pierre-inspired geometry.
  * 2. Automatic & Authoritative Color Theme → Icon Theme Synchronization with race-condition prevention
- *    and non-SONDER theme preservation.
+ *    and non-HUEFORM theme preservation.
  * 3. Themed Folder Highlights: Subtle, native explorer folder badges via FileDecorationProvider.
  * 4. Smooth Cursor Glide Motion: Subtle Neovide-inspired cursor animation via TextEditorDecorationType.
  * 
@@ -15,36 +15,60 @@ const vscode = require('vscode');
 const fs = require('fs');
 const path = require('path');
 
-// SONDER Theme Family Semantic Accent Colors (Dark & Light)
-const SONDER_THEME_ACCENTS = {
+// HUEFORM Theme Family Semantic Accent Colors (Dark & Light)
+const HUEFORM_THEME_ACCENTS = {
   // Dark Variants
-  'sonder — abyss dark':     '#52C5D6',
-  'sonder — nocturne dark':  '#B37DD3',
-  'sonder — sakura dark':    '#FB7185',
-  'sonder — umber dark':     '#E07A5F',
-  'sonder — midnight dark':  '#38BDF8',
-  'sonder — forest dark':    '#4ADE80',
-  'sonder — nebula dark':    '#E879F9',
-  'sonder — ocean dark':     '#22D3EE',
-  'sonder — ember dark':     '#F97316',
-  'sonder — lavender dark':  '#A78BFA',
-  'sonder — blossom dark':   '#EC4899',
+  'hueform — abyss dark':     '#3EAABF',
+  'hueform — nocturne dark':  '#A77DC8',
+  'hueform — sakura dark':    '#F4728B',
+  'hueform — umber dark':     '#DE7456',
+  'hueform — midnight dark':  '#38BDF8',
+  'hueform — forest dark':    '#4ADE80',
+  'hueform — nebula dark':    '#C084FC',
+  'hueform — ocean dark':     '#14D2E6',
+  'hueform — ember dark':     '#FA741B',
+  'hueform — lavender dark':  '#9B8AFB',
+  'hueform — blossom dark':   '#E94090',
 
   // Light Variants
-  'sonder — abyss light':    '#0A7D92',
-  'sonder — nocturne light': '#7E22CE',
-  'sonder — sakura light':   '#BE123C',
-  'sonder — umber light':    '#A74B2A',
+  'hueform — abyss light':    '#0C606E',
+  'hueform — nocturne light': '#581C87',
+  'hueform — sakura light':   '#B81B42',
+  'hueform — umber light':    '#9E4324',
+  'hueform — midnight light': '#0284C7',
+  'hueform — forest light':   '#166534',
+  'hueform — nebula light':   '#A21CAF',
+  'hueform — ocean light':    '#0284C7',
+  'hueform — ember light':    '#BD3900',
+  'hueform — lavender light': '#4F46E5',
+  'hueform — blossom light':  '#C41C5E',
+
+  // Legacy SONDER compatibility
+  'sonder — abyss dark':     '#3EAABF',
+  'sonder — nocturne dark':  '#A77DC8',
+  'sonder — sakura dark':    '#F4728B',
+  'sonder — umber dark':     '#DE7456',
+  'sonder — midnight dark':  '#38BDF8',
+  'sonder — forest dark':    '#4ADE80',
+  'sonder — nebula dark':    '#C084FC',
+  'sonder — ocean dark':     '#14D2E6',
+  'sonder — ember dark':     '#FA741B',
+  'sonder — lavender dark':  '#9B8AFB',
+  'sonder — blossom dark':   '#E94090',
+  'sonder — abyss light':    '#0C606E',
+  'sonder — nocturne light': '#581C87',
+  'sonder — sakura light':   '#B81B42',
+  'sonder — umber light':    '#9E4324',
   'sonder — midnight light': '#0284C7',
-  'sonder — forest light':   '#15803D',
-  'sonder — nebula light':   '#9333EA',
+  'sonder — forest light':   '#166534',
+  'sonder — nebula light':   '#A21CAF',
   'sonder — ocean light':    '#0284C7',
-  'sonder — ember light':    '#EA580C',
-  'sonder — lavender light': '#7C3AED',
-  'sonder — blossom light':  '#DB2777'
+  'sonder — ember light':    '#BD3900',
+  'sonder — lavender light': '#4F46E5',
+  'sonder — blossom light':  '#C41C5E'
 };
 
-const DEFAULT_ACCENT = '#52C5D6';
+const DEFAULT_ACCENT = '#3EAABF';
 
 const KNOWN_FAMILIES = [
   'abyss',
@@ -61,79 +85,127 @@ const KNOWN_FAMILIES = [
 ];
 
 /**
- * Deterministic SONDER Color Theme → SONDER Icon Theme Mapping
- * Supports both stable theme IDs (e.g. 'sonder-ember-dark') and display labels (e.g. 'SONDER — Ember Dark').
+ * Deterministic HUEFORM Color Theme → HUEFORM Icon Theme Mapping
+ * Supports both stable theme IDs (e.g. 'hueform-ember-dark') and display labels (e.g. 'HUEFORM — Ember Dark').
+ * Also provides seamless fallback mapping for legacy 'sonder-*' references.
  */
-const SONDER_THEME_ID_TO_ICON_THEME = {
+const HUEFORM_THEME_ID_TO_ICON_THEME = {
   // Stable Theme IDs
-  'sonder-abyss-dark':       'sonder-abyss-icons-dark',
-  'sonder-abyss-light':      'sonder-abyss-icons-light',
-  'sonder-nocturne-dark':    'sonder-nocturne-icons-dark',
-  'sonder-nocturne-light':   'sonder-nocturne-icons-light',
-  'sonder-sakura-dark':      'sonder-sakura-icons-dark',
-  'sonder-sakura-light':     'sonder-sakura-icons-light',
-  'sonder-umber-dark':       'sonder-umber-icons-dark',
-  'sonder-umber-light':      'sonder-umber-icons-light',
-  'sonder-midnight-dark':    'sonder-midnight-icons-dark',
-  'sonder-midnight-light':   'sonder-midnight-icons-light',
-  'sonder-forest-dark':      'sonder-forest-icons-dark',
-  'sonder-forest-light':     'sonder-forest-icons-light',
-  'sonder-nebula-dark':      'sonder-nebula-icons-dark',
-  'sonder-nebula-light':     'sonder-nebula-icons-light',
-  'sonder-ocean-dark':       'sonder-ocean-icons-dark',
-  'sonder-ocean-light':      'sonder-ocean-icons-light',
-  'sonder-ember-dark':       'sonder-ember-icons-dark',
-  'sonder-ember-light':      'sonder-ember-icons-light',
-  'sonder-lavender-dark':    'sonder-lavender-icons-dark',
-  'sonder-lavender-light':   'sonder-lavender-icons-light',
-  'sonder-blossom-dark':     'sonder-blossom-icons-dark',
-  'sonder-blossom-light':    'sonder-blossom-icons-light',
+  'hueform-abyss-dark':       'hueform-abyss-icons-dark',
+  'hueform-abyss-light':      'hueform-abyss-icons-light',
+  'hueform-nocturne-dark':    'hueform-nocturne-icons-dark',
+  'hueform-nocturne-light':   'hueform-nocturne-icons-light',
+  'hueform-sakura-dark':      'hueform-sakura-icons-dark',
+  'hueform-sakura-light':     'hueform-sakura-icons-light',
+  'hueform-umber-dark':       'hueform-umber-icons-dark',
+  'hueform-umber-light':      'hueform-umber-icons-light',
+  'hueform-midnight-dark':    'hueform-midnight-icons-dark',
+  'hueform-midnight-light':   'hueform-midnight-icons-light',
+  'hueform-forest-dark':      'hueform-forest-icons-dark',
+  'hueform-forest-light':     'hueform-forest-icons-light',
+  'hueform-nebula-dark':      'hueform-nebula-icons-dark',
+  'hueform-nebula-light':     'hueform-nebula-icons-light',
+  'hueform-ocean-dark':       'hueform-ocean-icons-dark',
+  'hueform-ocean-light':      'hueform-ocean-icons-light',
+  'hueform-ember-dark':       'hueform-ember-icons-dark',
+  'hueform-ember-light':      'hueform-ember-icons-light',
+  'hueform-lavender-dark':    'hueform-lavender-icons-dark',
+  'hueform-lavender-light':   'hueform-lavender-icons-light',
+  'hueform-blossom-dark':     'hueform-blossom-icons-dark',
+  'hueform-blossom-light':    'hueform-blossom-icons-light',
 
   // Display Labels (with em-dash)
-  'sonder — abyss dark':     'sonder-abyss-icons-dark',
-  'sonder — abyss light':    'sonder-abyss-icons-light',
-  'sonder — nocturne dark':  'sonder-nocturne-icons-dark',
-  'sonder — nocturne light': 'sonder-nocturne-icons-light',
-  'sonder — sakura dark':    'sonder-sakura-icons-dark',
-  'sonder — sakura light':   'sonder-sakura-icons-light',
-  'sonder — umber dark':     'sonder-umber-icons-dark',
-  'sonder — umber light':    'sonder-umber-icons-light',
-  'sonder — midnight dark':  'sonder-midnight-icons-dark',
-  'sonder — midnight light': 'sonder-midnight-icons-light',
-  'sonder — forest dark':    'sonder-forest-icons-dark',
-  'sonder — forest light':   'sonder-forest-icons-light',
-  'sonder — nebula dark':    'sonder-nebula-icons-dark',
-  'sonder — nebula light':   'sonder-nebula-icons-light',
-  'sonder — ocean dark':     'sonder-ocean-icons-dark',
-  'sonder — ocean light':    'sonder-ocean-icons-light',
-  'sonder — ember dark':     'sonder-ember-icons-dark',
-  'sonder — ember light':    'sonder-ember-icons-light',
-  'sonder — lavender dark':  'sonder-lavender-icons-dark',
-  'sonder — lavender light': 'sonder-lavender-icons-light',
-  'sonder — blossom dark':   'sonder-blossom-icons-dark',
-  'sonder — blossom light':  'sonder-blossom-icons-light'
+  'hueform — abyss dark':     'hueform-abyss-icons-dark',
+  'hueform — abyss light':    'hueform-abyss-icons-light',
+  'hueform — nocturne dark':  'hueform-nocturne-icons-dark',
+  'hueform — nocturne light': 'hueform-nocturne-icons-light',
+  'hueform — sakura dark':    'hueform-sakura-icons-dark',
+  'hueform — sakura light':   'hueform-sakura-icons-light',
+  'hueform — umber dark':     'hueform-umber-icons-dark',
+  'hueform — umber light':    'hueform-umber-icons-light',
+  'hueform — midnight dark':  'hueform-midnight-icons-dark',
+  'hueform — midnight light': 'hueform-midnight-icons-light',
+  'hueform — forest dark':    'hueform-forest-icons-dark',
+  'hueform — forest light':   'hueform-forest-icons-light',
+  'hueform — nebula dark':    'hueform-nebula-icons-dark',
+  'hueform — nebula light':   'hueform-nebula-icons-light',
+  'hueform — ocean dark':     'hueform-ocean-icons-dark',
+  'hueform — ocean light':    'hueform-ocean-icons-light',
+  'hueform — ember dark':     'hueform-ember-icons-dark',
+  'hueform — ember light':    'hueform-ember-icons-light',
+  'hueform — lavender dark':  'hueform-lavender-icons-dark',
+  'hueform — lavender light': 'hueform-lavender-icons-light',
+  'hueform — blossom dark':   'hueform-blossom-icons-dark',
+  'hueform — blossom light':  'hueform-blossom-icons-light',
+
+  // Legacy SONDER mappings for seamless migration
+  'sonder-abyss-dark':       'hueform-abyss-icons-dark',
+  'sonder-abyss-light':      'hueform-abyss-icons-light',
+  'sonder-nocturne-dark':    'hueform-nocturne-icons-dark',
+  'sonder-nocturne-light':   'hueform-nocturne-icons-light',
+  'sonder-sakura-dark':      'hueform-sakura-icons-dark',
+  'sonder-sakura-light':     'hueform-sakura-icons-light',
+  'sonder-umber-dark':       'hueform-umber-icons-dark',
+  'sonder-umber-light':      'hueform-umber-icons-light',
+  'sonder-midnight-dark':    'hueform-midnight-icons-dark',
+  'sonder-midnight-light':   'hueform-midnight-icons-light',
+  'sonder-forest-dark':      'hueform-forest-icons-dark',
+  'sonder-forest-light':     'hueform-forest-icons-light',
+  'sonder-nebula-dark':      'hueform-nebula-icons-dark',
+  'sonder-nebula-light':     'hueform-nebula-icons-light',
+  'sonder-ocean-dark':       'hueform-ocean-icons-dark',
+  'sonder-ocean-light':      'hueform-ocean-icons-light',
+  'sonder-ember-dark':       'hueform-ember-icons-dark',
+  'sonder-ember-light':      'hueform-ember-icons-light',
+  'sonder-lavender-dark':    'hueform-lavender-icons-dark',
+  'sonder-lavender-light':   'hueform-lavender-icons-light',
+  'sonder-blossom-dark':     'hueform-blossom-icons-dark',
+  'sonder-blossom-light':    'hueform-blossom-icons-light',
+
+  'sonder — abyss dark':     'hueform-abyss-icons-dark',
+  'sonder — abyss light':    'hueform-abyss-icons-light',
+  'sonder — nocturne dark':  'hueform-nocturne-icons-dark',
+  'sonder — nocturne light': 'hueform-nocturne-icons-light',
+  'sonder — sakura dark':    'hueform-sakura-icons-dark',
+  'sonder — sakura light':   'hueform-sakura-icons-light',
+  'sonder — umber dark':     'hueform-umber-icons-dark',
+  'sonder — umber light':    'hueform-umber-icons-light',
+  'sonder — midnight dark':  'hueform-midnight-icons-dark',
+  'sonder — midnight light': 'hueform-midnight-icons-light',
+  'sonder — forest dark':    'hueform-forest-icons-dark',
+  'sonder — forest light':   'hueform-forest-icons-light',
+  'sonder — nebula dark':    'hueform-nebula-icons-dark',
+  'sonder — nebula light':   'hueform-nebula-icons-light',
+  'sonder — ocean dark':     'hueform-ocean-icons-dark',
+  'sonder — ocean light':    'hueform-ocean-icons-light',
+  'sonder — ember dark':     'hueform-ember-icons-dark',
+  'sonder — ember light':    'hueform-ember-icons-light',
+  'sonder — lavender dark':  'hueform-lavender-icons-dark',
+  'sonder — lavender light': 'hueform-lavender-icons-light',
+  'sonder — blossom dark':   'hueform-blossom-icons-dark',
+  'sonder — blossom light':  'hueform-blossom-icons-light'
 };
 
-function isSonderIconTheme(iconThemeId) {
+function isHueformIconTheme(iconThemeId) {
   if (!iconThemeId || typeof iconThemeId !== 'string') return false;
-  return iconThemeId.startsWith('sonder-') && iconThemeId.includes('-icons-');
+  return (iconThemeId.startsWith('hueform-') || iconThemeId.startsWith('sonder-')) && iconThemeId.includes('-icons-');
 }
 
 /**
- * Authoritatively resolves any SONDER color theme name or ID to its corresponding SONDER icon theme ID.
+ * Authoritatively resolves any HUEFORM color theme name or ID to its corresponding HUEFORM icon theme ID.
  */
-function resolveSonderIconTheme(themeIdentifier) {
+function resolveHueformIconTheme(themeIdentifier) {
   if (!themeIdentifier || typeof themeIdentifier !== 'string') return null;
   const raw = themeIdentifier.trim().toLowerCase();
 
   // 1. Direct authoritative lookup
-  if (SONDER_THEME_ID_TO_ICON_THEME[raw]) {
-    return SONDER_THEME_ID_TO_ICON_THEME[raw];
+  if (HUEFORM_THEME_ID_TO_ICON_THEME[raw]) {
+    return HUEFORM_THEME_ID_TO_ICON_THEME[raw];
   }
 
   // 2. Normalized dash/whitespace lookup
   const clean = raw.replace(/[—–-]/g, ' ').replace(/\s+/g, ' ').trim();
-  for (const [key, iconThemeId] of Object.entries(SONDER_THEME_ID_TO_ICON_THEME)) {
+  for (const [key, iconThemeId] of Object.entries(HUEFORM_THEME_ID_TO_ICON_THEME)) {
     const keyClean = key.replace(/[—–-]/g, ' ').replace(/\s+/g, ' ').trim();
     if (clean === keyClean) {
       return iconThemeId;
@@ -141,11 +213,11 @@ function resolveSonderIconTheme(themeIdentifier) {
   }
 
   // 3. Structured fallback by family and variant
-  if (clean.includes('sonder')) {
+  if (clean.includes('hueform') || clean.includes('sonder')) {
     for (const family of KNOWN_FAMILIES) {
       if (clean.includes(family)) {
         const isLight = clean.includes('light');
-        return `sonder-${family}-icons-${isLight ? 'light' : 'dark'}`;
+        return `hueform-${family}-icons-${isLight ? 'light' : 'dark'}`;
       }
     }
   }
@@ -174,14 +246,14 @@ function getActiveFamilyId() {
 
 function getActiveAccentColor() {
   const currentTheme = getActiveThemeIdentifier().toLowerCase();
-  for (const [name, accent] of Object.entries(SONDER_THEME_ACCENTS)) {
+  for (const [name, accent] of Object.entries(HUEFORM_THEME_ACCENTS)) {
     if (currentTheme.includes(name) || name.includes(currentTheme)) {
       return accent;
     }
   }
   const family = getActiveFamilyId();
-  if (family && SONDER_THEME_ACCENTS[`sonder — ${family} dark`]) {
-    return SONDER_THEME_ACCENTS[`sonder — ${family} dark`];
+  if (family && HUEFORM_THEME_ACCENTS[`hueform — ${family} dark`]) {
+    return HUEFORM_THEME_ACCENTS[`hueform — ${family} dark`];
   }
   return DEFAULT_ACCENT;
 }
@@ -189,7 +261,7 @@ function getActiveAccentColor() {
 /**
  * 1. Native API-based spring glide cursor trail
  */
-class SonderNativeCursorManager {
+class HueformNativeCursorManager {
   constructor(context) {
     this.context = context;
     this.prevPositions = new Map();
@@ -204,7 +276,11 @@ class SonderNativeCursorManager {
       vscode.window.onDidChangeTextEditorSelection(e => this.onSelectionChange(e)),
       vscode.window.onDidChangeActiveColorTheme(() => this.onThemeChange()),
       vscode.workspace.onDidChangeConfiguration(e => {
-        if (e.affectsConfiguration('sonder.cursor') || e.affectsConfiguration('workbench.colorTheme')) {
+        if (
+          e.affectsConfiguration('hueform.cursor') ||
+          e.affectsConfiguration('sonder.cursor') ||
+          e.affectsConfiguration('workbench.colorTheme')
+        ) {
           this.reloadConfiguration();
           this.rebuildDecorations();
         }
@@ -213,8 +289,9 @@ class SonderNativeCursorManager {
   }
 
   reloadConfiguration() {
-    const config = vscode.workspace.getConfiguration('sonder.cursor');
-    this.enabled = config.get('animation', true);
+    const config = vscode.workspace.getConfiguration('hueform.cursor');
+    const legacyConfig = vscode.workspace.getConfiguration('sonder.cursor');
+    this.enabled = config.get('animation', legacyConfig.get('animation', true));
   }
 
   rebuildDecorations() {
@@ -248,9 +325,9 @@ class SonderNativeCursorManager {
   }
 
   disposeDecorations() {
-    for (const d of this.decorationTypes) {
-      d.dispose();
-    }
+    this.decorationTypes.forEach(d => {
+      try { d.dispose(); } catch (_) {}
+    });
     this.decorationTypes = [];
   }
 
@@ -258,101 +335,94 @@ class SonderNativeCursorManager {
     this.rebuildDecorations();
   }
 
-  clearEditorTimeouts(editorKey) {
-    const timeouts = this.activeTimeouts.get(editorKey);
-    if (timeouts) {
-      timeouts.forEach(t => clearTimeout(t));
-      this.activeTimeouts.delete(editorKey);
-    }
-  }
-
-  clearEditorDecorations(editor) {
-    if (!editor || this.decorationTypes.length === 0) return;
-    for (const d of this.decorationTypes) {
-      try {
-        editor.setDecorations(d, []);
-      } catch (_) {}
-    }
-  }
-
   onSelectionChange(event) {
-    if (!this.enabled || !event.textEditor) return;
-    if (event.selections.length === 0) return;
-
+    if (!this.enabled || !event || !event.textEditor) return;
     const editor = event.textEditor;
+
+    // Single cursor motion handling
+    if (!event.selections || event.selections.length !== 1) return;
+    const selection = event.selections[0];
+    if (!selection.isEmpty) return;
+
     const editorKey = editor.document.uri.toString();
-    const primarySelection = event.selections[0];
-
-    if (!primarySelection.isEmpty) {
-      this.clearEditorDecorations(editor);
-      this.prevPositions.set(editorKey, primarySelection.active);
-      return;
-    }
-
-    const currentPos = primarySelection.active;
     const prevPos = this.prevPositions.get(editorKey);
-    this.prevPositions.set(editorKey, currentPos);
+    const newPos = selection.active;
 
-    if (!prevPos || prevPos.isEqual(currentPos)) {
+    this.prevPositions.set(editorKey, newPos);
+
+    if (!prevPos || (prevPos.line === newPos.line && prevPos.character === newPos.character)) {
       return;
     }
 
-    const lineDiff = Math.abs(currentPos.line - prevPos.line);
-    if (lineDiff > 50) {
-      this.clearEditorDecorations(editor);
-      return;
+    // Cancel existing animation timeouts for this editor
+    const existing = this.activeTimeouts.get(editorKey);
+    if (existing) {
+      existing.forEach(t => clearTimeout(t));
     }
-
-    this.clearEditorTimeouts(editorKey);
-
-    const p1 = new vscode.Position(
-      Math.round(prevPos.line + (currentPos.line - prevPos.line) * 0.35),
-      Math.max(0, Math.round(prevPos.character + (currentPos.character - prevPos.character) * 0.35))
-    );
-    const p2 = new vscode.Position(
-      Math.round(prevPos.line + (currentPos.line - prevPos.line) * 0.70),
-      Math.max(0, Math.round(prevPos.character + (currentPos.character - prevPos.character) * 0.70))
-    );
-    const p3 = new vscode.Position(
-      Math.round(prevPos.line + (currentPos.line - prevPos.line) * 0.90),
-      Math.max(0, Math.round(prevPos.character + (currentPos.character - prevPos.character) * 0.90))
-    );
-
-    const range1 = new vscode.Range(p1, new vscode.Position(p1.line, p1.character + 1));
-    const range2 = new vscode.Range(p2, new vscode.Position(p2.line, p2.character + 1));
-    const range3 = new vscode.Range(p3, new vscode.Position(p3.line, p3.character + 1));
 
     const timeouts = [];
-    timeouts.push(setTimeout(() => {
-      if (this.decStep1) editor.setDecorations(this.decStep1, [range1]);
-    }, 10));
+    const lineDelta = newPos.line - prevPos.line;
+    const charDelta = newPos.character - prevPos.character;
 
-    timeouts.push(setTimeout(() => {
-      if (this.decStep1) editor.setDecorations(this.decStep1, []);
-      if (this.decStep2) editor.setDecorations(this.decStep2, [range2]);
-    }, 35));
+    // Interpolate 3-step micro-motion trail
+    const steps = [
+      {
+        ratio: 0.60,
+        dec: this.decStep1,
+        delay: 0,
+        clearDelay: 70
+      },
+      {
+        ratio: 0.30,
+        dec: this.decStep2,
+        delay: 25,
+        clearDelay: 100
+      },
+      {
+        ratio: 0.10,
+        dec: this.decStep3,
+        delay: 50,
+        clearDelay: 130
+      }
+    ];
 
-    timeouts.push(setTimeout(() => {
-      if (this.decStep2) editor.setDecorations(this.decStep2, []);
-      if (this.decStep3) editor.setDecorations(this.decStep3, [range3]);
-    }, 70));
+    steps.forEach(({ ratio, dec, delay, clearDelay }) => {
+      if (!dec) return;
 
-    timeouts.push(setTimeout(() => {
-      this.clearEditorDecorations(editor);
-      this.activeTimeouts.delete(editorKey);
-    }, 115));
+      const tApply = setTimeout(() => {
+        try {
+          const stepLine = Math.round(prevPos.line + lineDelta * ratio);
+          const stepChar = Math.round(prevPos.character + charDelta * ratio);
+          const targetLine = Math.min(stepLine, editor.document.lineCount - 1);
+          const targetChar = Math.min(stepChar, editor.document.lineAt(targetLine).text.length);
+
+          const trailRange = new vscode.Range(
+            new vscode.Position(targetLine, targetChar),
+            new vscode.Position(targetLine, Math.min(targetChar + 1, editor.document.lineAt(targetLine).text.length))
+          );
+
+          editor.setDecorations(dec, [trailRange]);
+        } catch (_) {}
+      }, delay);
+
+      const tClear = setTimeout(() => {
+        try {
+          editor.setDecorations(dec, []);
+        } catch (_) {}
+      }, clearDelay);
+
+      timeouts.push(tApply, tClear);
+    });
 
     this.activeTimeouts.set(editorKey, timeouts);
   }
 
   dispose() {
-    this.disposables.forEach(d => d.dispose());
     this.disposeDecorations();
-    for (const timeouts of this.activeTimeouts.values()) {
-      timeouts.forEach(t => clearTimeout(t));
-    }
+    this.activeTimeouts.forEach(timeouts => timeouts.forEach(t => clearTimeout(t)));
     this.activeTimeouts.clear();
     this.prevPositions.clear();
+    this.disposables.forEach(d => d.dispose());
   }
 }
 
@@ -361,32 +431,32 @@ class SonderNativeCursorManager {
  * Provides subtle folder badges and accents in the VS Code File Explorer
  */
 const KEY_FOLDER_CONFIGS = {
-  'src':           { badge: 'S',  tooltip: 'SONDER: Source Root' },
-  'source':        { badge: 'S',  tooltip: 'SONDER: Source Root' },
-  'components':    { badge: 'C',  tooltip: 'SONDER: Components Directory' },
-  'cmp':           { badge: 'C',  tooltip: 'SONDER: Components Directory' },
-  'pages':         { badge: 'P',  tooltip: 'SONDER: Pages & Views' },
-  'views':         { badge: 'P',  tooltip: 'SONDER: Pages & Views' },
-  'app':           { badge: 'A',  tooltip: 'SONDER: Application Root' },
-  'test':          { badge: 'T',  tooltip: 'SONDER: Test Suite' },
-  'tests':         { badge: 'T',  tooltip: 'SONDER: Test Suite' },
-  '__tests__':     { badge: 'T',  tooltip: 'SONDER: Test Suite' },
-  'spec':          { badge: 'T',  tooltip: 'SONDER: Test Suite' },
-  'docs':          { badge: 'D',  tooltip: 'SONDER: Documentation' },
-  'doc':           { badge: 'D',  tooltip: 'SONDER: Documentation' },
-  'documentation': { badge: 'D',  tooltip: 'SONDER: Documentation' },
-  'config':        { badge: '⚙', tooltip: 'SONDER: Configuration' },
-  'configs':       { badge: '⚙', tooltip: 'SONDER: Configuration' },
-  '.config':       { badge: '⚙', tooltip: 'SONDER: Configuration' },
-  'api':           { badge: 'API', tooltip: 'SONDER: API & Endpoints' },
-  'routes':        { badge: 'R',  tooltip: 'SONDER: Routes' },
-  'lib':           { badge: 'L',  tooltip: 'SONDER: Library & Utilities' },
-  'utils':         { badge: 'U',  tooltip: 'SONDER: Utility Functions' },
-  'assets':        { badge: '◆',  tooltip: 'SONDER: Static Assets' },
-  'public':        { badge: '◆',  tooltip: 'SONDER: Public Directory' }
+  'src':           { badge: 'S',  tooltip: 'HUEFORM: Source Root' },
+  'source':        { badge: 'S',  tooltip: 'HUEFORM: Source Root' },
+  'components':    { badge: 'C',  tooltip: 'HUEFORM: Components Directory' },
+  'cmp':           { badge: 'C',  tooltip: 'HUEFORM: Components Directory' },
+  'pages':         { badge: 'P',  tooltip: 'HUEFORM: Pages & Views' },
+  'views':         { badge: 'P',  tooltip: 'HUEFORM: Pages & Views' },
+  'app':           { badge: 'A',  tooltip: 'HUEFORM: Application Root' },
+  'test':          { badge: 'T',  tooltip: 'HUEFORM: Test Suite' },
+  'tests':         { badge: 'T',  tooltip: 'HUEFORM: Test Suite' },
+  '__tests__':     { badge: 'T',  tooltip: 'HUEFORM: Test Suite' },
+  'spec':          { badge: 'T',  tooltip: 'HUEFORM: Test Suite' },
+  'docs':          { badge: 'D',  tooltip: 'HUEFORM: Documentation' },
+  'doc':           { badge: 'D',  tooltip: 'HUEFORM: Documentation' },
+  'documentation': { badge: 'D',  tooltip: 'HUEFORM: Documentation' },
+  'config':        { badge: '⚙', tooltip: 'HUEFORM: Configuration' },
+  'configs':       { badge: '⚙', tooltip: 'HUEFORM: Configuration' },
+  '.config':       { badge: '⚙', tooltip: 'HUEFORM: Configuration' },
+  'api':           { badge: 'API', tooltip: 'HUEFORM: API & Endpoints' },
+  'routes':        { badge: 'R',  tooltip: 'HUEFORM: Routes' },
+  'lib':           { badge: 'L',  tooltip: 'HUEFORM: Library & Utilities' },
+  'utils':         { badge: 'U',  tooltip: 'HUEFORM: Utility Functions' },
+  'assets':        { badge: '◆',  tooltip: 'HUEFORM: Static Assets' },
+  'public':        { badge: '◆',  tooltip: 'HUEFORM: Public Directory' }
 };
 
-class SonderFolderDecorationProvider {
+class HueformFolderDecorationProvider {
   constructor(context) {
     this.context = context;
     this.enabled = true;
@@ -399,7 +469,7 @@ class SonderFolderDecorationProvider {
 
     this.disposables = [
       vscode.workspace.onDidChangeConfiguration(e => {
-        if (e.affectsConfiguration('sonder.folderHighlights')) {
+        if (e.affectsConfiguration('hueform.folderHighlights') || e.affectsConfiguration('sonder.folderHighlights')) {
           this.reloadConfiguration();
           this._onDidChangeFileDecorations.fire(undefined);
         }
@@ -408,8 +478,9 @@ class SonderFolderDecorationProvider {
   }
 
   reloadConfiguration() {
-    const config = vscode.workspace.getConfiguration('sonder.folderHighlights');
-    this.enabled = config.get('enabled', true);
+    const config = vscode.workspace.getConfiguration('hueform.folderHighlights');
+    const legacyConfig = vscode.workspace.getConfiguration('sonder.folderHighlights');
+    this.enabled = config.get('enabled', legacyConfig.get('enabled', true));
   }
 
   provideFileDecoration(uri) {
@@ -450,12 +521,12 @@ class SonderFolderDecorationProvider {
 }
 
 /**
- * 3. SONDER Icon Theme Synchronization Manager
+ * 3. HUEFORM Icon Theme Synchronization Manager
  * Authoritative, race-condition-free synchronization engine.
  * Guarantees that single theme selection immediately activates matching icon theme.
- * Completely ceases interference when non-SONDER themes are selected, restoring previous icon theme.
+ * Completely ceases interference when non-HUEFORM themes are selected, restoring previous icon theme.
  */
-class SonderIconThemeSyncManager {
+class HueformIconThemeSyncManager {
   constructor(context) {
     this.context = context;
     this.enabled = true;
@@ -465,11 +536,16 @@ class SonderIconThemeSyncManager {
     this.reloadConfiguration();
 
     this.disposables = [
-      // 1. Authoritative configuration listener for workbench.colorTheme and sonder settings
+      // 1. Authoritative configuration listener for workbench.colorTheme and hueform settings
       vscode.workspace.onDidChangeConfiguration(e => {
         if (e.affectsConfiguration('workbench.colorTheme')) {
           this.queueSync('config:colorTheme');
-        } else if (e.affectsConfiguration('sonder.autoMatchIconTheme') || e.affectsConfiguration('sonder.syncIconTheme')) {
+        } else if (
+          e.affectsConfiguration('hueform.autoMatchIconTheme') ||
+          e.affectsConfiguration('hueform.syncIconTheme') ||
+          e.affectsConfiguration('sonder.autoMatchIconTheme') ||
+          e.affectsConfiguration('sonder.syncIconTheme')
+        ) {
           this.reloadConfiguration();
           this.queueSync('config:autoMatchIconTheme');
         }
@@ -486,8 +562,12 @@ class SonderIconThemeSyncManager {
   }
 
   reloadConfiguration() {
-    const config = vscode.workspace.getConfiguration('sonder');
-    this.enabled = config.get('autoMatchIconTheme', config.get('syncIconTheme', true));
+    const config = vscode.workspace.getConfiguration('hueform');
+    const legacyConfig = vscode.workspace.getConfiguration('sonder');
+    this.enabled = config.get(
+      'autoMatchIconTheme',
+      config.get('syncIconTheme', legacyConfig.get('autoMatchIconTheme', legacyConfig.get('syncIconTheme', true)))
+    );
   }
 
   /**
@@ -497,7 +577,6 @@ class SonderIconThemeSyncManager {
    */
   queueSync(triggerSource) {
     if (!this.enabled) return;
-
     const seq = ++this._syncSeq;
 
     setImmediate(async () => {
@@ -515,7 +594,7 @@ class SonderIconThemeSyncManager {
     // Read the authoritative, current color theme from VS Code
     const workbenchConfig = vscode.workspace.getConfiguration('workbench');
     const activeColorTheme = workbenchConfig.get('colorTheme');
-    const targetIconThemeId = resolveSonderIconTheme(activeColorTheme);
+    const targetIconThemeId = resolveHueformIconTheme(activeColorTheme);
     const currentIconTheme = workbenchConfig.get('iconTheme');
 
     // Confirm that this run is still the latest requested sync
@@ -524,10 +603,10 @@ class SonderIconThemeSyncManager {
     }
 
     if (targetIconThemeId) {
-      // Case A: A SONDER color theme is active
-      // Save user's non-SONDER icon theme to restore when leaving SONDER
-      if (!isSonderIconTheme(currentIconTheme) && currentIconTheme !== undefined) {
-        await this.context.globalState.update('previousNonSonderIconTheme', currentIconTheme);
+      // Case A: A HUEFORM color theme is active
+      // Save user's non-HUEFORM icon theme to restore when leaving HUEFORM
+      if (!isHueformIconTheme(currentIconTheme) && currentIconTheme !== undefined) {
+        await this.context.globalState.update('previousNonHueformIconTheme', currentIconTheme);
       }
 
       // Only update if current icon theme is not already the target
@@ -536,36 +615,39 @@ class SonderIconThemeSyncManager {
         try {
           await workbenchConfig.update('iconTheme', targetIconThemeId, vscode.ConfigurationTarget.Global);
         } catch (err) {
-          console.warn(`[SONDER] Could not update iconTheme: ${err.message}`);
+          console.warn(`[HUEFORM] Could not update iconTheme: ${err.message}`);
         } finally {
           this._isUpdating = false;
         }
       }
     } else {
-      // Case B: Non-SONDER color theme is active (e.g. GitHub Dark, Default Dark Modern)
-      // If currently using a SONDER icon theme, restore the previously saved non-SONDER icon theme
-      if (isSonderIconTheme(currentIconTheme)) {
-        const savedNonSonder = this.context.globalState.get('previousNonSonderIconTheme');
+      // Case B: Non-HUEFORM color theme is active (e.g. GitHub Dark, Default Dark Modern)
+      // If currently using a HUEFORM icon theme, restore the previously saved non-HUEFORM icon theme
+      if (isHueformIconTheme(currentIconTheme)) {
+        const savedNonHueform =
+          this.context.globalState.get('previousNonHueformIconTheme') ||
+          this.context.globalState.get('previousNonSonderIconTheme');
         this._isUpdating = true;
         try {
-          await workbenchConfig.update('iconTheme', savedNonSonder || undefined, vscode.ConfigurationTarget.Global);
+          await workbenchConfig.update('iconTheme', savedNonHueform || undefined, vscode.ConfigurationTarget.Global);
+          await this.context.globalState.update('previousNonHueformIconTheme', undefined);
           await this.context.globalState.update('previousNonSonderIconTheme', undefined);
         } catch (err) {
-          console.warn(`[SONDER] Could not restore non-SONDER iconTheme: ${err.message}`);
+          console.warn(`[HUEFORM] Could not restore non-HUEFORM iconTheme: ${err.message}`);
         } finally {
           this._isUpdating = false;
         }
       }
-      // Outside SONDER: stop managing icons completely.
+      // Outside HUEFORM: stop managing icons completely.
     }
   }
 
   async forceSync() {
     const workbenchConfig = vscode.workspace.getConfiguration('workbench');
     const activeColorTheme = workbenchConfig.get('colorTheme');
-    const targetIconThemeId = resolveSonderIconTheme(activeColorTheme);
+    const targetIconThemeId = resolveHueformIconTheme(activeColorTheme);
     if (!targetIconThemeId) {
-      vscode.window.showInformationMessage('SONDER: Active color theme is not a SONDER theme family.');
+      vscode.window.showInformationMessage('HUEFORM: Active color theme is not a HUEFORM theme family.');
       return;
     }
 
@@ -573,7 +655,7 @@ class SonderIconThemeSyncManager {
     try {
       await workbenchConfig.update('iconTheme', targetIconThemeId, vscode.ConfigurationTarget.Global);
       vscode.window.showInformationMessage(
-        `SONDER: Applied matching file icon theme (${targetIconThemeId}).`
+        `HUEFORM: Applied matching file icon theme (${targetIconThemeId}).`
       );
     } finally {
       this._isUpdating = false;
@@ -590,51 +672,74 @@ class SonderIconThemeSyncManager {
  */
 function activate(context) {
   // 1. Native API-based cursor motion
-  const nativeCursor = new SonderNativeCursorManager(context);
+  const nativeCursor = new HueformNativeCursorManager(context);
   context.subscriptions.push(nativeCursor);
 
   // 2. Themed folder highlights via FileDecorationProvider
-  const folderProvider = new SonderFolderDecorationProvider(context);
+  const folderProvider = new HueformFolderDecorationProvider(context);
   const folderReg = vscode.window.registerFileDecorationProvider(folderProvider);
   context.subscriptions.push(folderProvider, folderReg);
 
   // 3. Authoritative Icon Theme synchronization
-  const iconSyncManager = new SonderIconThemeSyncManager(context);
+  const iconSyncManager = new HueformIconThemeSyncManager(context);
   context.subscriptions.push(iconSyncManager);
 
-  // Commands
-  const toggleMotionCmd = vscode.commands.registerCommand('sonder.toggleCursorAnimation', async () => {
-    const config = vscode.workspace.getConfiguration('sonder.cursor');
+  // Primary HUEFORM Commands
+  const toggleMotionCmd = vscode.commands.registerCommand('hueform.toggleCursorAnimation', async () => {
+    const config = vscode.workspace.getConfiguration('hueform.cursor');
     const current = config.get('animation', true);
     await config.update('animation', !current, vscode.ConfigurationTarget.Global);
     vscode.window.showInformationMessage(
-      `SONDER Cursor Motion: ${!current ? 'Enabled' : 'Disabled'}`
+      `HUEFORM Cursor Motion: ${!current ? 'Enabled' : 'Disabled'}`
     );
   });
 
-  const toggleFolderCmd = vscode.commands.registerCommand('sonder.toggleFolderHighlights', async () => {
-    const config = vscode.workspace.getConfiguration('sonder.folderHighlights');
+  const toggleFolderCmd = vscode.commands.registerCommand('hueform.toggleFolderHighlights', async () => {
+    const config = vscode.workspace.getConfiguration('hueform.folderHighlights');
     const current = config.get('enabled', true);
     await config.update('enabled', !current, vscode.ConfigurationTarget.Global);
     vscode.window.showInformationMessage(
-      `SONDER Folder Highlights: ${!current ? 'Enabled' : 'Disabled'}`
+      `HUEFORM Folder Highlights: ${!current ? 'Enabled' : 'Disabled'}`
     );
   });
 
-  const toggleAutoMatchCmd = vscode.commands.registerCommand('sonder.toggleAutoMatchIconTheme', async () => {
-    const config = vscode.workspace.getConfiguration('sonder');
+  const toggleAutoMatchCmd = vscode.commands.registerCommand('hueform.toggleAutoMatchIconTheme', async () => {
+    const config = vscode.workspace.getConfiguration('hueform');
     const current = config.get('autoMatchIconTheme', true);
     await config.update('autoMatchIconTheme', !current, vscode.ConfigurationTarget.Global);
     vscode.window.showInformationMessage(
-      `SONDER Automatic Icon Matching: ${!current ? 'Enabled' : 'Disabled'}`
+      `HUEFORM Automatic Icon Matching: ${!current ? 'Enabled' : 'Disabled'}`
     );
   });
 
-  const syncIconCmd = vscode.commands.registerCommand('sonder.syncActiveIconTheme', () => {
+  const syncIconCmd = vscode.commands.registerCommand('hueform.syncActiveIconTheme', () => {
     iconSyncManager.forceSync();
   });
 
-  context.subscriptions.push(toggleMotionCmd, toggleFolderCmd, toggleAutoMatchCmd, syncIconCmd);
+  // Legacy Command Aliases for backward compatibility
+  const legacyToggleMotionCmd = vscode.commands.registerCommand('sonder.toggleCursorAnimation', () => {
+    vscode.commands.executeCommand('hueform.toggleCursorAnimation');
+  });
+  const legacyToggleFolderCmd = vscode.commands.registerCommand('sonder.toggleFolderHighlights', () => {
+    vscode.commands.executeCommand('hueform.toggleFolderHighlights');
+  });
+  const legacyToggleAutoMatchCmd = vscode.commands.registerCommand('sonder.toggleAutoMatchIconTheme', () => {
+    vscode.commands.executeCommand('hueform.toggleAutoMatchIconTheme');
+  });
+  const legacySyncIconCmd = vscode.commands.registerCommand('sonder.syncActiveIconTheme', () => {
+    vscode.commands.executeCommand('hueform.syncActiveIconTheme');
+  });
+
+  context.subscriptions.push(
+    toggleMotionCmd,
+    toggleFolderCmd,
+    toggleAutoMatchCmd,
+    syncIconCmd,
+    legacyToggleMotionCmd,
+    legacyToggleFolderCmd,
+    legacyToggleAutoMatchCmd,
+    legacySyncIconCmd
+  );
 }
 
 function deactivate() {}
@@ -642,8 +747,13 @@ function deactivate() {}
 module.exports = {
   activate,
   deactivate,
-  resolveSonderIconTheme,
-  isSonderIconTheme,
-  SONDER_THEME_ID_TO_ICON_THEME,
-  SonderIconThemeSyncManager
+  resolveHueformIconTheme,
+  isHueformIconTheme,
+  HUEFORM_THEME_ID_TO_ICON_THEME,
+  HueformIconThemeSyncManager,
+  // Backward-compatibility aliases
+  resolveSonderIconTheme: resolveHueformIconTheme,
+  isSonderIconTheme: isHueformIconTheme,
+  SONDER_THEME_ID_TO_ICON_THEME: HUEFORM_THEME_ID_TO_ICON_THEME,
+  SonderIconThemeSyncManager: HueformIconThemeSyncManager
 };

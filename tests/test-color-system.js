@@ -1,5 +1,5 @@
 /**
- * SONDER Color System & Distinctiveness Verification Suite
+ * HUEFORM Color System & Distinctiveness Verification Suite
  * 
  * Verifies:
  * 1. 100% WCAG AA/AAA compliance across all 22 themes for:
@@ -20,7 +20,7 @@ let totalChecks = 0;
 let passedChecks = 0;
 let failures = [];
 
-console.log('Auditing Color System & Distinctiveness across all 22 SONDER Themes...\n');
+console.log('Auditing Color System & Distinctiveness across all 22 HUEFORM Themes...\n');
 
 // 1. Audit WCAG Contrast for every theme
 PALETTE_DEFINITIONS.forEach(family => {

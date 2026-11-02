@@ -1,5 +1,5 @@
 /**
- * Verification test for SONDER Icon Themes
+ * Verification test for HUEFORM Icon Themes
  * - Verifies all 22 icon theme JSON files exist and are valid JSON.
  * - Verifies that every single iconPath referenced in iconDefinitions exists on disk.
  * - Verifies that all mapped folderNames and fileExtensions point to existing definitions.

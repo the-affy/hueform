@@ -1,5 +1,5 @@
 /**
- * SONDER Visual Test Matrix Generator
+ * HUEFORM Visual Test Matrix Generator
  * Compiles a visual test matrix across all 22 themes using representative multi-language code:
  * TypeScript, React TSX, CSS, JSON, Markdown, Diagnostics, and UI states.
  */
@@ -11,7 +11,7 @@ const { generateThemeJson } = require('../build-themes');
 
 const tsSnippet = `import { useState, useEffect } from 'react';
 
-// SONDER Visual Test Interface
+// HUEFORM Visual Test Interface
 export interface ThemeTelemetry<T extends string> {
   readonly id: T;
   version: number;
@@ -43,7 +43,7 @@ const tsxSnippet = `export const VisualPaletteCard: React.FC<CardProps> = ({ tit
   const [highlighted, setHighlighted] = useState<boolean>(false);
 
   return (
-    <div className="sonder-card" onClick={onClick} data-active={highlighted}>
+    <div className="hueform-card" onClick={onClick} data-active={highlighted}>
       <h3 className="card-heading">{title}</h3>
       <span className="badge" style={{ opacity: count > 0 ? 1 : 0.5 }}>
         {count} Active Items
@@ -53,7 +53,7 @@ const tsxSnippet = `export const VisualPaletteCard: React.FC<CardProps> = ({ tit
   );
 };`;
 
-const cssSnippet = `.sonder-editor-view {
+const cssSnippet = `.hueform-editor-view {
   display: flex;
   flex-direction: column;
   padding: 1rem 1.5rem;
@@ -63,8 +63,8 @@ const cssSnippet = `.sonder-editor-view {
   border: 1px solid var(--border-color);
 }`;
 
-let md = `# SONDER — Visual Test Matrix & Syntax Hierarchy Verification\n\n`;
-md += `> Representative multi-language test matrix covering TypeScript, React JSX/TSX, CSS, JSON, Markdown, Diagnostics, and UI state hierarchy across all 22 SONDER themes.\n\n`;
+let md = `# HUEFORM — Visual Test Matrix & Syntax Hierarchy Verification\n\n`;
+md += `> Representative multi-language test matrix covering TypeScript, React JSX/TSX, CSS, JSON, Markdown, Diagnostics, and UI state hierarchy across all 22 HUEFORM themes.\n\n`;
 
 md += `## 1. Syntax Token Hierarchy Contract\n\n`;
 md += `Each theme maps tokens to semantic color roles to guarantee readability, visual hierarchy, and extended coding comfort:\n\n`;
@@ -100,7 +100,7 @@ PALETTE_DEFINITIONS.forEach(family => {
     md += `| Primary Text | \`${c['editor.foreground']}\` | \`const collector = new TelemetryCollector();\` | Pass (AA/AAA) |\n`;
     md += `| Keyword | \`${syn.kw}\` | \`import\`, \`export\`, \`async\`, \`class\`, \`return\` | Pass (AA/AAA) |\n`;
     md += `| Function / Method | \`${syn.fn}\` | \`fetchState()\`, \`useState()\`, \`resolve()\` | Pass (AA/AAA) |\n`;
-    md += `| String Literal | \`${syn.str}\` | \`"Diagnostic failure:"\`, \`"sonder-card"\` | Pass (AA/AAA) |\n`;
+    md += `| String Literal | \`${syn.str}\` | \`"Diagnostic failure:"\`, \`"hueform-card"\` | Pass (AA/AAA) |\n`;
     md += `| Number / Constant | \`${syn.num}\` | \`1.0\`, \`42\`, \`true\`, \`false\` | Pass (AA/AAA) |\n`;
     md += `| Type / Interface | \`${syn.type}\` | \`ThemeTelemetry<T>\`, \`Promise<T>\`, \`React.FC\` | Pass (AA/AAA) |\n`;
     md += `| Comment | \`${syn.comm}\` | \`/* Async fetching with error boundary */\` | Pass (AA/AAA) |\n`;

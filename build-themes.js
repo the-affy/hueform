@@ -1,7 +1,7 @@
 /**
- * SONDER Theme Collection Generator
+ * HUEFORM Theme Collection Generator
  * Produces 22 production-quality VS Code themes (11 Dark, 11 Light)
- * powered by the SONDER Adaptive Theme Surface & Dynamic Tab System.
+ * powered by the HUEFORM Adaptive Theme Surface & Dynamic Tab System.
  */
 
 const fs = require('fs');
@@ -135,7 +135,7 @@ function generateThemeJson(family, variant) {
   const fgMuted = p.primary;
   const fgSubtle = isDark ? adjustLightness(p.primary, -0.2) : adjustLightness(p.primary, 0.2);
 
-  const fullName = `SONDER — ${family.name} ${isDark ? 'Dark' : 'Light'}`;
+  const fullName = `HUEFORM — ${family.name} ${isDark ? 'Dark' : 'Light'}`;
 
   return {
     name: fullName,
@@ -552,8 +552,8 @@ function auditTheme(themeObj, family, variant) {
  * Generate human-readable markdown contrast report
  */
 function generateMarkdownReport(auditList) {
-  let md = `# SONDER — Contrast & Accessibility Verification Report\n\n`;
-  md += `> *"Every theme has a character of its own."*\n\n`;
+  let md = `# HUEFORM — Contrast & Accessibility Verification Report\n\n`;
+  md += `> *"Colour with intention."*\n\n`;
   md += `**Standard:** WCAG 2.2 AA (Normal text ≥ 4.5:1, Large text & UI indicators ≥ 3.0:1)\n\n`;
   md += `**Scope:** All 22 themes across 11 families audited across Editor, Sidebar, Tabs, Bottom Panel, Terminal, Status Bar, and Interactive UI controls.\n\n`;
   md += `## 1. Executive Summary Table\n\n`;
@@ -591,9 +591,9 @@ function generateMarkdownReport(auditList) {
  * Generate human-readable palette mapping documentation
  */
 function generatePaletteMappingMarkdown(paletteDefs) {
-  let md = `# SONDER — Semantic Palette & Adaptive Surface Mapping\n\n`;
-  md += `> *"Every theme has a character of its own."*\n\n`;
-  md += `This document provides the exact source-of-truth semantic palette mapping and contrast verification for all 22 SONDER themes across both Dark and Light modes.\n\n`;
+  let md = `# HUEFORM — Semantic Palette & Adaptive Surface Mapping\n\n`;
+  md += `> *"Colour with intention."*\n\n`;
+  md += `This document provides the exact source-of-truth semantic palette mapping and contrast verification for all 22 HUEFORM themes across both Dark and Light modes.\n\n`;
   md += `## 1. Architectural Hierarchy Principles\n\n`;
   md += `### Dark Themes\n`;
   md += `- **Editor Background (\`editor.background\`):** Assigned to \`palette.darkest\` — the deepest, most immersive layer.\n`;
@@ -615,7 +615,7 @@ function generatePaletteMappingMarkdown(paletteDefs) {
     md += `*Tagline: ${fam.tagline}*\n\n`;
 
     // Dark
-    md += `#### SONDER ${fam.name} Dark\n\n`;
+    md += `#### HUEFORM ${fam.name} Dark\n\n`;
     md += `| Semantic Role | Hex | Intended Purpose |\n`;
     md += `|---|---|---|\n`;
     md += `| \`palette.darkest\` | \`${fam.dark.palette.darkest}\` | Primary Canvas (Editor Background) |\n`;
@@ -628,7 +628,7 @@ function generatePaletteMappingMarkdown(paletteDefs) {
     md += `| \`accentSecondary\` | \`${fam.dark.accentSecondary}\` | Word Highlights, Links, Secondary Accent |\n\n`;
 
     // Light
-    md += `#### SONDER ${fam.name} Light\n\n`;
+    md += `#### HUEFORM ${fam.name} Light\n\n`;
     md += `| Semantic Role | Hex | Intended Purpose |\n`;
     md += `|---|---|---|\n`;
     md += `| \`palette.lightest\` | \`${fam.light.palette.lightest}\` | Primary Canvas (Editor Background) |\n`;
@@ -661,7 +661,7 @@ function generatePaletteMappingMarkdown(paletteDefs) {
       const panRatio = contrastRatio(edFg, panBg);
 
       const grade = edRatio >= 7.0 ? 'AAA' : edRatio >= 4.5 ? 'AA' : 'FAIL';
-      md += `| **SONDER — ${fam.name} ${isDark ? 'Dark' : 'Light'}** | \`${edBg}\` | \`${edFg}\` | **${edRatio.toFixed(2)}:1** | ${grade} | ${sbRatio.toFixed(2)}:1 | ${panRatio.toFixed(2)}:1 |\n`;
+      md += `| **HUEFORM — ${fam.name} ${isDark ? 'Dark' : 'Light'}** | \`${edBg}\` | \`${edFg}\` | **${edRatio.toFixed(2)}:1** | ${grade} | ${sbRatio.toFixed(2)}:1 | ${panRatio.toFixed(2)}:1 |\n`;
     });
   });
 
@@ -677,7 +677,7 @@ if (require.main === module) {
   if (!fs.existsSync(docsDir)) fs.mkdirSync(docsDir, { recursive: true });
   if (!fs.existsSync(reportsDir)) fs.mkdirSync(reportsDir, { recursive: true });
 
-  console.log('Building SONDER 22-Theme Collection with Dynamic Tab & Surface System...\n');
+  console.log('Building HUEFORM 22-Theme Collection with Dynamic Tab & Surface System...\n');
 
   let totalThemes = 0;
   const auditList = [];
@@ -685,7 +685,7 @@ if (require.main === module) {
   PALETTE_DEFINITIONS.forEach(family => {
     ['dark', 'light'].forEach(variant => {
       const themeObj = generateThemeJson(family, variant);
-      const fileName = `sonder-${family.id}-${variant}-color-theme.json`;
+      const fileName = `hueform-${family.id}-${variant}-color-theme.json`;
       const filePath = path.join(themesDir, fileName);
       fs.writeFileSync(filePath, JSON.stringify(themeObj, null, 2) + '\n');
       totalThemes++;
